@@ -938,6 +938,16 @@
     },
     "machine": true
   },
+  "pixelyoursite": {
+    "purpose": "Bewaart voor advertentierapporten waar het bezoek vandaan kwam.",
+    "cookies": {
+      "pbid": "Bezoekers-ID die met advertentiegebeurtenissen wordt verzonden.",
+      "pysTrafficSource": "Waar het bezoek vandaan kwam.",
+      "pys_*": "Landingspagina, campagne en bezoekgegevens.",
+      "last_pys*": "Bron en campagne van het laatste bezoek."
+    },
+    "machine": true
+  },
   "planity": {
     "purpose": "Laat bezoekers salonafspraken boeken.",
     "machine": true

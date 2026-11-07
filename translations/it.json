@@ -938,6 +938,16 @@
     },
     "machine": true
   },
+  "pixelyoursite": {
+    "purpose": "Salva la provenienza della visita per i report pubblicitari.",
+    "cookies": {
+      "pbid": "ID visitatore inviato con gli eventi pubblicitari.",
+      "pysTrafficSource": "Provenienza della visita.",
+      "pys_*": "Pagina di arrivo, campagna e dettagli della visita.",
+      "last_pys*": "Fonte e campagna dell’ultima visita."
+    },
+    "machine": true
+  },
   "planity": {
     "purpose": "Permette ai visitatori di prenotare appuntamenti al salone.",
     "machine": true

@@ -1,0 +1,54 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "pixelyoursite",
+  "version": 1,
+  "name": "PixelYourSite",
+  "provider": "This website",
+  "category": "marketing",
+  "purpose": "Saves where your visit came from for ad reports.",
+  "privacyUrl": "https://www.pixelyoursite.com/privacy-policy",
+  "dataCountry": "Website hosting location; the USA when sent with Meta ad events",
+  "legalBasis": "consent",
+  "match": {},
+  "cookies": [
+    {
+      "name": "pbid",
+      "lifetime": "180 days",
+      "purpose": "Visitor ID sent with ad events."
+    },
+    {
+      "name": "pysTrafficSource",
+      "lifetime": "7 days",
+      "purpose": "Where your visit came from."
+    },
+    {
+      "name": "pys_*",
+      "lifetime": "Up to 1 year",
+      "purpose": "Landing page, campaign and visit details."
+    },
+    {
+      "name": "last_pys*",
+      "lifetime": "7 days",
+      "purpose": "Source and campaign of your last visit."
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "pixelyoursite/facebook-pixel-master.php",
+      "pixelyoursite-pro/pixelyoursite-pro.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.pixelyoursite.com/privacy-policy",
+    "https://wordpress.org/plugins/pixelyoursite/",
+    "https://plugins.svn.wordpress.org/pixelyoursite/tags/11.4.4/dist/scripts/public.js"
+  ],
+  "checked": "2026-11-07"
+}
