@@ -938,6 +938,16 @@
     },
     "machine": true
   },
+  "pixelyoursite": {
+    "purpose": "Speichert für Werbeberichte, woher der Besuch kam.",
+    "cookies": {
+      "pbid": "Besucher-ID, die mit Werbeereignissen gesendet wird.",
+      "pysTrafficSource": "Woher der Besuch kam.",
+      "pys_*": "Startseite, Kampagne und Besuchsdetails.",
+      "last_pys*": "Quelle und Kampagne des letzten Besuchs."
+    },
+    "machine": true
+  },
   "planity": {
     "purpose": "Ermöglicht Besuchern, Salontermine zu buchen.",
     "machine": true

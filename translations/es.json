@@ -938,6 +938,16 @@
     },
     "machine": true
   },
+  "pixelyoursite": {
+    "purpose": "Guarda de dónde vino la visita para informes de anuncios.",
+    "cookies": {
+      "pbid": "ID de visitante enviado con eventos de anuncios.",
+      "pysTrafficSource": "De dónde vino la visita.",
+      "pys_*": "Página de entrada, campaña y datos de la visita.",
+      "last_pys*": "Fuente y campaña de la última visita."
+    },
+    "machine": true
+  },
   "planity": {
     "purpose": "Permite a los visitantes reservar citas en el salón.",
     "machine": true

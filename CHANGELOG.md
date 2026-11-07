@@ -2,6 +2,13 @@
 
 Every release, newest first. Sites pick up a release within a week.
 
+## 1.11.0 (2026-11-07)
+
+- PixelYourSite joins the list, under Marketing, and joins `common`. Its plugin
+  writes a visitor ID, the traffic source, the landing page and campaign tags to
+  first-party cookies before any choice. The cookies are named, so a consent tool
+  can hold them and delete them on a no. No host names it: it runs on the site.
+
 ## 1.10.0 (2026-11-07)
 
 - Burst Statistics, SlimStat Analytics, Koko Analytics and Independent Analytics
