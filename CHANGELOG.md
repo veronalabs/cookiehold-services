@@ -2,6 +2,11 @@
 
 Every release, newest first. Sites pick up a release within a week.
 
+## 1.11.1 (2026-11-07)
+
+- PixelYourSite's `sessionStorage` key, which keeps the referrer the visit came
+  from, is named, so it is held until a yes and cleared on a no.
+
 ## 1.11.0 (2026-11-07)
 
 - PixelYourSite joins the list, under Marketing, and joins `common`. Its plugin
