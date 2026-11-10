@@ -1,0 +1,52 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "buzzsprout",
+  "version": 1,
+  "name": "Buzzsprout",
+  "provider": "Higher Pixels, Inc.",
+  "category": "media",
+  "purpose": "Plays embedded podcasts.",
+  "privacyUrl": "https://www.buzzsprout.com/privacy",
+  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "www.buzzsprout.com/*/episodes/",
+      "www.buzzsprout.com/assets/"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "audio",
+  "wordpress": {
+    "plugins": [
+      "buzzsprout-podcasting/buzzsprout-podcasting.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.buzzsprout.com/privacy",
+    "https://www.buzzsprout.com/dpf_privacy_policy",
+    "https://www.buzzsprout.com/gdpr",
+    "https://app.buzzsprout.com/help/16-placing-embed-code",
+    "https://app.buzzsprout.com/help/118-iframe",
+    "https://www.buzzsprout.com/help/44-upgrade-to-the-new-large-player",
+    "https://www.buzzsprout.com/wordpress-podcast-plugin",
+    "https://www.buzzsprout.com/",
+    "https://www.buzzsprout.com/231452/episodes/1309779.js?container_id=buzzsprout-player-1309779&player=small",
+    "https://www.buzzsprout.com/231452/episodes/1309779?client_source=small_player&iframe=true",
+    "https://assets.buzzsprout.com/assets/iframe-4c2e6b8c84cbbdcebc8d798e9f3ecc177205766d7388d43004ce964beb893ebc.js",
+    "https://assets.buzzsprout.com/assets/players_main-0579271e565a47f59d2d490c2048baf0ebd01c48a2fd8a950eeb1a9e0bef6748.js",
+    "https://wordpress.org/plugins/buzzsprout-podcasting/",
+    "https://plugins.svn.wordpress.org/buzzsprout-podcasting/trunk/",
+    "https://plugins.svn.wordpress.org/buzzsprout-podcasting/trunk/buzzsprout-podcasting.php",
+    "https://plugins.svn.wordpress.org/buzzsprout-podcasting/trunk/includes/",
+    "https://plugins.svn.wordpress.org/buzzsprout-podcasting/trunk/includes/class-buzzsprout-render.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

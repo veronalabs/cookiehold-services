@@ -1,0 +1,62 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "drip",
+  "version": 1,
+  "name": "Drip",
+  "provider": "Drip Global, Inc.",
+  "category": "marketing",
+  "purpose": "Tracks visits for email automation.",
+  "privacyUrl": "https://www.drip.com/privacy",
+  "dataCountry": "USA and other countries (EU-US Data Privacy Framework)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "tag.getdrip.com"
+    ],
+    "inline": [
+      "tag.getdrip.com/",
+      "_dcs.account"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "_drip_client_*",
+      "lifetime": "2 years",
+      "purpose": "Remembers the visitor and tracks website activity."
+    },
+    {
+      "name": "_dripSegment*",
+      "lifetime": "15 minutes",
+      "purpose": "Remembers which sign-up forms the visitor can see."
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "email-marketing/drip.php",
+      "drip/drip.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.drip.com/privacy",
+    "https://developer.drip.com/",
+    "https://help.drip.com/hc/en-us/articles/4424702539789-Install-Your-JavaScript-Snippet",
+    "https://tag.getdrip.com/9999999.js",
+    "https://wordpress.org/plugins/email-marketing/",
+    "https://plugins.svn.wordpress.org/email-marketing/trunk/drip.php",
+    "https://plugins.svn.wordpress.org/email-marketing/trunk/views/tracking-code.php",
+    "https://wordpress.org/plugins/drip/",
+    "https://plugins.svn.wordpress.org/drip/trunk/",
+    "https://plugins.svn.wordpress.org/drip/trunk/readme.txt",
+    "https://plugins.svn.wordpress.org/drip/tags/1.1.10/drip.php",
+    "https://wordpress.org/plugins/drip-gravity-forms/",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

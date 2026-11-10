@@ -1,0 +1,65 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "videopress",
+  "version": 1,
+  "name": "Jetpack VideoPress",
+  "provider": "Aut O’Mattic A8C Ireland Ltd.",
+  "category": "media",
+  "purpose": "Shows embedded videos.",
+  "privacyUrl": "https://automattic.com/privacy/",
+  "dataCountry": "",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "videopress.com/embed/",
+      "video.wordpress.com/embed/",
+      "videopress.com/videopress-iframe.js",
+      "video.wordpress.com/wp-content/plugins/video/assets/js/next/videopress-iframe.js",
+      "v0.wordpress.com/js/next/videopress-iframe.js",
+      "v0.wordpress.com/js/videojs/videopress"
+    ],
+    "inline": [
+      "window.jetpackVideoPressInlinePlayer = "
+    ]
+  },
+  "cookies": [],
+  "storage": [
+    "vp-playback-progress-*",
+    "vp-force-mse-*"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "video",
+  "wordpress": {
+    "plugins": [
+      "jetpack-videopress/jetpack-videopress.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://jetpack.com/support/jetpack-videopress/",
+    "https://jetpack.com/support/jetpack-videopress/jetpack-videopress-embed-your-videos/",
+    "https://videopress.com/",
+    "https://automattic.com/privacy/",
+    "https://automattic.com/privacy-notice/",
+    "https://jetpack.com/support/privacy/",
+    "https://jetpack.com/support/cookies/",
+    "https://automattic.com/subprocessor-list/",
+    "https://video.wordpress.com/embed/Ygmx4akX",
+    "https://videopress.com/embed/Ygmx4akX",
+    "https://videopress.com/videopress-iframe.js",
+    "https://v0.wordpress.com/js/next/videopress-iframe.js",
+    "https://v0.wordpress.com/js/videojs/videopress-routes.min.js?m=1793713646",
+    "https://v0.wordpress.com/js/videojs/videopress.js",
+    "https://plugins.svn.wordpress.org/jetpack-videopress/trunk/jetpack_vendor/automattic/jetpack-videopress/src/class-inline-player.php",
+    "https://plugins.svn.wordpress.org/jetpack-videopress/trunk/jetpack_vendor/automattic/jetpack-videopress/src/class-block-editor-content.php",
+    "https://wordpress.org/plugins/jetpack-videopress/",
+    "https://plugins.svn.wordpress.org/jetpack-videopress/trunk/",
+    "https://plugins.svn.wordpress.org/jetpack-videopress/trunk/jetpack-videopress.php",
+    "https://plugins.svn.wordpress.org/jetpack/trunk/jetpack.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

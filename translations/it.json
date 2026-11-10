@@ -11,6 +11,14 @@
     "purpose": "Aggiunge un menu di accessibilità alla pagina.",
     "machine": true
   },
+  "account-engagement": {
+    "purpose": "Traccia le visite per le campagne di marketing.",
+    "cookies": {
+      "pi_opt_in*": "Ricorda la scelta del visitatore sul tracciamento.",
+      "pardot": "Mantiene la sessione attiva."
+    },
+    "machine": true
+  },
   "activecampaign": {
     "purpose": "Traccia le visite per l'email marketing.",
     "cookies": {
@@ -53,12 +61,23 @@
     "purpose": "Carica i font del sito da Adobe.",
     "machine": true
   },
+  "algolia": {
+    "purpose": "Offre la ricerca nel sito.",
+    "cookies": {
+      "_ALGOLIA": "Identifica i visitatori per analizzare le ricerche."
+    },
+    "machine": true
+  },
   "amazon-ads": {
     "purpose": "Mostra annunci Amazon e li misura.",
     "cookies": {
       "ad-id": "Distribuzione degli annunci.",
       "ad-privacy": "Memorizza la rinuncia agli annunci."
     },
+    "machine": true
+  },
+  "amazon-kindle": {
+    "purpose": "Mostra anteprime incorporate di libri Kindle.",
     "machine": true
   },
   "amplitude": {
@@ -69,6 +88,18 @@
     },
     "machine": true
   },
+  "anghami": {
+    "purpose": "Riproduce audio incorporati.",
+    "machine": true
+  },
+  "animoto": {
+    "purpose": "Mostra video incorporati.",
+    "machine": true
+  },
+  "apple-mapkit": {
+    "purpose": "Mostra mappe incorporate.",
+    "machine": true
+  },
   "apple-music": {
     "purpose": "Riproduce brani, album e playlist incorporati.",
     "machine": true
@@ -77,11 +108,38 @@
     "purpose": "Riproduce podcast ed episodi incorporati.",
     "machine": true
   },
+  "arcgis": {
+    "purpose": "Mostra mappe incorporate.",
+    "machine": true
+  },
+  "attentive": {
+    "purpose": "Traccia le visite e mostra moduli di iscrizione via SMS.",
+    "cookies": {
+      "_attn_": "Salva l’identità e i dati di navigazione del visitatore.",
+      "__attentive_id": "Identifica i visitatori e controlla la visualizzazione dei moduli.",
+      "__attentive_dv": "Limita i controlli sugli identificativi eliminati dei visitatori.",
+      "__attentive_ss_referrer": "Ricorda la provenienza per mostrare i moduli di iscrizione.",
+      "__attentive_pv": "Conta le pagine viste nella sessione per mostrare i moduli.",
+      "__attentive_cco": "Registra quando sostituire l’identificativo del visitatore.",
+      "attntv_mstore_*": "Collega i contatti inseriti al pagamento alle azioni del visitatore.",
+      "__attentive_ceid": "Identifica l’account Attentive tra i sottodomini di pagamento.",
+      "__attentive_domain": "Identifica la regione Attentive tra i sottodomini di pagamento."
+    },
+    "machine": true
+  },
   "audioboom": {
     "purpose": "Riproduce episodi di podcast incorporati.",
     "cookies": {
       "_audioboo_session2": "Mantiene insieme la visita e l'accesso."
     },
+    "machine": true
+  },
+  "audioeye": {
+    "purpose": "Aggiunge funzioni di accessibilità al sito.",
+    "machine": true
+  },
+  "aweber": {
+    "purpose": "Mostra moduli di iscrizione alla newsletter.",
     "machine": true
   },
   "awin": {
@@ -99,6 +157,14 @@
       "AWSESS": "Evita di mostrare di nuovo lo stesso annuncio.",
       "awpv*": "Registra che un annuncio è stato visto."
     },
+    "machine": true
+  },
+  "bandcamp": {
+    "purpose": "Riproduce audio incorporati.",
+    "machine": true
+  },
+  "bluesky": {
+    "purpose": "Mostra post incorporati.",
     "machine": true
   },
   "bookeo": {
@@ -120,8 +186,20 @@
     "purpose": "Fornisce le librerie di codice usate dal sito.",
     "machine": true
   },
+  "braze": {
+    "purpose": "Traccia le visite per personalizzare i messaggi di marketing.",
+    "cookies": {
+      "ab.storage.*": "Identifica visitatori, dispositivi e sessioni di navigazione.",
+      "ab.optOut": "Ricorda la scelta del visitatore di non partecipare."
+    },
+    "machine": true
+  },
   "brevo": {
     "purpose": "Traccia le visite e mostra moduli di iscrizione e chat.",
+    "machine": true
+  },
+  "brightcove": {
+    "purpose": "Mostra video incorporati.",
     "machine": true
   },
   "bunny-fonts": {
@@ -139,6 +217,10 @@
     },
     "machine": true
   },
+  "buzzsprout": {
+    "purpose": "Riproduce podcast incorporati.",
+    "machine": true
+  },
   "cal-com": {
     "purpose": "Mostra un calendario di prenotazione incorporato.",
     "machine": true
@@ -147,14 +229,44 @@
     "purpose": "Mostra un calendario di prenotazione incorporato.",
     "machine": true
   },
+  "campaign-monitor": {
+    "purpose": "Mostra moduli di iscrizione via email.",
+    "cookies": {
+      "campaignMonitorViewedIds": "Ricorda quali moduli di iscrizione sono stati mostrati."
+    },
+    "machine": true
+  },
+  "canva": {
+    "purpose": "Mostra progetti grafici incorporati.",
+    "machine": true
+  },
+  "carto": {
+    "purpose": "Mostra riquadri di mappe.",
+    "machine": true
+  },
   "cdnjs": {
     "purpose": "Fornisce le librerie di codice usate dal sito.",
+    "machine": true
+  },
+  "chaport": {
+    "purpose": "Chat dal vivo.",
+    "cookies": {
+      "chaport-*": "Riconosce i visitatori che tornano nella chat.",
+      "wsc_*": "Conserva i dati della chat se la memoria del browser è bloccata."
+    },
     "machine": true
   },
   "chatbase": {
     "purpose": "Risponde alle domande dei visitatori con un chatbot IA.",
     "cookies": {
       "chatbase_anon_id": "Riconosce il visitatore nella chat."
+    },
+    "machine": true
+  },
+  "chatra": {
+    "purpose": "Permette ai visitatori di chattare con l’assistenza.",
+    "cookies": {
+      "Chatra.*": "Ricorda i visitatori e lo stato della chat."
     },
     "machine": true
   },
@@ -189,6 +301,10 @@
     "purpose": "Mostra moduli di iscrizione alla newsletter.",
     "machine": true
   },
+  "cloudflare-stream": {
+    "purpose": "Mostra video incorporati.",
+    "machine": true
+  },
   "cloudflare-turnstile": {
     "purpose": "Tiene lo spam lontano dai moduli. Non imposta cookie di tracciamento ed è usato solo per la sicurezza.",
     "machine": true
@@ -199,6 +315,30 @@
   },
   "cloudpano": {
     "purpose": "Mostra tour virtuali a 360° incorporati.",
+    "machine": true
+  },
+  "cloudup": {
+    "purpose": "Mostra file e contenuti multimediali incorporati.",
+    "machine": true
+  },
+  "codepen": {
+    "purpose": "Mostra esempi di codice incorporati.",
+    "cookies": {
+      "codepen_session": "Supporta gli esempi di codice incorporati.",
+      "codepen_signup_referrer*": "Ricorda la fonte e la data dell’iscrizione."
+    },
+    "machine": true
+  },
+  "cognito-forms": {
+    "purpose": "Mostra moduli incorporati.",
+    "machine": true
+  },
+  "comm100": {
+    "purpose": "Chat dal vivo con l’assistenza.",
+    "machine": true
+  },
+  "constant-contact": {
+    "purpose": "Mostra moduli di iscrizione via email.",
     "machine": true
   },
   "contentsquare": {
@@ -244,6 +384,21 @@
     "purpose": "Mostra annunci ai visitatori precedenti.",
     "machine": true
   },
+  "crowdsignal": {
+    "purpose": "Mostra sondaggi, questionari e valutazioni incorporati.",
+    "cookies": {
+      "PD_poll_*": "Impedisce voti ripetuti.",
+      "pd_embed_*": "Limita la visualizzazione ripetuta dei popup."
+    },
+    "machine": true
+  },
+  "customer-io": {
+    "purpose": "Traccia le visite per il marketing automatico via email.",
+    "cookies": {
+      "_cio*": "Ricorda l’identità del visitatore per il marketing via email."
+    },
+    "machine": true
+  },
   "dailymotion": {
     "purpose": "Mostra video incorporati.",
     "cookies": {
@@ -262,6 +417,18 @@
     "purpose": "Mostra la sezione dei commenti.",
     "machine": true
   },
+  "doofinder": {
+    "purpose": "Offre la ricerca nel negozio.",
+    "machine": true
+  },
+  "drip": {
+    "purpose": "Traccia le visite per automatizzare le email.",
+    "cookies": {
+      "_drip_client_*": "Ricorda il visitatore e traccia le attività sul sito.",
+      "_dripSegment*": "Ricorda quali moduli di iscrizione può vedere il visitatore."
+    },
+    "machine": true
+  },
   "elfsight": {
     "purpose": "Mostra feed social, recensioni e altri widget.",
     "cookies": {
@@ -269,11 +436,32 @@
     },
     "machine": true
   },
+  "emailoctopus": {
+    "purpose": "Mostra moduli di iscrizione alla newsletter via email.",
+    "machine": true
+  },
+  "emarsys": {
+    "purpose": "Traccia le visite per personalizzare il marketing.",
+    "cookies": {
+      "scarab.visitor": "Distingue i visitatori tra una visita e l’altra.",
+      "scarab.profile": "Salva i dati di navigazione per i suggerimenti.",
+      "scarab.mayViewed": "Ricorda i clic sui prodotti consigliati."
+    },
+    "machine": true
+  },
+  "embedly": {
+    "purpose": "Mostra schede di link incorporate.",
+    "machine": true
+  },
   "encharge": {
     "purpose": "Traccia le visite e mostra moduli di iscrizione.",
     "cookies": {
       "encheventsnippet": "Distingue i visitatori."
     },
+    "machine": true
+  },
+  "equalweb": {
+    "purpose": "Offre strumenti di accessibilità per il sito.",
     "machine": true
   },
   "etracker": {
@@ -305,6 +493,15 @@
     "purpose": "Mostra post, video e riquadri di pagina incorporati.",
     "machine": true
   },
+  "fareharbor": {
+    "purpose": "Permette di prenotare tour e attività.",
+    "cookies": {
+      "fh-target-language": "Ricorda la lingua del visitatore.",
+      "fh-content-language": "Ricorda la lingua dei contenuti.",
+      "fh-units-language": "Ricorda le unità di misura preferite."
+    },
+    "machine": true
+  },
   "fathom": {
     "purpose": "Misura le visite senza cookie.",
     "machine": true
@@ -327,8 +524,21 @@
     "purpose": "Mostra foto incorporate.",
     "machine": true
   },
+  "fomo": {
+    "purpose": "Mostra gli acquisti recenti e le attività dei visitatori.",
+    "cookies": {
+      "Fomo._g.*": "Collega le notifiche alle conversioni.",
+      "Fomo._i.url.*": "Evita di registrare più volte la stessa attività.",
+      "fomo_utm_*": "Ricorda le campagne di segnalazione di Fomo."
+    },
+    "machine": true
+  },
   "font-awesome": {
     "purpose": "Carica le icone del sito da Font Awesome.",
+    "machine": true
+  },
+  "formstack": {
+    "purpose": "Mostra moduli incorporati.",
     "machine": true
   },
   "found-ee": {
@@ -343,8 +553,23 @@
     "purpose": "Chat dal vivo e messaggi di assistenza.",
     "machine": true
   },
+  "freshdesk": {
+    "purpose": "Mostra articoli di aiuto e un modulo di assistenza.",
+    "machine": true
+  },
+  "friendly-captcha": {
+    "purpose": "Protegge i moduli da spam e bot.",
+    "machine": true
+  },
   "fullstory": {
     "purpose": "Registrazioni delle sessioni e analisi di utilizzo.",
+    "machine": true
+  },
+  "getbutton": {
+    "purpose": "Mostra un pulsante per WhatsApp e le chat di messaggistica.",
+    "cookies": {
+      "gb-widget-cookie*": "Limita la frequenza del saluto nella chat."
+    },
     "machine": true
   },
   "getresponse": {
@@ -357,6 +582,14 @@
   },
   "giphy": {
     "purpose": "Mostra GIF incorporate.",
+    "machine": true
+  },
+  "github-gist": {
+    "purpose": "Mostra frammenti di codice incorporati.",
+    "cookies": {
+      "_gh_sess": "Mantiene lo stato temporaneo della sessione.",
+      "_octo": "Gestisce le sessioni e misura l’uso del servizio."
+    },
     "machine": true
   },
   "gohighlevel": {
@@ -400,12 +633,32 @@
     },
     "machine": true
   },
+  "google-docs": {
+    "purpose": "Mostra documenti, fogli e diapositive incorporati.",
+    "machine": true
+  },
+  "google-drive": {
+    "purpose": "Mostra file e video incorporati.",
+    "machine": true
+  },
   "google-fonts": {
     "purpose": "Carica i font del sito da Google.",
     "machine": true
   },
+  "google-forms": {
+    "purpose": "Mostra moduli incorporati.",
+    "machine": true
+  },
   "google-hosted-libraries": {
     "purpose": "Fornisce le librerie di codice usate dal sito.",
+    "machine": true
+  },
+  "google-identity": {
+    "purpose": "Permette di accedere con un account Google.",
+    "cookies": {
+      "g_state": "Ricorda le scelte di disconnessione e degli avvisi di accesso.",
+      "g_csrf_token": "Protegge le richieste di accesso dalle falsificazioni."
+    },
     "machine": true
   },
   "google-maps": {
@@ -463,6 +716,10 @@
       "_hp2_id.*": "Distingue i visitatori.",
       "_hp2_ses_props.*": "Mantiene la sessione corrente."
     },
+    "machine": true
+  },
+  "hello-bar": {
+    "purpose": "Mostra barre promozionali e pop-up.",
     "machine": true
   },
   "help-scout": {
@@ -553,6 +810,13 @@
     "purpose": "Conta le visite.",
     "machine": true
   },
+  "jivochat": {
+    "purpose": "Chat dal vivo.",
+    "cookies": {
+      "jv_store_*": "Conserva i dati del visitatore e della sessione di chat."
+    },
+    "machine": true
+  },
   "jotform": {
     "purpose": "Mostra moduli incorporati.",
     "machine": true
@@ -563,6 +827,18 @@
   },
   "jsdelivr": {
     "purpose": "Fornisce le librerie di codice usate dal sito.",
+    "machine": true
+  },
+  "juicer": {
+    "purpose": "Mostra feed social incorporati.",
+    "machine": true
+  },
+  "jw-player": {
+    "purpose": "Mostra video incorporati.",
+    "machine": true
+  },
+  "kickstarter": {
+    "purpose": "Mostra schede di progetti incorporate.",
     "machine": true
   },
   "kit": {
@@ -626,6 +902,10 @@
     },
     "machine": true
   },
+  "leadpages": {
+    "purpose": "Mostra moduli di iscrizione incorporati.",
+    "machine": true
+  },
   "libsyn": {
     "purpose": "Riproduce episodi di podcast incorporati.",
     "machine": true
@@ -660,6 +940,17 @@
       "__lc_cst": "Verifica il visitatore della chat.",
       "__lc2_cid": "Distingue i visitatori della chat.",
       "__lc2_cst": "Distingue i visitatori della chat."
+    },
+    "machine": true
+  },
+  "liveperson": {
+    "purpose": "Chat dal vivo e messaggi di assistenza.",
+    "cookies": {
+      "LPSID-*": "Identifica la sessione attuale o ultima del visitatore.",
+      "LPSessionID": "Identifica la sessione attuale o ultima del visitatore.",
+      "LPCID-*": "Recupera i dati della conversazione.",
+      "LPCKEY-*": "Recupera i dati della conversazione.",
+      "lpTestCookie*": "Verifica se il browser accetta i cookie."
     },
     "machine": true
   },
@@ -703,21 +994,33 @@
     "purpose": "Mostra moduli di iscrizione alla newsletter.",
     "machine": true
   },
+  "mailmunch": {
+    "purpose": "Mostra moduli di iscrizione in pop-up.",
+    "cookies": {
+      "_mailmunch_visitor_id": "Distingue i visitatori.",
+      "_mailmunch_lead_quality": "Salva le impostazioni sulla qualità dei potenziali clienti.",
+      "_mailmunch_seen_month": "Limita i caricamenti ripetuti dei pixel di marketing.",
+      "mailmunch_subscribed_*": "Ricorda l’iscrizione a una mailing list.",
+      "mailmunch_shown_*": "Ricorda i moduli già mostrati.",
+      "mailmunch_pageview_count": "Conta le pagine viste per le regole di visualizzazione dei moduli.",
+      "mailmunch_second_pageview": "Supporta le regole di visualizzazione dei moduli."
+    },
+    "machine": true
+  },
   "mapbox": {
     "purpose": "Mostra mappe incorporate.",
     "machine": true
   },
-  "matomo-cloud": {
-    "purpose": "Misura visite e conversioni.",
-    "cookies": {
-      "_pk_id.*": "Distingue i visitatori.",
-      "_pk_ses.*": "Mantiene la visita corrente.",
-      "_pk_ref.*": "Memorizza la provenienza del visitatore."
-    },
+  "maptiler": {
+    "purpose": "Mostra mappe incorporate.",
     "machine": true
   },
-  "matomo-tag-manager": {
-    "purpose": "Carica i tag di tracciamento del sito.",
+  "marketo": {
+    "purpose": "Traccia visite e clic per il marketing.",
+    "cookies": {
+      "_mkto_trk": "Collega visite e clic a un visitatore o potenziale cliente.",
+      "mkto_opt_out": "Ricorda la scelta del visitatore di disattivare il tracciamento."
+    },
     "machine": true
   },
   "matomo": {
@@ -736,8 +1039,31 @@
     },
     "machine": true
   },
+  "matomo-cloud": {
+    "purpose": "Misura visite e conversioni.",
+    "cookies": {
+      "_pk_id.*": "Distingue i visitatori.",
+      "_pk_ses.*": "Mantiene la visita corrente.",
+      "_pk_ref.*": "Memorizza la provenienza del visitatore."
+    },
+    "machine": true
+  },
+  "matomo-tag-manager": {
+    "purpose": "Carica i tag di tracciamento del sito.",
+    "machine": true
+  },
   "matterport": {
     "purpose": "Mostra tour virtuali 3D incorporati.",
+    "machine": true
+  },
+  "mautic": {
+    "purpose": "Traccia le visite per le campagne di marketing.",
+    "cookies": {
+      "mautic_device_id": "Riconosce il dispositivo di un visitatore che ritorna.",
+      "mautic_referer_id": "Ricorda l’ultima pagina tracciata.",
+      "mtc_id": "Salva l’ID di contatto del visitatore.",
+      "mtc_sid": "Salva un vecchio identificativo del dispositivo."
+    },
     "machine": true
   },
   "meta-pixel": {
@@ -783,6 +1109,23 @@
     },
     "machine": true
   },
+  "microsoft-forms": {
+    "purpose": "Mostra moduli incorporati.",
+    "cookies": {
+      "AADAuth.forms": "Mantiene l’accesso a Forms.",
+      "FormsWebSessionId": "Mantiene la sessione di Forms.",
+      "OIDCAuth.forms": "Mantiene l’accesso a Forms."
+    },
+    "machine": true
+  },
+  "mindbody": {
+    "purpose": "Permette di prenotare corsi e appuntamenti.",
+    "machine": true
+  },
+  "mixcloud": {
+    "purpose": "Riproduce audio incorporati.",
+    "machine": true
+  },
   "mixpanel": {
     "purpose": "Misura come i visitatori usano il sito.",
     "cookies": {
@@ -811,6 +1154,36 @@
   },
   "myfonts": {
     "purpose": "Carica font con licenza e conta le visualizzazioni di pagina.",
+    "machine": true
+  },
+  "olark": {
+    "purpose": "Chat dal vivo.",
+    "cookies": {
+      "hblid": "Riconosce i visitatori che tornano nella chat.",
+      "wcsid": "Mantiene la sessione di chat.",
+      "olfsk": "Conserva la cronologia della chat tra le pagine.",
+      "_okdetect": "Mantiene la chat quando cambia la memoria del browser.",
+      "_okbk": "Ricorda lo stato della finestra della chat.",
+      "_ok": "Ricorda l’ID del sito Olark.",
+      "_oklv": "Mantiene attiva la sessione di chat.",
+      "_okla": "Memorizza temporaneamente la fonte dei file della chat.",
+      "_okgid": "Conserva il team di chat assegnato.",
+      "_okac": "Verifica se i file della chat sono cambiati.",
+      "_okck": "Verifica se i cookie persistenti funzionano.",
+      "_okcs": "Verifica se i cookie di sessione funzionano."
+    },
+    "machine": true
+  },
+  "omnisend": {
+    "purpose": "Traccia le visite e mostra moduli di iscrizione via email.",
+    "cookies": {
+      "omnisend-form-*": "Ricorda i moduli mostrati e la loro versione di prova.",
+      "soundest-product-picker": "Registra se il selettore di prodotti è in uso.",
+      "omnisendSessionID*": "Identifica la sessione di navigazione di un visitatore.",
+      "omnisendContactID*": "Identifica un contatto per il marketing.",
+      "omnisendShopifyCart": "Ricorda il contenuto del carrello.",
+      "omnisendBigcommerceCart*": "Ricorda il contenuto del carrello."
+    },
     "machine": true
   },
   "onesignal": {
@@ -847,6 +1220,21 @@
     },
     "machine": true
   },
+  "optimonk": {
+    "purpose": "Mostra pop-up promozionali e moduli di iscrizione.",
+    "cookies": {
+      "optimonkClient": "Ricorda le attività del visitatore e delle campagne.",
+      "optiMonkClient*": "Ricorda le attività del visitatore e delle campagne.",
+      "omLastFilled": "Ricorda l’ultimo modulo pop-up inviato.",
+      "omAbTest*": "Mantiene il visitatore nella stessa versione del test A/B.",
+      "optiMonkSession": "Identifica la visita attuale.",
+      "optiMonkExperiments*": "Ricorda l’assegnazione ai test delle campagne.",
+      "optiMonkViewedProducts": "Ricorda i prodotti visti di recente.",
+      "optiMonkSplitUrlTests": "Ricorda la versione del test URL del visitatore.",
+      "optiMonkSmartAbTest_*": "Mantiene la versione mostrata del test A/B."
+    },
+    "machine": true
+  },
   "optinmonster": {
     "purpose": "Mostra pop-up e moduli di iscrizione.",
     "cookies": {
@@ -877,16 +1265,12 @@
     },
     "machine": true
   },
-  "paddle-retain": {
-    "purpose": "Mostra offerte di fatturazione e traccia l'utilizzo.",
-    "machine": true
-  },
   "paddle": {
     "purpose": "Gestisce il checkout ed elabora i pagamenti.",
     "machine": true
   },
-  "paypal-marketing": {
-    "purpose": "Misura gli acquisti su questo sito per il marketing di PayPal.",
+  "paddle-retain": {
+    "purpose": "Mostra offerte di fatturazione e traccia l'utilizzo.",
     "machine": true
   },
   "paypal": {
@@ -897,6 +1281,10 @@
       "x-pp-s": "Elaborazione dei pagamenti.",
       "nsid": "Prevenzione delle frodi."
     },
+    "machine": true
+  },
+  "paypal-marketing": {
+    "purpose": "Misura gli acquisti su questo sito per il marketing di PayPal.",
     "machine": true
   },
   "phorest": {
@@ -956,8 +1344,34 @@
     "purpose": "Misura le visite senza cookie.",
     "machine": true
   },
+  "pocket-casts": {
+    "purpose": "Riproduce podcast incorporati.",
+    "machine": true
+  },
+  "podbean": {
+    "purpose": "Riproduce podcast incorporati.",
+    "cookies": {
+      "PBSECURESUSID": "Supporta le funzioni essenziali di Podbean.",
+      "pb-www-site": "Supporta le funzioni essenziali di Podbean."
+    },
+    "machine": true
+  },
   "podigee": {
     "purpose": "Riproduce episodi di podcast incorporati.",
+    "machine": true
+  },
+  "podium": {
+    "purpose": "Permette di contattare un’azienda tramite chat.",
+    "cookies": {
+      "lS_podium-website-widget-*": "Ricorda i visitatori della chat e le scelte nel widget."
+    },
+    "machine": true
+  },
+  "poptin": {
+    "purpose": "Mostra pop-up e moduli di iscrizione.",
+    "cookies": {
+      "poptin_*": "Ricorda visite, pop-up mostrati e iscrizioni."
+    },
     "machine": true
   },
   "popup-maker": {
@@ -974,12 +1388,45 @@
     },
     "machine": true
   },
+  "privy": {
+    "purpose": "Mostra pop-up e moduli di iscrizione.",
+    "cookies": {
+      "_privy_*": "Ricorda i visitatori e le interazioni con gli elementi mostrati."
+    },
+    "machine": true
+  },
   "provenexpert": {
     "purpose": "Mostra recensioni dei clienti e un sigillo di valutazione.",
     "machine": true
   },
+  "pure-chat": {
+    "purpose": "Chat dal vivo e messaggi di assistenza.",
+    "machine": true
+  },
+  "qualtrics": {
+    "purpose": "Raccoglie opinioni tramite sondaggi sul sito.",
+    "cookies": {
+      "QSI_ReplaySession_Info_*": "Identifica una sessione registrata.",
+      "QSI_TestSessions_*": "Identifica le registrazioni di prova.",
+      "QSI_S_*": "Ricorda la selezione dei partecipanti ai sondaggi.",
+      "QSI_SI_*": "Evita inviti ripetuti ai sondaggi.",
+      "QSIPopUnder_PopUnderTarget_SI_*": "Evita finestre di sondaggio duplicate.",
+      "QST": "Evita risposte ripetute ai sondaggi.",
+      "QSI_CT": "Conta le azioni dei visitatori.",
+      "QSI_ReplaySession_Throttled_*": "Mette in pausa la registrazione dopo errori."
+    },
+    "machine": true
+  },
   "quora-pixel": {
     "purpose": "Misura gli annunci Quora.",
+    "machine": true
+  },
+  "rd-station": {
+    "purpose": "Traccia le visite per il marketing automatico.",
+    "cookies": {
+      "rdtrk": "Collega le visite alle pagine a un potenziale cliente.",
+      "__trf.src": "Ricorda come il visitatore è arrivato sul sito."
+    },
     "machine": true
   },
   "reamaze": {
@@ -997,12 +1444,24 @@
     },
     "machine": true
   },
+  "reverbnation": {
+    "purpose": "Riproduce audio incorporati.",
+    "machine": true
+  },
+  "rumble": {
+    "purpose": "Mostra video incorporati.",
+    "machine": true
+  },
   "rybbit": {
     "purpose": "Misura le visite senza cookie.",
     "machine": true
   },
   "salesviewer": {
     "purpose": "Identifica le aziende che visitano il sito.",
+    "machine": true
+  },
+  "scribd": {
+    "purpose": "Mostra documenti incorporati.",
     "machine": true
   },
   "segment": {
@@ -1014,8 +1473,39 @@
     },
     "machine": true
   },
+  "sendpulse": {
+    "purpose": "Mostra moduli di iscrizione e notifiche push web.",
+    "machine": true
+  },
   "senja": {
     "purpose": "Mostra testimonianze dei clienti e recensioni video.",
+    "machine": true
+  },
+  "setmore": {
+    "purpose": "Permette di prenotare appuntamenti.",
+    "machine": true
+  },
+  "shareaholic": {
+    "purpose": "Mostra pulsanti per condividere le pagine sui social network.",
+    "cookies": {
+      "SHR_E*": "Associa i visitatori tramite dati email protetti."
+    },
+    "machine": true
+  },
+  "sharethis": {
+    "purpose": "Mostra pulsanti per condividere le pagine sui social network.",
+    "cookies": {
+      "_stid": "Distingue i visitatori.",
+      "_stidv": "Registra la versione dell’ID del visitatore.",
+      "st_optout": "Ricorda il rifiuto della raccolta dei dati.",
+      "pxcelBcnLcy": "Misura i ritardi nei report.",
+      "pxcelAcc3PC": "Verifica se i cookie di terze parti sono accettati.",
+      "pxcelPage_c010*": "Registra quali pixel di tracciamento sono stati caricati.",
+      "fpestid": "Distingue i visitatori su questo sito.",
+      "__sharethis_cookie_test__": "Verifica se è possibile impostare cookie.",
+      "st_samesite": "Verifica il supporto ai cookie tra siti.",
+      "st_shares_*": "Ricorda quante volte le pagine sono state condivise."
+    },
     "machine": true
   },
   "shopify-buy-button": {
@@ -1030,11 +1520,22 @@
     "purpose": "Fornisce più velocemente le immagini del sito.",
     "machine": true
   },
+  "simplybook": {
+    "purpose": "Mostra un calendario di prenotazione incorporato.",
+    "cookies": {
+      "sb_widget": "Registra l’uso del widget di prenotazione."
+    },
+    "machine": true
+  },
   "sketchfab": {
     "purpose": "Mostra modelli 3D incorporati.",
     "cookies": {
       "sb_csrftoken": "Protegge da richieste contraffatte."
     },
+    "machine": true
+  },
+  "slideshare": {
+    "purpose": "Mostra diapositive incorporate.",
     "machine": true
   },
   "slimstat": {
@@ -1056,6 +1557,10 @@
     },
     "machine": true
   },
+  "smugmug": {
+    "purpose": "Mostra gallerie fotografiche incorporate.",
+    "machine": true
+  },
   "snap-pixel": {
     "purpose": "Misura gli annunci Snapchat.",
     "cookies": {
@@ -1064,8 +1569,22 @@
     },
     "machine": true
   },
+  "snapengage": {
+    "purpose": "Chat dal vivo.",
+    "cookies": {
+      "SnapABug*": "Conserva la chat, la sua cronologia e le sue impostazioni."
+    },
+    "machine": true
+  },
   "soundcloud": {
     "purpose": "Riproduce audio incorporato.",
+    "machine": true
+  },
+  "speaker-deck": {
+    "purpose": "Mostra diapositive di presentazioni incorporate.",
+    "cookies": {
+      "_secure_speakerd_session": "Mantiene la sessione del lettore."
+    },
     "machine": true
   },
   "spotify": {
@@ -1074,6 +1593,10 @@
       "sp_t": "Necessario al funzionamento dell'incorporamento di Spotify.",
       "sp_landing": "Necessario al funzionamento dell'incorporamento di Spotify."
     },
+    "machine": true
+  },
+  "spreaker": {
+    "purpose": "Riproduce episodi di podcast incorporati.",
     "machine": true
   },
   "stay22": {
@@ -1098,8 +1621,26 @@
     },
     "machine": true
   },
+  "sumo": {
+    "purpose": "Mostra pop-up e moduli di iscrizione.",
+    "cookies": {
+      "__smVID": "Distingue i visitatori.",
+      "__smSubscribed": "Ricorda un’iscrizione via email per controllare i moduli mostrati."
+    },
+    "machine": true
+  },
   "superchat": {
     "purpose": "Chat dal vivo e link alle app di messaggistica.",
+    "machine": true
+  },
+  "surveymonkey": {
+    "purpose": "Mostra sondaggi incorporati.",
+    "cookies": {
+      "ep201": "Aiuta a prevenire gli abusi e risolvere i problemi.",
+      "ep203": "Identifica i dispositivi per rilevare la condivisione degli account.",
+      "sm_ir": "Permette il funzionamento della pagina dei risultati dei sondaggi.",
+      "sm_rec": "Mantiene lo stato di accesso ai sondaggi protetti."
+    },
     "machine": true
   },
   "taboola": {
@@ -1130,12 +1671,23 @@
     "purpose": "Mostra talk TED incorporati.",
     "machine": true
   },
+  "telegram": {
+    "purpose": "Mostra post e consente l’accesso con Telegram.",
+    "cookies": {
+      "stel_dt": "Ricorda il suo fuso orario."
+    },
+    "machine": true
+  },
   "the-trade-desk": {
     "purpose": "Mostra annunci ai visitatori precedenti e li misura.",
     "cookies": {
       "TDID": "Distingue i visitatori tra siti diversi per gli annunci.",
       "TDCPM": "Distingue i visitatori per gli annunci."
     },
+    "machine": true
+  },
+  "threads": {
+    "purpose": "Mostra post incorporati.",
     "machine": true
   },
   "tidio": {
@@ -1187,6 +1739,10 @@
     "purpose": "Mostra recensioni da Google e altri siti.",
     "machine": true
   },
+  "trustpilot": {
+    "purpose": "Mostra recensioni di Trustpilot.",
+    "machine": true
+  },
   "trustpilot-invitations": {
     "purpose": "Chiede ai clienti di recensire il loro acquisto.",
     "cookies": {
@@ -1194,8 +1750,23 @@
     },
     "machine": true
   },
-  "trustpilot": {
-    "purpose": "Mostra recensioni di Trustpilot.",
+  "trustpulse": {
+    "purpose": "Mostra notifiche sulle attività di altre persone.",
+    "cookies": {
+      "_tpapp": "Identifica una singola sessione TrustPulse.",
+      "tp-shown-*": "Ricorda le notifiche e le campagne visualizzate.",
+      "tp-submitted-*": "Collega l’attività inviata al visitatore.",
+      "tp-widgets-closed": "Ricorda le campagne chiuse dal visitatore.",
+      "tp-analytics-captured": "Evita di contare due volte la stessa visualizzazione analitica."
+    },
+    "machine": true
+  },
+  "tumblr": {
+    "purpose": "Mostra post incorporati.",
+    "machine": true
+  },
+  "twitch": {
+    "purpose": "Mostra video incorporati.",
     "machine": true
   },
   "typeform": {
@@ -1205,12 +1776,23 @@
     },
     "machine": true
   },
+  "unbounce": {
+    "purpose": "Mostra pop-up e barre fisse.",
+    "machine": true
+  },
   "unpkg": {
     "purpose": "Fornisce le librerie di codice usate dal sito.",
     "machine": true
   },
   "unsplash": {
     "purpose": "Mostra foto ospitate da Unsplash.",
+    "machine": true
+  },
+  "usabilla": {
+    "purpose": "Raccoglie opinioni sul sito.",
+    "cookies": {
+      "usbls": "Distingue i nuovi visitatori da quelli che ritornano."
+    },
     "machine": true
   },
   "userlike": {
@@ -1225,6 +1807,10 @@
     "cookies": {
       "__eventn_id_*": "Distingue i visitatori."
     },
+    "machine": true
+  },
+  "usersnap": {
+    "purpose": "Raccoglie opinioni e segnalazioni di errori.",
     "machine": true
   },
   "userway": {
@@ -1242,6 +1828,14 @@
     "purpose": "Conta le letture dei testi per retribuire gli autori.",
     "machine": true
   },
+  "videopress": {
+    "purpose": "Mostra video incorporati.",
+    "machine": true
+  },
+  "vidyard": {
+    "purpose": "Mostra video incorporati.",
+    "machine": true
+  },
   "vimeo": {
     "purpose": "Mostra video incorporati.",
     "cookies": {
@@ -1255,6 +1849,10 @@
   },
   "visitortracking": {
     "purpose": "Identifica le aziende che visitano il sito.",
+    "machine": true
+  },
+  "vk": {
+    "purpose": "Mostra post e widget social incorporati.",
     "machine": true
   },
   "vwo": {
@@ -1272,6 +1870,16 @@
       "_wingify_sn": "Mantiene la sessione corrente.",
       "_wingify_s": "Conta le sessioni del browser del visitatore.",
       "_wingify_exp_*": "Ricorda la versione del test mostrata."
+    },
+    "machine": true
+  },
+  "weglot": {
+    "purpose": "Traduce i contenuti del sito.",
+    "cookies": {
+      "WG_CHOOSE_ORIGINAL": "Ricorda la scelta della lingua originale.",
+      "wglang": "Ricorda la lingua preferita.",
+      "wg_checkout_*": "Mantiene la lingua durante il pagamento su Shopify.",
+      "wg-private-mode": "Ricorda la modalità di anteprima della traduzione."
     },
     "machine": true
   },
@@ -1304,6 +1912,10 @@
     },
     "machine": true
   },
+  "wolfram-cloud": {
+    "purpose": "Mostra notebook interattivi incorporati.",
+    "machine": true
+  },
   "woocommerce-attribution": {
     "purpose": "Salva con l'ordine da dove è arrivata la visita.",
     "cookies": {
@@ -1334,6 +1946,13 @@
     "purpose": "Fornisce più velocemente immagini e file del sito.",
     "machine": true
   },
+  "wufoo": {
+    "purpose": "Mostra moduli incorporati.",
+    "cookies": {
+      "wufooForm": "Aiuta a ridimensionare i moduli incorporati."
+    },
+    "machine": true
+  },
   "x-embed": {
     "purpose": "Mostra post e timeline incorporati.",
     "cookies": {
@@ -1353,6 +1972,10 @@
   },
   "xing": {
     "purpose": "Mostra pulsanti per condividere le pagine su XING.",
+    "machine": true
+  },
+  "yandex-maps": {
+    "purpose": "Mostra mappe incorporate.",
     "machine": true
   },
   "yandex-metrica": {

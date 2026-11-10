@@ -1,0 +1,40 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "animoto",
+  "version": 1,
+  "name": "Animoto",
+  "provider": "Animoto Inc.",
+  "category": "media",
+  "purpose": "Shows embedded videos.",
+  "privacyUrl": "https://integration.animoto.com/legal/privacy-policy",
+  "dataCountry": "USA and other countries",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "player.animoto.com"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "video",
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://integration.animoto.com/legal/privacy-policy",
+    "https://help.animoto.com/hc/en-us/articles/205538337-Embedding-a-Video-to-a-Website-or-Blog",
+    "https://help.animoto.com/hc/article_attachments/49461488721939",
+    "https://player.animoto.com/play.html",
+    "https://player.animoto.com/js/main-8c977d7979.js",
+    "https://d150hyw1dtprld.cloudfront.net/player/e88b245356b6cee003868506d28140f734e7b8a1/player-bundle.js",
+    "https://www.dataprivacyframework.gov/list",
+    "https://wordpress.org/plugins/animoto-embeds/",
+    "https://plugins.svn.wordpress.org/animoto-embeds/trunk/animoto-embeds.php"
+  ],
+  "checked": "2026-11-10"
+}

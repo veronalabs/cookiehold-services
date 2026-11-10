@@ -1,0 +1,98 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "sharethis",
+  "version": 1,
+  "name": "ShareThis",
+  "provider": "Predactiv, Inc.",
+  "category": "marketing",
+  "purpose": "Shows buttons to share pages on social networks.",
+  "privacyUrl": "https://sharethis.com/privacy/",
+  "dataCountry": "USA (EU-US Data Privacy Framework) and other countries",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "platform-api.sharethis.com/js/sharethis.js"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "_stid",
+      "lifetime": "1 year",
+      "purpose": "Tells visitors apart."
+    },
+    {
+      "name": "_stidv",
+      "lifetime": "10 years",
+      "purpose": "Records the visitor ID version."
+    },
+    {
+      "name": "st_optout",
+      "lifetime": "10 years",
+      "purpose": "Remembers a data collection opt-out."
+    },
+    {
+      "name": "pxcelBcnLcy",
+      "lifetime": "Session",
+      "purpose": "Measures reporting delays."
+    },
+    {
+      "name": "pxcelAcc3PC",
+      "lifetime": "1 day",
+      "purpose": "Checks whether third-party cookies are accepted."
+    },
+    {
+      "name": "pxcelPage_c010*",
+      "lifetime": "1 year",
+      "purpose": "Tracks which tracking pixels have loaded."
+    },
+    {
+      "name": "fpestid",
+      "lifetime": "13 months",
+      "purpose": "Tells visitors apart on this website."
+    },
+    {
+      "name": "__sharethis_cookie_test__",
+      "lifetime": "Session",
+      "purpose": "Checks whether cookies can be set."
+    },
+    {
+      "name": "st_samesite",
+      "lifetime": "Session",
+      "purpose": "Checks support for cross-site cookies."
+    },
+    {
+      "name": "st_shares_*",
+      "lifetime": "Session",
+      "purpose": "Remembers page share counts."
+    }
+  ],
+  "storage": [
+    "__sharethis_local_storage_test__",
+    "fpestid",
+    "fpestid_timestamp",
+    "st_shares_*"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "sharethis-share-buttons/sharethis-share-buttons.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://sharethis.com/privacy/",
+    "https://sharethis.com/platform/share-buttons/",
+    "https://platform-api.sharethis.com/js/sharethis.js",
+    "https://platform.sharethis.com/sharethis.js",
+    "https://predactiv.com/privacy-policy/",
+    "https://wordpress.org/plugins/sharethis-share-buttons/",
+    "https://plugins.svn.wordpress.org/sharethis-share-buttons/trunk/",
+    "https://plugins.svn.wordpress.org/sharethis-share-buttons/trunk/sharethis-share-buttons.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

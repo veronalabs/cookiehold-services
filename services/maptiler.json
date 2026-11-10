@@ -1,0 +1,57 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "maptiler",
+  "version": 1,
+  "name": "MapTiler",
+  "provider": "MapTiler AG",
+  "category": "media",
+  "purpose": "Shows embedded maps.",
+  "privacyUrl": "https://www.maptiler.com/privacy-policy/",
+  "dataCountry": "Primarily Switzerland and EEA; global API infrastructure",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "api.maptiler.com",
+      "cdn.maptiler.com",
+      "api.maptiler.eu"
+    ],
+    "inline": [
+      "maptilersdk.config.apiKey",
+      "new maptilersdk.Map(",
+      "L.maptiler.maptilerLayer(",
+      "L.control.maptilerGeocoding(",
+      "api.maptiler.com/maps/"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "map",
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://www.maptiler.com/privacy-policy/",
+    "https://www.maptiler.com/security/",
+    "https://docs.maptiler.com/cloud/api/",
+    "https://docs.maptiler.com/guides/developer/api/eu-based-api-endpoint/",
+    "https://docs.maptiler.com/guides/developer/api/eu-based-api-endpoint.md",
+    "https://docs.maptiler.com/sdk-js/",
+    "https://docs.maptiler.com/sdk-js.md",
+    "https://docs.maptiler.com/leaflet/",
+    "https://docs.maptiler.com/leaflet.md",
+    "https://docs.maptiler.com/guides/maps-apis/maps-platform/personal-data-in-maptiler-cloud/",
+    "https://github.com/maptiler/leaflet-maptilersdk/blob/main/README.md",
+    "https://raw.githubusercontent.com/maptiler/leaflet-maptilersdk/main/README.md",
+    "https://cdn.maptiler.com/maptiler-sdk-js/v4.2.0/maptiler-sdk.umd.min.js",
+    "https://www.dataprivacyframework.gov/list",
+    "https://wordpress.org/plugins/wp-google-maps/",
+    "https://wordpress.org/plugins/wp-map-block/",
+    "https://wordpress.org/plugins/geo-maps/"
+  ],
+  "checked": "2026-11-10"
+}

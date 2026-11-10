@@ -50,6 +50,19 @@ test('two services may not claim one host', () => {
   assert.equal(only(problems, 'already claimed by example').length, 1);
 });
 
+test('a frame pattern is claimed like a host, across both lists', () => {
+  const booking = service({ match: { hosts: ['assets.booking.example/js/'], frames: ['book.booking.example'] } });
+  assert.deepEqual(checkServices(files(booking)), []);
+  const takesFrame = service({ id: 'second', match: { hosts: ['book.booking.example'] } });
+  assert.equal(only(checkServices(files(booking, takesFrame)), 'the host "book.booking.example" is already claimed by example').length, 1);
+  const both = service({ match: { hosts: ['book.booking.example'], frames: ['book.booking.example'] } });
+  assert.equal(only(checkServices(files(both)), 'is already claimed by example').length, 1);
+});
+
+test('a service may be known by its frames alone', () => {
+  assert.deepEqual(checkServices(files(service({ match: { frames: ['book.booking.example'] } }))), []);
+});
+
 test('a wildcard may not cover another service\'s pattern', () => {
   const wild = service({ match: { hosts: ['cdn.example.com/*/x.js'] } });
   const literal = service({ id: 'second', match: { hosts: ['cdn.example.com/en/x.js'] } });

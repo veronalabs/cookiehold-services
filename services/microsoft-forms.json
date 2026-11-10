@@ -1,0 +1,60 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "microsoft-forms",
+  "version": 1,
+  "name": "Microsoft Forms",
+  "provider": "Microsoft Ireland Operations Limited",
+  "category": "functional",
+  "purpose": "Shows embedded forms.",
+  "privacyUrl": "https://www.microsoft.com/en-us/privacy/privacystatement",
+  "dataCountry": "Europe, Australia or USA (EU-US Data Privacy Framework); other countries",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "forms.office.com/Pages/ResponsePage.aspx",
+      "forms.cloud.microsoft/Pages/ResponsePage.aspx"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "AADAuth.forms",
+      "lifetime": "90 days",
+      "purpose": "Keeps you signed in to Forms."
+    },
+    {
+      "name": "FormsWebSessionId",
+      "lifetime": "30 days",
+      "purpose": "Maintains your Forms session."
+    },
+    {
+      "name": "OIDCAuth.forms",
+      "lifetime": "Session",
+      "purpose": "Keeps you signed in to Forms."
+    }
+  ],
+  "storage": [
+    "officeforms.answermap.*",
+    "officeforms.activesection*"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "form",
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://support.microsoft.com/en-us/forms/send-a-form-and-collect-responses",
+    "https://learn.microsoft.com/en-us/answers/questions/5223139/how-do-i-add-the-form-questionnaire-link-to-a-webp",
+    "https://forms.office.com/Pages/ResponsePage.aspx?id=ediZVun6gU66Cte8aIVH9yb-B_PE1zhLsjOF6S8SVehUMU43TEhLSVZIRFVVMThIMEYzTVpRMU1OUC4u&embed=true",
+    "https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=ediZVun6gU66Cte8aIVH9yb-B_PE1zhLsjOF6S8SVehUMU43TEhLSVZIRFVVMThIMEYzTVpRMU1OUC4u&embed=true",
+    "https://www.microsoft.com/en-us/privacy/privacystatement",
+    "https://learn.microsoft.com/en-us/microsoft-365/enterprise/m365-dr-service-other?view=o365-worldwide",
+    "https://learn.microsoft.com/en-us/microsoft-365-apps/privacy/web-cookies",
+    "https://forms.cloud.microsoft/cdn/scripts/dists/light-response-page.min.604152b.js",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

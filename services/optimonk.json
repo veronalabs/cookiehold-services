@@ -1,0 +1,105 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "optimonk",
+  "version": 1,
+  "name": "OptiMonk",
+  "provider": "OptiMonk International Zrt.",
+  "category": "marketing",
+  "purpose": "Shows promotional pop-ups and sign-up forms.",
+  "privacyUrl": "https://www.optimonk.com/privacy-policy",
+  "dataCountry": "EU (Germany) and worldwide CDN",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "onsite.optimonk.com",
+      "front.optimonk.com",
+      "cdn-asset.optimonk.com"
+    ],
+    "inline": [
+      "optimonk#embedded-campaigns-init"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "optimonkClient",
+      "lifetime": "1 year",
+      "purpose": "Remembers visitor and campaign activity."
+    },
+    {
+      "name": "optiMonkClient*",
+      "lifetime": "1 year",
+      "purpose": "Remembers the visitor and campaign activity."
+    },
+    {
+      "name": "omLastFilled",
+      "lifetime": "14 days",
+      "purpose": "Remembers the last submitted pop-up form."
+    },
+    {
+      "name": "omAbTest*",
+      "lifetime": "1 year",
+      "purpose": "Keeps the visitor in the same A/B test variant."
+    },
+    {
+      "name": "optiMonkSession",
+      "lifetime": "Session",
+      "purpose": "Identifies the current visit."
+    },
+    {
+      "name": "optiMonkExperiments*",
+      "lifetime": "1 year",
+      "purpose": "Remembers campaign experiment assignments."
+    },
+    {
+      "name": "optiMonkViewedProducts",
+      "lifetime": "1 year",
+      "purpose": "Remembers recently viewed products."
+    },
+    {
+      "name": "optiMonkSplitUrlTests",
+      "lifetime": "1 year",
+      "purpose": "Remembers the visitor's split URL test variant."
+    },
+    {
+      "name": "optiMonkSmartAbTest_*",
+      "lifetime": "1 year",
+      "purpose": "Keeps the A/B test variant shown."
+    }
+  ],
+  "storage": [
+    "OptiMonkVisitorAttributes",
+    "OptiMonkShopAttributes",
+    "OptiMonkVisitorCart",
+    "omMobileExit",
+    "OptiMonkPreviouslyViewedPages"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "exit-intent-popups-by-optimonk/optimonk.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.optimonk.com/privacy-policy",
+    "https://support.optimonk.com/en/articles/inserting-the-optimonk-javascript-code",
+    "https://support.optimonk.com/en/articles/installing-optimonk-on-a-wordpress-website",
+    "https://support.optimonk.com/en/articles/optimonk-cookies",
+    "https://support.optimonk.com/en/articles/where-in-which-country-do-you-store-data-i-collect-from-my-visitors",
+    "https://support.optimonk.com/en/articles/what-kind-of-cdn-system-do-you-use",
+    "https://onsite.optimonk.com/script.js?account=272963",
+    "https://front.optimonk.com/script.js?account=272963",
+    "https://cdn-asset.optimonk.com/script.esm/embedded.8575db66.js",
+    "https://cdn-asset.optimonk.com/script.esm/popup-ce44a352.js",
+    "https://plugins.svn.wordpress.org/exit-intent-popups-by-optimonk/trunk/optimonk.php",
+    "https://plugins.svn.wordpress.org/exit-intent-popups-by-optimonk/trunk/optimonk-front.php",
+    "https://plugins.svn.wordpress.org/exit-intent-popups-by-optimonk/trunk/template/insert-code.js",
+    "https://wordpress.org/plugins/exit-intent-popups-by-optimonk/",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

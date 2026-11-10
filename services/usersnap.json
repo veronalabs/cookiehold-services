@@ -1,0 +1,62 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "usersnap",
+  "version": 1,
+  "name": "Usersnap",
+  "provider": "Usersnap GmbH",
+  "category": "functional",
+  "purpose": "Collects feedback and bug reports.",
+  "privacyUrl": "https://usersnap.com/privacy-policy",
+  "dataCountry": "EU (Germany or Ireland)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "widget.usersnap.com",
+      "resources.usersnap.com"
+    ],
+    "inline": [
+      "widget.usersnap.com/"
+    ]
+  },
+  "cookies": [],
+  "storage": [
+    "us-reporter_",
+    "us-assignee_*",
+    "us-visitorEmail_*",
+    "us-bubbleHiddenAt_*",
+    "us-WidgetShownOnce_*",
+    "us-ShowAgainTimestamp_*",
+    "us-TimesShown_*",
+    "us-ShowAgainAction_*",
+    "us-badgeHiddenAt_*"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "usersnap/usersnap.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://usersnap.com/privacy-policy",
+    "https://help.usersnap.com/docs/security",
+    "https://help.usersnap.com/docs/privacy-and-security-faq",
+    "https://usersnap.com/security",
+    "https://help.usersnap.com/docs/change-default-settings",
+    "https://help.usersnap.com/docs/user-events",
+    "https://help.usersnap.com/docs/usersnap-with-csp",
+    "https://help.usersnap.com/docs/installation-on-wordpress-1",
+    "https://usersnap.com/gdpr-data-protection",
+    "https://widget.usersnap.com/global/load/f479c928-4400-492e-bd7c-95da96ca9d36?onload=onUsersnapLoad",
+    "https://resources.usersnap.com/widget-assets/js/entries/globalSetup/a456dbdd0dcbe4fe.js",
+    "https://resources.usersnap.com/widget-assets/js/entries/widgetAppEmbed/c12ef41deb0a4c44.js",
+    "https://wordpress.org/plugins/usersnap/",
+    "https://plugins.svn.wordpress.org/usersnap/trunk/usersnap.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

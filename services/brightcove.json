@@ -1,0 +1,47 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "brightcove",
+  "version": 1,
+  "name": "Brightcove Player",
+  "provider": "Brightcove Inc.",
+  "category": "media",
+  "purpose": "Shows embedded videos.",
+  "privacyUrl": "https://www.brightcove.com/legal/privacy-policy",
+  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "players.brightcove.net"
+    ]
+  },
+  "cookies": [],
+  "storage": [
+    "bc-managed-release-choice-*"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "video",
+  "wordpress": {
+    "plugins": [
+      "brightcove-video-connect/brightcove-video-connect.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.brightcove.com/legal/privacy-policy",
+    "https://www.brightcove.com/products/player",
+    "https://player.support.brightcove.com/styling/responsive-sizing-brightcove-player.html",
+    "https://player.support.brightcove.com/publish/available-options-advanced-page-embed-code.html",
+    "https://player.support.brightcove.com/references/brightcove-player-cookies.html",
+    "https://players.brightcove.net/1752604059001/default_default/index.min.js",
+    "https://integrations.support.brightcove.com/wordpress/wordpress-brightcove-connector-installation.html",
+    "https://wordpress.org/plugins/brightcove-video-connect/",
+    "https://plugins.svn.wordpress.org/brightcove-video-connect/trunk/",
+    "https://plugins.svn.wordpress.org/brightcove-video-connect/trunk/brightcove-video-connect.php",
+    "https://www.dataprivacyframework.gov/list",
+    "https://dpfapi.azurewebsites.net/api/participants"
+  ],
+  "checked": "2026-11-10"
+}

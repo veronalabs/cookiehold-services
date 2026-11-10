@@ -1,0 +1,49 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "apple-mapkit",
+  "version": 1,
+  "name": "MapKit JS",
+  "provider": "Apple Distribution International Limited",
+  "category": "media",
+  "purpose": "Shows embedded maps.",
+  "privacyUrl": "https://www.apple.com/legal/privacy/en-ww/",
+  "dataCountry": "USA and other countries",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "cdn.apple-mapkit.com"
+    ],
+    "inline": [
+      "mapkit.init({",
+      "new mapkit.Map("
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "map",
+  "wordpress": {
+    "plugins": [
+      "maps-block-apple/maps-block-apple.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://developer.apple.com/maps/web/",
+    "https://developer.apple.com/documentation/mapkitjs/loading-the-latest-version-of-mapkit-js",
+    "https://developer.apple.com/documentation/mapkitjs/loading-the-latest-version-of-mapkit-js.md",
+    "https://www.apple.com/legal/privacy/en-ww/",
+    "https://www.apple.com/legal/privacy/en-ww/cookies/",
+    "https://www.apple.com/legal/privacy/data/en/apple-maps/",
+    "https://cdn.apple-mapkit.com/mk/x/mapkit.core.js",
+    "https://cdn.apple-mapkit.com/mk/x/mapkit.js",
+    "https://www.dataprivacyframework.gov/list",
+    "https://wordpress.org/plugins/maps-block-apple/",
+    "https://plugins.svn.wordpress.org/maps-block-apple/trunk/",
+    "https://plugins.svn.wordpress.org/maps-block-apple/trunk/maps-block-apple.php"
+  ],
+  "checked": "2026-11-10"
+}

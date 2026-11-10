@@ -11,9 +11,11 @@
   "legalBasis": "consent",
   "match": {
     "hosts": [
-      "google.com/maps",
       "maps.google.com",
       "maps.googleapis.com"
+    ],
+    "frames": [
+      "google.com/maps"
     ]
   },
   "cookies": [

@@ -1,0 +1,55 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "github-gist",
+  "version": 1,
+  "name": "GitHub Gist",
+  "provider": "",
+  "category": "media",
+  "purpose": "Shows embedded code snippets.",
+  "privacyUrl": "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement",
+  "dataCountry": "USA (EU-US Data Privacy Framework) and other countries",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "gist.github.com",
+      "github.githubassets.com/assets/gist-embed-"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "_gh_sess",
+      "lifetime": "Session",
+      "purpose": "Keeps temporary session state."
+    },
+    {
+      "name": "_octo",
+      "lifetime": "1 year",
+      "purpose": "Manages sessions and measures service use."
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "generic",
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://docs.github.com/en/get-started/writing-on-github/editing-and-sharing-content-with-gists/creating-gists",
+    "https://gist.github.com/defunkt/2059",
+    "https://gist.github.com/defunkt/2059.js",
+    "https://github.githubassets.com/assets/gist-embed-f13bb713f99941a3.css",
+    "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement",
+    "https://raw.githubusercontent.com/github/docs/main/content/site-policy/privacy-policies/github-general-privacy-statement.md",
+    "https://docs.github.com/en/site-policy/privacy-policies/github-cookies",
+    "https://github.blog/changelog/2021-11-17-preview-the-markdown-rendering-of-gists/",
+    "https://www.dataprivacyframework.gov/list",
+    "https://wordpress.org/plugins/embedpress/",
+    "https://plugins.svn.wordpress.org/embedpress/trunk/",
+    "https://plugins.svn.wordpress.org/embedpress/trunk/embedpress.php"
+  ],
+  "checked": "2026-11-10"
+}

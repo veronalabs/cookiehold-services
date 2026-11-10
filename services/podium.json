@@ -1,0 +1,56 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "podium",
+  "version": 1,
+  "name": "Podium",
+  "provider": "Podium Corporation, Inc.",
+  "category": "functional",
+  "purpose": "Lets you contact a business through chat.",
+  "privacyUrl": "https://legal.podium.com/#privacypolicy-us",
+  "dataCountry": "USA",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "connect.podium.com"
+    ],
+    "inline": [
+      "connect.podium.com/widget.js"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "lS_podium-website-widget-*",
+      "lifetime": "Session",
+      "purpose": "Remembers chat visitors and widget choices."
+    }
+  ],
+  "storage": [
+    "podium-website-widget-*",
+    "podium-livechat-*"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "podium/podium.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.podium.com/product/webchat",
+    "https://legal.podium.com/#privacypolicy-us",
+    "https://www.podium.com/privacy-policy",
+    "https://connect.podium.com/widget.js",
+    "https://wordpress.org/plugins/podium/",
+    "https://plugins.svn.wordpress.org/podium/trunk/",
+    "https://plugins.svn.wordpress.org/podium/trunk/podium.php",
+    "https://plugins.svn.wordpress.org/podium/trunk/views/script-code.php",
+    "https://plugins.svn.wordpress.org/podium/trunk/includes/embed.php",
+    "https://podium.my.site.com/knowledgebase/s/article/Webchat-Overview",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

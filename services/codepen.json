@@ -1,0 +1,69 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "codepen",
+  "version": 1,
+  "name": "CodePen",
+  "provider": "CodePen",
+  "category": "media",
+  "purpose": "Shows embedded code examples.",
+  "privacyUrl": "https://blog.codepen.io/legal/privacy-policy/",
+  "dataCountry": "",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "codepen.io/*/embed/",
+      "codepen.io/editor/*/embed/",
+      "codepen.io/embed/",
+      "codepen.io/cpe/embed/",
+      "cpwebassets.codepen.io/assets/embed/",
+      "static.codepen.io/assets/embed/",
+      "public.codepenassets.com/embed/"
+    ],
+    "inline": [
+      "window.__CPEmbed("
+    ]
+  },
+  "cookies": [
+    {
+      "name": "codepen_session",
+      "lifetime": "29 days",
+      "purpose": "Supports embedded code examples."
+    },
+    {
+      "name": "codepen_signup_referrer*",
+      "lifetime": "1 year",
+      "purpose": "Remembers the sign-up referral source and date."
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "generic",
+  "wordpress": {
+    "plugins": [
+      "codepen-embed-block/plugin.php",
+      "codepen-embedded-pen-shortcode/codepen.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://blog.codepen.io/legal/privacy-policy/",
+    "https://blog.codepen.io/legal/terms-of-service/",
+    "https://blog.codepen.io/docs/embeds/",
+    "https://blog.codepen.io/documentation/embedded-pens/",
+    "https://blog.codepen.io/docs/embeds/prefill/",
+    "https://cpwebassets.codepen.io/assets/embed/ei.js",
+    "https://static.codepen.io/assets/embed/ei.js",
+    "https://public.codepenassets.com/embed/index.js",
+    "https://www.dataprivacyframework.gov/list",
+    "https://github.com/jkwakman/Open-Cookie-Database",
+    "https://raw.githubusercontent.com/jkwakman/Open-Cookie-Database/master/open-cookie-database.csv",
+    "https://wordpress.org/plugins/codepen-embed-block/",
+    "https://plugins.svn.wordpress.org/codepen-embed-block/trunk/plugin.php",
+    "https://wordpress.org/plugins/codepen-embedded-pen-shortcode/",
+    "https://plugins.svn.wordpress.org/codepen-embedded-pen-shortcode/trunk/codepen.php"
+  ],
+  "checked": "2026-11-10"
+}

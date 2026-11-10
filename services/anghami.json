@@ -1,0 +1,39 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "anghami",
+  "version": 1,
+  "name": "Anghami",
+  "provider": "",
+  "category": "media",
+  "purpose": "Plays embedded audio.",
+  "privacyUrl": "https://www.anghami.com/legal",
+  "dataCountry": "EU (Ireland)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "widget.anghami.com"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "audio",
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://www.anghami.com/legal",
+    "https://www.anghami.com/embed",
+    "https://api.anghami.com/rest/v1/oembed.view?url=https%3A%2F%2Fplay.anghami.com%2Fartist%2F48826&format=json",
+    "https://widget.anghami.com/artist/48826",
+    "https://widget.anghami.com/playlist/5890887",
+    "https://www.dataprivacyframework.gov/list",
+    "https://raw.githubusercontent.com/jkwakman/Open-Cookie-Database/master/open-cookie-database.csv",
+    "https://developer.wordpress.org/reference/classes/wp_oembed/__construct/"
+  ],
+  "checked": "2026-11-10"
+}

@@ -1,0 +1,63 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "account-engagement",
+  "version": 1,
+  "name": "Marketing Cloud Account Engagement",
+  "provider": "Salesforce, Inc.",
+  "category": "marketing",
+  "purpose": "Tracks visits for marketing campaigns.",
+  "privacyUrl": "https://www.salesforce.com/company/legal/privacy/",
+  "dataCountry": "USA (EU-US Data Privacy Framework) and other countries",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "pi.pardot.com",
+      "cdn.pardot.com/pd.js",
+      "go.pardot.com"
+    ],
+    "inline": [
+      "piHostname",
+      ".pardot.com/pd.js",
+      "piAId ="
+    ]
+  },
+  "cookies": [
+    {
+      "name": "pi_opt_in*",
+      "lifetime": "1 year",
+      "purpose": "Remembers the visitor's tracking choice."
+    },
+    {
+      "name": "pardot",
+      "lifetime": "Session",
+      "purpose": "Maintains the active session."
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "form",
+  "wordpress": {
+    "plugins": [
+      "pardot/pardot.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://help.salesforce.com/s/articleView?id=000312312&language=en_US&type=1",
+    "https://help.salesforce.com/s/articleView?id=000381493&language=en_US&type=1",
+    "https://help.salesforce.com/s/articleView?id=sf.pardot_basics_cookies.htm&language=en_US&type=5",
+    "https://help.salesforce.com/s/articleView?id=mktg.pardot_admin_max_cookie_duration.htm&language=en_US&type=5",
+    "https://help.salesforce.com/s/articleView?id=sf.pardot_admin_tracker_domain_parent.htm&language=en_US&type=5",
+    "https://www.salesforce.com/company/legal/privacy/",
+    "https://www.salesforce.com/content/dam/web/en_us/www/documents/legal/Agreements/data-processing-addendum.pdf",
+    "https://www.salesforce.com/en-us/wp-content/uploads/sites/4/documents/legal/misc/salesforce-infrastructure-and-subprocessors.pdf",
+    "https://pi.pardot.com/pd.js",
+    "https://wordpress.org/plugins/pardot/",
+    "https://plugins.svn.wordpress.org/pardot/trunk/pardot.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}
