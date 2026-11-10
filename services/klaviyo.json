@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "klaviyo",
-  "version": 3,
+  "version": 4,
   "name": "Klaviyo",
   "provider": "Klaviyo, Inc.",
   "category": "marketing",
@@ -35,7 +35,11 @@
     "plugins": [
       "klaviyo/klaviyo.php"
     ],
-    "handles": []
+    "handles": [
+      "kl-identify-browser",
+      "wck_viewed_product",
+      "wck_started_checkout"
+    ]
   },
   "sources": [
     "https://privacy.klaviyo.com/policies/?name=klaviyo-privacy-policy",
@@ -44,7 +48,8 @@
     "https://wordpress.org/plugins/klaviyo/",
     "https://www.dataprivacyframework.gov/list",
     "https://www.klaviyo.com/legal/privacy-faqs",
-    "https://trust.klaviyo.com/"
+    "https://trust.klaviyo.com/",
+    "https://plugins.svn.wordpress.org/klaviyo/trunk/inc/kla-analytics.php"
   ],
-  "checked": "2026-11-06"
+  "checked": "2026-11-10"
 }

@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "gtranslate",
-  "version": 1,
+  "version": 2,
   "name": "GTranslate",
   "provider": "GTranslate Inc.",
   "category": "functional",
@@ -32,7 +32,9 @@
       "gtranslate/gtranslate.php",
       "google-language-translator/google-language-translator.php"
     ],
-    "handles": []
+    "handles": [
+      "gt_widget_script_*"
+    ]
   },
   "sources": [
     "https://gtranslate.io/website-translator-widget",
@@ -49,7 +51,8 @@
     "https://plugins.svn.wordpress.org/google-language-translator/trunk/js/scripts.js",
     "https://wordpress.org/plugins/gtranslate/",
     "https://wordpress.org/plugins/google-language-translator/",
-    "https://www.dataprivacyframework.gov/list"
+    "https://www.dataprivacyframework.gov/list",
+    "https://plugins.svn.wordpress.org/gtranslate/tags/5.0.2/gtranslate.php"
   ],
-  "checked": "2026-10-31"
+  "checked": "2026-11-10"
 }
