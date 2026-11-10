@@ -1359,7 +1359,7 @@
     "machine": true
   },
   "stamped": {
-    "purpose": "Affiche les avis des clients.",
+    "purpose": "Affiche des avis et mesure les ventes qu'ils génèrent.",
     "cookies": {
       "stamped-launcher-opened": "Évite de compter deux fois la même ouverture du bouton.",
       "stamped-user-reviews": "Mémorise les produits évalués par le visiteur."
@@ -1675,7 +1675,7 @@
     "machine": true
   },
   "yotpo": {
-    "purpose": "Affiche les avis et notes des clients.",
+    "purpose": "Affiche des avis et mesure les ventes qu'ils génèrent.",
     "machine": true
   },
   "youcanbookme": {

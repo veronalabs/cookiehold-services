@@ -1359,7 +1359,7 @@
     "machine": true
   },
   "stamped": {
-    "purpose": "Toont klantbeoordelingen.",
+    "purpose": "Toont reviews en meet de verkopen die ze opleveren.",
     "cookies": {
       "stamped-launcher-opened": "Voorkomt dat dezelfde opening van de knop opnieuw wordt geteld.",
       "stamped-user-reviews": "Onthoudt producten die de bezoeker heeft beoordeeld."
@@ -1675,7 +1675,7 @@
     "machine": true
   },
   "yotpo": {
-    "purpose": "Toont klantbeoordelingen en scores.",
+    "purpose": "Toont reviews en meet de verkopen die ze opleveren.",
     "machine": true
   },
   "youcanbookme": {

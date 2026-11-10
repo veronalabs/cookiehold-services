@@ -11,10 +11,11 @@
   "legalBasis": "consent",
   "match": {
     "hosts": [
-      "ko-fi.com"
+      "storage.ko-fi.com/cdn/"
     ],
     "inline": [
-      "kofiWidgetOverlay.draw("
+      "kofiWidgetOverlay.draw(",
+      "kofiwidget2.init("
     ]
   },
   "cookies": [],
@@ -41,7 +42,8 @@
     "https://plugins.svn.wordpress.org/ko-fi-button/trunk/Ko_fi.php",
     "https://plugins.svn.wordpress.org/ko-fi-button/trunk/class-ko-fi.php",
     "https://raw.githubusercontent.com/jkwakman/Open-Cookie-Database/master/open-cookie-database.csv",
-    "https://www.dataprivacyframework.gov/list"
+    "https://www.dataprivacyframework.gov/list",
+    "https://plugins.svn.wordpress.org/ko-fi-button/trunk/js/widget.js"
   ],
   "checked": "2026-11-10"
 }

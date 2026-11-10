@@ -5,7 +5,7 @@
   "name": "Yotpo Reviews",
   "provider": "Yotpo Ltd.",
   "category": "media",
-  "purpose": "Shows customer reviews and ratings.",
+  "purpose": "Shows reviews and measures review-led sales.",
   "privacyUrl": "https://www.yotpo.com/privacy-policy/",
   "dataCountry": "USA, Israel, UK, EU, Australia, Philippines and other locations",
   "legalBasis": "consent",
