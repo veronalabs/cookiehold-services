@@ -1,0 +1,93 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "tealium",
+  "version": 1,
+  "name": "Tealium iQ Tag Management",
+  "provider": "",
+  "category": "statistics",
+  "purpose": "Loads and manages website tags.",
+  "privacyUrl": "https://tealium.com/privacy-notice/",
+  "dataCountry": "",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "tags.tiqcdn.com",
+      "tags-eu.tiqcdn.com",
+      "tags.tiqcdn.cn"
+    ],
+    "inline": [
+      "tags.tiqcdn.com/utag/",
+      "tags-eu.tiqcdn.com/utag/",
+      "tags.tiqcdn.cn/utag/"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "utag_main",
+      "lifetime": "1 year",
+      "purpose": "Remembers visitor and session information."
+    },
+    {
+      "name": "utag_main__sn",
+      "lifetime": "1 year",
+      "purpose": "Counts a visitor's visits."
+    },
+    {
+      "name": "utag_main__se",
+      "lifetime": "30 minutes",
+      "purpose": "Counts events during a visit."
+    },
+    {
+      "name": "utag_main__ss",
+      "lifetime": "30 minutes",
+      "purpose": "Marks the first page of a visit."
+    },
+    {
+      "name": "utag_main__st",
+      "lifetime": "30 minutes",
+      "purpose": "Records when the visit expires."
+    },
+    {
+      "name": "utag_main__pn",
+      "lifetime": "30 minutes",
+      "purpose": "Counts pages viewed during a visit."
+    },
+    {
+      "name": "utag_main_ses_id",
+      "lifetime": "30 minutes",
+      "purpose": "Records when the visit began."
+    },
+    {
+      "name": "utag_main_v_id",
+      "lifetime": "1 year",
+      "purpose": "Tells visitors apart."
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "tealium/tealium.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://tealium.com/privacy-notice/",
+    "https://docs.tealium.com/platforms/getting-started-web/quick-start/",
+    "https://docs.tealium.com/iq-tag-management/save-publish/publish-configuration/",
+    "https://docs.tealium.com/iq-tag-management/getting-started/install/load-utag-china/",
+    "https://docs.tealium.com/iq-tag-management/getting-started/how-tealium-iq-works/",
+    "https://docs.tealium.com/iq-tag-management/data-layer/cookies/",
+    "https://docs.tealium.com/platforms/javascript/settings/",
+    "https://tealium.com/",
+    "https://tags.tiqcdn.com/utag/tealium/main/prod/utag.js",
+    "https://wordpress.org/plugins/tealium/",
+    "https://plugins.svn.wordpress.org/tealium/trunk/tealium.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

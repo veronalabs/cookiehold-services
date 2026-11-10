@@ -1,0 +1,52 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "scorecard-research",
+  "version": 1,
+  "name": "ScorecardResearch",
+  "provider": "Comscore B.V.",
+  "category": "marketing",
+  "purpose": "Measures website audiences.",
+  "privacyUrl": "https://www.scorecardresearch.com/privacy.aspx",
+  "dataCountry": "",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "sb.scorecardresearch.com",
+      "b.scorecardresearch.com"
+    ],
+    "inline": [
+      "_comscore.push(",
+      "COMSCORE.beacon(",
+      ".scorecardresearch.com/beacon.js"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "_scor_uid",
+      "lifetime": "390 days",
+      "purpose": "Tells visitors apart for audience measurement."
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://www.scorecardresearch.com/home.aspx",
+    "https://www.scorecardresearch.com/privacy.aspx",
+    "https://www.comscore.com/About/Privacy",
+    "https://mymetrix-support.comscore.com/hc/en-us/article_attachments/31260194916891",
+    "https://sb.scorecardresearch.com/beacon.js",
+    "https://www.comscore.com/About-comScore/Privacy-Policy",
+    "https://www.dataprivacyframework.gov/list",
+    "https://wordpress.org/plugins/comscore-tag/",
+    "https://plugins.svn.wordpress.org/comscore-tag/trunk/comscore-tag.php"
+  ],
+  "checked": "2026-11-10"
+}

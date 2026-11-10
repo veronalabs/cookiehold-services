@@ -1,0 +1,63 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "snowplow",
+  "version": 1,
+  "name": "Snowplow",
+  "provider": "",
+  "category": "statistics",
+  "purpose": "Measures visits and site activity.",
+  "privacyUrl": "https://snowplow.io/privacy-policy",
+  "dataCountry": "",
+  "legalBasis": "consent",
+  "match": {
+    "inline": [
+      "GlobalSnowplowNamespace"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "_sp_id.*",
+      "lifetime": "2 years",
+      "purpose": "Tells visitors apart."
+    },
+    {
+      "name": "_sp_ses.*",
+      "lifetime": "30 minutes",
+      "purpose": "Keeps the current visit."
+    },
+    {
+      "name": "_sp_root_domain_test_*",
+      "lifetime": "Deleted after check",
+      "purpose": "Checks which domain can store cookies."
+    }
+  ],
+  "storage": [
+    "_sp_id.*",
+    "_sp_ses.*",
+    "snowplowOutQueue_*",
+    "_sp_tab_id"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://docs.snowplow.io/docs/sources/web-trackers/quick-start-guide/",
+    "https://docs.snowplow.io/docs/sources/web-trackers/cookies-and-local-storage/",
+    "https://snowplow.io/privacy-policy",
+    "https://docs.snowplow.io/docs/get-started/",
+    "https://docs.snowplow.io/docs/sources/web-trackers/tracker-setup/hosting-the-javascript-tracker/third-party-cdn-hosting/",
+    "https://cdn.jsdelivr.net/npm/@snowplow/javascript-tracker@latest/dist/sp.js",
+    "https://cdn.jsdelivr.net/npm/@snowplow/javascript-tracker@latest/package.json",
+    "https://cdn.jsdelivr.net/npm/@snowplow/javascript-tracker@4.10.3/dist/sp.js",
+    "https://wordpress.org/plugins/search/snowplow/",
+    "https://www.dataprivacyframework.gov/list",
+    "https://dpfapi.azurewebsites.net/api/participants"
+  ],
+  "checked": "2026-11-10"
+}

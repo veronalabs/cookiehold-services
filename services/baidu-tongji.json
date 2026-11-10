@@ -1,0 +1,82 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "baidu-tongji",
+  "version": 1,
+  "name": "Baidu Tongji (百度统计)",
+  "provider": "Beijing Baidu Netcom Science and Technology Co., Ltd.",
+  "category": "statistics",
+  "purpose": "Measures visits and visitor behaviour.",
+  "privacyUrl": "https://tongji.baidu.com/web/help/article?id=330&type=0",
+  "dataCountry": "China",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "hm.baidu.com"
+    ],
+    "inline": [
+      "var _hmt = _hmt || [];",
+      "hm.baidu.com/hm.js?"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "Hm_lvt_*",
+      "lifetime": "1 year",
+      "purpose": "Records previous visit times."
+    },
+    {
+      "name": "Hm_lpvt_*",
+      "lifetime": "Session",
+      "purpose": "Records the latest page view time."
+    },
+    {
+      "name": "Hm_up_*",
+      "lifetime": "1 year",
+      "purpose": "Stores visitor properties."
+    },
+    {
+      "name": "Hm_cv_*",
+      "lifetime": "1 year",
+      "purpose": "Stores custom visitor variables."
+    },
+    {
+      "name": "HMACCOUNT",
+      "lifetime": "Session (until 2038 on Baidu)",
+      "purpose": "Tells visitors apart."
+    },
+    {
+      "name": "Hm_ck_*",
+      "lifetime": "Deleted after check",
+      "purpose": "Checks that cookies work."
+    }
+  ],
+  "storage": [
+    "Hm_lvt_*",
+    "Hm_lpvt_*",
+    "Hm_up_*",
+    "Hm_cv_*",
+    "HMACCOUNT",
+    "Hm_unsent_*",
+    "Hm_ab_*",
+    "Hm_clear_cookie_*"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://tongji.baidu.com/web/help/article?id=330&type=0",
+    "https://tongji.baidu.com/web/help/article?id=174&type=0",
+    "https://tongji.baidu.com/holmes/Tongji/统计开放手册/JS%20API部署说明/代码部署",
+    "https://hm.baidu.com/hm.js?41fc030db57d5570dd22f78997dc4a7e",
+    "https://www.dataprivacyframework.gov/list",
+    "https://wordpress.org/plugins/baidu-tongji-generator/",
+    "https://plugins.svn.wordpress.org/baidu-tongji-generator/trunk/"
+  ],
+  "checked": "2026-11-10"
+}

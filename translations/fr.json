@@ -61,6 +61,17 @@
     "purpose": "Charge les polices du site depuis Adobe.",
     "machine": true
   },
+  "adobe-launch": {
+    "purpose": "Charge les autres balises du site.",
+    "machine": true
+  },
+  "akamai-mpulse": {
+    "purpose": "Mesure les performances du site.",
+    "cookies": {
+      "BOOMR_CONSENT": "Mémorise le consentement à la mesure des performances."
+    },
+    "machine": true
+  },
   "algolia": {
     "purpose": "Propose une recherche sur le site.",
     "cookies": {
@@ -94,6 +105,10 @@
   },
   "animoto": {
     "purpose": "Affiche des vidéos embarquées.",
+    "machine": true
+  },
+  "appcues": {
+    "purpose": "Affiche des visites guidées et des conseils de prise en main.",
     "machine": true
   },
   "apple-mapkit": {
@@ -156,6 +171,18 @@
       "ServerAwinChannelCookie": "Mémorise le canal par lequel le visiteur est arrivé.",
       "AWSESS": "Évite d’afficher à nouveau la même publicité.",
       "awpv*": "Enregistre qu’une publicité a été vue."
+    },
+    "machine": true
+  },
+  "baidu-tongji": {
+    "purpose": "Mesure les visites et le comportement des visiteurs.",
+    "cookies": {
+      "Hm_lvt_*": "Enregistre les heures des visites précédentes.",
+      "Hm_lpvt_*": "Enregistre l’heure de la dernière page vue.",
+      "Hm_up_*": "Stocke les propriétés du visiteur.",
+      "Hm_cv_*": "Stocke des variables personnalisées du visiteur.",
+      "HMACCOUNT": "Distingue les visiteurs.",
+      "Hm_ck_*": "Vérifie que les cookies fonctionnent."
     },
     "machine": true
   },
@@ -229,6 +256,19 @@
     "purpose": "Affiche un calendrier de réservation embarqué.",
     "machine": true
   },
+  "callrail": {
+    "purpose": "Suit les campagnes marketing qui génèrent des appels.",
+    "machine": true
+  },
+  "calltrackingmetrics": {
+    "purpose": "Suit les campagnes marketing qui génèrent des appels.",
+    "cookies": {
+      "__ctmid": "Distingue les visiteurs.",
+      "__ctmdd": "Mémorise les sources marketing initiales.",
+      "ctm_session_id": "Associe les données du formulaire à la visite suivie."
+    },
+    "machine": true
+  },
   "campaign-monitor": {
     "purpose": "Affiche des formulaires d’inscription par e-mail.",
     "cookies": {
@@ -253,6 +293,25 @@
     "cookies": {
       "chaport-*": "Reconnaît les visiteurs qui reviennent dans la discussion.",
       "wsc_*": "Conserve les données de discussion si le stockage du navigateur est bloqué."
+    },
+    "machine": true
+  },
+  "chartbeat": {
+    "purpose": "Mesure les visites et les interactions des lecteurs.",
+    "cookies": {
+      "_cb": "Distingue les visiteurs de ce site.",
+      "_chartbeat2": "Reconnaît les nouveaux lecteurs et ceux de retour.",
+      "_cb_svref": "Mémorise la provenance du visiteur.",
+      "_chartbeat4": "Transmet les données d’interaction à la page suivante.",
+      "_chartbeat5": "Transmet les données des liens cliqués à la page suivante.",
+      "_chartbeat6": "Mesure les clics lors des tests de titres et d’images.",
+      "_v__chartbeat3": "Distingue les spectateurs de vidéos.",
+      "_v__cb_cp": "Transmet les données de lecture vidéo à la page suivante.",
+      "_t_tests": "Conserve les choix des tests de titres.",
+      "_SUPERFLY_lockout": "Suspend le suivi après plusieurs requêtes échouées.",
+      "_t__SUPERFLY_lockout": "Suspend le suivi des titres après des requêtes échouées.",
+      "_v__SUPERFLY_lockout": "Suspend le suivi des vidéos après des requêtes échouées.",
+      "_cb_optout": "Mémorise le refus du visiteur d’être suivi."
     },
     "machine": true
   },
@@ -299,6 +358,17 @@
   },
   "cleverreach": {
     "purpose": "Affiche des formulaires d’inscription à la lettre d’information.",
+    "machine": true
+  },
+  "clicky": {
+    "purpose": "Mesure les visites et les conversions.",
+    "cookies": {
+      "_jsuid": "Distingue les visiteurs.",
+      "_heatmaps_g2g_*": "Mémorise si une visite est choisie pour les cartes de chaleur.",
+      "_no_tracky_*": "Réduit les requêtes de suivi pour les visites filtrées.",
+      "_cky_osa": "Authentifie le widget d’analyse du propriétaire sur le site.",
+      "_cky_ignore": "Exclut les visites du propriétaire du site."
+    },
     "machine": true
   },
   "cloudflare-stream": {
@@ -358,6 +428,19 @@
     },
     "machine": true
   },
+  "convert": {
+    "purpose": "Mène des tests A/B et mesure leurs résultats.",
+    "cookies": {
+      "_conv_v": "Mémorise les visites, les versions de test et les objectifs.",
+      "_conv_s": "Conserve la visite en cours et le nombre de pages.",
+      "_conv_r": "Mémorise comment le visiteur est arrivé sur le site.",
+      "_conv_sptest": "Conserve la version du test lors d’une redirection.",
+      "_conv_check_cookies": "Vérifie si le navigateur accepte les cookies.",
+      "_conv_t": "Conserve un jeton de débogage pour les aperçus des tests.",
+      "convert_optout": "Mémorise le refus des tests."
+    },
+    "machine": true
+  },
   "convertbox": {
     "purpose": "Affiche fenêtres contextuelles, formulaires et messages personnalisés.",
     "machine": true
@@ -409,6 +492,15 @@
     },
     "machine": true
   },
+  "datadog-rum": {
+    "purpose": "Mesure les performances et les erreurs du site.",
+    "cookies": {
+      "_dd_s*": "Regroupe les événements d'une visite.",
+      "dd_site_test_*": "Vérifie quel domaine peut stocker des cookies.",
+      "dd_cookie_test_*": "Vérifie que les cookies fonctionnent."
+    },
+    "machine": true
+  },
   "discord-widget": {
     "purpose": "Affiche les membres en ligne d’un serveur Discord.",
     "machine": true
@@ -426,6 +518,23 @@
     "cookies": {
       "_drip_client_*": "Mémorise le visiteur et suit son activité sur le site.",
       "_dripSegment*": "Mémorise les formulaires d’inscription visibles par le visiteur."
+    },
+    "machine": true
+  },
+  "dynatrace": {
+    "purpose": "Mesure les performances du site.",
+    "cookies": {
+      "dtCookie*": "Associe les requêtes d’une même visite.",
+      "dtPC*": "Achemine les données de surveillance et associe les sessions.",
+      "dtSa*": "Associe les actions entre les pages.",
+      "dTValidationCookie*": "Détermine le domaine des cookies.",
+      "rxVisitor*": "Reconnaît les visiteurs de retour.",
+      "rxvt*": "Stocke le délai d’expiration de la session.",
+      "dtsrVID*": "Identifie la page vue enregistrée.",
+      "dtSR*": "Maintient la continuité des enregistrements entre les pages.",
+      "dtUSR_*": "Reconnaît les visiteurs de retour.",
+      "dtSN_*": "Associe les requêtes d’une même session.",
+      "dtCM_*": "Mémorise le choix de consentement à la surveillance."
     },
     "machine": true
   },
@@ -563,6 +672,14 @@
   },
   "fullstory": {
     "purpose": "Enregistrements de session et statistiques d’utilisation.",
+    "machine": true
+  },
+  "gemius": {
+    "purpose": "Mesure l’audience du site.",
+    "cookies": {
+      "__gfp_64b": "Distingue les visiteurs pour mesurer l’audience.",
+      "__gfp_s_64b": "Distingue les visiteurs pour mesurer l’audience."
+    },
     "machine": true
   },
   "getbutton": {
@@ -778,6 +895,13 @@
     "cookies": {},
     "machine": true
   },
+  "inspectlet": {
+    "purpose": "Enregistre les visites pour comprendre l’utilisation du site.",
+    "cookies": {
+      "__insp_*": "Reconnaît les visiteurs et conserve la session d’enregistrement."
+    },
+    "machine": true
+  },
   "instagram-embed": {
     "purpose": "Affiche des publications embarquées.",
     "machine": true
@@ -835,6 +959,16 @@
   },
   "jw-player": {
     "purpose": "Affiche des vidéos embarquées.",
+    "machine": true
+  },
+  "kameleoon": {
+    "purpose": "Teste des versions de pages et mesure leurs résultats.",
+    "cookies": {
+      "kameleoonVisitorCode": "Distingue les visiteurs.",
+      "kameleoonReferrer": "Conserve la page d’origine lors d’une redirection de test.",
+      "KameleoonProducts_session_code": "Identifie une session de recommandations de produits.",
+      "KameleoonProducts_session_last_act": "Enregistre la dernière activité de recommandation de produits."
+    },
     "machine": true
   },
   "kickstarter": {
@@ -951,6 +1085,16 @@
       "LPCID-*": "Récupère les données de conversation.",
       "LPCKEY-*": "Récupère les données de conversation.",
       "lpTestCookie*": "Vérifie si le navigateur accepte les cookies."
+    },
+    "machine": true
+  },
+  "logrocket": {
+    "purpose": "Enregistre les visites pour les rejouer.",
+    "cookies": {
+      "_lr_tabs_*": "Maintient les sessions liées entre les onglets.",
+      "_lr_hb_*": "Vérifie l’activité de la session entre les onglets.",
+      "_lr5_": "Conserve les données de session si le stockage est indisponible.",
+      "_lr_rd_": "Vérifie le domaine des cookies."
     },
     "machine": true
   },
@@ -1156,6 +1300,14 @@
     "purpose": "Charge des polices sous licence et compte les pages vues.",
     "machine": true
   },
+  "new-relic": {
+    "purpose": "Mesure les performances du site.",
+    "cookies": {
+      "NREUM": "Mesure le temps de chargement dans les anciens navigateurs.",
+      "NRAGENT": "Associe les traces de performance du navigateur et du serveur."
+    },
+    "machine": true
+  },
   "olark": {
     "purpose": "Discussion en direct.",
     "cookies": {
@@ -1273,6 +1425,16 @@
     "purpose": "Affiche des offres de facturation et suit l’utilisation.",
     "machine": true
   },
+  "parsely": {
+    "purpose": "Mesure les visites et les interactions avec le contenu.",
+    "cookies": {
+      "_parsely_visitor": "Distingue les visiteurs et compte leurs sessions.",
+      "_parsely_session": "Conserve la session de navigation en cours.",
+      "_parsely_tpa_blocked": "Mémorise si les requêtes d’analyse sont bloquées.",
+      "_parsely_slot_click": "Enregistre la position d’un lien interne cliqué."
+    },
+    "machine": true
+  },
   "paypal": {
     "purpose": "Traite les paiements PayPal et prévient la fraude.",
     "cookies": {
@@ -1287,8 +1449,37 @@
     "purpose": "Mesure les achats sur ce site pour le marketing de PayPal.",
     "machine": true
   },
+  "pendo": {
+    "purpose": "Mesure l’utilisation du site par les visiteurs.",
+    "cookies": {
+      "_pendo_meta.*": "Détecte les changements des métadonnées du visiteur.",
+      "_pendo_accountId.*": "Identifie le compte du visiteur.",
+      "_pendo_visitorId.*": "Distingue les visiteurs.",
+      "_pendo_lastStepAdvanced.*": "Mémorise la progression dans les guides.",
+      "_pendo_latestDismissedAutoAt.*": "Mémorise quand un guide a été fermé.",
+      "_pendo_guides_blocked.*": "Évite les requêtes répétées pour les guides bloqués.",
+      "_pendo_launcher-closed.*": "Mémorise la fermeture du lanceur de guides."
+    },
+    "machine": true
+  },
   "phorest": {
     "purpose": "Permet aux visiteurs de réserver en ligne un rendez-vous au salon.",
+    "machine": true
+  },
+  "piano-analytics": {
+    "purpose": "Mesure les visites et les conversions.",
+    "cookies": {
+      "_pcid": "Distingue les visiteurs.",
+      "_pctx": "Partage le contexte entre les scripts Piano.",
+      "_pprv": "Mémorise le choix de consentement du visiteur.",
+      "pa_user": "Mémorise les informations d’un utilisateur connecté.",
+      "pa_vid": "Distingue les visiteurs dans les anciennes versions.",
+      "pa_privacy": "Mémorise le choix de confidentialité dans les anciennes versions.",
+      "atuserid": "Conserve l’identifiant du visiteur lors de la migration depuis SmartTag.",
+      "idrxvr": "Distingue les visiteurs par un identifiant défini par le serveur.",
+      "atidx": "Distingue les visiteurs par un identifiant défini par le serveur.",
+      "atid": "Distingue les visiteurs par un identifiant défini par le serveur."
+    },
     "machine": true
   },
   "pinterest-embed": {
@@ -1417,6 +1608,16 @@
     },
     "machine": true
   },
+  "quantum-metric": {
+    "purpose": "Rejoue les visites pour aider à améliorer le site.",
+    "cookies": {
+      "QuantumMetricSessionID": "Regroupe les activités dans une visite.",
+      "QuantumMetricUserID": "Distingue les visiteurs.",
+      "qm-rc": "Vérifie quel domaine peut stocker des cookies.",
+      "QuantumMetricEnabled": "Mémorise le choix d’arrêter le suivi."
+    },
+    "machine": true
+  },
   "quora-pixel": {
     "purpose": "Mesure les publicités Quora.",
     "machine": true
@@ -1460,6 +1661,13 @@
     "purpose": "Identifie les entreprises qui visitent le site.",
     "machine": true
   },
+  "scorecard-research": {
+    "purpose": "Mesure l’audience du site.",
+    "cookies": {
+      "_scor_uid": "Distingue les visiteurs pour mesurer l’audience."
+    },
+    "machine": true
+  },
   "scribd": {
     "purpose": "Affiche des documents embarqués.",
     "machine": true
@@ -1479,6 +1687,10 @@
   },
   "senja": {
     "purpose": "Affiche des témoignages clients et des avis vidéo.",
+    "machine": true
+  },
+  "sentry": {
+    "purpose": "Suit les erreurs du site.",
     "machine": true
   },
   "setmore": {
@@ -1518,6 +1730,10 @@
   },
   "shortpixel-cdn": {
     "purpose": "Fournit plus vite les images du site.",
+    "machine": true
+  },
+  "simple-analytics": {
+    "purpose": "Mesure les visites sans cookies.",
     "machine": true
   },
   "simplybook": {
@@ -1576,6 +1792,15 @@
     },
     "machine": true
   },
+  "snowplow": {
+    "purpose": "Mesure les visites et l’activité du site.",
+    "cookies": {
+      "_sp_id.*": "Distingue les visiteurs.",
+      "_sp_ses.*": "Conserve la visite en cours.",
+      "_sp_root_domain_test_*": "Vérifie quel domaine peut stocker des cookies."
+    },
+    "machine": true
+  },
   "soundcloud": {
     "purpose": "Lit de l’audio embarqué.",
     "machine": true
@@ -1597,6 +1822,14 @@
   },
   "spreaker": {
     "purpose": "Lit des épisodes de podcast embarqués.",
+    "machine": true
+  },
+  "statcounter": {
+    "purpose": "Mesure les visites et l’activité des visiteurs.",
+    "cookies": {
+      "sc_is_visitor_unique": "Distingue les visiteurs et compte les visites de retour.",
+      "sc_session_fallback": "Conserve les réglages de suivi si le stockage de session échoue."
+    },
     "machine": true
   },
   "stay22": {
@@ -1664,6 +1897,20 @@
       "tawk_uuid_*": "Reconnaît les visiteurs de la discussion qui reviennent.",
       "twk_idm_key": "Limite les demandes répétées de connexion à la discussion.",
       "TawkConnectionTime": "Gère la connexion à la discussion entre les onglets."
+    },
+    "machine": true
+  },
+  "tealium": {
+    "purpose": "Charge et gère les balises du site.",
+    "cookies": {
+      "utag_main": "Mémorise les informations du visiteur et de la session.",
+      "utag_main__sn": "Compte les visites d’un visiteur.",
+      "utag_main__se": "Compte les événements pendant une visite.",
+      "utag_main__ss": "Marque la première page d’une visite.",
+      "utag_main__st": "Enregistre l’heure d’expiration de la visite.",
+      "utag_main__pn": "Compte les pages vues pendant une visite.",
+      "utag_main_ses_id": "Enregistre le début de la visite.",
+      "utag_main_v_id": "Distingue les visiteurs."
     },
     "machine": true
   },
@@ -1776,6 +2023,10 @@
     },
     "machine": true
   },
+  "umami-cloud": {
+    "purpose": "Mesure les visites sans cookies.",
+    "machine": true
+  },
   "unbounce": {
     "purpose": "Affiche des fenêtres surgissantes et des barres fixes.",
     "machine": true
@@ -1880,6 +2131,16 @@
       "wglang": "Mémorise la langue préférée.",
       "wg_checkout_*": "Conserve la langue lors du paiement sur Shopify.",
       "wg-private-mode": "Mémorise le mode d’aperçu des traductions."
+    },
+    "machine": true
+  },
+  "whatconverts": {
+    "purpose": "Suit les campagnes marketing qui génèrent des appels.",
+    "cookies": {
+      "wc_visitor": "Distingue les visiteurs.",
+      "wc_client": "Mémorise la première source marketing.",
+      "wc_client_current": "Mémorise la dernière source marketing.",
+      "wc_swap": "Mémorise les numéros de téléphone de suivi affichés."
     },
     "machine": true
   },

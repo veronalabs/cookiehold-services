@@ -1,0 +1,69 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "calltrackingmetrics",
+  "version": 1,
+  "name": "CTM",
+  "provider": "Call Tracking Metrics LLC",
+  "category": "marketing",
+  "purpose": "Tracks which marketing campaigns lead to calls.",
+  "privacyUrl": "https://www.ctm.com/legal/privacy/",
+  "dataCountry": "USA and EU; other countries",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "tctm.co",
+      "tctm.de"
+    ],
+    "inline": [
+      "__ctm.main.runNow("
+    ]
+  },
+  "cookies": [
+    {
+      "name": "__ctmid",
+      "lifetime": "30 days",
+      "purpose": "Tells visitors apart."
+    },
+    {
+      "name": "__ctmdd",
+      "lifetime": "30 days",
+      "purpose": "Remembers original marketing sources."
+    },
+    {
+      "name": "ctm_session_id",
+      "lifetime": "1 hour",
+      "purpose": "Links form entries to the tracked visit."
+    }
+  ],
+  "storage": [
+    "__ctm*",
+    "_ctm_*",
+    "ctm_session_id"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "call-tracking-metrics/call-tracking-metrics.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.ctm.com/legal/privacy/",
+    "https://www.ctm.com/blog/company/press/ctm-2026-rebrand-announcement/",
+    "https://calltrackingmetrics.zendesk.com/hc/en-us/articles/6280423583757-Installing-the-CTM-Tracking-Code-on-Your-Site",
+    "https://calltrackingmetrics.zendesk.com/hc/en-us/articles/6340641606413-Tracking-Code-Cookies",
+    "https://161383.tctm.co/t.js",
+    "https://cdn.tctm.co/t.js",
+    "https://my.ctm.com/hubfs/White%20Papers/2026%20CTM%20Security-Privacy.pdf",
+    "https://www.ctm.com/",
+    "https://plugins.svn.wordpress.org/call-tracking-metrics/trunk/",
+    "https://plugins.svn.wordpress.org/call-tracking-metrics/trunk/call-tracking-metrics.php",
+    "https://wordpress.org/plugins/call-tracking-metrics/",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

@@ -1,0 +1,66 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "gemius",
+  "version": 1,
+  "name": "Gemius",
+  "provider": "Gemius S.A.",
+  "category": "statistics",
+  "purpose": "Measures website audiences.",
+  "privacyUrl": "https://gemius.com/privacy-policy/cookie-policy/",
+  "dataCountry": "",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "pro.hit.gemius.pl"
+    ],
+    "inline": [
+      "function gemius_pending(i)",
+      "var gemius_identifier"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "__gfp_64b",
+      "lifetime": "395 days",
+      "purpose": "Tells visitors apart for audience measurement."
+    },
+    {
+      "name": "__gfp_s_64b",
+      "lifetime": "395 days",
+      "purpose": "Tells visitors apart for audience measurement."
+    }
+  ],
+  "storage": [
+    "gstorage",
+    "gaddstorage"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "gemius-for-wordpress/gemius.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://gemius.com/privacy-policy/cookie-policy/",
+    "https://gemius.com/",
+    "https://audience.gemius.com/en/",
+    "https://audience.gemius.com/en/methodology/overview/",
+    "https://gemius.com/privacy-policy/introduction/",
+    "https://gemius.com/privacy-policy/privacy-policy-for-the-use-of-gemius-products/",
+    "https://gemius.com/privacy-policy/privacy-policy-for-panelists-the-policy/",
+    "https://audience.gemius.com/en/company/privacy-policy/",
+    "https://privacypolicy.gemius.com/en/",
+    "https://pro.hit.gemius.pl/gemius.js",
+    "https://ls.hit.gemius.pl/lsget.html",
+    "https://www.dataprivacyframework.gov/list",
+    "https://wordpress.org/plugins/gemius-for-wordpress/",
+    "https://plugins.svn.wordpress.org/gemius-for-wordpress/trunk/",
+    "https://plugins.svn.wordpress.org/gemius-for-wordpress/trunk/gemius.php"
+  ],
+  "checked": "2026-11-10"
+}

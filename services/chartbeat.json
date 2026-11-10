@@ -1,0 +1,135 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "chartbeat",
+  "version": 1,
+  "name": "Chartbeat",
+  "provider": "Chartbeat, Inc.",
+  "category": "statistics",
+  "purpose": "Measures visits and reader engagement.",
+  "privacyUrl": "https://chartbeat.com/privacy/",
+  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "static.chartbeat.com",
+      "ping.chartbeat.net"
+    ],
+    "inline": [
+      "_sf_async_config",
+      "loadChartbeat()"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "_cb",
+      "lifetime": "395 days",
+      "purpose": "Tells visitors apart on this site."
+    },
+    {
+      "name": "_chartbeat2",
+      "lifetime": "395 days",
+      "purpose": "Recognises new and returning readers."
+    },
+    {
+      "name": "_cb_svref",
+      "lifetime": "30 minutes",
+      "purpose": "Remembers where the visitor came from."
+    },
+    {
+      "name": "_chartbeat4",
+      "lifetime": "1 minute",
+      "purpose": "Carries engagement data to the next page."
+    },
+    {
+      "name": "_chartbeat5",
+      "lifetime": "1 minute",
+      "purpose": "Carries clicked-link data to the next page."
+    },
+    {
+      "name": "_chartbeat6",
+      "lifetime": "1 minute",
+      "purpose": "Measures clicks on headline and image tests."
+    },
+    {
+      "name": "_v__chartbeat3",
+      "lifetime": "395 days",
+      "purpose": "Tells video viewers apart."
+    },
+    {
+      "name": "_v__cb_cp",
+      "lifetime": "1 minute",
+      "purpose": "Carries video-view data to the next page."
+    },
+    {
+      "name": "_t_tests",
+      "lifetime": "1 hour",
+      "purpose": "Keeps headline test choices consistent."
+    },
+    {
+      "name": "_SUPERFLY_lockout",
+      "lifetime": "10 minutes",
+      "purpose": "Pauses tracking after repeated failed requests."
+    },
+    {
+      "name": "_t__SUPERFLY_lockout",
+      "lifetime": "10 minutes",
+      "purpose": "Pauses headline tracking after failed requests."
+    },
+    {
+      "name": "_v__SUPERFLY_lockout",
+      "lifetime": "10 minutes",
+      "purpose": "Pauses video tracking after failed requests."
+    },
+    {
+      "name": "_cb_optout",
+      "lifetime": "395 days",
+      "purpose": "Remembers the visitor's tracking opt-out."
+    }
+  ],
+  "storage": [
+    "_cb",
+    "_cb_expires",
+    "_cb_svref*",
+    "_chartbeat2*",
+    "_chartbeat4*",
+    "_chartbeat5*",
+    "_v__chartbeat3*",
+    "_v__cb_cp*",
+    "_t_tests*",
+    "_SUPERFLY_lockout*",
+    "_t__SUPERFLY_lockout*",
+    "_v__SUPERFLY_lockout*",
+    "_cb_ls_test"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "chartbeat/chartbeat.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://chartbeat.com/privacy/",
+    "https://help.chartbeat.com/hc/en-us/articles/360044659014-Chartbeat-Cookies",
+    "https://docs.chartbeat.com/cbp/tracking/standard-websites/our-javascript",
+    "https://docs.chartbeat.com/cbp/tracking/standard-websites/our-javascript.md",
+    "https://docs.chartbeat.com/cbp/tracking/standard-websites/alternative-integrations-web.md",
+    "https://docs.chartbeat.com/cbp/feature-integrations/testing.md",
+    "https://docs.chartbeat.com/cbp/feature-integrations/testing/homepage-testing-code.md",
+    "https://docs.chartbeat.com/cbp/feature-integrations/testing/mabjs-specifications.md",
+    "https://docs.chartbeat.com/cbp/feature-integrations/video-engagement.md",
+    "https://docs.chartbeat.com/cbp/feature-integrations/video-engagement/adding-videojs-to-your-site.md",
+    "https://static.chartbeat.com/js/chartbeat.js",
+    "https://static.chartbeat.com/js/chartbeat_video.js",
+    "https://static.chartbeat.com/js/chartbeat_mab.js",
+    "https://www.dataprivacyframework.gov/list",
+    "https://wordpress.org/plugins/chartbeat/",
+    "https://plugins.svn.wordpress.org/chartbeat/trunk/",
+    "https://plugins.svn.wordpress.org/chartbeat/trunk/chartbeat.php"
+  ],
+  "checked": "2026-11-10"
+}

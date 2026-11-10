@@ -1,0 +1,64 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "akamai-mpulse",
+  "version": 1,
+  "name": "Akamai mPulse",
+  "provider": "",
+  "category": "statistics",
+  "purpose": "Measures website performance.",
+  "privacyUrl": "https://www.akamai.com/legal/privacy-statement",
+  "dataCountry": "EU and USA",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "go-mpulse.net",
+      "akstat.io",
+      "mpstat.us"
+    ],
+    "inline": [
+      "go-mpulse.net/boomerang/"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "BOOMR_CONSENT",
+      "lifetime": "1 year",
+      "purpose": "Remembers consent to performance measurement."
+    }
+  ],
+  "storage": [
+    "_boomr_LOGN",
+    "_boomr_akamaiXhrRetry"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "mpulse-real-user-measurement/mpulse-real-user-measurement.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.akamai.com/legal/privacy-statement",
+    "https://www.akamai.com/site/en/documents/white-paper/mpulse-service-compliance-with-global-privacy-requirements.pdf",
+    "https://www.akamai.com/site/en/documents/corporate/2024/akamai-services-data-flows-risks.pdf",
+    "https://techdocs.akamai.com/mpulse-boomerang/docs/implementation",
+    "https://techdocs.akamai.com/mpulse-boomerang/docs/implementation.md",
+    "https://techdocs.akamai.com/mpulse-boomerang/docs/content-security-policy-csp.md",
+    "https://techdocs.akamai.com/mpulse-boomerang/docs/problems.md",
+    "https://techdocs.akamai.com/mpulse-boomerang/docs/cookies",
+    "https://techdocs.akamai.com/mpulse-boomerang/docs/local-storage.md",
+    "https://akamai.github.io/boomerang/akamai/tutorial-howto-opt-out-or-opt-in.html",
+    "https://s.go-mpulse.net/boomerang/LJNDE-NVZPR-JZZFD-J7MKS-L78ZZ",
+    "https://raw.githubusercontent.com/akamai/boomerang/master/plugins/rt.js",
+    "https://raw.githubusercontent.com/akamai/boomerang/master/plugins/bw.js",
+    "https://www.dataprivacyframework.gov/list",
+    "https://wordpress.org/plugins/mpulse-real-user-measurement/",
+    "https://plugins.svn.wordpress.org/mpulse-real-user-measurement/trunk/",
+    "https://plugins.svn.wordpress.org/mpulse-real-user-measurement/trunk/mpulse-real-user-measurement.php"
+  ],
+  "checked": "2026-11-10"
+}
