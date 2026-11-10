@@ -1,0 +1,64 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "wufoo",
+  "version": 1,
+  "name": "Wufoo",
+  "provider": "SurveyMonkey Europe UC",
+  "category": "functional",
+  "purpose": "Shows embedded forms.",
+  "privacyUrl": "https://www.surveymonkey.com/mp/legal/privacy/",
+  "dataCountry": "USA (EU-US Data Privacy Framework); other countries",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "wufoo.com/scripts/",
+      "wufoo.com/embed/",
+      "wufoo.com/forms/"
+    ],
+    "inline": [
+      "new WufooForm(",
+      "WufooFormEmbedKit("
+    ]
+  },
+  "cookies": [
+    {
+      "name": "wufooForm",
+      "lifetime": "1 minute",
+      "purpose": "Helps resize embedded forms."
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "form",
+  "wordpress": {
+    "plugins": [
+      "wufoo-shortcode/wufoo.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://help.surveymonkey.com/en/wufoo/share/embed-forms/",
+    "https://wufoo.github.io/docs/",
+    "https://www.wufoo.com/privacy/",
+    "https://www.surveymonkey.com/mp/legal/privacy/",
+    "https://www.wufoo.com/security/",
+    "https://www.surveymonkey.com/mp/legal/subprocessor-list/",
+    "https://help.surveymonkey.com/en/wufoo/account/wufoo-cookies/",
+    "https://www.surveymonkey.com/mp/legal/cookies/",
+    "https://prod.smassets.net/assets/content/sm/Wufoo-Cookies-May-2024.pdf",
+    "https://wufoo.com/scripts/embed/form.js",
+    "https://secure.wufoo.com/scripts/embed/form.js",
+    "https://master.wufoo.com/embed/m7w7z1",
+    "https://static.wufoo.com/scripts/public/dynamic.0767.js?language=english",
+    "https://www.wufoo.com/guides/embed-wufoo-forms-on-wordpress-com/",
+    "https://wordpress.org/plugins/wufoo-shortcode/",
+    "https://plugins.svn.wordpress.org/wufoo-shortcode/trunk/",
+    "https://plugins.svn.wordpress.org/wufoo-shortcode/trunk/wufoo.php",
+    "https://www.dataprivacyframework.gov/list",
+    "https://github.com/jkwakman/Open-Cookie-Database"
+  ],
+  "checked": "2026-11-10"
+}

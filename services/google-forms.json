@@ -1,0 +1,47 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "google-forms",
+  "version": 1,
+  "name": "Google Forms",
+  "provider": "Google Ireland Limited",
+  "category": "functional",
+  "purpose": "Shows embedded forms.",
+  "privacyUrl": "https://policies.google.com/privacy?hl=en&gl=ie",
+  "dataCountry": "USA (EU-US Data Privacy Framework); other countries",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "docs.google.com/forms/"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "form",
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://support.google.com/docs/answer/2839588?hl=en",
+    "https://developers.google.com/workspace/forms/api/guides",
+    "https://workspace.google.com/products/forms/",
+    "https://policies.google.com/privacy?hl=en&gl=ie",
+    "https://policies.google.com/privacy/frameworks?hl=en",
+    "https://www.google.com/about/datacenters/locations/",
+    "https://policies.google.com/technologies/cookies?hl=en",
+    "https://docs.google.com/forms/d/e/1FAIpQLSd0iBLPh4suZoGW938EU1WIxzObQv_jXto0nT2U8HH2KsI5dg/viewform?embedded=true",
+    "https://www.gstatic.com/_/freebird/_/js/k=freebird.v.ru.IS1TzffXa8Q.O/am=AAAAYA/d=1/rs=AMjVe6jBGULEnZNKRNWdkI3E5uvho3oidg/m=viewer_base",
+    "https://wordpress.org/plugins/wpgform/",
+    "https://plugins.svn.wordpress.org/wpgform/trunk/",
+    "https://plugins.svn.wordpress.org/wpgform/trunk/index.php",
+    "https://wordpress.org/plugins/formfacade/",
+    "https://plugins.svn.wordpress.org/formfacade/trunk/",
+    "https://plugins.svn.wordpress.org/formfacade/trunk/formfacade.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

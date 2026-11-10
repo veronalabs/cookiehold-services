@@ -1,0 +1,41 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "carto",
+  "version": 1,
+  "name": "CARTO Basemaps",
+  "provider": "CartoDB Inc.",
+  "category": "media",
+  "purpose": "Shows map tiles.",
+  "privacyUrl": "https://carto.com/privacy/",
+  "dataCountry": "USA (EU-US Data Privacy Framework); global CDN",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "basemaps.cartocdn.com"
+    ],
+    "inline": [
+      "basemaps.cartocdn.com/"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "map",
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://www.carto.com/basemaps/",
+    "https://carto.com/privacy/",
+    "https://www.carto.com/legal/basemap-terms/",
+    "https://raw.githubusercontent.com/CartoDB/basemap-styles/master/README.md",
+    "https://basemaps.cartocdn.com/gl/voyager-gl-style/style.json",
+    "https://www.carto.com/js/carto-static.min.a25d16b1fbebdd19599245af239c5a2779a9180924f192032b714b806ffcc14b.js",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

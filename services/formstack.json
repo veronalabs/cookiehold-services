@@ -1,0 +1,54 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "formstack",
+  "version": 1,
+  "name": "Formstack Forms",
+  "provider": "Intellistack LLC",
+  "category": "functional",
+  "purpose": "Shows embedded forms.",
+  "privacyUrl": "https://www.formstack.com/legal/app-privacy-policy",
+  "dataCountry": "USA (EU-US Data Privacy Framework); other countries",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "formstack.com/forms",
+      "sfapi.formstack.io/FormEngine/"
+    ],
+    "inline": [
+      "fsLightbox"
+    ]
+  },
+  "cookies": [],
+  "storage": [
+    "formstack.analytics.viewed-form.*"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "form",
+  "wordpress": {
+    "plugins": [
+      "formstack/plugin.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.formstack.com/products/online-forms",
+    "https://help.formstack.com/hc/en-us/articles/44592556690579-Link-and-Embed-Published-Forms",
+    "https://help.formstack.com/hc/en-us/articles/44593253708435-How-to-Embed-a-Form-in-React-Apps",
+    "https://help.formstack.com/hc/en-us/articles/44592517640595-Editing-your-Lightbox-embed-code",
+    "https://help.formstack.com/hc/en-us/articles/44592619665683-Advanced-Prefill-for-Salesforce",
+    "https://pro-services-demos.formstack.com/forms/js.php/embedded_form_test?useDynamicRendering=true",
+    "https://static.formstack.com/forms/forms-renderer/builds/public/form_0eaf9e55ad.js",
+    "https://sfapi.formstack.io/FormEngine/Scripts/Main.js",
+    "https://www.formstack.com/legal/app-privacy-policy",
+    "https://vault.pactsafe.io/s/e3ac42ea-21ac-4fd3-8f4b-20a55a3eaefc/legal.html?g=19",
+    "https://wordpress.org/plugins/formstack/",
+    "https://plugins.svn.wordpress.org/formstack/trunk/plugin.php",
+    "https://www.dataprivacyframework.gov/list",
+    "https://github.com/jkwakman/Open-Cookie-Database",
+    "https://raw.githubusercontent.com/jkwakman/Open-Cookie-Database/master/open-cookie-database.csv"
+  ],
+  "checked": "2026-11-10"
+}

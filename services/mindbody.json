@@ -1,0 +1,49 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "mindbody",
+  "version": 1,
+  "name": "Mindbody",
+  "provider": "MINDBODY, Inc.",
+  "category": "functional",
+  "purpose": "Lets visitors book classes and appointments.",
+  "privacyUrl": "https://www.mindbodyonline.com/company/legal/privacy-policy",
+  "dataCountry": "USA (EU-US Data Privacy Framework), UK and other countries",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "widgets.mindbodyonline.com",
+      "brandedweb-assets.mindbodyonline.com",
+      "cart.mindbodyonline.com"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "generic",
+  "wordpress": {
+    "plugins": [
+      "healcode-mindbody-widget/healcode-mb-widget.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.mindbodyonline.com/business/branded-web-tools",
+    "https://www.mindbodyonline.com/business/education/blog/branded-web-tools",
+    "https://www.mindbodyonline.com/company/legal/privacy-policy",
+    "https://www.mindbodyonline.com/company/legal/cookies-and-similar-technologies-policy",
+    "https://support.mindbodyonline.com/s/article/Intro-to-branded-web-tools?language=en_US",
+    "https://support.mindbodyonline.com/s/article/How-to-add-widgets-to-your-website-branded-web-widgets?language=en_US",
+    "https://widgets.mindbodyonline.com/javascripts/healcode.js",
+    "https://wordpress.org/plugins/healcode-mindbody-widget/",
+    "https://plugins.svn.wordpress.org/healcode-mindbody-widget/trunk/healcode-mb-widget.php",
+    "https://plugins.svn.wordpress.org/healcode-mindbody-widget/trunk/readme.txt",
+    "https://plugins.svn.wordpress.org/healcode-mindbody-widget/trunk/about.php",
+    "https://plugins.svn.wordpress.org/healcode-mindbody-widget/trunk/images/hc-widget-code-example.png",
+    "https://raw.githubusercontent.com/jkwakman/Open-Cookie-Database/master/open-cookie-database.csv",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

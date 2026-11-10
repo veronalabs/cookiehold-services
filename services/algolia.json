@@ -1,0 +1,73 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "algolia",
+  "version": 1,
+  "name": "Algolia",
+  "provider": "Algolia SAS or Algolia, Inc.",
+  "category": "functional",
+  "purpose": "Provides site search.",
+  "privacyUrl": "https://www.algolia.com/policies/privacy",
+  "dataCountry": "USA and other countries",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "cdn.jsdelivr.net/npm/algoliasearch",
+      "cdn.jsdelivr.net/npm/instantsearch.js",
+      "cdn.jsdelivr.net/npm/instantsearch.css",
+      "cdn.jsdelivr.net/npm/search-insights",
+      "cdn.jsdelivr.net/npm/@algolia/autocomplete-js",
+      "cdn.jsdelivr.net/npm/@algolia/autocomplete-theme-classic",
+      "cdn.jsdelivr.net/npm/@docsearch/js",
+      "cdn.jsdelivr.net/npm/@docsearch/css"
+    ],
+    "inline": [
+      "window[\"@algolia/autocomplete-js\"]",
+      "AlgoliaAnalyticsObject",
+      "window.docsearch({",
+      "instantsearch({",
+      "algoliasearch("
+    ]
+  },
+  "cookies": [
+    {
+      "name": "_ALGOLIA",
+      "lifetime": "6 months",
+      "purpose": "Identifies visitors for search analytics."
+    }
+  ],
+  "storage": [
+    "algolia-client-js-*",
+    "AlgoliaObjectQueryCache"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "search-by-algolia-instant-relevant-results/algolia.php",
+      "wp-search-with-algolia/algolia.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.algolia.com/policies/privacy",
+    "https://www.algolia.com/policies/infrastructure-and-sub-processors",
+    "https://www.algolia.com/policies/terms",
+    "https://www.algolia.com/doc/guides/building-search-ui/installation/js",
+    "https://www.algolia.com/doc/libraries/search-insights",
+    "https://www.algolia.com/doc/libraries/search-insights/init",
+    "https://www.algolia.com/doc/guides/sending-events/concepts/usertoken",
+    "https://www.algolia.com/doc/ui-libraries/autocomplete/introduction/getting-started",
+    "https://docsearch.algolia.com/docs/packages/js/getting-started/",
+    "https://cdn.jsdelivr.net/npm/search-insights@2.17.3/dist/search-insights.min.js",
+    "https://cdn.jsdelivr.net/npm/algoliasearch@5.61.0/dist/lite/builds/browser.umd.js",
+    "https://wordpress.org/plugins/search-by-algolia-instant-relevant-results/",
+    "https://plugins.svn.wordpress.org/search-by-algolia-instant-relevant-results/trunk/algolia.php",
+    "https://wordpress.org/plugins/wp-search-with-algolia/",
+    "https://plugins.svn.wordpress.org/wp-search-with-algolia/trunk/algolia.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

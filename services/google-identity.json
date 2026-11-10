@@ -1,0 +1,63 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "google-identity",
+  "version": 1,
+  "name": "Sign in with Google",
+  "provider": "Google Ireland Limited",
+  "category": "functional",
+  "purpose": "Enables sign-in with a Google account.",
+  "privacyUrl": "https://policies.google.com/privacy",
+  "dataCountry": "USA (EU-US Data Privacy Framework) and other countries",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "accounts.google.com/gsi/"
+    ],
+    "inline": [
+      "google.accounts.id."
+    ]
+  },
+  "cookies": [
+    {
+      "name": "g_state",
+      "lifetime": "180 days",
+      "purpose": "Remembers sign-out and sign-in prompt choices."
+    },
+    {
+      "name": "g_csrf_token",
+      "lifetime": "5 minutes",
+      "purpose": "Protects sign-in requests against forgery."
+    }
+  ],
+  "storage": [
+    "g_state_id_::*"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "login-with-google/login-with-google.php",
+      "one-tap-google-sign-in/one-tap-google-sign-in.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://developers.google.com/identity/gsi/web/guides/display-button",
+    "https://developers.google.com/identity/gsi/web/guides/get-google-api-clientid",
+    "https://developers.google.com/identity/gsi/web/guides/migration",
+    "https://policies.google.com/privacy",
+    "https://policies.google.com/privacy?hl=en&gl=ie",
+    "https://policies.google.com/privacy/frameworks",
+    "https://accounts.google.com/gsi/client",
+    "https://www.dataprivacyframework.gov/list",
+    "https://wordpress.org/plugins/login-with-google/",
+    "https://plugins.svn.wordpress.org/login-with-google/trunk/login-with-google.php",
+    "https://wordpress.org/plugins/one-tap-google-sign-in/",
+    "https://plugins.svn.wordpress.org/one-tap-google-sign-in/trunk/one-tap-google-sign-in.php",
+    "https://plugins.svn.wordpress.org/one-tap-google-sign-in/trunk/includes/class-gotl.php"
+  ],
+  "checked": "2026-11-10"
+}
