@@ -61,6 +61,13 @@
     "purpose": "Lädt die Schriftarten der Website von Adobe.",
     "machine": true
   },
+  "algolia": {
+    "purpose": "Bietet eine Website-Suche.",
+    "cookies": {
+      "_ALGOLIA": "Identifiziert Besucher für die Suchanalyse."
+    },
+    "machine": true
+  },
   "amazon-ads": {
     "purpose": "Zeigt Amazon-Werbung an und misst sie.",
     "cookies": {
@@ -89,12 +96,20 @@
     "purpose": "Zeigt eingebettete Videos an.",
     "machine": true
   },
+  "apple-mapkit": {
+    "purpose": "Zeigt eingebettete Karten an.",
+    "machine": true
+  },
   "apple-music": {
     "purpose": "Spielt eingebettete Songs, Alben und Playlists ab.",
     "machine": true
   },
   "apple-podcasts": {
     "purpose": "Spielt eingebettete Podcasts und Folgen ab.",
+    "machine": true
+  },
+  "arcgis": {
+    "purpose": "Zeigt eingebettete Karten an.",
     "machine": true
   },
   "attentive": {
@@ -117,6 +132,10 @@
     "cookies": {
       "_audioboo_session2": "Hält Besuch und Anmeldung zusammen."
     },
+    "machine": true
+  },
+  "audioeye": {
+    "purpose": "Fügt der Website Funktionen für Barrierefreiheit hinzu.",
     "machine": true
   },
   "aweber": {
@@ -221,6 +240,10 @@
     "purpose": "Zeigt eingebettete Designs an.",
     "machine": true
   },
+  "carto": {
+    "purpose": "Zeigt Kartenkacheln an.",
+    "machine": true
+  },
   "cdnjs": {
     "purpose": "Liefert Code-Bibliotheken, die die Website nutzt.",
     "machine": true
@@ -304,6 +327,10 @@
       "codepen_session": "Unterstützt eingebettete Codebeispiele.",
       "codepen_signup_referrer*": "Merkt sich Herkunft und Datum der Anmeldung."
     },
+    "machine": true
+  },
+  "cognito-forms": {
+    "purpose": "Zeigt eingebettete Formulare an.",
     "machine": true
   },
   "comm100": {
@@ -390,6 +417,10 @@
     "purpose": "Zeigt den Kommentarbereich an.",
     "machine": true
   },
+  "doofinder": {
+    "purpose": "Bietet eine Shop-Suche.",
+    "machine": true
+  },
   "drip": {
     "purpose": "Erfasst Besuche für automatisierte E-Mails.",
     "cookies": {
@@ -429,6 +460,10 @@
     },
     "machine": true
   },
+  "equalweb": {
+    "purpose": "Bietet Werkzeuge für die Barrierefreiheit der Website.",
+    "machine": true
+  },
   "etracker": {
     "purpose": "Misst Besuche und Conversions.",
     "cookies": {
@@ -456,6 +491,15 @@
   },
   "facebook-embed": {
     "purpose": "Zeigt eingebettete Beiträge, Videos und Seitenfelder an.",
+    "machine": true
+  },
+  "fareharbor": {
+    "purpose": "Ermöglicht die Buchung von Touren und Aktivitäten.",
+    "cookies": {
+      "fh-target-language": "Merkt sich die Sprache des Besuchers.",
+      "fh-content-language": "Merkt sich die Sprache der Inhalte.",
+      "fh-units-language": "Merkt sich die bevorzugten Maßeinheiten."
+    },
     "machine": true
   },
   "fathom": {
@@ -493,6 +537,10 @@
     "purpose": "Lädt die Symbole der Website von Font Awesome.",
     "machine": true
   },
+  "formstack": {
+    "purpose": "Zeigt eingebettete Formulare an.",
+    "machine": true
+  },
   "found-ee": {
     "purpose": "Bildet Werbezielgruppen aus den Besuchern der Website.",
     "machine": true
@@ -507,6 +555,10 @@
   },
   "freshdesk": {
     "purpose": "Zeigt Hilfeartikel und ein Support-Formular an.",
+    "machine": true
+  },
+  "friendly-captcha": {
+    "purpose": "Schützt Formulare vor Spam und Bots.",
     "machine": true
   },
   "fullstory": {
@@ -593,8 +645,20 @@
     "purpose": "Lädt die Schriftarten der Website von Google.",
     "machine": true
   },
+  "google-forms": {
+    "purpose": "Zeigt eingebettete Formulare an.",
+    "machine": true
+  },
   "google-hosted-libraries": {
     "purpose": "Liefert Code-Bibliotheken, die die Website nutzt.",
+    "machine": true
+  },
+  "google-identity": {
+    "purpose": "Ermöglicht die Anmeldung mit einem Google-Konto.",
+    "cookies": {
+      "g_state": "Merkt sich die Auswahl beim Abmelden und bei Anmeldehinweisen.",
+      "g_csrf_token": "Schützt Anmeldeanfragen vor Fälschung."
+    },
     "machine": true
   },
   "google-maps": {
@@ -947,6 +1011,10 @@
     "purpose": "Zeigt eingebettete Karten an.",
     "machine": true
   },
+  "maptiler": {
+    "purpose": "Zeigt eingebettete Karten an.",
+    "machine": true
+  },
   "marketo": {
     "purpose": "Erfasst Besuche und Klicks für Marketing.",
     "cookies": {
@@ -1039,6 +1107,19 @@
       "MR": "Meldet, wenn die Microsoft-Browser-ID aktualisiert wird.",
       "ANONCHK": "Prüft, ob die Microsoft-ID für Werbung genutzt wird."
     },
+    "machine": true
+  },
+  "microsoft-forms": {
+    "purpose": "Zeigt eingebettete Formulare an.",
+    "cookies": {
+      "AADAuth.forms": "Hält Sie bei Forms angemeldet.",
+      "FormsWebSessionId": "Behält Ihre Forms-Sitzung bei.",
+      "OIDCAuth.forms": "Hält Sie bei Forms angemeldet."
+    },
+    "machine": true
+  },
+  "mindbody": {
+    "purpose": "Ermöglicht die Buchung von Kursen und Terminen.",
     "machine": true
   },
   "mixcloud": {
@@ -1400,6 +1481,10 @@
     "purpose": "Zeigt Kundenstimmen und Videobewertungen an.",
     "machine": true
   },
+  "setmore": {
+    "purpose": "Ermöglicht die Buchung von Terminen.",
+    "machine": true
+  },
   "shareaholic": {
     "purpose": "Zeigt Schaltflächen zum Teilen von Seiten in sozialen Netzwerken an.",
     "cookies": {
@@ -1433,6 +1518,13 @@
   },
   "shortpixel-cdn": {
     "purpose": "Liefert die Bilder der Website schneller aus.",
+    "machine": true
+  },
+  "simplybook": {
+    "purpose": "Zeigt einen eingebetteten Buchungskalender an.",
+    "cookies": {
+      "sb_widget": "Hält die Nutzung des Buchungswidgets fest."
+    },
     "machine": true
   },
   "sketchfab": {
@@ -1781,6 +1873,16 @@
     },
     "machine": true
   },
+  "weglot": {
+    "purpose": "Übersetzt Inhalte der Website.",
+    "cookies": {
+      "WG_CHOOSE_ORIGINAL": "Merkt sich die Wahl der Originalsprache.",
+      "wglang": "Merkt sich die bevorzugte Sprache.",
+      "wg_checkout_*": "Behält die Sprache beim Bezahlvorgang in Shopify bei.",
+      "wg-private-mode": "Merkt sich den Vorschau-Modus für Übersetzungen."
+    },
+    "machine": true
+  },
   "wikimedia-commons": {
     "purpose": "Zeigt Bilder und Medien von Wikimedia Commons an.",
     "cookies": {
@@ -1844,6 +1946,13 @@
     "purpose": "Liefert Bilder und Dateien der Website schneller aus.",
     "machine": true
   },
+  "wufoo": {
+    "purpose": "Zeigt eingebettete Formulare an.",
+    "cookies": {
+      "wufooForm": "Hilft, die Größe eingebetteter Formulare anzupassen."
+    },
+    "machine": true
+  },
   "x-embed": {
     "purpose": "Zeigt eingebettete Beiträge und Timelines an.",
     "cookies": {
@@ -1863,6 +1972,10 @@
   },
   "xing": {
     "purpose": "Zeigt Schaltflächen zum Teilen von Seiten auf XING an.",
+    "machine": true
+  },
+  "yandex-maps": {
+    "purpose": "Zeigt eingebettete Karten an.",
     "machine": true
   },
   "yandex-metrica": {

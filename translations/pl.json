@@ -61,6 +61,13 @@
     "purpose": "Wczytuje czcionki witryny z serwerów Adobe.",
     "machine": true
   },
+  "algolia": {
+    "purpose": "Umożliwia wyszukiwanie w witrynie.",
+    "cookies": {
+      "_ALGOLIA": "Identyfikuje odwiedzających na potrzeby analizy wyszukiwań."
+    },
+    "machine": true
+  },
   "amazon-ads": {
     "purpose": "Wyświetla reklamy Amazon i mierzy ich skuteczność.",
     "cookies": {
@@ -89,12 +96,20 @@
     "purpose": "Wyświetla osadzone filmy wideo.",
     "machine": true
   },
+  "apple-mapkit": {
+    "purpose": "Wyświetla osadzone mapy.",
+    "machine": true
+  },
   "apple-music": {
     "purpose": "Odtwarza osadzone utwory, albumy i playlisty.",
     "machine": true
   },
   "apple-podcasts": {
     "purpose": "Odtwarza osadzone podcasty i odcinki.",
+    "machine": true
+  },
+  "arcgis": {
+    "purpose": "Wyświetla osadzone mapy.",
     "machine": true
   },
   "attentive": {
@@ -117,6 +132,10 @@
     "cookies": {
       "_audioboo_session2": "Łączy wizytę z logowaniem."
     },
+    "machine": true
+  },
+  "audioeye": {
+    "purpose": "Dodaje do witryny funkcje ułatwień dostępu.",
     "machine": true
   },
   "aweber": {
@@ -221,6 +240,10 @@
     "purpose": "Wyświetla osadzone projekty graficzne.",
     "machine": true
   },
+  "carto": {
+    "purpose": "Wyświetla kafelki map.",
+    "machine": true
+  },
   "cdnjs": {
     "purpose": "Dostarcza biblioteki kodu używane przez witrynę.",
     "machine": true
@@ -304,6 +327,10 @@
       "codepen_session": "Obsługuje osadzone przykłady kodu.",
       "codepen_signup_referrer*": "Zapamiętuje źródło i datę rejestracji."
     },
+    "machine": true
+  },
+  "cognito-forms": {
+    "purpose": "Wyświetla osadzone formularze.",
     "machine": true
   },
   "comm100": {
@@ -390,6 +417,10 @@
     "purpose": "Wyświetla sekcję komentarzy.",
     "machine": true
   },
+  "doofinder": {
+    "purpose": "Umożliwia wyszukiwanie w sklepie.",
+    "machine": true
+  },
   "drip": {
     "purpose": "Śledzi wizyty na potrzeby automatycznych e-maili.",
     "cookies": {
@@ -429,6 +460,10 @@
     },
     "machine": true
   },
+  "equalweb": {
+    "purpose": "Udostępnia narzędzia ułatwień dostępu do witryny.",
+    "machine": true
+  },
   "etracker": {
     "purpose": "Mierzy wizyty i konwersje.",
     "cookies": {
@@ -456,6 +491,15 @@
   },
   "facebook-embed": {
     "purpose": "Wyświetla osadzone wpisy, filmy wideo i pola stron.",
+    "machine": true
+  },
+  "fareharbor": {
+    "purpose": "Umożliwia rezerwowanie wycieczek i atrakcji.",
+    "cookies": {
+      "fh-target-language": "Zapamiętuje język odwiedzającego.",
+      "fh-content-language": "Zapamiętuje język treści.",
+      "fh-units-language": "Zapamiętuje preferowane jednostki miary."
+    },
     "machine": true
   },
   "fathom": {
@@ -493,6 +537,10 @@
     "purpose": "Wczytuje ikony witryny z serwerów Font Awesome.",
     "machine": true
   },
+  "formstack": {
+    "purpose": "Wyświetla osadzone formularze.",
+    "machine": true
+  },
   "found-ee": {
     "purpose": "Tworzy grupy odbiorców reklam z odwiedzających witrynę.",
     "machine": true
@@ -507,6 +555,10 @@
   },
   "freshdesk": {
     "purpose": "Wyświetla artykuły pomocy i formularz kontaktowy.",
+    "machine": true
+  },
+  "friendly-captcha": {
+    "purpose": "Chroni formularze przed spamem i botami.",
     "machine": true
   },
   "fullstory": {
@@ -593,8 +645,20 @@
     "purpose": "Wczytuje czcionki witryny z serwerów Google.",
     "machine": true
   },
+  "google-forms": {
+    "purpose": "Wyświetla osadzone formularze.",
+    "machine": true
+  },
   "google-hosted-libraries": {
     "purpose": "Dostarcza biblioteki kodu używane przez witrynę.",
+    "machine": true
+  },
+  "google-identity": {
+    "purpose": "Umożliwia logowanie za pomocą konta Google.",
+    "cookies": {
+      "g_state": "Zapamiętuje wybory dotyczące wylogowania i monitów logowania.",
+      "g_csrf_token": "Chroni żądania logowania przed fałszowaniem."
+    },
     "machine": true
   },
   "google-maps": {
@@ -947,6 +1011,10 @@
     "purpose": "Wyświetla osadzone mapy.",
     "machine": true
   },
+  "maptiler": {
+    "purpose": "Wyświetla osadzone mapy.",
+    "machine": true
+  },
   "marketo": {
     "purpose": "Śledzi wizyty i kliknięcia na potrzeby marketingu.",
     "cookies": {
@@ -1039,6 +1107,19 @@
       "MR": "Oznacza odświeżenie identyfikatora przeglądarki Microsoft.",
       "ANONCHK": "Sprawdza, czy identyfikator Microsoft jest używany do reklam."
     },
+    "machine": true
+  },
+  "microsoft-forms": {
+    "purpose": "Wyświetla osadzone formularze.",
+    "cookies": {
+      "AADAuth.forms": "Utrzymuje zalogowanie w Forms.",
+      "FormsWebSessionId": "Utrzymuje sesję w Forms.",
+      "OIDCAuth.forms": "Utrzymuje zalogowanie w Forms."
+    },
+    "machine": true
+  },
+  "mindbody": {
+    "purpose": "Umożliwia rezerwowanie zajęć i wizyt.",
     "machine": true
   },
   "mixcloud": {
@@ -1400,6 +1481,10 @@
     "purpose": "Wyświetla opinie klientów i recenzje wideo.",
     "machine": true
   },
+  "setmore": {
+    "purpose": "Umożliwia rezerwowanie wizyt.",
+    "machine": true
+  },
   "shareaholic": {
     "purpose": "Wyświetla przyciski udostępniania stron w serwisach społecznościowych.",
     "cookies": {
@@ -1433,6 +1518,13 @@
   },
   "shortpixel-cdn": {
     "purpose": "Szybciej dostarcza obrazy witryny.",
+    "machine": true
+  },
+  "simplybook": {
+    "purpose": "Wyświetla osadzony kalendarz rezerwacji.",
+    "cookies": {
+      "sb_widget": "Zapisuje użycie widżetu rezerwacji."
+    },
     "machine": true
   },
   "sketchfab": {
@@ -1781,6 +1873,16 @@
     },
     "machine": true
   },
+  "weglot": {
+    "purpose": "Tłumaczy treść witryny.",
+    "cookies": {
+      "WG_CHOOSE_ORIGINAL": "Zapamiętuje wybór języka oryginalnego.",
+      "wglang": "Zapamiętuje preferowany język.",
+      "wg_checkout_*": "Zachowuje język podczas płatności w Shopify.",
+      "wg-private-mode": "Zapamiętuje tryb podglądu tłumaczenia."
+    },
+    "machine": true
+  },
   "wikimedia-commons": {
     "purpose": "Wyświetla obrazy i multimedia z Wikimedia Commons.",
     "cookies": {
@@ -1844,6 +1946,13 @@
     "purpose": "Szybciej dostarcza obrazy i pliki witryny.",
     "machine": true
   },
+  "wufoo": {
+    "purpose": "Wyświetla osadzone formularze.",
+    "cookies": {
+      "wufooForm": "Pomaga dostosować rozmiar osadzonych formularzy."
+    },
+    "machine": true
+  },
   "x-embed": {
     "purpose": "Wyświetla osadzone wpisy i osie czasu.",
     "cookies": {
@@ -1863,6 +1972,10 @@
   },
   "xing": {
     "purpose": "Wyświetla przyciski udostępniania stron w XING.",
+    "machine": true
+  },
+  "yandex-maps": {
+    "purpose": "Wyświetla osadzone mapy.",
     "machine": true
   },
   "yandex-metrica": {

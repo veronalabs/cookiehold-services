@@ -1,0 +1,55 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "friendly-captcha",
+  "version": 1,
+  "name": "Friendly Captcha",
+  "provider": "Friendly Captcha GmbH",
+  "category": "essential",
+  "purpose": "Protects forms from spam and bots.",
+  "privacyUrl": "https://friendlycaptcha.com/legal/privacy-end-users/",
+  "dataCountry": "EU (Germany), USA and other countries",
+  "legalBasis": "legitimate-interest",
+  "match": {
+    "hosts": [
+      "frcapi.com",
+      "cdn.jsdelivr.net/npm/@friendlycaptcha/sdk",
+      "cdn.jsdelivr.net/npm/friendly-challenge"
+    ],
+    "inline": [
+      "new friendlyChallenge.WidgetInstance(",
+      "new FriendlyCaptchaSDK("
+    ]
+  },
+  "cookies": [],
+  "storage": [
+    "frc_sc",
+    "frc_sid"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "friendly-captcha/friendly-captcha.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://friendlycaptcha.com/legal/privacy-end-users/",
+    "https://developer.friendlycaptcha.com/docs/v2/getting-started/install",
+    "https://developer.friendlycaptcha.com/docs/v1/getting-started/install",
+    "https://developer.friendlycaptcha.com/docs/v2/guides/csp",
+    "https://developer.friendlycaptcha.com/docs/v2/guides/eu-endpoint",
+    "https://developer.friendlycaptcha.com/docs/v1/sdk/",
+    "https://cdn.jsdelivr.net/npm/@friendlycaptcha/sdk@1.1.3/site.min.js",
+    "https://cdn.jsdelivr.net/npm/friendly-challenge/widget.module.min.js",
+    "https://friendlycaptcha.com/legal/dpa/",
+    "https://wordpress.org/plugins/friendly-captcha/",
+    "https://plugins.svn.wordpress.org/friendly-captcha/trunk/",
+    "https://plugins.svn.wordpress.org/friendly-captcha/trunk/friendly-captcha.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

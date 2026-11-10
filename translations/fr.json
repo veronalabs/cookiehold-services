@@ -61,6 +61,13 @@
     "purpose": "Charge les polices du site depuis Adobe.",
     "machine": true
   },
+  "algolia": {
+    "purpose": "Propose une recherche sur le site.",
+    "cookies": {
+      "_ALGOLIA": "Identifie les visiteurs pour analyser les recherches."
+    },
+    "machine": true
+  },
   "amazon-ads": {
     "purpose": "Affiche des publicités Amazon et les mesure.",
     "cookies": {
@@ -89,12 +96,20 @@
     "purpose": "Affiche des vidéos embarquées.",
     "machine": true
   },
+  "apple-mapkit": {
+    "purpose": "Affiche des cartes embarquées.",
+    "machine": true
+  },
   "apple-music": {
     "purpose": "Lit des titres, albums et playlists embarqués.",
     "machine": true
   },
   "apple-podcasts": {
     "purpose": "Lit des podcasts et des épisodes embarqués.",
+    "machine": true
+  },
+  "arcgis": {
+    "purpose": "Affiche des cartes embarquées.",
     "machine": true
   },
   "attentive": {
@@ -117,6 +132,10 @@
     "cookies": {
       "_audioboo_session2": "Relie la visite et la connexion."
     },
+    "machine": true
+  },
+  "audioeye": {
+    "purpose": "Ajoute des fonctions d’accessibilité au site.",
     "machine": true
   },
   "aweber": {
@@ -221,6 +240,10 @@
     "purpose": "Affiche des créations embarquées.",
     "machine": true
   },
+  "carto": {
+    "purpose": "Affiche des tuiles de carte.",
+    "machine": true
+  },
   "cdnjs": {
     "purpose": "Fournit les bibliothèques de code utilisées par le site.",
     "machine": true
@@ -304,6 +327,10 @@
       "codepen_session": "Permet les exemples de code embarqués.",
       "codepen_signup_referrer*": "Mémorise la source et la date de l’inscription."
     },
+    "machine": true
+  },
+  "cognito-forms": {
+    "purpose": "Affiche des formulaires embarqués.",
     "machine": true
   },
   "comm100": {
@@ -390,6 +417,10 @@
     "purpose": "Affiche la section des commentaires.",
     "machine": true
   },
+  "doofinder": {
+    "purpose": "Propose une recherche dans la boutique.",
+    "machine": true
+  },
   "drip": {
     "purpose": "Suit les visites pour automatiser les e-mails.",
     "cookies": {
@@ -429,6 +460,10 @@
     },
     "machine": true
   },
+  "equalweb": {
+    "purpose": "Propose des outils d’accessibilité pour le site.",
+    "machine": true
+  },
   "etracker": {
     "purpose": "Mesure les visites et les conversions.",
     "cookies": {
@@ -456,6 +491,15 @@
   },
   "facebook-embed": {
     "purpose": "Affiche des publications, vidéos et encadrés de page embarqués.",
+    "machine": true
+  },
+  "fareharbor": {
+    "purpose": "Permet de réserver des visites et des activités.",
+    "cookies": {
+      "fh-target-language": "Mémorise la langue du visiteur.",
+      "fh-content-language": "Mémorise la langue du contenu.",
+      "fh-units-language": "Mémorise les unités de mesure préférées."
+    },
     "machine": true
   },
   "fathom": {
@@ -493,6 +537,10 @@
     "purpose": "Charge les icônes du site depuis Font Awesome.",
     "machine": true
   },
+  "formstack": {
+    "purpose": "Affiche des formulaires embarqués.",
+    "machine": true
+  },
   "found-ee": {
     "purpose": "Crée des audiences publicitaires à partir des visiteurs du site.",
     "machine": true
@@ -507,6 +555,10 @@
   },
   "freshdesk": {
     "purpose": "Affiche des articles d’aide et un formulaire d’assistance.",
+    "machine": true
+  },
+  "friendly-captcha": {
+    "purpose": "Protège les formulaires des indésirables et des robots.",
     "machine": true
   },
   "fullstory": {
@@ -593,8 +645,20 @@
     "purpose": "Charge les polices du site depuis Google.",
     "machine": true
   },
+  "google-forms": {
+    "purpose": "Affiche des formulaires embarqués.",
+    "machine": true
+  },
   "google-hosted-libraries": {
     "purpose": "Fournit les bibliothèques de code utilisées par le site.",
+    "machine": true
+  },
+  "google-identity": {
+    "purpose": "Permet de se connecter avec un compte Google.",
+    "cookies": {
+      "g_state": "Mémorise les choix de déconnexion et d’invite de connexion.",
+      "g_csrf_token": "Protège les demandes de connexion contre la falsification."
+    },
     "machine": true
   },
   "google-maps": {
@@ -947,6 +1011,10 @@
     "purpose": "Affiche des cartes embarquées.",
     "machine": true
   },
+  "maptiler": {
+    "purpose": "Affiche des cartes embarquées.",
+    "machine": true
+  },
   "marketo": {
     "purpose": "Suit les visites et les clics pour le marketing.",
     "cookies": {
@@ -1039,6 +1107,19 @@
       "MR": "Signale l’actualisation de l’identifiant de navigateur Microsoft.",
       "ANONCHK": "Vérifie si l’identifiant Microsoft sert aux publicités."
     },
+    "machine": true
+  },
+  "microsoft-forms": {
+    "purpose": "Affiche des formulaires embarqués.",
+    "cookies": {
+      "AADAuth.forms": "Vous garde connecté à Forms.",
+      "FormsWebSessionId": "Conserve votre session Forms.",
+      "OIDCAuth.forms": "Vous garde connecté à Forms."
+    },
+    "machine": true
+  },
+  "mindbody": {
+    "purpose": "Permet de réserver des cours et des rendez-vous.",
     "machine": true
   },
   "mixcloud": {
@@ -1400,6 +1481,10 @@
     "purpose": "Affiche des témoignages clients et des avis vidéo.",
     "machine": true
   },
+  "setmore": {
+    "purpose": "Permet de prendre des rendez-vous.",
+    "machine": true
+  },
   "shareaholic": {
     "purpose": "Affiche des boutons pour partager les pages sur les réseaux sociaux.",
     "cookies": {
@@ -1433,6 +1518,13 @@
   },
   "shortpixel-cdn": {
     "purpose": "Fournit plus vite les images du site.",
+    "machine": true
+  },
+  "simplybook": {
+    "purpose": "Affiche un calendrier de réservation embarqué.",
+    "cookies": {
+      "sb_widget": "Enregistre l’utilisation du widget de réservation."
+    },
     "machine": true
   },
   "sketchfab": {
@@ -1781,6 +1873,16 @@
     },
     "machine": true
   },
+  "weglot": {
+    "purpose": "Traduit le contenu du site.",
+    "cookies": {
+      "WG_CHOOSE_ORIGINAL": "Mémorise le choix de la langue d’origine.",
+      "wglang": "Mémorise la langue préférée.",
+      "wg_checkout_*": "Conserve la langue lors du paiement sur Shopify.",
+      "wg-private-mode": "Mémorise le mode d’aperçu des traductions."
+    },
+    "machine": true
+  },
   "wikimedia-commons": {
     "purpose": "Affiche des images et des médias de Wikimedia Commons.",
     "cookies": {
@@ -1844,6 +1946,13 @@
     "purpose": "Fournit plus vite les images et fichiers du site.",
     "machine": true
   },
+  "wufoo": {
+    "purpose": "Affiche des formulaires embarqués.",
+    "cookies": {
+      "wufooForm": "Aide à redimensionner les formulaires embarqués."
+    },
+    "machine": true
+  },
   "x-embed": {
     "purpose": "Affiche des publications et des fils embarqués.",
     "cookies": {
@@ -1863,6 +1972,10 @@
   },
   "xing": {
     "purpose": "Affiche des boutons pour partager les pages sur XING.",
+    "machine": true
+  },
+  "yandex-maps": {
+    "purpose": "Affiche des cartes embarquées.",
     "machine": true
   },
   "yandex-metrica": {
