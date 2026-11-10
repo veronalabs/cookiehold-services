@@ -1,0 +1,53 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "poptin",
+  "version": 1,
+  "name": "Poptin",
+  "provider": "Poptin Ltd.",
+  "category": "marketing",
+  "purpose": "Shows pop-ups and sign-up forms.",
+  "privacyUrl": "https://www.poptin.com/privacy-policy/",
+  "dataCountry": "USA and other countries",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "cdn.popt.in"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "poptin_*",
+      "lifetime": "Session to 1 year",
+      "purpose": "Remembers visits, pop-ups shown and sign-ups."
+    }
+  ],
+  "storage": [
+    "poptin_*"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "poptin/poptin.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.poptin.com/",
+    "https://www.poptin.com/privacy-policy/",
+    "https://www.poptin.com/terms-of-service/",
+    "https://www.poptin.com/gdpr/",
+    "https://help.poptin.com/en/article/poptin-data-security-and-privacy-uggigv/",
+    "https://help.poptin.com/en/article/how-to-install-poptin-on-any-website-1kwkn1b/",
+    "https://help.poptin.com/en/article/cookie-targeting-how-it-works-ad4830/",
+    "https://cdn.popt.in/pixel.js?id=95e95a9709058",
+    "https://wordpress.org/plugins/poptin/",
+    "https://plugins.svn.wordpress.org/poptin/trunk/",
+    "https://plugins.svn.wordpress.org/poptin/trunk/poptin.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

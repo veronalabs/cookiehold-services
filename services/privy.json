@@ -1,0 +1,55 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "privy",
+  "version": 1,
+  "name": "Privy",
+  "provider": "Privy Operations, LLC",
+  "category": "marketing",
+  "purpose": "Shows pop-ups and sign-up forms.",
+  "privacyUrl": "https://www.privy.com/privacy",
+  "dataCountry": "USA",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "widget.privy.com"
+    ],
+    "inline": [
+      "privySettings"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "_privy_*",
+      "lifetime": "30 minutes to 2 years",
+      "purpose": "Remembers visitors and display interactions."
+    }
+  ],
+  "storage": [
+    "privy-user-*",
+    "privy-woocommerce-viewed-products"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://www.privy.com/privacy",
+    "https://www.privy.com/data-processing-addendum",
+    "https://help.privy.com/docs/learn/displays/cookies-set-in-a-visitors-browser",
+    "https://help.privy.com/docs/learn/integrations/manual-install",
+    "https://help.privy.com/docs/learn/integrations/wordpress",
+    "https://help.privy.com/docs/learn/integrations/woocommerce.md",
+    "https://help.privy.com/docs/learn/compliance/gdpr",
+    "https://public-assets.privy.com/privy-wordpress-latest.zip",
+    "https://widget.privy.com/assets/widget.js",
+    "https://www.dataprivacyframework.gov/list",
+    "https://wordpress.org/plugins/privy/",
+    "https://plugins.svn.wordpress.org/privy/trunk/"
+  ],
+  "checked": "2026-11-10"
+}

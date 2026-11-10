@@ -1,0 +1,62 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "customer-io",
+  "version": 1,
+  "name": "Customer.io",
+  "provider": "Peaberry Software Inc.",
+  "category": "marketing",
+  "purpose": "Tracks visits for automated email marketing.",
+  "privacyUrl": "https://customer.io/legal/privacy-policy",
+  "dataCountry": "EU (Belgium) and USA (EU-US Data Privacy Framework)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "assets.customer.io",
+      "cdp.customer.io",
+      "cdp-eu.customer.io",
+      "track.customer.io",
+      "track-eu.customer.io",
+      "customerioforms.com",
+      "code.gist.build",
+      "renderer.gist.build",
+      "form.customer.io"
+    ],
+    "inline": [
+      "data-global-customerio-analytics-key",
+      "_cio.push([f]."
+    ]
+  },
+  "cookies": [
+    {
+      "name": "_cio*",
+      "lifetime": "1 year",
+      "purpose": "Remembers visitor identity for email marketing."
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://customer.io/legal/privacy-policy",
+    "https://docs.customer.io/accounts/settings/data-centers/",
+    "https://docs.customer.io/integrations/data-in/connections/javascript/js-source/",
+    "https://docs.customer.io/integrations/data-in/connections/javascript/in-app/",
+    "https://docs.customer.io/integrations/data-in/connections/javascript/legacy-js/getting-started/",
+    "https://docs.customer.io/integrations/data-in/connections/javascript/legacy-js/content-security-policy/",
+    "https://docs.customer.io/messaging/send/sign-up-forms/formats/",
+    "https://docs.customer.io/accounts/security/user-privacy/",
+    "https://docs.customer.io/integrations/data-in/connections/javascript/js-source-cookies/",
+    "https://assets.customer.io/assets/track.js",
+    "https://assets.customer.io/assets/track-eu.js",
+    "https://assets.customer.io/assets/in-app.js",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

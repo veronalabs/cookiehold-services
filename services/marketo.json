@@ -1,0 +1,60 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "marketo",
+  "version": 1,
+  "name": "Adobe Marketo Engage",
+  "provider": "Adobe Systems Software Ireland Limited",
+  "category": "marketing",
+  "purpose": "Tracks visits and clicks for marketing.",
+  "privacyUrl": "https://www.adobe.com/privacy/policy.html",
+  "dataCountry": "USA (EU-US Data Privacy Framework) and other countries",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "munchkin.marketo.net"
+    ],
+    "inline": [
+      "Munchkin.init("
+    ]
+  },
+  "cookies": [
+    {
+      "name": "_mkto_trk",
+      "lifetime": "2 years",
+      "purpose": "Links visits and clicks to a visitor or marketing lead."
+    },
+    {
+      "name": "mkto_opt_out",
+      "lifetime": "2 years",
+      "purpose": "Remembers the visitor's choice to disable tracking."
+    }
+  ],
+  "storage": [
+    "_mktoLpDomain_*",
+    "_mktoSecureLp_*",
+    "_mktoGetCookie_*"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/javascriptapi/leadtracking/lead-tracking",
+    "https://www.adobe.com/privacy/policy.html",
+    "https://www.adobe.com/privacy/experience-cloud.html",
+    "https://www.adobe.com/privacy/eudatatransfers.html",
+    "https://www.adobe.com/privacy/sub-processors.html",
+    "https://munchkin.marketo.net/munchkin.js",
+    "https://munchkin.marketo.net/165/munchkin.js",
+    "https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/DPA-SCC-English_2022v2.pdf",
+    "https://www.dataprivacyframework.gov/list",
+    "https://wordpress.org/plugins/marketo-tracker/",
+    "https://plugins.svn.wordpress.org/marketo-tracker/trunk/marketo_tracker.php"
+  ],
+  "checked": "2026-11-10"
+}

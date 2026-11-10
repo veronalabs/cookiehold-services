@@ -1,0 +1,63 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "sumo",
+  "version": 1,
+  "name": "BDOW!",
+  "provider": "Formilytics, LLC",
+  "category": "marketing",
+  "purpose": "Shows pop-ups and sign-up forms.",
+  "privacyUrl": "https://docs.google.com/document/d/1tZ93XeR-74SKuBNLsDuYPW2FriRoY6BIj1P_cSP_POM/edit?tab=t.5j9hwrecaipn",
+  "dataCountry": "USA and other countries",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "load.sumome.com"
+    ],
+    "inline": [
+      "j.dataset.sumoSiteId="
+    ]
+  },
+  "cookies": [
+    {
+      "name": "__smVID",
+      "lifetime": "30 days",
+      "purpose": "Tells visitors apart."
+    },
+    {
+      "name": "__smSubscribed",
+      "lifetime": "Up to 10 years",
+      "purpose": "Remembers an email sign-up to control form display."
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "sumome/sumome.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://bdow.com/",
+    "https://bdow.com/stories/rebrand-sumo-is-now-bdow/",
+    "https://bdow.com/formilytics-site-privacy-policy",
+    "https://docs.google.com/document/d/1tZ93XeR-74SKuBNLsDuYPW2FriRoY6BIj1P_cSP_POM/edit?tab=t.5j9hwrecaipn",
+    "https://docs.google.com/document/d/1tZ93XeR-74SKuBNLsDuYPW2FriRoY6BIj1P_cSP_POM/export?format=txt",
+    "https://help.bdow.com/en/articles/9062731-how-bdow-cookies-work",
+    "https://load.sumome.com/",
+    "https://load.sumome.com/sumome.js",
+    "https://load.sumome.com/560.95886e1021bf3889b257.js",
+    "https://load.sumome.com/560.95886e1021bf3889b257.js.map",
+    "https://load.sumome.com/995.95886e1021bf3889b257.js",
+    "https://wordpress.org/plugins/sumome/",
+    "https://plugins.svn.wordpress.org/sumome/trunk/",
+    "https://plugins.svn.wordpress.org/sumome/trunk/sumome.php",
+    "https://plugins.svn.wordpress.org/sumome/trunk/classes/class_sumome.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}
