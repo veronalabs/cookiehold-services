@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "mailchimp",
-  "version": 4,
+  "version": 5,
   "name": "Mailchimp",
   "provider": "The Rocket Science Group LLC",
   "category": "marketing",
@@ -40,7 +40,8 @@
   "wordpress": {
     "plugins": [
       "mailchimp-for-woocommerce/mailchimp-woocommerce.php",
-      "mailchimp-for-wp/mailchimp-for-wp.php"
+      "mailchimp-for-wp/mailchimp-for-wp.php",
+      "mailchimp/mailchimp.php"
     ],
     "handles": []
   },
@@ -54,7 +55,9 @@
     "https://mailchimp.com/legal/data-processing-addendum/",
     "https://plugins.svn.wordpress.org/mailchimp-for-woocommerce/tags/6.3/includes/class-mailchimp-woocommerce-service.php",
     "https://plugins.svn.wordpress.org/mailchimp-for-woocommerce/tags/6.3/bootstrap.php",
-    "https://plugins.svn.wordpress.org/mailchimp-for-woocommerce/tags/6.3/public/js/mailchimp-woocommerce-public.js"
+    "https://plugins.svn.wordpress.org/mailchimp-for-woocommerce/tags/6.3/public/js/mailchimp-woocommerce-public.js",
+    "https://wordpress.org/plugins/mailchimp/",
+    "https://plugins.svn.wordpress.org/mailchimp/trunk/mailchimp.php"
   ],
-  "checked": "2026-11-06"
+  "checked": "2026-11-10"
 }

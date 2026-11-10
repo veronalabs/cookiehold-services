@@ -1,0 +1,55 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "yandex-maps",
+  "version": 1,
+  "name": "Yandex Maps",
+  "provider": "YANDEX LLC",
+  "category": "media",
+  "purpose": "Shows embedded maps.",
+  "privacyUrl": "https://yandex.com/legal/confidential/en/",
+  "dataCountry": "Russia",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "api-maps.yandex.ru"
+    ],
+    "inline": [
+      "await ymaps3.ready;",
+      "ymaps.ready("
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "map",
+  "wordpress": {
+    "plugins": [
+      "yamaps/yamap.php",
+      "mihdan-elementor-yandex-maps/mihdan-elementor-yandex-maps.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://yandex.com/maps-api/docs/js-api/quickstart.html",
+    "https://yandex.com/dev/jsapi-v2-1/doc/en/v2-1/dg/concepts/load",
+    "https://yandex.com/support/maps/en/concept/get-map-reference",
+    "https://yandex.com/maps-api/docs/constructor/api.html",
+    "https://yandex.com/legal/confidential/en/",
+    "https://yandex.com/legal/maps_termsofuse/en/",
+    "https://yandex.com/legal/rules/en/",
+    "https://yandex.com/legal/cookies_policy_eng/en/",
+    "https://api-maps.yandex.ru/2.1/?lang=en_US",
+    "https://yastatic.net/s3/front-maps-static/maps-front-jsapi-v2-1/2.1.79-21550599/out/release/full.js",
+    "https://www.dataprivacyframework.gov/list",
+    "https://wordpress.org/plugins/yamaps/",
+    "https://plugins.svn.wordpress.org/yamaps/trunk/",
+    "https://plugins.svn.wordpress.org/yamaps/trunk/yamap.php",
+    "https://wordpress.org/plugins/mihdan-elementor-yandex-maps/",
+    "https://plugins.svn.wordpress.org/mihdan-elementor-yandex-maps/trunk/",
+    "https://plugins.svn.wordpress.org/mihdan-elementor-yandex-maps/trunk/mihdan-elementor-yandex-maps.php"
+  ],
+  "checked": "2026-11-10"
+}

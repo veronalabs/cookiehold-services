@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "meta-pixel",
-  "version": 5,
+  "version": 6,
   "name": "Meta Pixel",
   "provider": "Meta Platforms Ireland Limited",
   "category": "marketing",
@@ -51,7 +51,8 @@
       "pixelyoursite/facebook-pixel-master.php",
       "pixelyoursite-pro/pixelyoursite-pro.php",
       "official-facebook-pixel/facebook-for-wordpress.php",
-      "facebook-for-woocommerce/facebook-for-woocommerce.php"
+      "facebook-for-woocommerce/facebook-for-woocommerce.php",
+      "facebook-conversion-pixel/facebook-conversion-pixel.php"
     ],
     "handles": [
       "wc-facebook-pixel-events",
@@ -69,7 +70,9 @@
     "https://www.dataprivacyframework.gov/list",
     "https://plugins.svn.wordpress.org/facebook-for-woocommerce/trunk/facebook-for-woocommerce.php",
     "https://developers.facebook.com/docs/meta-pixel/implementation/conversion-tracking/",
-    "https://plugins.svn.wordpress.org/pixelyoursite/trunk/facebook-pixel-master.php"
+    "https://plugins.svn.wordpress.org/pixelyoursite/trunk/facebook-pixel-master.php",
+    "https://wordpress.org/plugins/facebook-conversion-pixel/",
+    "https://plugins.svn.wordpress.org/facebook-conversion-pixel/trunk/facebook-conversion-pixel.php"
   ],
-  "checked": "2026-11-07"
+  "checked": "2026-11-10"
 }

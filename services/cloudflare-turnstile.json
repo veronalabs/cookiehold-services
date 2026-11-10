@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "cloudflare-turnstile",
-  "version": 3,
+  "version": 4,
   "name": "Cloudflare Turnstile",
   "provider": "Cloudflare, Inc.",
   "category": "essential",
@@ -25,7 +25,8 @@
     "plugins": [
       "simple-cloudflare-turnstile/simple-cloudflare-turnstile.php",
       "enable-turnstile-cloudflare-for-gravity-forms/ss88-gravity-forms-turnstile.php",
-      "wppool-turnstile-captcha-spam-filter/easy-cloudflare-turnstile.php"
+      "wppool-turnstile-captcha-spam-filter/easy-cloudflare-turnstile.php",
+      "login-security-recaptcha/login-security-recaptcha.php"
     ],
     "handles": []
   },
@@ -40,7 +41,9 @@
     "https://plugins.svn.wordpress.org/wppool-turnstile-captcha-spam-filter/trunk/",
     "https://www.cloudflare.com/turnstile-privacy-policy/",
     "https://developers.cloudflare.com/turnstile/get-started/server-side-validation/",
-    "https://developers.cloudflare.com/turnstile/additional-configuration/hostname-management/pre-clearance/"
+    "https://developers.cloudflare.com/turnstile/additional-configuration/hostname-management/pre-clearance/",
+    "https://wordpress.org/plugins/login-security-recaptcha/",
+    "https://plugins.svn.wordpress.org/login-security-recaptcha/trunk/login-security-recaptcha.php"
   ],
-  "checked": "2026-11-06"
+  "checked": "2026-11-10"
 }

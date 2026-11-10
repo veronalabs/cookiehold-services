@@ -1,0 +1,69 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "quantum-metric",
+  "version": 1,
+  "name": "Quantum Metric",
+  "provider": "Quantum Metric, Inc.",
+  "category": "statistics",
+  "purpose": "Replays visits to help improve the website.",
+  "privacyUrl": "https://www.quantummetric.com/legal/privacy-policy",
+  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "cdn.quantummetric.com"
+    ],
+    "inline": [
+      "cdn.quantummetric.com/qscripts/quantum-"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "QuantumMetricSessionID",
+      "lifetime": "30 minutes",
+      "purpose": "Joins activity into one visit."
+    },
+    {
+      "name": "QuantumMetricUserID",
+      "lifetime": "1 year",
+      "purpose": "Tells visitors apart."
+    },
+    {
+      "name": "qm-rc",
+      "lifetime": "Session",
+      "purpose": "Checks which domain can store cookies."
+    },
+    {
+      "name": "QuantumMetricEnabled",
+      "lifetime": "Until 31 December 2099",
+      "purpose": "Remembers a choice to stop tracking."
+    }
+  ],
+  "storage": [
+    "QM_S",
+    "QM_U",
+    "QEventChannel",
+    "qmd",
+    "qm_last_*",
+    "QM_DL_*"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://www.quantummetric.com/legal/privacy-policy",
+    "https://www.quantummetric.com/legal/data-privacy-framework-privacy-policy",
+    "https://www.quantummetric.com/platform/session-replay",
+    "https://github.com/quantummetric/analytics-module-qm/blob/main/README.md",
+    "https://go.quantummetric.com/",
+    "https://cdn.quantummetric.com/qscripts/quantum-qtm.js",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

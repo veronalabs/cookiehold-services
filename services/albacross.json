@@ -1,0 +1,65 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "albacross",
+  "version": 1,
+  "name": "Albacross",
+  "provider": "Albacross Nordic AB",
+  "category": "marketing",
+  "purpose": "Identifies companies visiting the site.",
+  "privacyUrl": "https://www.albacross.com/privacy-policy",
+  "dataCountry": "EU (Ireland and Denmark)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "serve.albacross.com",
+      "new-collect.albacross.com"
+    ],
+    "inline": [
+      "window._nQc"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "nQ_cookieId",
+      "lifetime": "1 year",
+      "purpose": "Tells visitors apart."
+    },
+    {
+      "name": "nQ_userVisitId",
+      "lifetime": "30 minutes",
+      "purpose": "Identifies the current visit."
+    },
+    {
+      "name": "nQ_visitId",
+      "lifetime": "1 year",
+      "purpose": "Identifies a visitor session."
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "albacross/plugin.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.albacross.com/privacy-policy",
+    "https://www.albacross.com/data-processing-agreement",
+    "https://www.albacross.com/cookie-policy",
+    "https://help.albacross.com/en/articles/1108639-how-to-install-albacross-tracking-code",
+    "https://help.albacross.com/en/articles/17144844-content-security-policy-csp-and-the-albacross-scripts",
+    "https://www.albacross.com/newsroom/albacross-gdpr",
+    "https://serve.albacross.com/track.js",
+    "https://wordpress.org/plugins/albacross/",
+    "https://plugins.svn.wordpress.org/albacross/trunk/",
+    "https://plugins.svn.wordpress.org/albacross/trunk/plugin.php",
+    "https://plugins.svn.wordpress.org/albacross/trunk/insert-code.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

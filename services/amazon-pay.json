@@ -1,0 +1,59 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "amazon-pay",
+  "version": 1,
+  "name": "Amazon Pay",
+  "provider": "Amazon Payments Europe s.c.a.",
+  "category": "essential",
+  "purpose": "Processes payments with your Amazon account.",
+  "privacyUrl": "https://pay.amazon.co.uk/help/3BBUMQW3YAJKD6A",
+  "dataCountry": "",
+  "legalBasis": "contract",
+  "match": {
+    "hosts": [
+      "static-na.payments-amazon.com",
+      "static-eu.payments-amazon.com",
+      "static-fe.payments-amazon.com"
+    ],
+    "inline": [
+      "amazon.Pay.renderButton("
+    ]
+  },
+  "cookies": [
+    {
+      "name": "apay-session-set",
+      "lifetime": "1 year",
+      "purpose": "Keeps the Amazon Pay browser session."
+    },
+    {
+      "name": "upstream-apay-session-set",
+      "lifetime": "1 year",
+      "purpose": "Keeps the Amazon Pay session across pages."
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "woocommerce-gateway-amazon-payments-advanced/woocommerce-gateway-amazon-payments-advanced.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://developer.amazon.com/docs/amazon-pay-checkout/amazon-pay-script.html",
+    "https://pay.amazon.co.uk/help/3BBUMQW3YAJKD6A",
+    "https://pay.amazon.co.uk/help/201751620",
+    "https://static-eu.payments-amazon.com/checkout.js",
+    "https://pay.amazon.com/help/201828740",
+    "https://wordpress.org/plugins/woocommerce-gateway-amazon-payments-advanced/",
+    "https://plugins.svn.wordpress.org/woocommerce-gateway-amazon-payments-advanced/trunk/",
+    "https://plugins.svn.wordpress.org/woocommerce-gateway-amazon-payments-advanced/trunk/woocommerce-gateway-amazon-payments-advanced.php",
+    "https://plugins.svn.wordpress.org/woocommerce-gateway-amazon-payments-advanced/trunk/amazon-payments-advanced.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

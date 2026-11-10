@@ -1,0 +1,57 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "setmore",
+  "version": 1,
+  "name": "Setmore",
+  "provider": "",
+  "category": "functional",
+  "purpose": "Lets visitors book appointments.",
+  "privacyUrl": "https://www.setmore.com/privacy",
+  "dataCountry": "",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "assets.setmore.com/integration/",
+      "my.setmore.com/webapp/js/src/others/"
+    ],
+    "frames": [
+      "booking.setmore.com"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "generic",
+  "wordpress": {
+    "plugins": [
+      "setmore-appointments/setmore.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.setmore.com/privacy",
+    "https://www.setmore.com/features/website-widgets",
+    "https://support.setmore.com/en/articles/491016-add-the-book-now-button-to-your-website",
+    "https://support.setmore.com/en/articles/490969-wix",
+    "https://support.setmore.com/en/articles/490970-your-booking-page-url",
+    "https://assets.setmore.com/website/v2/pdf/guides/booking-page-setup.pdf",
+    "https://assets.setmore.com/integration/book-now/live/v1/anywhere-book-now.js",
+    "https://assets.setmore.com/integration/static/setmoreIframeLive.js",
+    "https://my.setmore.com/webapp/js/src/others/setmore_iframe.js",
+    "https://www.setmore.com/integrations/wordpress",
+    "https://support.setmore.com/en/articles/490966-wordpress",
+    "https://www.setmore.com/terms",
+    "https://support.setmore.com/en/articles/1784801-setmore-and-gdpr",
+    "https://www.setmore.com/blog/setmore-data-processing-addendum-dpa/",
+    "https://app.hellosign.com/s/29pEcXGv",
+    "https://wordpress.org/plugins/setmore-appointments/",
+    "https://plugins.svn.wordpress.org/setmore-appointments/trunk/",
+    "https://plugins.svn.wordpress.org/setmore-appointments/trunk/setmore.php",
+    "https://plugins.svn.wordpress.org/setmore-appointments/trunk/setmore_widget.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

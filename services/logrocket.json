@@ -1,0 +1,91 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "logrocket",
+  "version": 1,
+  "name": "LogRocket",
+  "provider": "LogRocket, Inc.",
+  "category": "statistics",
+  "purpose": "Records visits for session replay.",
+  "privacyUrl": "https://logrocket.com/privacy",
+  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "cdn.logr-in.com",
+      "cdn.logrocket.io",
+      "cdn.logrocket.com",
+      "cdn.lr-ingest.io",
+      "cdn.lr-in.com",
+      "cdn.lr-in-prod.com",
+      "cdn.lr-ingest.com",
+      "cdn.ingest-lr.com",
+      "cdn.lr-intake.com",
+      "cdn.intake-lr.com",
+      "cdn.logr-ingest.com",
+      "cdn.lrkt-in.com",
+      "cdn.lgrckt-in.com"
+    ],
+    "inline": [
+      "window.LogRocket.init(",
+      "LogRocket.init(",
+      "window._lrAsyncScript"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "_lr_tabs_*",
+      "lifetime": "1 day",
+      "purpose": "Keeps sessions connected across tabs."
+    },
+    {
+      "name": "_lr_hb_*",
+      "lifetime": "1 day",
+      "purpose": "Checks session activity across tabs."
+    },
+    {
+      "name": "_lr5_",
+      "lifetime": "30 minutes",
+      "purpose": "Keeps session data when storage is unavailable."
+    },
+    {
+      "name": "_lr_rd_",
+      "lifetime": "Session",
+      "purpose": "Checks the cookie domain."
+    }
+  ],
+  "storage": [
+    "_lr_tabs_*",
+    "_lr_hb_*",
+    "_lr5_",
+    "_lr5_sync_",
+    "_lr_id_",
+    "_lr_dat_",
+    "_lr_dat_sync_",
+    "_lr_misc_*",
+    "__lr_navigation_history_v1"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://logrocket.com/privacy",
+    "https://logrocket.com/terms-and-conditions",
+    "https://docs.logrocket.com/docs/quickstart",
+    "https://docs.logrocket.com/docs/q-a",
+    "https://docs.logrocket.com/reference/cookies",
+    "https://docs.logrocket.com/docs/security",
+    "https://docs.logrocket.com/docs/troubleshooting-sessions",
+    "https://docs.logrocket.com/docs/proxying-traffic-through-your-own-domain",
+    "https://cdn.logr-in.com/LogRocket.min.js",
+    "https://cdn.logr-in.com/logger-1.min.js",
+    "https://www.dataprivacyframework.gov/list",
+    "https://wordpress.org/plugins/error-tracker/"
+  ],
+  "checked": "2026-11-10"
+}

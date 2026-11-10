@@ -1,0 +1,80 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "clicky",
+  "version": 1,
+  "name": "Clicky",
+  "provider": "Roxr Software Ltd",
+  "category": "statistics",
+  "purpose": "Measures visits and conversions.",
+  "privacyUrl": "https://clicky.com/terms/privacy",
+  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "static.getclicky.com",
+      "in.getclicky.com"
+    ],
+    "inline": [
+      "clicky_site_ids.push(",
+      "clicky_custom",
+      "clicky.init("
+    ]
+  },
+  "cookies": [
+    {
+      "name": "_jsuid",
+      "lifetime": "1 year",
+      "purpose": "Tells visitors apart."
+    },
+    {
+      "name": "_heatmaps_g2g_*",
+      "lifetime": "10 minutes",
+      "purpose": "Remembers whether a visit is sampled for heatmaps."
+    },
+    {
+      "name": "_no_tracky_*",
+      "lifetime": "1 hour",
+      "purpose": "Reduces tracking requests for filtered visits."
+    },
+    {
+      "name": "_cky_osa",
+      "lifetime": "30 days (90 days via proxy)",
+      "purpose": "Authenticates the owner's on-site analytics widget."
+    },
+    {
+      "name": "_cky_ignore",
+      "lifetime": "1 year",
+      "purpose": "Excludes the site owner's own visits."
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "clicky-analytics/clicky_analytics.php",
+      "clicky/clicky.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://clicky.com/terms/privacy",
+    "https://clicky.com/terms/dpa",
+    "https://clicky.com/help/faq/setup",
+    "https://clicky.com/help/faq/privacy",
+    "https://clicky.com/help/plugins-mediawiki",
+    "https://clicky.com/help/custom",
+    "https://clicky.com/help/plugins-wordpress",
+    "https://static.getclicky.com/js",
+    "https://wordpress.org/plugins/clicky-analytics/",
+    "https://plugins.svn.wordpress.org/clicky-analytics/trunk/clicky_analytics.php",
+    "https://plugins.svn.wordpress.org/clicky-analytics/trunk/front/tracking.php",
+    "https://wordpress.org/plugins/clicky/",
+    "https://plugins.svn.wordpress.org/clicky/trunk/clicky.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

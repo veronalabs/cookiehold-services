@@ -1,0 +1,123 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "olark",
+  "version": 1,
+  "name": "Olark",
+  "provider": "Habla, Inc.",
+  "category": "functional",
+  "purpose": "Live chat.",
+  "privacyUrl": "https://www.olark.com/privacy-policy",
+  "dataCountry": "USA",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "static.olark.com"
+    ],
+    "inline": [
+      "olark.identify("
+    ]
+  },
+  "cookies": [
+    {
+      "name": "hblid",
+      "lifetime": "2 years",
+      "purpose": "Recognises returning chat visitors."
+    },
+    {
+      "name": "wcsid",
+      "lifetime": "Session",
+      "purpose": "Keeps the chat session."
+    },
+    {
+      "name": "olfsk",
+      "lifetime": "2 years",
+      "purpose": "Maintains chat history across pages."
+    },
+    {
+      "name": "_okdetect",
+      "lifetime": "Session",
+      "purpose": "Maintains chat across storage changes."
+    },
+    {
+      "name": "_okbk",
+      "lifetime": "Session",
+      "purpose": "Remembers the chat box state."
+    },
+    {
+      "name": "_ok",
+      "lifetime": "Session",
+      "purpose": "Remembers the Olark site ID."
+    },
+    {
+      "name": "_oklv",
+      "lifetime": "Session",
+      "purpose": "Keeps the chat session active."
+    },
+    {
+      "name": "_okla",
+      "lifetime": "15 minutes",
+      "purpose": "Caches the chat asset source."
+    },
+    {
+      "name": "_okgid",
+      "lifetime": "Session",
+      "purpose": "Keeps the assigned chat team."
+    },
+    {
+      "name": "_okac",
+      "lifetime": "Session",
+      "purpose": "Checks whether chat assets changed."
+    },
+    {
+      "name": "_okck",
+      "lifetime": "5 seconds",
+      "purpose": "Tests whether persistent cookies work."
+    },
+    {
+      "name": "_okcs",
+      "lifetime": "Session",
+      "purpose": "Tests whether session cookies work."
+    }
+  ],
+  "storage": [
+    "OLRKPERSTO_OLARK-*",
+    "OLARK_HOST",
+    "OLARK_DEBUG",
+    "_okdetect",
+    "olark-previous-conversation-id",
+    "_ok_cobrowsing_last_begin_timestamp",
+    "olark_tab:*",
+    "olark:leapfrog:*",
+    "olark:measurement:*",
+    "__olark_measurement_storage_test__"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "olark-live-chat/olark-wp.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.olark.com/privacy-policy",
+    "https://www.olark.com/faq",
+    "https://www.olark.com/help/html",
+    "https://www.olark.com/help/cookies/",
+    "https://www.olark.com/help/wordpress-plugin/",
+    "https://static.olark.com/jsclient/loader.js",
+    "https://static.olark.com/jsclient/app.js",
+    "https://static.olark.com/a/assets/v0/site/9353-431-10-4341.js",
+    "https://static.olark.com/jsclient-bucket4/application2.js?v=1793741589684",
+    "https://www.olark.com/press/",
+    "https://wordpress.org/plugins/olark-live-chat/",
+    "https://plugins.svn.wordpress.org/olark-live-chat/trunk/",
+    "https://plugins.svn.wordpress.org/olark-live-chat/trunk/olark-wp.php",
+    "https://www.dataprivacyframework.gov/list",
+    "https://raw.githubusercontent.com/jkwakman/Open-Cookie-Database/master/open-cookie-database.csv"
+  ],
+  "checked": "2026-11-10"
+}

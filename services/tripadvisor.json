@@ -1,0 +1,55 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "tripadvisor",
+  "version": 1,
+  "name": "Tripadvisor Widgets",
+  "provider": "Tripadvisor LLC",
+  "category": "media",
+  "purpose": "Shows Tripadvisor reviews and ratings.",
+  "privacyUrl": "https://tripadvisor.mediaroom.com/US-privacy-policy",
+  "dataCountry": "",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "www.jscache.com/wejs",
+      "www.tripadvisor.com/WidgetEmbed-",
+      "static.tacdn.com/js3/build/concat/widget/",
+      "static.tacdn.com/css2/build/concat/t4b_widget"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "TADCID",
+      "lifetime": "10 years",
+      "purpose": "Tracks visitors and referral commissions."
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "generic",
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://www.tripadvisor.com/Widgets",
+    "https://tripadvisor.mediaroom.com/US-privacy-policy",
+    "https://www.tripadvisor.com/pages/widget_terms.html",
+    "https://www.tripadvisor.com/pdfs/cds/TripAdvisor_Content_Widgets.pdf",
+    "https://www.jscache.com/wejs?wtype=selfserveprop&uniq=659&locationId=4090680&lang=en_US&rating=true&nreviews=5&writereviewlink=true&popIdx=true&iswide=false&border=true&display_version=2",
+    "https://www.tripadvisor.com/WidgetEmbed-selfserveprop?border=true&popIdx=true&iswide=false&locationId=4090680&display_version=2&uniq=659&rating=true&lang=en_US&nreviews=5&writereviewlink=true",
+    "https://static.tacdn.com/js3/build/concat/widget/cdswidgets_m-c-v22480917520a.js",
+    "https://developer-tripadvisor.com/partner-portal-legacy/widgets/",
+    "https://www.tripadvisorsupport.com/en-US/hc/owner/categories/99",
+    "https://www.dataprivacyframework.gov/list",
+    "https://github.com/jkwakman/Open-Cookie-Database",
+    "https://raw.githubusercontent.com/jkwakman/Open-Cookie-Database/master/open-cookie-database.csv",
+    "https://wordpress.org/plugins/review-widgets-for-tripadvisor/",
+    "https://plugins.svn.wordpress.org/review-widgets-for-tripadvisor/trunk/",
+    "https://plugins.svn.wordpress.org/review-widgets-for-tripadvisor/trunk/review-widgets-for-tripadvisor.php"
+  ],
+  "checked": "2026-11-10"
+}

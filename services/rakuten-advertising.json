@@ -1,0 +1,73 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "rakuten-advertising",
+  "version": 1,
+  "name": "Rakuten Advertising",
+  "provider": "Rakuten Marketing LLC dba Rakuten Advertising",
+  "category": "marketing",
+  "purpose": "Tracks sales from affiliate links.",
+  "privacyUrl": "https://rakutenadvertising.com/privacy-policy/",
+  "dataCountry": "USA, Japan, UK, Australia and other countries",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "tag.rmp.rakuten.com",
+      "ad.linksynergy.com/fs-bin/show"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "rmStore*",
+      "lifetime": "30 days",
+      "purpose": "Stores affiliate click IDs and tracking settings."
+    },
+    {
+      "name": "rmlconsent_*",
+      "lifetime": "13 months",
+      "purpose": "Remembers consent for a particular domain."
+    },
+    {
+      "name": "Rmuid",
+      "lifetime": "1 year",
+      "purpose": "Identifies visitors for affiliate tracking."
+    },
+    {
+      "name": "lsn_statp",
+      "lifetime": "1 year",
+      "purpose": "Identifies visitors for affiliate tracking."
+    },
+    {
+      "name": "lsclick_mid*",
+      "lifetime": "730 days",
+      "purpose": "Stores the affiliate click date and publisher ID."
+    }
+  ],
+  "storage": [
+    "__rmco",
+    "__rmco_cs",
+    "__rmco_jsv"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://rakutenadvertising.com/privacy-policy/",
+    "https://rakutenadvertising.com/cookie-policy/",
+    "https://rakutenadvertising.com/legal-notices/subprocessors/",
+    "https://pubhelp.rakutenadvertising.com/hc/en-us/articles/10035508493709-Signature-Implementation-Guidelines-Documentation",
+    "https://pubhelp.rakutenadvertising.com/hc/en-us/articles/7494860456973-Install-and-Use-Automate",
+    "https://github.com/Rakuten-Advertising-Developers/Performance-Tag-Global-community-template",
+    "https://raw.githubusercontent.com/Rakuten-Advertising-Developers/Performance-Tag-Global-community-template/main/README.md",
+    "https://raw.githubusercontent.com/Rakuten-Advertising-Developers/Performance-Tag-Global-community-template/main/template.tpl",
+    "https://raw.githubusercontent.com/Rakuten-Advertising-Developers/Performance-Tag-Conversion-community-template/main/template.tpl",
+    "https://tag.rmp.rakuten.com/perf_tag_conv_3.4.1_gtm_min.js",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

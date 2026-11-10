@@ -1,0 +1,50 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "simple-analytics",
+  "version": 1,
+  "name": "Simple Analytics",
+  "provider": "",
+  "category": "statistics",
+  "purpose": "Measures visits without cookies.",
+  "privacyUrl": "https://www.simpleanalytics.com/privacy-policy",
+  "dataCountry": "EU (Netherlands)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "scripts.simpleanalyticscdn.com",
+      "queue.simpleanalyticscdn.com"
+    ],
+    "inline": [
+      "scripts.simpleanalyticscdn.com/latest.js",
+      "window.sa_settings"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "simpleanalytics/simple-analytics.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.simpleanalytics.com/privacy-policy",
+    "https://docs.simpleanalytics.com/script",
+    "https://scripts.simpleanalyticscdn.com/latest.js",
+    "https://docs.simpleanalytics.com/protecting-your-data",
+    "https://docs.simpleanalytics.com/privacy",
+    "https://www.simpleanalytics.com/gdpr-compliance",
+    "https://www.simpleanalytics.com/about",
+    "https://docs.simpleanalytics.com/install-simple-analytics-on-wordpress",
+    "https://wordpress.org/plugins/simpleanalytics/",
+    "https://plugins.svn.wordpress.org/simpleanalytics/trunk/",
+    "https://plugins.svn.wordpress.org/simpleanalytics/trunk/simple-analytics.php",
+    "https://wordpress.org/plugins/rp-simple-analytics/"
+  ],
+  "checked": "2026-11-10"
+}

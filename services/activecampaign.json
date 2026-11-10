@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "activecampaign",
-  "version": 3,
+  "version": 4,
   "name": "ActiveCampaign",
   "provider": "ActiveCampaign, LLC",
   "category": "marketing",
@@ -40,7 +40,8 @@
   "placeholder": null,
   "wordpress": {
     "plugins": [
-      "activecampaign-for-woocommerce/activecampaign-for-woocommerce.php"
+      "activecampaign-for-woocommerce/activecampaign-for-woocommerce.php",
+      "activecampaign-subscription-forms/activecampaign.php"
     ],
     "handles": []
   },
@@ -52,7 +53,9 @@
     "https://help.activecampaign.com/hc/en-us/articles/12883541905436-ActiveCampaign-data-hosting-locations",
     "https://www.activecampaign.com/legal/mrdc-policy",
     "https://diffuser-cdn.app-us1.com/diffuser/diffuser.js",
-    "https://plugins.svn.wordpress.org/activecampaign-for-woocommerce/tags/3.1.0/public/js/site_tracking.js"
+    "https://plugins.svn.wordpress.org/activecampaign-for-woocommerce/tags/3.1.0/public/js/site_tracking.js",
+    "https://wordpress.org/plugins/activecampaign-subscription-forms/",
+    "https://plugins.svn.wordpress.org/activecampaign-subscription-forms/trunk/activecampaign.php"
   ],
-  "checked": "2026-11-06"
+  "checked": "2026-11-10"
 }

@@ -1,0 +1,50 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "juicer",
+  "version": 1,
+  "name": "Juicer",
+  "provider": "saas.group LLC",
+  "category": "media",
+  "purpose": "Shows embedded social media feeds.",
+  "privacyUrl": "https://www.juicer.io/privacy",
+  "dataCountry": "USA",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "assets.juicer.io",
+      "www.juicer.io/embed",
+      "www.juicer.io/api/feeds"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "social",
+  "wordpress": {
+    "plugins": [
+      "juicer/juicer.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.juicer.io/",
+    "https://www.juicer.io/privacy",
+    "https://www.juicer.io/cookie-policy",
+    "https://www.juicer.io/data-processing-agreement",
+    "https://help.juicer.io/en/articles/12691791-code-customizations-for-date-range-feed-style-spacing-filtering-and-more",
+    "https://help.juicer.io/en/articles/12742430-feed-doesn-t-load-juicer-feed-display-issues",
+    "https://help.juicer.io/en/articles/12702318-installing-juicer-social-on-a-wordpress-site",
+    "https://help.juicer.io/en/articles/12694659-juicer-social-and-the-eu-general-data-protection-regulation-gdpr",
+    "https://assets.juicer.io/embed.js",
+    "https://www.juicer.io/embed/juicer/embed-code.js",
+    "https://www.juicer.io/embed_juicer20-b55e0c75cfa0358269a1afe15c131fdb13c060dd93063a9780ecf7bd50b81f34.js",
+    "https://wordpress.org/plugins/juicer/",
+    "https://plugins.svn.wordpress.org/juicer/trunk/",
+    "https://plugins.svn.wordpress.org/juicer/trunk/juicer.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

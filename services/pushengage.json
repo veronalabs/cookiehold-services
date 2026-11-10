@@ -1,0 +1,52 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "pushengage",
+  "version": 1,
+  "name": "PushEngage",
+  "provider": "Push Engage LLC",
+  "category": "marketing",
+  "purpose": "Sends web push notifications.",
+  "privacyUrl": "https://www.pushengage.com/privacy/",
+  "dataCountry": "USA (EU-US Data Privacy Framework) and other countries",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "clientcdn.pushengage.com",
+      "clientsdk.pushengage.com"
+    ],
+    "inline": [
+      "PushEngage.push("
+    ]
+  },
+  "cookies": [],
+  "storage": [
+    "PushEngageSDK",
+    "PushEngageSDKAddToHomeScreen",
+    "pe_chat_cta_clicked_*"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "pushengage/main.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.pushengage.com/privacy/",
+    "https://www.pushengage.com/dpa/",
+    "https://www.pushengage.com/cookies/",
+    "https://www.pushengage.com/api/web-sdk/",
+    "https://www.pushengage.com/growth-playbook-for-betting-sites-and-apps/",
+    "https://clientcdn.pushengage.com/sdks/pushengage-web-sdk.js",
+    "https://clientsdk.pushengage.com/sdks/pushengage-web-sdk.js",
+    "https://wordpress.org/plugins/pushengage/",
+    "https://plugins.svn.wordpress.org/pushengage/trunk/main.php",
+    "https://plugins.svn.wordpress.org/pushengage/trunk/app/Core.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

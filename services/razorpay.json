@@ -1,0 +1,60 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "razorpay",
+  "version": 1,
+  "name": "Razorpay",
+  "provider": "Razorpay Payments Private Limited",
+  "category": "essential",
+  "purpose": "Processes online payments.",
+  "privacyUrl": "https://razorpay.com/privacy-policy/",
+  "dataCountry": "",
+  "legalBasis": "contract",
+  "match": {
+    "hosts": [
+      "checkout.razorpay.com",
+      "cdn.razorpay.com/static/widget/payment-button.js"
+    ],
+    "inline": [
+      "new Razorpay("
+    ]
+  },
+  "cookies": [
+    {
+      "name": "rzp_unified_session_id",
+      "lifetime": "30 minutes",
+      "purpose": "Identifies the checkout session."
+    }
+  ],
+  "storage": [
+    "rzp_device_id",
+    "rzp_stored_checkout_id",
+    "rzp_checkout_anon_id",
+    "rzp_checkout_user_id"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "woo-razorpay/woo-razorpay.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://razorpay.com/privacy-policy/",
+    "https://razorpay.com/buyer-privacy-notice/",
+    "https://razorpay.com/notice/",
+    "https://razorpay.com/docs/payments/payment-gateway/web-integration/standard/integration-steps",
+    "https://razorpay.com/unfiltered/?p=180",
+    "https://checkout.razorpay.com/v1/checkout.js",
+    "https://cdn.razorpay.com/static/widget/payment-button.js",
+    "https://razorpay.com/blog/payment-gateway-compliance/",
+    "https://wordpress.org/plugins/woo-razorpay/",
+    "https://plugins.svn.wordpress.org/woo-razorpay/trunk/",
+    "https://plugins.svn.wordpress.org/woo-razorpay/trunk/woo-razorpay.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

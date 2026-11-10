@@ -1,0 +1,61 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "chatra",
+  "version": 1,
+  "name": "Chatra",
+  "provider": "Roger Wilco LLC",
+  "category": "functional",
+  "purpose": "Lets visitors chat with support.",
+  "privacyUrl": "https://chatra.com/privacy-policy/",
+  "dataCountry": "USA and EU; other countries possible",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "call.chatra.io",
+      "chat.chatra.io",
+      "static.chatra.io"
+    ],
+    "inline": [
+      "ChatraID"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "Chatra.*",
+      "lifetime": "1 year",
+      "purpose": "Remembers chat visitors and chat state."
+    }
+  ],
+  "storage": [
+    "Chatra.*"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "chatra-live-chat/chatra.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://chatra.com/privacy-policy/",
+    "https://chatra.com/help/",
+    "https://call.chatra.io/chatra.js",
+    "https://chat.chatra.io/",
+    "https://static.chatra.io/jscss/7d8b6a8987294abbe8eee9ac227340f24b378090.js?meteor_js_resource=true",
+    "https://chatra.com/dpa/",
+    "https://chatra.com/gdpr/sub-processors/",
+    "https://chatra.com/gdpr/",
+    "https://chatra.com/help/api/",
+    "https://chatra.com/help/cms/wordpress/",
+    "https://chatra.com/brevo/",
+    "https://wordpress.org/plugins/chatra-live-chat/",
+    "https://plugins.svn.wordpress.org/chatra-live-chat/trunk/",
+    "https://plugins.svn.wordpress.org/chatra-live-chat/trunk/chatra.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

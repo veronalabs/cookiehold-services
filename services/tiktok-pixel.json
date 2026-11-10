@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "tiktok-pixel",
-  "version": 3,
+  "version": 4,
   "name": "TikTok Pixel",
   "provider": "TikTok Technology Limited and TikTok Information Technologies UK Limited",
   "category": "marketing",
@@ -41,13 +41,22 @@
   },
   "placeholder": null,
   "wordpress": {
-    "plugins": [],
-    "handles": []
+    "plugins": [
+      "tiktok-for-business/tiktok-for-woocommerce.php"
+    ],
+    "handles": [
+      "tt4b_ajax_script",
+      "tiktok-tracking-handle-header"
+    ]
   },
   "sources": [
     "https://www.tiktok.com/legal/page/eea/privacy-policy/en",
     "https://ads.tiktok.com/help/article/using-cookies-with-tiktok-pixel",
-    "https://www.tiktok.com/legal/page/global/cookie-policy/en"
+    "https://www.tiktok.com/legal/page/global/cookie-policy/en",
+    "https://wordpress.org/plugins/tiktok-for-business/",
+    "https://plugins.svn.wordpress.org/tiktok-for-business/trunk/tiktok-for-woocommerce.php",
+    "https://plugins.svn.wordpress.org/tiktok-for-business/trunk/pixel/Tt4b_Pixel_Class.php",
+    "https://plugins.svn.wordpress.org/tiktok-for-business/trunk/admin/js/ajaxSnippet.js"
   ],
-  "checked": "2026-11-06"
+  "checked": "2026-11-10"
 }

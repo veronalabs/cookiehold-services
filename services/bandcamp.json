@@ -1,0 +1,50 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "bandcamp",
+  "version": 1,
+  "name": "Bandcamp",
+  "provider": "Bandcamp Ventures LLC",
+  "category": "media",
+  "purpose": "Plays embedded audio.",
+  "privacyUrl": "https://bandcamp.com/privacy",
+  "dataCountry": "USA and other countries",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "bandcamp.com/EmbeddedPlayer/"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "audio",
+  "wordpress": {
+    "plugins": [
+      "blocks-for-bandcamp/blocks-for-bandcamp.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://bandcamp.com/privacy",
+    "https://get.bandcamp.help/en/articles/15263071-how-do-i-create-a-bandcamp-embedded-player",
+    "https://bandcamp.com/guide",
+    "https://blog.bandcamp.com/2016/01/20/exclusive-embeds/",
+    "https://bandcamp.com/EmbeddedPlayer/album=2866482874/size=large/bgcol=333333/linkcol=ffffff/package=2851450363/tracklist=false/transparent=true/",
+    "https://bandcamp.com/EmbeddedPlayer/album=3345203058/size=small/bgcol=ffffff/linkcol=de270f/track=2711065537/transparent=true/",
+    "https://s4.bcbits.com/client-bundle/1/BCCookies_1/bccookies-1b16a61d7d84327a3d9f6a53238b3bc9.js",
+    "https://s4.bcbits.com/client-bundle/1/GlobalJS_1/tko_trackpipe-925995fab0d9a920e25fd916d4729f27.js",
+    "https://s4.bcbits.com/client-bundle/1/trackpipe/embedded_player-85e36fe086f3e26d5c044c367cb65fba.js",
+    "https://s4.bcbits.com/client-bundle/1/GlobalJS_1/time-39b3e6ff9f353710b8497b035b7116f5.js",
+    "https://s4.bcbits.com/client-bundle/1/Tracker_1/analytics-a88f6ec7f84e2a863484763d7a4aed7a.js",
+    "https://s4.bcbits.com/client-bundle/1/Tracker_1/impl-2cd3ff9ef4992241a2f3ecb0bf082e27.js",
+    "https://wordpress.org/plugins/blocks-for-bandcamp/",
+    "https://plugins.svn.wordpress.org/blocks-for-bandcamp/trunk/",
+    "https://plugins.svn.wordpress.org/blocks-for-bandcamp/trunk/blocks-for-bandcamp.php",
+    "https://www.dataprivacyframework.gov/list",
+    "https://raw.githubusercontent.com/jkwakman/Open-Cookie-Database/master/open-cookie-database.csv"
+  ],
+  "checked": "2026-11-10"
+}

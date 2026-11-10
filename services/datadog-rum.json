@@ -1,0 +1,66 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "datadog-rum",
+  "version": 1,
+  "name": "Datadog RUM",
+  "provider": "Datadog, Inc.",
+  "category": "statistics",
+  "purpose": "Measures website performance and errors.",
+  "privacyUrl": "https://www.datadoghq.com/legal/privacy/",
+  "dataCountry": "USA (EU-US Data Privacy Framework), EU (Germany), Japan, Australia or UK",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "www.datadoghq-browser-agent.com/*/*/datadog-rum",
+      "www.datadoghq-browser-agent.com/datadog-rum"
+    ],
+    "inline": [
+      "window.DD_RUM",
+      "'DD_RUM'"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "_dd_s*",
+      "lifetime": "15 minutes, up to 4 hours",
+      "purpose": "Groups events within one visit."
+    },
+    {
+      "name": "dd_site_test_*",
+      "lifetime": "Deleted after check",
+      "purpose": "Checks which domain can store cookies."
+    },
+    {
+      "name": "dd_cookie_test_*",
+      "lifetime": "Deleted after check",
+      "purpose": "Checks that cookies work."
+    }
+  ],
+  "storage": [
+    "_dd_s*",
+    "_dd_c_rum_*",
+    "_dd_tab_id",
+    "_dd_test_*"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://docs.datadoghq.com/real_user_monitoring/",
+    "https://www.datadoghq.com/legal/privacy/",
+    "https://docs.datadoghq.com/real_user_monitoring/application_monitoring/browser/setup/",
+    "https://docs.datadoghq.com/real_user_monitoring/application_monitoring/browser/troubleshooting/",
+    "https://docs.datadoghq.com/real_user_monitoring/application_monitoring/browser/advanced_configuration/",
+    "https://docs.datadoghq.com/getting_started/site/",
+    "https://www.datadoghq-browser-agent.com/us1/v7/datadog-rum.js",
+    "https://www.datadoghq-browser-agent.com/us1/v6/datadog-rum.js",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

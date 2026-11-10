@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "livechat",
-  "version": 3,
+  "version": 4,
   "name": "LiveChat",
   "provider": "Text, Inc.",
   "category": "functional",
@@ -49,7 +49,8 @@
   "placeholder": null,
   "wordpress": {
     "plugins": [
-      "livechat-woocommerce/livechat.php"
+      "livechat-woocommerce/livechat.php",
+      "wp-live-chat-software-for-wordpress/livechat.php"
     ],
     "handles": []
   },
@@ -61,7 +62,9 @@
     "https://raw.githubusercontent.com/jkwakman/Open-Cookie-Database/master/open-cookie-database.csv",
     "https://wordpress.org/plugins/livechat-woocommerce/",
     "https://www.dataprivacyframework.gov/list",
-    "https://www.livechat.com/legal/data-storage-policy/"
+    "https://www.livechat.com/legal/data-storage-policy/",
+    "https://wordpress.org/plugins/wp-live-chat-software-for-wordpress/",
+    "https://plugins.svn.wordpress.org/wp-live-chat-software-for-wordpress/trunk/livechat.php"
   ],
-  "checked": "2026-11-06"
+  "checked": "2026-11-10"
 }

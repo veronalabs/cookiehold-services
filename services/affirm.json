@@ -1,0 +1,66 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "affirm",
+  "version": 1,
+  "name": "Affirm",
+  "provider": "",
+  "category": "essential",
+  "purpose": "Enables buy now, pay later payments.",
+  "privacyUrl": "https://www.affirm.com/privacy/",
+  "dataCountry": "Canada, USA, UK and EU",
+  "legalBasis": "contract",
+  "match": {
+    "hosts": [
+      "cdn1.affirm.com",
+      "cdn1-sandbox.affirm.com"
+    ],
+    "inline": [
+      "_affirm_config"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "affirm-csrf-token",
+      "lifetime": "Session",
+      "purpose": "Prevents forged requests."
+    },
+    {
+      "name": "Affirm-Locale",
+      "lifetime": "1 year",
+      "purpose": "Remembers language and region."
+    }
+  ],
+  "storage": [
+    "AffirmLearnMore",
+    "hasClosedAffirmToastMessage"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "woocommerce-gateway-affirm/woocommerce-gateway-affirm.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://docs.affirm.com/developers/docs/solutions-we-offer",
+    "https://docs.affirm.com/developers/docs/set-up-promotional-messaging.md",
+    "https://docs.affirm.com/developers/recipes/embed-affirmjs.md",
+    "https://www.affirm.com/privacy/",
+    "https://www.affirm.com/api/legal/v1/disclosures/static_disclosures/en_US/privacy_policy",
+    "https://www.affirm.com/en-gb/privacy",
+    "https://www.affirm.com/api/legal/v1/disclosures/static_disclosures/en_GB/privacy_policy",
+    "https://www.affirm.com/api/legal/v1/disclosures/static_disclosures/en_CA/privacy_policy",
+    "https://www.affirm.com/cookie-policy",
+    "https://www.affirm.com/en-ca/cookie-policy",
+    "https://cdn1.affirm.com/js/v2/affirm.js",
+    "https://wordpress.org/plugins/woocommerce-gateway-affirm/",
+    "https://plugins.svn.wordpress.org/woocommerce-gateway-affirm/trunk/",
+    "https://plugins.svn.wordpress.org/woocommerce-gateway-affirm/trunk/woocommerce-gateway-affirm.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

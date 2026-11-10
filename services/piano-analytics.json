@@ -1,0 +1,110 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "piano-analytics",
+  "version": 1,
+  "name": "Piano Analytics",
+  "provider": "Applied Technologies Internet SAS",
+  "category": "statistics",
+  "purpose": "Measures visits and conversions.",
+  "privacyUrl": "https://www.piano.io/legal/privacy-policy",
+  "dataCountry": "EU, USA or Japan (depending on hosting option)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "tag.aticdn.net",
+      "pa-cd.com"
+    ],
+    "inline": [
+      "pa.setConfigurations(",
+      "pa.setConfiguration(",
+      "pa.sendEvent(",
+      "_paq.push([\"sendEvent\",",
+      "_paqueue.push("
+    ]
+  },
+  "cookies": [
+    {
+      "name": "_pcid",
+      "lifetime": "13 months",
+      "purpose": "Tells visitors apart."
+    },
+    {
+      "name": "_pctx",
+      "lifetime": "13 months",
+      "purpose": "Shares context between Piano scripts."
+    },
+    {
+      "name": "_pprv",
+      "lifetime": "13 months",
+      "purpose": "Remembers the visitor's consent choice."
+    },
+    {
+      "name": "pa_user",
+      "lifetime": "13 months",
+      "purpose": "Remembers information about a signed-in user."
+    },
+    {
+      "name": "pa_vid",
+      "lifetime": "13 months",
+      "purpose": "Tells visitors apart in older versions."
+    },
+    {
+      "name": "pa_privacy",
+      "lifetime": "13 months",
+      "purpose": "Remembers the privacy choice in older versions."
+    },
+    {
+      "name": "atuserid",
+      "lifetime": "13 months",
+      "purpose": "Keeps the visitor ID when migrating from SmartTag."
+    },
+    {
+      "name": "idrxvr",
+      "lifetime": "13 months",
+      "purpose": "Tells visitors apart using a server-set ID.",
+      "httpOnly": true
+    },
+    {
+      "name": "atidx",
+      "lifetime": "13 months",
+      "purpose": "Tells visitors apart using a server-set ID.",
+      "httpOnly": true
+    },
+    {
+      "name": "atid",
+      "lifetime": "13 months",
+      "purpose": "Tells visitors apart using a server-set ID.",
+      "httpOnly": true
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://www.piano.io/legal/privacy-policy",
+    "https://www.piano.io/legal/dap-at-internet-france",
+    "https://www.piano.io/legal/msa-dpa",
+    "https://developers.piano.io/analytics/data-collection/sdks/javascript/",
+    "https://developers.piano.io/analytics/data-collection/general/collection-methods/",
+    "https://developers.piano.io/analytics/data-collection/general/cookie-storage/",
+    "https://developers.piano.io/analytics/data-collection/how-to-send-events/consent/",
+    "https://docs.piano.io/en/analytics/how-do-i-implement-the-piano-analytics-sdk",
+    "https://tag.aticdn.net/piano-analytics.js",
+    "https://developers.atinternet-solutions.com/as2-tagging-en/javascript-en/getting-started-javascript-en/at-internet-cookies-javascript-en/index.html",
+    "https://github.com/at-internet/smarttag-documentation-archive/wiki",
+    "https://raw.githubusercontent.com/wiki/at-internet/smarttag-documentation-archive/AT-Internet-cookies.md",
+    "https://wordpress.org/plugins/at-internet/",
+    "https://plugins.svn.wordpress.org/at-internet/trunk/",
+    "https://plugins.svn.wordpress.org/at-internet/trunk/atinternet-smarttag.php",
+    "https://plugins.svn.wordpress.org/at-internet/trunk/readme.txt",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

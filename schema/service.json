@@ -9,6 +9,7 @@
   "anyOf": [
     { "properties": { "match": { "type": "object", "required": ["hosts"], "properties": { "hosts": { "type": "array", "minItems": 1 } } } } },
     { "properties": { "match": { "type": "object", "required": ["inline"], "properties": { "inline": { "type": "array", "minItems": 1 } } } } },
+    { "properties": { "match": { "type": "object", "required": ["frames"], "properties": { "frames": { "type": "array", "minItems": 1 } } } } },
     { "properties": { "match": { "type": "object", "maxProperties": 0 }, "cookies": { "type": "array", "minItems": 1 } } }
   ],
   "properties": {
@@ -49,11 +50,16 @@
     "match": {
       "type": "object",
       "additionalProperties": false,
-      "description": "How the service is recognised. A URL matches a host pattern when its host equals the pattern's host or is a subdomain of it, and its path and query start with the pattern's rest. The longest matching pattern across all services wins. Empty only for a service known by its cookies alone.",
+      "description": "How the service is recognised. A URL matches a host pattern when its host equals the pattern's host or is a subdomain of it, and its path and query start with the pattern's rest. The longest matching pattern across all services wins. Frame patterns count only when an iframe shows the address, never for a script, an image, a request or a URL that inline code mentions. Empty only for a service known by its cookies alone.",
       "properties": {
         "hosts": {
           "type": "array",
           "items": { "type": "string", "pattern": "^[a-z0-9.-]+\\.[a-z]{2,}(/[^\\s]*)?$", "maxLength": 120, "description": "A host, or a host and the start of a path. A path segment that is only * stands for exactly one non-empty segment, never the query." },
+          "uniqueItems": true
+        },
+        "frames": {
+          "type": "array",
+          "items": { "type": "string", "pattern": "^[a-z0-9.-]+\\.[a-z]{2,}(/[^\\s]*)?$", "maxLength": 120, "description": "A page address a site shows in an iframe (a booking or form page), with the same rules as a host pattern. It holds only an iframe, so a site's own script that merely links to the page runs. A pattern is claimed once across all hosts and frames." },
           "uniqueItems": true
         },
         "inline": {

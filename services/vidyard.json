@@ -1,0 +1,54 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "vidyard",
+  "version": 1,
+  "name": "Vidyard",
+  "provider": "Buildscale, Inc.",
+  "category": "media",
+  "purpose": "Shows embedded videos.",
+  "privacyUrl": "https://www.vidyard.com/privacy/",
+  "dataCountry": "Canada, USA and other countries",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "play.vidyard.com"
+    ],
+    "inline": [
+      "window.vidyardEmbed"
+    ]
+  },
+  "cookies": [],
+  "storage": [
+    "vidyard_cookiejar",
+    "vidyard_email"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "video",
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://www.vidyard.com/privacy/",
+    "https://www.vidyard.com/dpa/",
+    "https://developer.vidyard.com/responsive-player-embed-api.html",
+    "https://knowledge.vidyard.com/hc/en-us/articles/360010001713-Embed-your-video-on-a-webpage",
+    "https://knowledge.vidyard.com/hc/en-us/articles/360009998933-How-Vidyard-tracks-and-identifies-viewers",
+    "https://knowledge.vidyard.com/hc/en-us/articles/360009993593-Using-the-Vidyard-for-WordPress-oEmbed-plugin",
+    "https://play.vidyard.com/embed/v4.js",
+    "https://assets.vidyard.com/play/js/main-f31e4bcf5e36f1ff55670721aadb67a9.js",
+    "https://assets.vidyard.com/play/js/runtime~main-29032c5431fd9c2c45d7f110292dfcd7.js",
+    "https://assets.vidyard.com/play/js/109-2ff9de6be2121326c8b961825efc9caf.js",
+    "https://assets.vidyard.com/play/js/443-f759a103b48483dd92d21c6a95956c83.js",
+    "https://assets.vidyard.com/play/js/player-a6bf57e65730ef494d7c84c931e1eb2e.js",
+    "https://www.dataprivacyframework.gov/list",
+    "https://github.com/jkwakman/Open-Cookie-Database",
+    "https://raw.githubusercontent.com/jkwakman/Open-Cookie-Database/master/open-cookie-database.csv",
+    "https://wordpress.org/plugins/embedpress/",
+    "https://plugins.svn.wordpress.org/embedpress/trunk/embedpress.php"
+  ],
+  "checked": "2026-11-10"
+}

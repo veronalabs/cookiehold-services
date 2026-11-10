@@ -1,0 +1,58 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "cognito-forms",
+  "version": 1,
+  "name": "Cognito Forms",
+  "provider": "Cognito, LLC",
+  "category": "functional",
+  "purpose": "Shows embedded forms.",
+  "privacyUrl": "https://www.cognitoforms.com/legal/privacy",
+  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "cognitoforms.com/f/",
+      "services.cognitoforms.com/s/"
+    ],
+    "inline": [
+      "Cognito.load(",
+      "Cognito.prefill(",
+      "Cognito.mount(",
+      "Cognito.on(",
+      "Cognito.setCss(",
+      "Cognito.overrideText("
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "form",
+  "wordpress": {
+    "plugins": [
+      "cognito-forms/cognito-forms.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.cognitoforms.com/support/380/style-publish/seamless-embedding",
+    "https://www.cognitoforms.com/support/168/style-publish/iframe-embedding",
+    "https://www.cognitoforms.com/support/62/data-integration/client-side-events",
+    "https://www.cognitoforms.com/blog/6/diy-preloader-for-your-forms",
+    "https://www.cognitoforms.com/legal/privacy",
+    "https://www.cognitoforms.com/legal/4/cookie-policy",
+    "https://www.cognitoforms.com/support/74/entries/data-security",
+    "https://www.cognitoforms.com/support/67/data-integration/wordpress-plugin",
+    "https://www.cognitoforms.com/f/seamless.js",
+    "https://www.cognitoforms.com/f/iframe.js",
+    "https://codepen.io/CognitoForms/pen/KRZqxj",
+    "https://wordpress.org/plugins/cognito-forms/",
+    "https://plugins.svn.wordpress.org/cognito-forms/trunk/",
+    "https://plugins.svn.wordpress.org/cognito-forms/trunk/cognito-forms.php",
+    "https://plugins.svn.wordpress.org/cognito-forms/trunk/api.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

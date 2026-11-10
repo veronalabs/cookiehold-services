@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "google-recaptcha",
-  "version": 4,
+  "version": 5,
   "name": "Google reCAPTCHA",
   "provider": "Google Cloud EMEA Limited or regional Google Cloud entity (depends on customer country)",
   "category": "functional",
@@ -40,7 +40,10 @@
       "invisible-recaptcha/invisible-recaptcha.php",
       "login-recaptcha/login-nocaptcha.php",
       "recaptcha-woo/recaptcha-woo.php",
-      "um-recaptcha/um-recaptcha.php"
+      "um-recaptcha/um-recaptcha.php",
+      "recaptcha-for-mw-wp-form/recaptcha-for-mw-wp-form.php",
+      "login-security-recaptcha/login-security-recaptcha.php",
+      "gravity-forms-no-captcha-recaptcha/gf-no-captcha-recaptcha.php"
     ],
     "handles": [
       "wpcf7-recaptcha",
@@ -67,7 +70,13 @@
     "https://docs.cloud.google.com/recaptcha/docs/faq",
     "https://cloud.google.com/terms/data-processing-addendum",
     "https://cloud.google.com/terms/google-entity",
-    "https://cloud.google.com/terms/service-terms"
+    "https://cloud.google.com/terms/service-terms",
+    "https://wordpress.org/plugins/recaptcha-for-mw-wp-form/",
+    "https://plugins.svn.wordpress.org/recaptcha-for-mw-wp-form/trunk/recaptcha-for-mw-wp-form.php",
+    "https://wordpress.org/plugins/login-security-recaptcha/",
+    "https://plugins.svn.wordpress.org/login-security-recaptcha/trunk/login-security-recaptcha.php",
+    "https://wordpress.org/plugins/gravity-forms-no-captcha-recaptcha/",
+    "https://plugins.svn.wordpress.org/gravity-forms-no-captcha-recaptcha/trunk/gf-no-captcha-recaptcha.php"
   ],
-  "checked": "2026-11-06"
+  "checked": "2026-11-10"
 }

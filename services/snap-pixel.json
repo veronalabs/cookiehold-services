@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "snap-pixel",
-  "version": 3,
+  "version": 4,
   "name": "Snap Pixel",
   "provider": "Snap Inc.",
   "category": "marketing",
@@ -44,8 +44,12 @@
   },
   "placeholder": null,
   "wordpress": {
-    "plugins": [],
-    "handles": []
+    "plugins": [
+      "snapchat-for-woocommerce/snapchat-for-woocommerce.php"
+    ],
+    "handles": [
+      "snapchat_tracking"
+    ]
   },
   "sources": [
     "https://values.snap.com/privacy/privacy-policy",
@@ -54,7 +58,11 @@
     "https://developers.snap.com/api/marketing-api/Conversions-API/UsingTheAPI",
     "https://github.com/jkwakman/Open-Cookie-Database",
     "https://www.dataprivacyframework.gov/list",
-    "https://sc-static.net/scevent.min.js"
+    "https://sc-static.net/scevent.min.js",
+    "https://wordpress.org/plugins/snapchat-for-woocommerce/",
+    "https://plugins.svn.wordpress.org/snapchat-for-woocommerce/trunk/snapchat-for-woocommerce.php",
+    "https://plugins.svn.wordpress.org/snapchat-for-woocommerce/tags/1.0.8/includes/Assets.php",
+    "https://plugins.svn.wordpress.org/snapchat-for-woocommerce/tags/1.0.8/js/build/tracking.js"
   ],
-  "checked": "2026-11-06"
+  "checked": "2026-11-10"
 }

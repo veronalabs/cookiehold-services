@@ -1,0 +1,89 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "bazaarvoice",
+  "version": 1,
+  "name": "Bazaarvoice",
+  "provider": "Bazaarvoice, Inc.",
+  "category": "media",
+  "purpose": "Shows customer reviews and ratings.",
+  "privacyUrl": "https://www.bazaarvoice.com/legal/privacy-policy/",
+  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "apps.bazaarvoice.com",
+      "display.ugc.bazaarvoice.com"
+    ],
+    "inline": [
+      "$BV.configure(",
+      "$BV.ui(",
+      "window.BV.cookieConsent.setConsent"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "bv_segment",
+      "lifetime": "Up to 2 hours",
+      "purpose": "Compares variations of review features."
+    },
+    {
+      "name": "BVImpl*",
+      "lifetime": "2 hours",
+      "purpose": "Compares different review implementations."
+    },
+    {
+      "name": "bvf_*",
+      "lifetime": "Session",
+      "purpose": "Remembers feedback already submitted."
+    },
+    {
+      "name": "bv_authorSubmissionToken",
+      "lifetime": "30 days",
+      "purpose": "Limits duplicate review submissions."
+    },
+    {
+      "name": "bv_metrics",
+      "lifetime": "2 hours",
+      "purpose": "Measures the performance of review features."
+    },
+    {
+      "name": "BVBRANDID",
+      "lifetime": "1 year",
+      "purpose": "Measures a visitor's interactions on this website."
+    },
+    {
+      "name": "BVBRANDSID",
+      "lifetime": "30 minutes",
+      "purpose": "Measures interactions during a browsing session."
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "generic",
+  "wordpress": {
+    "plugins": [
+      "integration-for-baazarvoice/wp-baazarvoice.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.bazaarvoice.com/legal/privacy-policy/",
+    "https://docs.bazaarvoice.com/articles/ratings-reviews/integrate-bazaarvoice-ugc-into-your-pdp/",
+    "https://docs.bazaarvoice.com/articles/ratings-reviews/display_integration_v1/",
+    "https://docs.bazaarvoice.com/articles/ratings-reviews/bv-pixel-implementation-bv-js/",
+    "https://docs.bazaarvoice.com/articles/portal-basics/cookies/",
+    "https://docs.bazaarvoice.com/articles/portal-basics/cookie-consent/",
+    "https://apps.bazaarvoice.com/deployments/endurancecycles/main_site/staging/en_US/bv.js",
+    "https://wordpress.org/plugins/integration-for-baazarvoice/",
+    "https://plugins.svn.wordpress.org/integration-for-baazarvoice/trunk/",
+    "https://plugins.svn.wordpress.org/integration-for-baazarvoice/trunk/wp-baazarvoice.php",
+    "https://wordpress.org/plugins/codex-bvwp/",
+    "https://plugins.svn.wordpress.org/codex-bvwp/trunk/",
+    "https://plugins.svn.wordpress.org/codex-bvwp/trunk/codex-bvwp.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

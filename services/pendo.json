@@ -1,0 +1,106 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "pendo",
+  "version": 1,
+  "name": "Pendo",
+  "provider": "Pendo.io, Inc.",
+  "category": "statistics",
+  "purpose": "Measures how visitors use the site.",
+  "privacyUrl": "https://www.pendo.io/legal/privacy-policy/",
+  "dataCountry": "USA (EU-US Data Privacy Framework), EU, Japan or Australia; global support",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "cdn.pendo.io",
+      "data.pendo.io",
+      "cdn.eu.pendo.io",
+      "data.eu.pendo.io",
+      "cdn.jpn.pendo.io",
+      "data.jpn.pendo.io",
+      "cdn.au.pendo.io",
+      "data.au.pendo.io",
+      "static.pendo.io",
+      "static.eu.pendo.io",
+      "static.us1.pendo.io",
+      "static.jpn.pendo.io",
+      "static.au.pendo.io",
+      "pendo-io-static.storage.googleapis.com",
+      "pendo-eu-static.storage.googleapis.com",
+      "pendo-us1-static.storage.googleapis.com",
+      "pendo-jp-prod-static.storage.googleapis.com",
+      "pendo-au-static.storage.googleapis.com"
+    ],
+    "inline": [
+      "})(window,document,'script','pendo')",
+      "pendo.initialize("
+    ]
+  },
+  "cookies": [
+    {
+      "name": "_pendo_meta.*",
+      "lifetime": "100 days",
+      "purpose": "Detects changes to visitor metadata."
+    },
+    {
+      "name": "_pendo_accountId.*",
+      "lifetime": "100 days",
+      "purpose": "Identifies the visitor's account."
+    },
+    {
+      "name": "_pendo_visitorId.*",
+      "lifetime": "100 days",
+      "purpose": "Tells visitors apart."
+    },
+    {
+      "name": "_pendo_lastStepAdvanced.*",
+      "lifetime": "10 seconds",
+      "purpose": "Remembers progress through guides."
+    },
+    {
+      "name": "_pendo_latestDismissedAutoAt.*",
+      "lifetime": "10 seconds",
+      "purpose": "Remembers when a guide was dismissed."
+    },
+    {
+      "name": "_pendo_guides_blocked.*",
+      "lifetime": "30 minutes to 4 hours",
+      "purpose": "Avoids repeated requests for blocked guides."
+    },
+    {
+      "name": "_pendo_launcher-closed.*",
+      "lifetime": "10 days",
+      "purpose": "Remembers that the guide launcher was closed."
+    }
+  ],
+  "storage": [
+    "_pendo_*",
+    "pendo_*",
+    "pendo-preview",
+    "pendo-designer-launch-receipt",
+    "pendo-live-preview"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://www.pendo.io/legal/privacy-policy/",
+    "https://web-sdk.pendo.io/",
+    "https://support.pendo.io/hc/en-us/articles/17606624107931-Install-Pendo-on-a-multi-page-web-application",
+    "https://support.pendo.io/hc/en-us/articles/360032209131-Content-Security-Policy-CSP",
+    "https://support.pendo.io/hc/en-us/articles/360041032971-Cookies-and-local-storage",
+    "https://web-sdk.pendo.io/cookies/localstorage/",
+    "https://web-sdk.pendo.io/cookies/sessionstorage/",
+    "https://content.pendo-internal.pendo.io/agent/static/a652cfd2-31b6-477c-79c2-400dbd6b92de/pendo.js",
+    "https://support.pendo.io/hc/en-us/articles/22832528657179-Global-data-hosting",
+    "https://www.pendo.io/contract-center/customers/",
+    "https://go.pendo.io/rs/185-LQW-370/images/Pendo-DPA_FAQ.pdf?version=1",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

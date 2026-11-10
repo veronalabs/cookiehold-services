@@ -1,0 +1,50 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "embedly",
+  "version": 1,
+  "name": "Embedly",
+  "provider": "Embedly LLC",
+  "category": "media",
+  "purpose": "Shows embedded link cards.",
+  "privacyUrl": "https://embed.ly/legal/privacy",
+  "dataCountry": "USA and other countries",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "cdn.embedly.com"
+    ],
+    "inline": [
+      "embedly-platform"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "generic",
+  "wordpress": {
+    "plugins": [
+      "embedly/embedly.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://embed.ly/legal/privacy",
+    "https://docs.embed.ly/reference/platformjs",
+    "https://docs.embed.ly/reference/cards",
+    "https://embed.ly/cards",
+    "https://embed.ly/wordpress",
+    "https://cdn.embedly.com/widgets/platform.js",
+    "https://cdn.embedly.com/widgets/card.html",
+    "https://cdn.embedly.com/js/all.b0e4ffe7.js",
+    "https://wordpress.org/plugins/embedly/",
+    "https://plugins.svn.wordpress.org/embedly/trunk/",
+    "https://plugins.svn.wordpress.org/embedly/trunk/embedly.php",
+    "https://www.dataprivacyframework.gov/list",
+    "https://github.com/jkwakman/Open-Cookie-Database",
+    "https://raw.githubusercontent.com/jkwakman/Open-Cookie-Database/master/open-cookie-database.csv"
+  ],
+  "checked": "2026-11-10"
+}

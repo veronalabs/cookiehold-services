@@ -1,0 +1,59 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "authorize-net",
+  "version": 1,
+  "name": "Authorize.net",
+  "provider": "Authorize.Net LLC",
+  "category": "essential",
+  "purpose": "Processes online payments.",
+  "privacyUrl": "https://www.visa.com/en-us/legal/privacy-policy",
+  "dataCountry": "USA",
+  "legalBasis": "contract",
+  "match": {
+    "hosts": [
+      "js.authorize.net",
+      "jstest.authorize.net",
+      "accept.authorize.net/payment/payment",
+      "test.authorize.net/payment/payment"
+    ],
+    "inline": [
+      "Accept.dispatchData(",
+      "AuthorizeNetPopup.onReceiveCommunication",
+      "AuthorizeNetIFrame.onReceiveCommunication"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "woo-authorize-net-gateway-aim/gateway.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://developer.authorize.net/api/reference/features/acceptjs.html",
+    "https://developer.authorize.net/api/reference/features/accept-hosted.html",
+    "https://www.authorize.net/content/dam/anet-redesign/documents/authorizenet-dpa.pdf",
+    "https://www.authorize.net/about-us/privacy.html",
+    "https://www.visa.com/en-us/legal/privacy-policy",
+    "https://www.visa.com/en-us/legal/global-privacy-notice",
+    "https://www.visa.co.uk/legal/global-privacy-notice/jurisdictional-notice-eea.html",
+    "https://www.visa.com/en-us/legal/global-privacy-notice/cookie-notice",
+    "https://js.authorize.net/v1/Accept.js",
+    "https://js.authorize.net/v1/AcceptCore.js",
+    "https://js.authorize.net/v3/AcceptUI.js",
+    "https://js.authorize.net/v3/acceptMain/acceptMain.html",
+    "https://www.dataprivacyframework.gov/list",
+    "https://github.com/jkwakman/Open-Cookie-Database",
+    "https://raw.githubusercontent.com/jkwakman/Open-Cookie-Database/master/open-cookie-database.csv",
+    "https://wordpress.org/plugins/woo-authorize-net-gateway-aim/",
+    "https://plugins.svn.wordpress.org/woo-authorize-net-gateway-aim/trunk/",
+    "https://plugins.svn.wordpress.org/woo-authorize-net-gateway-aim/trunk/gateway.php"
+  ],
+  "checked": "2026-11-10"
+}

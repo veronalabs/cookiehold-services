@@ -1,0 +1,91 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "kameleoon",
+  "version": 1,
+  "name": "Kameleoon",
+  "provider": "Kameleoon SAS",
+  "category": "statistics",
+  "purpose": "Tests page versions and measures their results.",
+  "privacyUrl": "https://www.kameleoon.com/privacy-policy",
+  "dataCountry": "",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "kameleoon.io",
+      "kameleoon.eu",
+      "client-config.kameleoon.com",
+      "static.products.kameleoon.com",
+      "images.products.kameleoon.com"
+    ],
+    "inline": [
+      "window.kameleoonStartLoadTime",
+      "window.kameleoonQueue"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "kameleoonVisitorCode",
+      "lifetime": "1 year",
+      "purpose": "Tells visitors apart."
+    },
+    {
+      "name": "kameleoonReferrer",
+      "lifetime": "1 hour",
+      "purpose": "Keeps the referring page during a test redirect."
+    },
+    {
+      "name": "KameleoonProducts_session_code",
+      "lifetime": "Session",
+      "purpose": "Identifies a product recommendation session."
+    },
+    {
+      "name": "KameleoonProducts_session_last_act",
+      "lifetime": "1 hour",
+      "purpose": "Records the last product recommendation activity."
+    }
+  ],
+  "storage": [
+    "kameleoonVisitorCode",
+    "kameleoonData",
+    "kameleoonExperiment-*",
+    "kameleoonPersonalization-*",
+    "kameleoonGlobalPersonalizationExposition",
+    "kameleoonLegalConsent",
+    "kameleoonOpenTabs",
+    "KameleoonProducts_device_id",
+    "kameleoonRequestEvents",
+    "kameleoonClientData",
+    "kameleoonConsentData",
+    "kameleoonDataInfo",
+    "kameleoonTargetingData",
+    "kameleoonTrackingData",
+    "kameleoonVariationData",
+    "kameleoonDisabledForVisit",
+    "kameleoonAnalyticsTrackingTimes",
+    "kameleoonTabId",
+    "kameleoonActiveScript"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://www.kameleoon.com/privacy-policy",
+    "https://www.kameleoon.com/de/privacy-policy",
+    "https://www.kameleoon.com/legal-notice",
+    "https://docs.kameleoon.com/developer-docs/web-experimentation/implementation-and-deployment/standard-implementation.md",
+    "https://docs.kameleoon.com/developer-docs/privacy-and-compliance/data-collection-client-side.md",
+    "https://docs.kameleoon.com/developer-docs/privacy-and-compliance/data-collection-backend.md",
+    "https://docs.kameleoon.com/developer-docs/privacy-and-compliance/consent-management.md",
+    "https://otv7gal6z6.kameleoon.io/engine.js",
+    "https://www.kameleoon.com/platform/privacy-security",
+    "https://security.kameleoon.com/",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

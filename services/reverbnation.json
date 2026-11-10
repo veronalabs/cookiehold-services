@@ -1,0 +1,44 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "reverbnation",
+  "version": 1,
+  "name": "ReverbNation",
+  "provider": "BandLab Singapore Pte Ltd",
+  "category": "media",
+  "purpose": "Plays embedded audio.",
+  "privacyUrl": "https://www.reverbnation.com/privacy",
+  "dataCountry": "Singapore and USA",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "reverbnation.com/widget_code/html_widget/"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "audio",
+  "wordpress": {
+    "plugins": [
+      "reverbnation-master/reverbnation-master.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.reverbnation.com/privacy",
+    "https://www.reverbnation.com/widget_code/html_widget_config/artist_2851921?widget_id=55",
+    "https://legacy.reverbnation.com/page_object/share_page_object/artist_2851921?tab=embed",
+    "https://www.reverbnation.com/widget_code/html_widget/artist_2851921?widget_id=55",
+    "https://legacy.reverbnation.com/widget_code/html_widget/artist_2851921?widget_id=55&pwc[included_songs]=1&context_type=page_object",
+    "https://d16o2fplq2wi4c.cloudfront.net/20261102141724/assets/html_widget_55.js",
+    "https://wordpress.org/plugins/reverbnation-master/",
+    "https://plugins.svn.wordpress.org/reverbnation-master/trunk/",
+    "https://plugins.svn.wordpress.org/reverbnation-master/trunk/reverbnation-master.php",
+    "https://www.dataprivacyframework.gov/list",
+    "https://raw.githubusercontent.com/jkwakman/Open-Cookie-Database/master/open-cookie-database.csv"
+  ],
+  "checked": "2026-11-10"
+}

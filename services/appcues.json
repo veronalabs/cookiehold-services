@@ -1,0 +1,63 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "appcues",
+  "version": 1,
+  "name": "Appcues",
+  "provider": "Appcues, Inc.",
+  "category": "functional",
+  "purpose": "Shows product tours and onboarding tips.",
+  "privacyUrl": "https://www.appcues.com/privacy",
+  "dataCountry": "EU and USA (EU-US Data Privacy Framework)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "fast.appcues.com",
+      "api.appcues.net",
+      "fast.eu.appcues.com",
+      "api.eu.appcues.net"
+    ],
+    "inline": [
+      "window.AppcuesSettings",
+      "window.AppcuesReady",
+      "Appcues.identify("
+    ]
+  },
+  "cookies": [],
+  "storage": [
+    "apc_ann_errors",
+    "apc_local_id",
+    "apc_user_id",
+    "apc_next_content_id",
+    "apc_user",
+    "apc_debug_enabled",
+    "apc_debug_url",
+    "apc_curr_flow",
+    "apc_curr_checklist",
+    "apc_cl:*",
+    "apc_followed_test_link"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://www.appcues.com/privacy",
+    "https://www.appcues.com/data-processing-addendum",
+    "https://docs.appcues.com/en_US/install-appcues-web/install-the-appcues-sdk",
+    "https://docs.appcues.com/en_US/installation-overview/appcues-us-and-eu-hosting-environments",
+    "https://docs.appcues.com/install-appcues-web/faq-content-security-policies",
+    "https://docs.appcues.com/security-privacy/faq-required-cookies-local-storage-and-session-data",
+    "https://fast.appcues.com/26791.js",
+    "https://fast.appcues.com/generic/main/7.35.6/appcues.main.fd607aea12923345329e26c5a5ff678132eb39e5.js",
+    "https://docs.appcues.com/en_US/dev-installing-appcues/self-hosting-the-appcues-sdk-bootstrap-script",
+    "https://github.com/appcues/sdk-self-hosting/blob/main/bootstrap.js",
+    "https://raw.githubusercontent.com/appcues/sdk-self-hosting/main/bootstrap.js",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

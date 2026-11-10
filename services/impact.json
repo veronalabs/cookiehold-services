@@ -1,0 +1,72 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "impact",
+  "version": 1,
+  "name": "impact.com",
+  "provider": "Impact Tech, Inc.",
+  "category": "marketing",
+  "purpose": "Tracks sales from affiliate links.",
+  "privacyUrl": "https://impact.com/privacy-policy/",
+  "dataCountry": "USA and other countries",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "utt.impactcdn.com"
+    ],
+    "inline": [
+      "utt.impactcdn.com/",
+      "e['ire_o']=c",
+      "ire('identify'",
+      "ire('trackConversion'"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "IR_PI",
+      "lifetime": "365 days",
+      "purpose": "Identifies visitors for affiliate attribution."
+    },
+    {
+      "name": "IRLD",
+      "lifetime": "180 days",
+      "purpose": "Remembers the last affiliate click to avoid duplicates."
+    },
+    {
+      "name": "IR_GBD",
+      "lifetime": "Session",
+      "purpose": "Identifies the site's base domain for tracking."
+    },
+    {
+      "name": "irclickid",
+      "lifetime": "30 days",
+      "purpose": "Remembers the affiliate click to credit a sale."
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "impact-partnership-cloud/impact.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://impact.com/privacy-policy/",
+    "https://impact.com/partnership-track/",
+    "https://integrations.impact.com/integration-guides/for-brands/tracking-integrations/javascript-tag-utt/installation",
+    "https://integrations.impact.com/integration-guides/for-brands/tracking-integrations/javascript-tag-utt/installation.md",
+    "https://help.impact.com/brand/what-would-you-like-to-learn-about/platform-features/tracking/tracking-explained/impactcom-cookies-explained",
+    "https://help.impact.com/brand/what-would-you-like-to-learn-about/platform-features/tracking/tracking-explained/impactcom-cookies-explained.md",
+    "https://wordpress.org/plugins/impact-partnership-cloud/",
+    "https://plugins.svn.wordpress.org/impact-partnership-cloud/trunk/",
+    "https://plugins.svn.wordpress.org/impact-partnership-cloud/trunk/impact.php",
+    "https://plugins.svn.wordpress.org/impact-partnership-cloud/trunk/includes/utt-script.php",
+    "https://plugins.svn.wordpress.org/impact-partnership-cloud/trunk/js/scripts/impact-utt-getclickid.js",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

@@ -1,0 +1,78 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "parsely",
+  "version": 1,
+  "name": "Parse.ly",
+  "provider": "WPVIP Inc.",
+  "category": "statistics",
+  "purpose": "Measures visits and engagement with content.",
+  "privacyUrl": "https://wpvip.com/privacy/",
+  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "cdn.parsely.com",
+      "pixel.parsely.com",
+      "p1.parsely.com"
+    ],
+    "inline": [
+      "cdn.parsely.com/keys/",
+      "parsely._snippetVersion"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "_parsely_visitor",
+      "lifetime": "13 months",
+      "purpose": "Tells visitors apart and counts their sessions."
+    },
+    {
+      "name": "_parsely_session",
+      "lifetime": "30 minutes",
+      "purpose": "Keeps the current browsing session."
+    },
+    {
+      "name": "_parsely_tpa_blocked",
+      "lifetime": "12 hours",
+      "purpose": "Remembers whether analytics requests are blocked."
+    },
+    {
+      "name": "_parsely_slot_click",
+      "lifetime": "Until next tracked page view",
+      "purpose": "Records the position of a clicked internal link."
+    }
+  ],
+  "storage": [
+    "pStore-_parsely_*",
+    "vipexp-local-state",
+    "parsely-overlay"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "wp-parsely/wp-parsely.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://wpvip.com/privacy/",
+    "https://www.parse.ly/privacy-policy/",
+    "https://docs.parse.ly/privacy/",
+    "https://docs.parse.ly/privacy/cookies/",
+    "https://docs.parse.ly/installation-resources/parsely-integration/tracking-code-setup/",
+    "https://docs.parse.ly/installation-resources/parsely-integration/tracking-code-setup/tracking-alternative-setup-options/",
+    "https://docs.parse.ly/installation-resources/parsely-integration/tracking-code-setup/tracker-details/",
+    "https://docs.parse.ly/installation-resources/parsely-integration/test-integration/sandbox/",
+    "https://cdn.parsely.com/keys/example.com/p.js",
+    "https://docs.parse.ly/installation-resources/installation-tools/wordpress-plugin/plugin-faq/",
+    "https://wordpress.org/plugins/wp-parsely/",
+    "https://plugins.svn.wordpress.org/wp-parsely/trunk/",
+    "https://plugins.svn.wordpress.org/wp-parsely/trunk/wp-parsely.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

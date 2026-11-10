@@ -1,0 +1,73 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "weglot",
+  "version": 1,
+  "name": "Weglot",
+  "provider": "Weglot SAS",
+  "category": "functional",
+  "purpose": "Translates website content.",
+  "privacyUrl": "https://www.weglot.com/privacy",
+  "dataCountry": "EU and USA",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "cdn.weglot.com"
+    ],
+    "inline": [
+      "Weglot.initialize("
+    ]
+  },
+  "cookies": [
+    {
+      "name": "WG_CHOOSE_ORIGINAL",
+      "lifetime": "1 month",
+      "purpose": "Remembers the choice of the original language."
+    },
+    {
+      "name": "wglang",
+      "lifetime": "Session",
+      "purpose": "Remembers the preferred language."
+    },
+    {
+      "name": "wg_checkout_*",
+      "lifetime": "Session",
+      "purpose": "Preserves the language during Shopify checkout."
+    },
+    {
+      "name": "wg-private-mode",
+      "lifetime": "Session",
+      "purpose": "Remembers translation preview mode."
+    }
+  ],
+  "storage": [
+    "wg-translations*",
+    "wg-slugs",
+    "wglang",
+    "wg-cart-update-*",
+    "weglot_excluded",
+    "wg-search-form"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "weglot/weglot.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.weglot.com/privacy",
+    "https://www.weglot.com/terms",
+    "https://support.weglot.com/article/333-javascript-integration-setup",
+    "https://support.weglot.com/article/312-is-weglot-gdpr-compliant",
+    "https://cdn.weglot.com/weglot.min.js",
+    "https://trust.weglot.com/",
+    "https://wordpress.org/plugins/weglot/",
+    "https://plugins.svn.wordpress.org/weglot/trunk/weglot.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

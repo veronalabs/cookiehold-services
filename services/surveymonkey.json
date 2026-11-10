@@ -1,0 +1,65 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "surveymonkey",
+  "version": 1,
+  "name": "SurveyMonkey",
+  "provider": "SurveyMonkey Europe UC",
+  "category": "functional",
+  "purpose": "Shows embedded surveys.",
+  "privacyUrl": "https://www.surveymonkey.com/mp/legal/privacy/",
+  "dataCountry": "USA (EU-US Data Privacy Framework); optional EU or Canada hosting",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "widget.surveymonkey.com"
+    ],
+    "inline": [
+      "widget.surveymonkey.com/collect/website/js/"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "ep201",
+      "lifetime": "1 hour",
+      "purpose": "Helps prevent abuse and troubleshoot problems."
+    },
+    {
+      "name": "ep203",
+      "lifetime": "90 days",
+      "purpose": "Identifies devices to detect account sharing."
+    },
+    {
+      "name": "sm_ir",
+      "lifetime": "Session",
+      "purpose": "Supports the survey results page."
+    },
+    {
+      "name": "sm_rec",
+      "lifetime": "Session or 14 days",
+      "purpose": "Maintains authentication state for secured surveys.",
+      "httpOnly": true
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "form",
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://help.surveymonkey.com/en/surveymonkey/send/website-collector/",
+    "https://www.surveymonkey.com/curiosity/3-easy-ways-survey-website-visitors/",
+    "https://prod.smassets.net/assets/content/sm/surveymonkey-survey-code-1.png",
+    "https://widget.surveymonkey.com/collect/website/js/tRaiETqnLgj758hTBazgd6APemm2sOAolx7z6u_2FSoZBNE2wvzbqZPibSxcnUZgEh.js",
+    "https://www.surveymonkey.com/mp/legal/privacy/",
+    "https://www.surveymonkey.com/mp/legal/survey-page-cookies/",
+    "https://www.surveymonkey.com/mp/legal/international-data-center-overview/",
+    "https://www.surveymonkey.com/learn/customer-feedback/wordpress-surveys-how-to-embed-into-posts/",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

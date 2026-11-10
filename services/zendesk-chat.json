@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "zendesk-chat",
-  "version": 3,
+  "version": 4,
   "name": "Zendesk Chat",
   "provider": "Zendesk, Inc.",
   "category": "functional",
@@ -47,14 +47,18 @@
   },
   "placeholder": null,
   "wordpress": {
-    "plugins": [],
+    "plugins": [
+      "zopim-live-chat/zopim.php"
+    ],
     "handles": []
   },
   "sources": [
     "https://www.zendesk.com/company/agreements-and-terms/privacy-notice/",
     "https://support.zendesk.com/hc/en-us/articles/4408824378650-Zendesk-In-Product-Cookie-Policy",
     "https://www.dataprivacyframework.gov/list",
-    "https://support.zendesk.com/hc/en-us/articles/4408883599130-Regional-Data-Hosting-Policy"
+    "https://support.zendesk.com/hc/en-us/articles/4408883599130-Regional-Data-Hosting-Policy",
+    "https://wordpress.org/plugins/zopim-live-chat/",
+    "https://plugins.svn.wordpress.org/zopim-live-chat/trunk/zopim.php"
   ],
-  "checked": "2026-11-06"
+  "checked": "2026-11-10"
 }

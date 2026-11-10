@@ -1,0 +1,58 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "braintree",
+  "version": 1,
+  "name": "PayPal Enterprise Payments",
+  "provider": "PayPal (Europe) S.à r.l. et Cie, S.C.A.",
+  "category": "essential",
+  "purpose": "Processes online payments.",
+  "privacyUrl": "https://www.paypal.com/ie/legalhub/paypal/privacy-full",
+  "dataCountry": "USA and other countries",
+  "legalBasis": "contract",
+  "match": {
+    "hosts": [
+      "js.braintreegateway.com",
+      "assets.braintreegateway.com"
+    ],
+    "inline": [
+      "braintree.client.create(",
+      "braintree.dropin.create("
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "woocommerce-gateway-paypal-powered-by-braintree/woocommerce-gateway-paypal-powered-by-braintree.php",
+      "woo-payment-gateway/braintree-payments.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.paypal.com/us/braintree",
+    "https://www.paypal.com/ie/legalhub/paypal/privacy-full",
+    "https://www.paypal.com/ie/legalhub/braintree/braintree-privacy-policy",
+    "https://developer.paypal.com/braintree/docs/guides/client-sdk/setup/javascript/v3",
+    "https://developer.paypal.com/braintree/docs/guides/drop-in/setup-and-integration/javascript/v3",
+    "https://developer.paypal.com/braintree/docs/guides/hosted-fields/overview/javascript/v3",
+    "https://braintree.github.io/braintree-web/current/",
+    "https://js.braintreegateway.com/web/3.147.0/js/client.min.js",
+    "https://js.braintreegateway.com/web/3.147.0/js/hosted-fields.min.js",
+    "https://js.braintreegateway.com/web/3.147.0/js/data-collector.min.js",
+    "https://js.braintreegateway.com/web/dropin/1.48.0/js/dropin.min.js",
+    "https://wordpress.org/plugins/woocommerce-gateway-paypal-powered-by-braintree/",
+    "https://plugins.svn.wordpress.org/woocommerce-gateway-paypal-powered-by-braintree/trunk/",
+    "https://plugins.svn.wordpress.org/woocommerce-gateway-paypal-powered-by-braintree/trunk/woocommerce-gateway-paypal-powered-by-braintree.php",
+    "https://wordpress.org/plugins/woo-payment-gateway/",
+    "https://plugins.svn.wordpress.org/woo-payment-gateway/trunk/",
+    "https://plugins.svn.wordpress.org/woo-payment-gateway/trunk/braintree-payments.php",
+    "https://raw.githubusercontent.com/jkwakman/Open-Cookie-Database/master/open-cookie-database.csv",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

@@ -1,0 +1,46 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "square",
+  "version": 1,
+  "name": "Square",
+  "provider": "Squareup International Ltd",
+  "category": "essential",
+  "purpose": "Processes payments.",
+  "privacyUrl": "https://squareup.com/ie/en/legal/general/privacy-no-account",
+  "dataCountry": "USA, Canada, Japan, UK, EU and other countries",
+  "legalBasis": "contract",
+  "match": {
+    "hosts": [
+      "web.squarecdn.com"
+    ],
+    "inline": [
+      "Square.payments("
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "woocommerce-square/woocommerce-square.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://squareup.com/ie/en/legal/general/privacy-no-account",
+    "https://squareup.com/ie/en/legal/general/privacy",
+    "https://squareup.com/ie/en/legal/general/cookie",
+    "https://developer.squareup.com/docs/web-payments/overview",
+    "https://developer.squareup.com/reference/sdks/web/payments",
+    "https://developer.squareup.com/docs/web-payments/content-security-policy",
+    "https://web.squarecdn.com/v1/square.js",
+    "https://wordpress.org/plugins/woocommerce-square/",
+    "https://plugins.svn.wordpress.org/woocommerce-square/trunk/woocommerce-square.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}
