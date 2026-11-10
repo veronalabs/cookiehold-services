@@ -11,7 +11,8 @@
   "legalBasis": "consent",
   "match": {
     "hosts": [
-      "www.canva.com/design/",
+      "www.canva.com/design/*/view?embed",
+      "www.canva.com/design/*/*/view?embed",
       "sdk.canva.com/v1/embed.js"
     ]
   },

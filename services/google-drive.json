@@ -11,7 +11,7 @@
   "legalBasis": "consent",
   "match": {
     "hosts": [
-      "drive.google.com/file/d/"
+      "drive.google.com/file/d/*/preview"
     ]
   },
   "cookies": [],
