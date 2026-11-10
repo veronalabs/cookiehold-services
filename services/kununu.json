@@ -1,0 +1,41 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "kununu",
+  "version": 1,
+  "name": "kununu",
+  "provider": "kununu GmbH",
+  "category": "media",
+  "purpose": "Shows employer ratings.",
+  "privacyUrl": "https://www.kununu.com/de/info/datenschutz",
+  "dataCountry": "",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "widgets.kununu.com",
+      "assets.kununu.com/profiles-widgets/"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "generic",
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://www.kununu.com/de/info/datenschutz",
+    "https://arbeitgeberportal.kununu.com/blog/kununu-widget-einbinden/",
+    "https://www.kununu.com/de/widget/",
+    "https://www.kununu.com/?showConsentBanner=true",
+    "https://help.xing.com/hc/en-us/articles/31499257288349-How-to-insert-the-kununu-widget-into-your-job-templates",
+    "https://help.xing.com/hc/article_attachments/31502029023645",
+    "https://widgets.kununu.com/widget_score_review_count_logo_small/profiles/a5b4e176-86fa-4ebc-a290-9cac1590ae13",
+    "https://assets.kununu.com/profiles-widgets/default/195x90.svg",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

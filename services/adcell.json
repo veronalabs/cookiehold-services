@@ -1,0 +1,73 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "adcell",
+  "version": 1,
+  "name": "ADCELL",
+  "provider": "Firstlead GmbH",
+  "category": "marketing",
+  "purpose": "Tracks sales from affiliate links.",
+  "privacyUrl": "https://www.adcell.de/service/agb",
+  "dataCountry": "",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "t.adcell.com"
+    ],
+    "inline": [
+      "Adcell.user.setPartnerId(",
+      "window.Adcell.Tracking.track();"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "ADCELLpid*",
+      "lifetime": "Depends on affiliate program",
+      "purpose": "Remembers the affiliate click to credit a sale."
+    },
+    {
+      "name": "ADCELLspid*",
+      "lifetime": "Session",
+      "purpose": "Remembers the affiliate click to credit a sale."
+    },
+    {
+      "name": "ADCELLvpid*",
+      "lifetime": "Depends on affiliate program",
+      "purpose": "Remembers an ad view to credit a sale."
+    },
+    {
+      "name": "adcell_loyalty",
+      "lifetime": "30 days",
+      "purpose": "Remembers a loyalty affiliate referral."
+    }
+  ],
+  "storage": [
+    "adcell",
+    "adcell_loyalty"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://www.adcell.de/service/agb",
+    "https://www.adcell.de/datenschutz",
+    "https://www.adcell.de/unternehmen",
+    "https://media.adcell.de/docs/affiliate/Wie_nutzt_man_sub_Ids.pdf",
+    "https://t.adcell.com/js/jsadlib.js",
+    "https://t.adcell.com/js/trad.js",
+    "https://t.adcell.com/js/inlineretarget.js",
+    "https://wordpress.org/plugins/adcell-tracking-und-remarketing/",
+    "https://plugins.svn.wordpress.org/adcell-tracking-und-remarketing/trunk/",
+    "https://plugins.svn.wordpress.org/adcell-tracking-und-remarketing/trunk/roleWcAdcellTracking.php",
+    "https://plugins.svn.wordpress.org/adcell-tracking-und-remarketing/trunk/roleWcAdcellTrackingRenderTracking.php",
+    "https://plugins.svn.wordpress.org/adcell-tracking-und-remarketing/trunk/roleWcAdcellTrackingRenderRetargeting.php",
+    "https://raw.githubusercontent.com/jkwakman/Open-Cookie-Database/master/open-cookie-database.csv",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

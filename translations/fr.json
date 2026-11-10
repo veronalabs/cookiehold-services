@@ -36,6 +36,16 @@
     },
     "machine": true
   },
+  "adcell": {
+    "purpose": "Suit les ventes issues de liens d’affiliation.",
+    "cookies": {
+      "ADCELLpid*": "Mémorise le clic d’affiliation pour attribuer la vente.",
+      "ADCELLspid*": "Mémorise le clic d’affiliation pour attribuer la vente.",
+      "ADCELLvpid*": "Mémorise une vue de publicité pour attribuer la vente.",
+      "adcell_loyalty": "Mémorise une recommandation d’un affilié de fidélité."
+    },
+    "machine": true
+  },
   "addtoany": {
     "purpose": "Affiche des boutons pour partager les pages sur les réseaux sociaux.",
     "cookies": {
@@ -337,6 +347,10 @@
     "purpose": "Affiche un calendrier de réservation embarqué.",
     "machine": true
   },
+  "calenso": {
+    "purpose": "Affiche un calendrier de réservation embarqué.",
+    "machine": true
+  },
   "callrail": {
     "purpose": "Suit les campagnes marketing qui génèrent des appels.",
     "machine": true
@@ -571,6 +585,10 @@
     },
     "machine": true
   },
+  "customer-alliance": {
+    "purpose": "Affiche les avis et notes des clients.",
+    "machine": true
+  },
   "customer-io": {
     "purpose": "Suit les visites pour le marketing automatisé par e-mail.",
     "cookies": {
@@ -594,6 +612,13 @@
       "_dd_s*": "Regroupe les événements d'une visite.",
       "dd_site_test_*": "Vérifie quel domaine peut stocker des cookies.",
       "dd_cookie_test_*": "Vérifie que les cookies fonctionnent."
+    },
+    "machine": true
+  },
+  "digistore24": {
+    "purpose": "Suit les ventes issues de liens d’affiliation.",
+    "cookies": {
+      "ds24c.v1": "Mémorise les informations sur l’affilié et la campagne."
     },
     "machine": true
   },
@@ -693,6 +718,10 @@
   },
   "equalweb": {
     "purpose": "Propose des outils d’accessibilité pour le site.",
+    "machine": true
+  },
+  "etermin": {
+    "purpose": "Permet aux visiteurs de prendre rendez-vous en ligne.",
     "machine": true
   },
   "etracker": {
@@ -1090,6 +1119,10 @@
     },
     "machine": true
   },
+  "jameda": {
+    "purpose": "Affiche des avis sur les médecins et permet de prendre rendez-vous.",
+    "machine": true
+  },
   "jetpack-comments": {
     "purpose": "Affiche le formulaire de commentaire avec connexion sociale.",
     "machine": true
@@ -1163,6 +1196,10 @@
     },
     "machine": true
   },
+  "klicktipp": {
+    "purpose": "Affiche des formulaires d’inscription par e-mail.",
+    "machine": true
+  },
   "kliken": {
     "purpose": "Suit les ventes issues des publicités et recible les visiteurs.",
     "cookies": {
@@ -1188,6 +1225,10 @@
   },
   "komoot": {
     "purpose": "Affiche des cartes d’itinéraires embarquées.",
+    "machine": true
+  },
+  "kununu": {
+    "purpose": "Affiche les notes des employeurs.",
     "machine": true
   },
   "kustom": {
@@ -1870,6 +1911,10 @@
     },
     "machine": true
   },
+  "rapidmail": {
+    "purpose": "Affiche des formulaires d’inscription à la newsletter.",
+    "machine": true
+  },
   "razorpay": {
     "purpose": "Traite les paiements en ligne.",
     "cookies": {
@@ -1898,6 +1943,10 @@
     "cookies": {
       "_rdt_uuid": "Mesure des publicités."
     },
+    "machine": true
+  },
+  "resmio": {
+    "purpose": "Permet aux visiteurs de réserver une table au restaurant.",
     "machine": true
   },
   "reverbnation": {
@@ -2049,6 +2098,10 @@
       "ssupp.vid": "Conserve la conversation de discussion d’une page à l’autre.",
       "ssupp.visits": "Compte les visites pour cibler les messages de discussion."
     },
+    "machine": true
+  },
+  "smoobu": {
+    "purpose": "Affiche les disponibilités et réservations de locations de vacances.",
     "machine": true
   },
   "smugmug": {
@@ -2249,6 +2302,10 @@
       "ttcsid*": "Mesure des publicités.",
       "ttclid": "Mesure des publicités."
     },
+    "machine": true
+  },
+  "timify": {
+    "purpose": "Permet de prendre rendez-vous.",
     "machine": true
   },
   "tradetracker": {

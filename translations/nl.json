@@ -36,6 +36,16 @@
     },
     "machine": true
   },
+  "adcell": {
+    "purpose": "Volgt verkopen via affiliatelinks.",
+    "cookies": {
+      "ADCELLpid*": "Onthoudt de klik op een affiliatelink om de verkoop toe te wijzen.",
+      "ADCELLspid*": "Onthoudt de klik op een affiliatelink om de verkoop toe te wijzen.",
+      "ADCELLvpid*": "Onthoudt een advertentieweergave om de verkoop toe te wijzen.",
+      "adcell_loyalty": "Onthoudt een verwijzing via een loyaliteitspartner."
+    },
+    "machine": true
+  },
   "addtoany": {
     "purpose": "Toont knoppen om pagina's op sociale netwerken te delen.",
     "cookies": {
@@ -337,6 +347,10 @@
     "purpose": "Toont een ingesloten boekingskalender.",
     "machine": true
   },
+  "calenso": {
+    "purpose": "Toont een ingesloten boekingskalender.",
+    "machine": true
+  },
   "callrail": {
     "purpose": "Volgt welke marketingcampagnes tot telefoontjes leiden.",
     "machine": true
@@ -571,6 +585,10 @@
     },
     "machine": true
   },
+  "customer-alliance": {
+    "purpose": "Toont beoordelingen en waarderingen van klanten.",
+    "machine": true
+  },
   "customer-io": {
     "purpose": "Volgt bezoeken voor geautomatiseerde e-mailmarketing.",
     "cookies": {
@@ -594,6 +612,13 @@
       "_dd_s*": "Groepeert gebeurtenissen binnen één bezoek.",
       "dd_site_test_*": "Controleert welk domein cookies kan bewaren.",
       "dd_cookie_test_*": "Controleert of cookies werken."
+    },
+    "machine": true
+  },
+  "digistore24": {
+    "purpose": "Volgt verkopen via affiliatelinks.",
+    "cookies": {
+      "ds24c.v1": "Onthoudt gegevens over de affiliate en de campagne."
     },
     "machine": true
   },
@@ -693,6 +718,10 @@
   },
   "equalweb": {
     "purpose": "Biedt hulpmiddelen voor de toegankelijkheid van de site.",
+    "machine": true
+  },
+  "etermin": {
+    "purpose": "Laat bezoekers online afspraken maken.",
     "machine": true
   },
   "etracker": {
@@ -1090,6 +1119,10 @@
     },
     "machine": true
   },
+  "jameda": {
+    "purpose": "Toont beoordelingen van artsen en laat u afspraken maken.",
+    "machine": true
+  },
   "jetpack-comments": {
     "purpose": "Toont het reactieformulier met inloggen via sociale media.",
     "machine": true
@@ -1163,6 +1196,10 @@
     },
     "machine": true
   },
+  "klicktipp": {
+    "purpose": "Toont aanmeldformulieren voor e-mail.",
+    "machine": true
+  },
   "kliken": {
     "purpose": "Volgt verkopen uit advertenties en retarget bezoekers.",
     "cookies": {
@@ -1188,6 +1225,10 @@
   },
   "komoot": {
     "purpose": "Toont ingesloten routekaarten.",
+    "machine": true
+  },
+  "kununu": {
+    "purpose": "Toont beoordelingen van werkgevers.",
     "machine": true
   },
   "kustom": {
@@ -1870,6 +1911,10 @@
     },
     "machine": true
   },
+  "rapidmail": {
+    "purpose": "Toont aanmeldformulieren voor de nieuwsbrief.",
+    "machine": true
+  },
   "razorpay": {
     "purpose": "Verwerkt online betalingen.",
     "cookies": {
@@ -1898,6 +1943,10 @@
     "cookies": {
       "_rdt_uuid": "Meting van advertenties."
     },
+    "machine": true
+  },
+  "resmio": {
+    "purpose": "Laat bezoekers tafels in restaurants reserveren.",
     "machine": true
   },
   "reverbnation": {
@@ -2049,6 +2098,10 @@
       "ssupp.vid": "Bewaart het chatgesprek tussen pagina's.",
       "ssupp.visits": "Telt bezoeken om chatberichten gericht te tonen."
     },
+    "machine": true
+  },
+  "smoobu": {
+    "purpose": "Toont beschikbaarheid en boekingen van vakantieverblijven.",
     "machine": true
   },
   "smugmug": {
@@ -2249,6 +2302,10 @@
       "ttcsid*": "Meting van advertenties.",
       "ttclid": "Meting van advertenties."
     },
+    "machine": true
+  },
+  "timify": {
+    "purpose": "Laat u afspraken maken.",
     "machine": true
   },
   "tradetracker": {

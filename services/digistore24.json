@@ -1,0 +1,55 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "digistore24",
+  "version": 1,
+  "name": "Digistore24",
+  "provider": "Digistore24 GmbH",
+  "category": "marketing",
+  "purpose": "Tracks sales from affiliate links.",
+  "privacyUrl": "https://www.digistore24.com/page/privacy",
+  "dataCountry": "",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "www.digistore24-scripts.com/service/"
+    ],
+    "inline": [
+      "digistorePromocode("
+    ]
+  },
+  "cookies": [
+    {
+      "name": "ds24c.v1",
+      "lifetime": "7 days or Session",
+      "purpose": "Remembers affiliate and campaign details."
+    }
+  ],
+  "storage": [
+    "ds24p.v1",
+    "ds24s.v1"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://www.digistore24.com/page/privacy",
+    "https://help.digistore24.com/hc/en-us/articles/23944498327825-Affiliate-attribution-via-promocode",
+    "https://help.digistore24.com/hc/en-us/articles/24215066817809-Digistore24-Shopping-Cart-Multiple-Products-One-Checkout",
+    "https://help.digistore24.com/hc/en-us/articles/24293292576785-Cookie-banner-for-privacy-compliant-tracking",
+    "https://help.digistore24.com/hc/en-us/articles/23943629550097-Test-affiliate-attribution",
+    "https://help.digistore24.com/hc/en-us/articles/23640680362129-Order-form-overview",
+    "https://www.digistore24-scripts.com/service/digistore.js",
+    "https://www.digistore24-scripts.com/service/js/digistore-cart.chunk.js",
+    "https://help.digistore24.com/hc/en-us/articles/23658731150737-Install-the-Digistore24-WordPress-plugin",
+    "https://www.digistore24.com/download/package/wordpress_plugin",
+    "https://plugins.svn.wordpress.org/digistore/trunk/",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

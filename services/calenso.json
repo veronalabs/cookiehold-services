@@ -1,0 +1,51 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "calenso",
+  "version": 1,
+  "name": "Calenso",
+  "provider": "Calenso AG",
+  "category": "functional",
+  "purpose": "Shows an embedded booking calendar.",
+  "privacyUrl": "https://calenso.com/en/datenschutzerklaerung",
+  "dataCountry": "Switzerland and EU; other countries including USA",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "widget.calenso.com"
+    ]
+  },
+  "cookies": [],
+  "storage": [
+    "cw_adyen_*"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "generic",
+  "wordpress": {
+    "plugins": [
+      "calenso-booking/igniter.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://calenso.com/en/datenschutzerklaerung",
+    "https://calenso.com/en/dataprivacy",
+    "https://calenso.com/subprocessors",
+    "https://widget.calenso.com/main.js",
+    "https://widget.calenso.com/main.9682bd07c685953d.js",
+    "https://webcomponent.widget.calenso.com/booking.html",
+    "https://support.calenso.com/en/booking-widget",
+    "https://support.calenso.com/en/smart-widget",
+    "https://support.calenso.com/en/web-component-widget-integration",
+    "https://support.calenso.com/en/iframe-widget-integration",
+    "https://support.calenso.com/en/subprocessors",
+    "https://wordpress.org/plugins/calenso-booking/",
+    "https://plugins.svn.wordpress.org/calenso-booking/trunk/",
+    "https://plugins.svn.wordpress.org/calenso-booking/trunk/igniter.php",
+    "https://plugins.svn.wordpress.org/calenso-booking/trunk/includes/functions.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}
