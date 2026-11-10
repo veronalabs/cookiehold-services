@@ -1,0 +1,60 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "freshdesk",
+  "version": 1,
+  "name": "Freshdesk",
+  "provider": "Freshworks Inc.",
+  "category": "functional",
+  "purpose": "Shows help articles and a support form.",
+  "privacyUrl": "https://www.freshworks.com/privacy/",
+  "dataCountry": "USA (EU-US Data Privacy Framework), EU, UK, Australia, India and other countries",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "widget.freshworks.com",
+      "assets.freshdesk.com/widget/",
+      "freshdesk.com/widgets/feedback_widget/"
+    ],
+    "inline": [
+      "window.FreshworksWidget",
+      "FreshWidget.init("
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "freshdesk-support/fresh-desk.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.freshworks.com/privacy/",
+    "https://www.freshworks.com/data-processing-addendum/",
+    "https://www.freshworks.com/privacy/sub-processor/",
+    "https://developers.freshdesk.com/widget-api/",
+    "https://support.freshdesk.com/support/solutions/articles/50000011578-create-widgets",
+    "https://support.freshdesk.com/support/solutions/articles/239273-set-up-your-help-widget",
+    "https://support.freshdesk.com/support/solutions/articles/154064-pre-populating-feedback-widget-form",
+    "https://support.freshdesk.com/support/solutions/articles/50000002092-freshdesk-cookie-policy",
+    "https://www.freshworks.com/list-of-cookies/",
+    "https://support.freshdesk.com/support/solutions/articles/50000005660-configuring-csp-for-freshdesk-portal",
+    "https://developers.freshchat.com/web-sdk/v1/",
+    "https://developers.freshchat.com/web-sdk/v2/",
+    "https://widget.freshworks.com/widgets/12000000025.js",
+    "https://widget.freshworks.com/widgets/159000000494.js",
+    "https://widget.freshworks.com/widgetBase/bootstrap.js",
+    "https://widget.freshworks.com/widgetBase/widget.js",
+    "https://assets.freshdesk.com/widget/freshwidget.js",
+    "https://wordpress.org/plugins/freshdesk-support/",
+    "https://plugins.svn.wordpress.org/freshdesk-support/trunk/",
+    "https://plugins.svn.wordpress.org/freshdesk-support/trunk/fresh-desk.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

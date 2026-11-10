@@ -1,0 +1,56 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "getbutton",
+  "version": 1,
+  "name": "GetButton",
+  "provider": "GetButton Apps Oy",
+  "category": "functional",
+  "purpose": "Shows a WhatsApp and messaging chat button.",
+  "privacyUrl": "https://getbutton.io/privacy-policy",
+  "dataCountry": "EU (Germany) and USA",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "static.getbutton.io"
+    ],
+    "inline": [
+      "WhWidgetSendButton.init("
+    ]
+  },
+  "cookies": [
+    {
+      "name": "gb-widget-cookie*",
+      "lifetime": "Session",
+      "purpose": "Limits how often the chat greeting appears."
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "whatshelp-chat-button/whatshelp.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://getbutton.io/",
+    "https://getbutton.io/privacy-policy",
+    "https://getbutton.io/help/how-to-create-a-widget",
+    "https://getbutton.io/help/add-widget-to-wordpress",
+    "https://help.getbutton.io/article/8-creating-your-chat-button-and-with-getbuttonio-a-step-by-step-guide",
+    "https://help.getbutton.io/article/135-how-to-add-whatsapp-to-wordpress",
+    "https://help.getbutton.io/article/129-getbutton-widget",
+    "https://static.getbutton.io/web/js/page-widget/index-cc.js",
+    "https://static.getbutton.io/widget/bundle.js",
+    "https://static.getbutton.io/widget-send-button/js/init.js",
+    "https://wordpress.org/plugins/whatshelp-chat-button/",
+    "https://plugins.svn.wordpress.org/whatshelp-chat-button/trunk/",
+    "https://plugins.svn.wordpress.org/whatshelp-chat-button/trunk/whatshelp.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

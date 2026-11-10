@@ -1,0 +1,58 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "usabilla",
+  "version": 1,
+  "name": "GetFeedback",
+  "provider": "SurveyMonkey Europe UC",
+  "category": "statistics",
+  "purpose": "Collects feedback about the website.",
+  "privacyUrl": "https://www.surveymonkey.com/mp/legal/privacy/",
+  "dataCountry": "EU (Ireland), USA and other countries",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "w.usabilla.com"
+    ],
+    "inline": [
+      "window.usabilla_live"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "usbls",
+      "lifetime": "Session",
+      "purpose": "Tells new visitors from returning visitors."
+    }
+  ],
+  "storage": [
+    "usbl.*"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://www.surveymonkey.com/product/getfeedback/",
+    "https://www.getfeedback.com/index.html",
+    "https://www.surveymonkey.com/mp/legal/privacy/",
+    "https://help.surveymonkey.com/en/getfeedback/account/data-privacy/",
+    "https://www.surveymonkey.com/mp/legal/subprocessor-list/?ut_source=legal&ut_source2=general&ut_source3=inline",
+    "https://help.surveymonkey.com/en/getfeedback/channels/web-implementation/web-implementation/",
+    "https://help.surveymonkey.com/en/getfeedback/integrations/relay42-integration/",
+    "https://help.surveymonkey.com/en/getfeedback/account/how-cookies-are-used/",
+    "https://help.surveymonkey.com/en/getfeedback/builder/javascript-api/",
+    "https://gist.github.com/LMG23/f93c78b5908c7e924b525930e0c3f949",
+    "https://gist.githubusercontent.com/LMG23/f93c78b5908c7e924b525930e0c3f949/raw/",
+    "https://gist.github.com/UsabillaSuccess/48fba432bb5465a13206e52d8ac0f911",
+    "https://gist.githubusercontent.com/UsabillaSuccess/48fba432bb5465a13206e52d8ac0f911/raw/",
+    "https://www.dataprivacyframework.gov/list",
+    "https://wordpress.org/plugins/search/usabilla/",
+    "https://wordpress.org/plugins/search/getfeedback/"
+  ],
+  "checked": "2026-11-10"
+}
