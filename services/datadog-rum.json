@@ -22,8 +22,8 @@
   "cookies": [
     {
       "name": "_dd_s*",
-      "lifetime": "1 year",
-      "purpose": "Groups visits and recognises returning visitors."
+      "lifetime": "15 minutes, up to 4 hours",
+      "purpose": "Groups events within one visit."
     },
     {
       "name": "dd_site_test_*",

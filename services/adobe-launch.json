@@ -4,11 +4,11 @@
   "version": 1,
   "name": "Adobe Experience Platform Tags",
   "provider": "Adobe Systems Software Ireland Limited",
-  "category": "essential",
+  "category": "statistics",
   "purpose": "Loads the site's other tags.",
   "privacyUrl": "https://www.adobe.com/privacy/policy.html",
   "dataCountry": "Worldwide, including USA (EU-US Data Privacy Framework)",
-  "legalBasis": "legitimate-interest",
+  "legalBasis": "consent",
   "match": {
     "hosts": [
       "assets.adobedtm.com"

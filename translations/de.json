@@ -340,7 +340,7 @@
   "datadog-rum": {
     "purpose": "Misst die Leistung und Fehler der Website.",
     "cookies": {
-      "_dd_s*": "Gruppiert Besuche und erkennt wiederkehrende Besucher.",
+      "_dd_s*": "Fasst Ereignisse eines Besuchs zusammen.",
       "dd_site_test_*": "Prüft, welche Domain Cookies speichern kann.",
       "dd_cookie_test_*": "Prüft, ob Cookies funktionieren."
     },

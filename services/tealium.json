@@ -4,11 +4,11 @@
   "version": 1,
   "name": "Tealium iQ Tag Management",
   "provider": "",
-  "category": "essential",
+  "category": "statistics",
   "purpose": "Loads and manages website tags.",
   "privacyUrl": "https://tealium.com/privacy-notice/",
   "dataCountry": "",
-  "legalBasis": "legitimate-interest",
+  "legalBasis": "consent",
   "match": {
     "hosts": [
       "tags.tiqcdn.com",
