@@ -61,12 +61,24 @@
     },
     "machine": true
   },
+  "amazon-kindle": {
+    "purpose": "Toont ingesloten voorbeelden van Kindle-boeken.",
+    "machine": true
+  },
   "amplitude": {
     "purpose": "Meet hoe bezoekers de site gebruiken.",
     "cookies": {
       "AMP_*": "Onderscheidt bezoekers van elkaar.",
       "AMP_MKTG_*": "Bewaart waar de bezoeker vandaan kwam."
     },
+    "machine": true
+  },
+  "anghami": {
+    "purpose": "Speelt ingesloten audio af.",
+    "machine": true
+  },
+  "animoto": {
+    "purpose": "Toont ingesloten video's.",
     "machine": true
   },
   "apple-music": {
@@ -101,6 +113,14 @@
     },
     "machine": true
   },
+  "bandcamp": {
+    "purpose": "Speelt ingesloten audio af.",
+    "machine": true
+  },
+  "bluesky": {
+    "purpose": "Toont ingesloten berichten.",
+    "machine": true
+  },
   "bookeo": {
     "purpose": "Toont een ingesloten boekingskalender.",
     "machine": true
@@ -124,6 +144,10 @@
     "purpose": "Volgt bezoeken en toont aanmeldformulieren en chat.",
     "machine": true
   },
+  "brightcove": {
+    "purpose": "Toont ingesloten video's.",
+    "machine": true
+  },
   "bunny-fonts": {
     "purpose": "Laadt de lettertypen van de site van bunny.net.",
     "machine": true
@@ -139,12 +163,20 @@
     },
     "machine": true
   },
+  "buzzsprout": {
+    "purpose": "Speelt ingesloten podcasts af.",
+    "machine": true
+  },
   "cal-com": {
     "purpose": "Toont een ingesloten boekingskalender.",
     "machine": true
   },
   "calendly": {
     "purpose": "Toont een ingesloten boekingskalender.",
+    "machine": true
+  },
+  "canva": {
+    "purpose": "Toont ingesloten ontwerpen.",
     "machine": true
   },
   "cdnjs": {
@@ -189,6 +221,10 @@
     "purpose": "Toont aanmeldformulieren voor nieuwsbrieven.",
     "machine": true
   },
+  "cloudflare-stream": {
+    "purpose": "Toont ingesloten video's.",
+    "machine": true
+  },
   "cloudflare-turnstile": {
     "purpose": "Houdt spam uit formulieren. Plaatst geen trackingcookies en wordt alleen voor beveiliging gebruikt.",
     "machine": true
@@ -199,6 +235,18 @@
   },
   "cloudpano": {
     "purpose": "Toont ingesloten virtuele 360°-rondleidingen.",
+    "machine": true
+  },
+  "cloudup": {
+    "purpose": "Toont ingesloten bestanden en media.",
+    "machine": true
+  },
+  "codepen": {
+    "purpose": "Toont ingesloten codevoorbeelden.",
+    "cookies": {
+      "codepen_session": "Ondersteunt ingesloten codevoorbeelden.",
+      "codepen_signup_referrer*": "Onthoudt de herkomst en datum van de aanmelding."
+    },
     "machine": true
   },
   "contentsquare": {
@@ -244,6 +292,14 @@
     "purpose": "Toont advertenties aan eerdere bezoekers.",
     "machine": true
   },
+  "crowdsignal": {
+    "purpose": "Toont ingesloten peilingen, enquêtes en beoordelingen.",
+    "cookies": {
+      "PD_poll_*": "Voorkomt herhaald stemmen.",
+      "pd_embed_*": "Beperkt het herhaald tonen van pop-ups."
+    },
+    "machine": true
+  },
   "dailymotion": {
     "purpose": "Toont ingesloten video's.",
     "cookies": {
@@ -267,6 +323,10 @@
     "cookies": {
       "elfsight_viewed_recently": "Voorkomt dat één bezoek als meerdere weergaven telt."
     },
+    "machine": true
+  },
+  "embedly": {
+    "purpose": "Toont ingesloten linkkaarten.",
     "machine": true
   },
   "encharge": {
@@ -359,6 +419,14 @@
     "purpose": "Toont ingesloten GIF's.",
     "machine": true
   },
+  "github-gist": {
+    "purpose": "Toont ingesloten codefragmenten.",
+    "cookies": {
+      "_gh_sess": "Bewaart de tijdelijke sessiestatus.",
+      "_octo": "Beheert sessies en meet het gebruik van de dienst."
+    },
+    "machine": true
+  },
   "gohighlevel": {
     "purpose": "Toont formulieren, boekingskalenders en livechat.",
     "cookies": {
@@ -398,6 +466,14 @@
     "cookies": {
       "NID": "Onthoudt voorkeuren."
     },
+    "machine": true
+  },
+  "google-docs": {
+    "purpose": "Toont ingesloten documenten, werkbladen en dia's.",
+    "machine": true
+  },
+  "google-drive": {
+    "purpose": "Toont ingesloten bestanden en video's.",
     "machine": true
   },
   "google-fonts": {
@@ -565,6 +641,18 @@
     "purpose": "Levert codebibliotheken die de site gebruikt.",
     "machine": true
   },
+  "juicer": {
+    "purpose": "Toont ingesloten feeds van sociale media.",
+    "machine": true
+  },
+  "jw-player": {
+    "purpose": "Toont ingesloten video's.",
+    "machine": true
+  },
+  "kickstarter": {
+    "purpose": "Toont ingesloten projectkaarten.",
+    "machine": true
+  },
   "kit": {
     "purpose": "Toont aanmeldformulieren voor een e-mailnieuwsbrief.",
     "cookies": {
@@ -707,19 +795,6 @@
     "purpose": "Toont ingesloten kaarten.",
     "machine": true
   },
-  "matomo-cloud": {
-    "purpose": "Meet bezoeken en conversies.",
-    "cookies": {
-      "_pk_id.*": "Onderscheidt bezoekers van elkaar.",
-      "_pk_ses.*": "Houdt het huidige bezoek bij.",
-      "_pk_ref.*": "Bewaart waar de bezoeker vandaan kwam."
-    },
-    "machine": true
-  },
-  "matomo-tag-manager": {
-    "purpose": "Laadt de trackingtags van de site.",
-    "machine": true
-  },
   "matomo": {
     "purpose": "Meet bezoeken en conversies.",
     "cookies": {
@@ -734,6 +809,19 @@
       "mtm_cookie_consent": "Onthoudt de toestemming voor trackingcookies.",
       "mtm_consent_removed": "Onthoudt de afmelding voor tracking."
     },
+    "machine": true
+  },
+  "matomo-cloud": {
+    "purpose": "Meet bezoeken en conversies.",
+    "cookies": {
+      "_pk_id.*": "Onderscheidt bezoekers van elkaar.",
+      "_pk_ses.*": "Houdt het huidige bezoek bij.",
+      "_pk_ref.*": "Bewaart waar de bezoeker vandaan kwam."
+    },
+    "machine": true
+  },
+  "matomo-tag-manager": {
+    "purpose": "Laadt de trackingtags van de site.",
     "machine": true
   },
   "matterport": {
@@ -781,6 +869,10 @@
       "MR": "Markeert wanneer de Microsoft-browser-ID wordt vernieuwd.",
       "ANONCHK": "Controleert of de Microsoft-ID voor advertenties wordt gebruikt."
     },
+    "machine": true
+  },
+  "mixcloud": {
+    "purpose": "Speelt ingesloten audio af.",
     "machine": true
   },
   "mixpanel": {
@@ -877,16 +969,12 @@
     },
     "machine": true
   },
-  "paddle-retain": {
-    "purpose": "Toont factuuraanbiedingen en volgt het gebruik.",
-    "machine": true
-  },
   "paddle": {
     "purpose": "Verzorgt het afrekenen en verwerkt betalingen.",
     "machine": true
   },
-  "paypal-marketing": {
-    "purpose": "Meet winkelen op deze site voor de marketing van PayPal.",
+  "paddle-retain": {
+    "purpose": "Toont factuuraanbiedingen en volgt het gebruik.",
     "machine": true
   },
   "paypal": {
@@ -897,6 +985,10 @@
       "x-pp-s": "Betalingsverwerking.",
       "nsid": "Fraudepreventie."
     },
+    "machine": true
+  },
+  "paypal-marketing": {
+    "purpose": "Meet winkelen op deze site voor de marketing van PayPal.",
     "machine": true
   },
   "phorest": {
@@ -956,6 +1048,18 @@
     "purpose": "Meet bezoeken zonder cookies.",
     "machine": true
   },
+  "pocket-casts": {
+    "purpose": "Speelt ingesloten podcasts af.",
+    "machine": true
+  },
+  "podbean": {
+    "purpose": "Speelt ingesloten podcasts af.",
+    "cookies": {
+      "PBSECURESUSID": "Ondersteunt essentiële functies van Podbean.",
+      "pb-www-site": "Ondersteunt essentiële functies van Podbean."
+    },
+    "machine": true
+  },
   "podigee": {
     "purpose": "Speelt ingesloten podcastafleveringen af.",
     "machine": true
@@ -997,12 +1101,24 @@
     },
     "machine": true
   },
+  "reverbnation": {
+    "purpose": "Speelt ingesloten audio af.",
+    "machine": true
+  },
+  "rumble": {
+    "purpose": "Toont ingesloten video's.",
+    "machine": true
+  },
   "rybbit": {
     "purpose": "Meet bezoeken zonder cookies.",
     "machine": true
   },
   "salesviewer": {
     "purpose": "Identificeert bedrijven die de site bezoeken.",
+    "machine": true
+  },
+  "scribd": {
+    "purpose": "Toont ingesloten documenten.",
     "machine": true
   },
   "segment": {
@@ -1016,6 +1132,29 @@
   },
   "senja": {
     "purpose": "Toont klantervaringen en videobeoordelingen.",
+    "machine": true
+  },
+  "shareaholic": {
+    "purpose": "Toont knoppen om pagina's op sociale netwerken te delen.",
+    "cookies": {
+      "SHR_E*": "Koppelt bezoekers met beschermde e-mailgegevens."
+    },
+    "machine": true
+  },
+  "sharethis": {
+    "purpose": "Toont knoppen om pagina's op sociale netwerken te delen.",
+    "cookies": {
+      "_stid": "Onderscheidt bezoekers.",
+      "_stidv": "Legt de versie van de bezoekers-ID vast.",
+      "st_optout": "Onthoudt de afmelding voor gegevensverzameling.",
+      "pxcelBcnLcy": "Meet vertragingen in rapportages.",
+      "pxcelAcc3PC": "Controleert of cookies van derden worden geaccepteerd.",
+      "pxcelPage_c010*": "Houdt bij welke trackingpixels zijn geladen.",
+      "fpestid": "Onderscheidt bezoekers op deze website.",
+      "__sharethis_cookie_test__": "Controleert of cookies kunnen worden geplaatst.",
+      "st_samesite": "Controleert of cookies tussen websites worden ondersteund.",
+      "st_shares_*": "Onthoudt hoe vaak pagina's zijn gedeeld."
+    },
     "machine": true
   },
   "shopify-buy-button": {
@@ -1037,6 +1176,10 @@
     },
     "machine": true
   },
+  "slideshare": {
+    "purpose": "Toont ingesloten dia's.",
+    "machine": true
+  },
   "slimstat": {
     "purpose": "Telt bezoeken aan deze site.",
     "cookies": {
@@ -1056,6 +1199,10 @@
     },
     "machine": true
   },
+  "smugmug": {
+    "purpose": "Toont ingesloten fotogalerijen.",
+    "machine": true
+  },
   "snap-pixel": {
     "purpose": "Meet Snapchat-advertenties.",
     "cookies": {
@@ -1068,12 +1215,23 @@
     "purpose": "Speelt ingesloten audio af.",
     "machine": true
   },
+  "speaker-deck": {
+    "purpose": "Toont ingesloten presentatiedia's.",
+    "cookies": {
+      "_secure_speakerd_session": "Bewaart de sessie van de speler."
+    },
+    "machine": true
+  },
   "spotify": {
     "purpose": "Speelt ingesloten muziek en podcasts af.",
     "cookies": {
       "sp_t": "Nodig voor de werking van de ingesloten Spotify-speler.",
       "sp_landing": "Nodig voor de werking van de ingesloten Spotify-speler."
     },
+    "machine": true
+  },
+  "spreaker": {
+    "purpose": "Speelt ingesloten podcastafleveringen af.",
     "machine": true
   },
   "stay22": {
@@ -1130,12 +1288,23 @@
     "purpose": "Toont ingesloten TED-talks.",
     "machine": true
   },
+  "telegram": {
+    "purpose": "Toont berichten en laat u inloggen met Telegram.",
+    "cookies": {
+      "stel_dt": "Onthoudt uw tijdzone."
+    },
+    "machine": true
+  },
   "the-trade-desk": {
     "purpose": "Toont advertenties aan eerdere bezoekers en meet ze.",
     "cookies": {
       "TDID": "Onderscheidt bezoekers op verschillende sites voor advertenties.",
       "TDCPM": "Onderscheidt bezoekers voor advertenties."
     },
+    "machine": true
+  },
+  "threads": {
+    "purpose": "Toont ingesloten berichten.",
     "machine": true
   },
   "tidio": {
@@ -1187,6 +1356,10 @@
     "purpose": "Toont beoordelingen van Google en andere sites.",
     "machine": true
   },
+  "trustpilot": {
+    "purpose": "Toont beoordelingen van Trustpilot.",
+    "machine": true
+  },
   "trustpilot-invitations": {
     "purpose": "Vraagt klanten hun aankoop te beoordelen.",
     "cookies": {
@@ -1194,8 +1367,12 @@
     },
     "machine": true
   },
-  "trustpilot": {
-    "purpose": "Toont beoordelingen van Trustpilot.",
+  "tumblr": {
+    "purpose": "Toont ingesloten berichten.",
+    "machine": true
+  },
+  "twitch": {
+    "purpose": "Toont ingesloten video's.",
     "machine": true
   },
   "typeform": {
@@ -1242,6 +1419,14 @@
     "purpose": "Telt hoe vaak teksten worden gelezen, zodat auteurs worden betaald.",
     "machine": true
   },
+  "videopress": {
+    "purpose": "Toont ingesloten video's.",
+    "machine": true
+  },
+  "vidyard": {
+    "purpose": "Toont ingesloten video's.",
+    "machine": true
+  },
   "vimeo": {
     "purpose": "Toont ingesloten video's.",
     "cookies": {
@@ -1255,6 +1440,10 @@
   },
   "visitortracking": {
     "purpose": "Identificeert bedrijven die de site bezoeken.",
+    "machine": true
+  },
+  "vk": {
+    "purpose": "Toont ingesloten berichten en sociale widgets.",
     "machine": true
   },
   "vwo": {
@@ -1302,6 +1491,10 @@
     "cookies": {
       "VISABLELEADS_DONT_TRACK_*": "Onthoudt dat de bezoeker zich heeft afgemeld."
     },
+    "machine": true
+  },
+  "wolfram-cloud": {
+    "purpose": "Toont ingesloten interactieve notebooks.",
     "machine": true
   },
   "woocommerce-attribution": {

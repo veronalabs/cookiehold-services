@@ -1,0 +1,45 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "spreaker",
+  "version": 1,
+  "name": "Spreaker",
+  "provider": "Spreaker Inc.",
+  "category": "media",
+  "purpose": "Plays embedded podcast episodes.",
+  "privacyUrl": "https://www.spreaker.com/privacy",
+  "dataCountry": "Europe and USA",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "widget.spreaker.com"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "audio",
+  "wordpress": {
+    "plugins": [
+      "spreaker-shortcode/spreaker_shortcode.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://developers.spreaker.com/guides/embedding-the-player/",
+    "https://www.spreaker.com/privacy",
+    "https://www.spreaker.com/terms/dpa",
+    "https://help.spreaker.com/en/articles/5123389-information-security-and-policies",
+    "https://widget.spreaker.com/widgets.js",
+    "https://widget.spreaker.com/player?episode_id=12794242",
+    "https://widget.spreaker.com/player-base-70044644c50bccbe24b2.js",
+    "https://www.dataprivacyframework.gov/list",
+    "https://wordpress.org/plugins/spreaker-shortcode/",
+    "https://plugins.svn.wordpress.org/spreaker-shortcode/trunk/",
+    "https://plugins.svn.wordpress.org/spreaker-shortcode/trunk/spreaker_shortcode.php",
+    "https://raw.githubusercontent.com/jkwakman/Open-Cookie-Database/master/open-cookie-database.csv"
+  ],
+  "checked": "2026-11-10"
+}

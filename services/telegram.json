@@ -1,0 +1,60 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "telegram",
+  "version": 1,
+  "name": "Telegram",
+  "provider": "Telegram Messenger Inc.",
+  "category": "media",
+  "purpose": "Shows posts and lets you log in with Telegram.",
+  "privacyUrl": "https://telegram.org/privacy/eu",
+  "dataCountry": "",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "telegram.org/js/telegram-widget.js",
+      "oauth.telegram.org",
+      "t.me/*/*",
+      "telegram.org/js/widget-frame.js",
+      "oauth.tg.dev/js/telegram-widget.js"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "stel_dt",
+      "lifetime": "1 year",
+      "purpose": "Remembers your time zone."
+    }
+  ],
+  "storage": [
+    "stel_tme_token"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "social",
+  "wordpress": {
+    "plugins": [
+      "wptelegram-widget/wptelegram-widget.php",
+      "wptelegram-login/wptelegram-login.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://telegram.org/privacy/eu",
+    "https://core.telegram.org/widgets/post",
+    "https://core.telegram.org/widgets/login-legacy",
+    "https://core.telegram.org/bots/telegram-login",
+    "https://core.telegram.org/bots/telegram-login.md",
+    "https://telegram.org/js/telegram-widget.js?24",
+    "https://oauth.telegram.org/js/telegram-login.js?6",
+    "https://t.me/telegram/83?embed=1",
+    "https://telegram.org/js/widget-frame.js?68",
+    "https://wordpress.org/plugins/wptelegram-widget/",
+    "https://wordpress.org/plugins/wptelegram-login/",
+    "https://plugins.svn.wordpress.org/wptelegram-widget/trunk/wptelegram-widget.php",
+    "https://plugins.svn.wordpress.org/wptelegram-login/trunk/wptelegram-login.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

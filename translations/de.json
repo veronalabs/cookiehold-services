@@ -61,12 +61,24 @@
     },
     "machine": true
   },
+  "amazon-kindle": {
+    "purpose": "Zeigt eingebettete Kindle-Buchvorschauen an.",
+    "machine": true
+  },
   "amplitude": {
     "purpose": "Misst, wie Besucher die Website nutzen.",
     "cookies": {
       "AMP_*": "Unterscheidet Besucher.",
       "AMP_MKTG_*": "Speichert, woher der Besucher gekommen ist."
     },
+    "machine": true
+  },
+  "anghami": {
+    "purpose": "Spielt eingebettete Audioinhalte ab.",
+    "machine": true
+  },
+  "animoto": {
+    "purpose": "Zeigt eingebettete Videos an.",
     "machine": true
   },
   "apple-music": {
@@ -101,6 +113,14 @@
     },
     "machine": true
   },
+  "bandcamp": {
+    "purpose": "Spielt eingebettete Audioinhalte ab.",
+    "machine": true
+  },
+  "bluesky": {
+    "purpose": "Zeigt eingebettete Beiträge an.",
+    "machine": true
+  },
   "bookeo": {
     "purpose": "Zeigt einen eingebetteten Buchungskalender an.",
     "machine": true
@@ -124,6 +144,10 @@
     "purpose": "Erfasst Besuche und zeigt Anmeldeformulare und Chat an.",
     "machine": true
   },
+  "brightcove": {
+    "purpose": "Zeigt eingebettete Videos an.",
+    "machine": true
+  },
   "bunny-fonts": {
     "purpose": "Lädt die Schriftarten der Website von bunny.net.",
     "machine": true
@@ -139,12 +163,20 @@
     },
     "machine": true
   },
+  "buzzsprout": {
+    "purpose": "Spielt eingebettete Podcasts ab.",
+    "machine": true
+  },
   "cal-com": {
     "purpose": "Zeigt einen eingebetteten Buchungskalender an.",
     "machine": true
   },
   "calendly": {
     "purpose": "Zeigt einen eingebetteten Buchungskalender an.",
+    "machine": true
+  },
+  "canva": {
+    "purpose": "Zeigt eingebettete Designs an.",
     "machine": true
   },
   "cdnjs": {
@@ -189,6 +221,10 @@
     "purpose": "Zeigt Anmeldeformulare für Newsletter an.",
     "machine": true
   },
+  "cloudflare-stream": {
+    "purpose": "Zeigt eingebettete Videos an.",
+    "machine": true
+  },
   "cloudflare-turnstile": {
     "purpose": "Hält Spam aus Formularen fern. Es setzt keine Tracking-Cookies und dient nur der Sicherheit.",
     "machine": true
@@ -199,6 +235,18 @@
   },
   "cloudpano": {
     "purpose": "Zeigt eingebettete virtuelle 360°-Rundgänge an.",
+    "machine": true
+  },
+  "cloudup": {
+    "purpose": "Zeigt eingebettete Dateien und Medien an.",
+    "machine": true
+  },
+  "codepen": {
+    "purpose": "Zeigt eingebettete Codebeispiele an.",
+    "cookies": {
+      "codepen_session": "Unterstützt eingebettete Codebeispiele.",
+      "codepen_signup_referrer*": "Merkt sich Herkunft und Datum der Anmeldung."
+    },
     "machine": true
   },
   "contentsquare": {
@@ -244,6 +292,14 @@
     "purpose": "Zeigt früheren Besuchern Werbung an.",
     "machine": true
   },
+  "crowdsignal": {
+    "purpose": "Zeigt eingebettete Umfragen und Bewertungen an.",
+    "cookies": {
+      "PD_poll_*": "Verhindert wiederholte Abstimmungen.",
+      "pd_embed_*": "Begrenzt die wiederholte Anzeige von Pop-ups."
+    },
+    "machine": true
+  },
   "dailymotion": {
     "purpose": "Zeigt eingebettete Videos an.",
     "cookies": {
@@ -267,6 +323,10 @@
     "cookies": {
       "elfsight_viewed_recently": "Verhindert, dass ein Besuch als mehrere Aufrufe gezählt wird."
     },
+    "machine": true
+  },
+  "embedly": {
+    "purpose": "Zeigt eingebettete Linkkarten an.",
     "machine": true
   },
   "encharge": {
@@ -359,6 +419,14 @@
     "purpose": "Zeigt eingebettete GIFs an.",
     "machine": true
   },
+  "github-gist": {
+    "purpose": "Zeigt eingebettete Codeausschnitte an.",
+    "cookies": {
+      "_gh_sess": "Behält den vorübergehenden Sitzungsstatus bei.",
+      "_octo": "Verwaltet Sitzungen und misst die Nutzung des Dienstes."
+    },
+    "machine": true
+  },
   "gohighlevel": {
     "purpose": "Zeigt Formulare, Buchungskalender und Live-Chat an.",
     "cookies": {
@@ -398,6 +466,14 @@
     "cookies": {
       "NID": "Merkt sich Einstellungen."
     },
+    "machine": true
+  },
+  "google-docs": {
+    "purpose": "Zeigt eingebettete Dokumente, Tabellen und Folien an.",
+    "machine": true
+  },
+  "google-drive": {
+    "purpose": "Zeigt eingebettete Dateien und Videos an.",
     "machine": true
   },
   "google-fonts": {
@@ -565,6 +641,18 @@
     "purpose": "Liefert Code-Bibliotheken, die die Website nutzt.",
     "machine": true
   },
+  "juicer": {
+    "purpose": "Zeigt eingebettete Social-Media-Feeds an.",
+    "machine": true
+  },
+  "jw-player": {
+    "purpose": "Zeigt eingebettete Videos an.",
+    "machine": true
+  },
+  "kickstarter": {
+    "purpose": "Zeigt eingebettete Projektkarten an.",
+    "machine": true
+  },
   "kit": {
     "purpose": "Zeigt Anmeldeformulare für einen E-Mail-Newsletter an.",
     "cookies": {
@@ -707,19 +795,6 @@
     "purpose": "Zeigt eingebettete Karten an.",
     "machine": true
   },
-  "matomo-cloud": {
-    "purpose": "Misst Besuche und Conversions.",
-    "cookies": {
-      "_pk_id.*": "Unterscheidet Besucher.",
-      "_pk_ses.*": "Behält den aktuellen Besuch bei.",
-      "_pk_ref.*": "Speichert, woher der Besucher gekommen ist."
-    },
-    "machine": true
-  },
-  "matomo-tag-manager": {
-    "purpose": "Lädt die Tracking-Tags der Website.",
-    "machine": true
-  },
   "matomo": {
     "purpose": "Misst Besuche und Conversions.",
     "cookies": {
@@ -734,6 +809,19 @@
       "mtm_cookie_consent": "Merkt sich die Einwilligung in Tracking-Cookies.",
       "mtm_consent_removed": "Merkt sich den Widerspruch gegen das Tracking."
     },
+    "machine": true
+  },
+  "matomo-cloud": {
+    "purpose": "Misst Besuche und Conversions.",
+    "cookies": {
+      "_pk_id.*": "Unterscheidet Besucher.",
+      "_pk_ses.*": "Behält den aktuellen Besuch bei.",
+      "_pk_ref.*": "Speichert, woher der Besucher gekommen ist."
+    },
+    "machine": true
+  },
+  "matomo-tag-manager": {
+    "purpose": "Lädt die Tracking-Tags der Website.",
     "machine": true
   },
   "matterport": {
@@ -781,6 +869,10 @@
       "MR": "Meldet, wenn die Microsoft-Browser-ID aktualisiert wird.",
       "ANONCHK": "Prüft, ob die Microsoft-ID für Werbung genutzt wird."
     },
+    "machine": true
+  },
+  "mixcloud": {
+    "purpose": "Spielt eingebettete Audioinhalte ab.",
     "machine": true
   },
   "mixpanel": {
@@ -877,16 +969,12 @@
     },
     "machine": true
   },
-  "paddle-retain": {
-    "purpose": "Zeigt Angebote zur Abrechnung an und erfasst die Nutzung.",
-    "machine": true
-  },
   "paddle": {
     "purpose": "Führt den Bezahlvorgang aus und wickelt Zahlungen ab.",
     "machine": true
   },
-  "paypal-marketing": {
-    "purpose": "Misst Einkäufe auf dieser Website für das Marketing von PayPal.",
+  "paddle-retain": {
+    "purpose": "Zeigt Angebote zur Abrechnung an und erfasst die Nutzung.",
     "machine": true
   },
   "paypal": {
@@ -897,6 +985,10 @@
       "x-pp-s": "Zahlungsabwicklung.",
       "nsid": "Betrugsprävention."
     },
+    "machine": true
+  },
+  "paypal-marketing": {
+    "purpose": "Misst Einkäufe auf dieser Website für das Marketing von PayPal.",
     "machine": true
   },
   "phorest": {
@@ -956,6 +1048,18 @@
     "purpose": "Misst Besuche ohne Cookies.",
     "machine": true
   },
+  "pocket-casts": {
+    "purpose": "Spielt eingebettete Podcasts ab.",
+    "machine": true
+  },
+  "podbean": {
+    "purpose": "Spielt eingebettete Podcasts ab.",
+    "cookies": {
+      "PBSECURESUSID": "Unterstützt wichtige Funktionen von Podbean.",
+      "pb-www-site": "Unterstützt wichtige Funktionen von Podbean."
+    },
+    "machine": true
+  },
   "podigee": {
     "purpose": "Spielt eingebettete Podcast-Folgen ab.",
     "machine": true
@@ -997,12 +1101,24 @@
     },
     "machine": true
   },
+  "reverbnation": {
+    "purpose": "Spielt eingebettete Audioinhalte ab.",
+    "machine": true
+  },
+  "rumble": {
+    "purpose": "Zeigt eingebettete Videos an.",
+    "machine": true
+  },
   "rybbit": {
     "purpose": "Misst Besuche ohne Cookies.",
     "machine": true
   },
   "salesviewer": {
     "purpose": "Erkennt Unternehmen, die die Website besuchen.",
+    "machine": true
+  },
+  "scribd": {
+    "purpose": "Zeigt eingebettete Dokumente an.",
     "machine": true
   },
   "segment": {
@@ -1016,6 +1132,29 @@
   },
   "senja": {
     "purpose": "Zeigt Kundenstimmen und Videobewertungen an.",
+    "machine": true
+  },
+  "shareaholic": {
+    "purpose": "Zeigt Schaltflächen zum Teilen von Seiten in sozialen Netzwerken an.",
+    "cookies": {
+      "SHR_E*": "Ordnet Besucher anhand geschützter E-Mail-Daten zu."
+    },
+    "machine": true
+  },
+  "sharethis": {
+    "purpose": "Zeigt Schaltflächen zum Teilen von Seiten in sozialen Netzwerken an.",
+    "cookies": {
+      "_stid": "Unterscheidet Besucher.",
+      "_stidv": "Speichert die Version der Besucher-ID.",
+      "st_optout": "Merkt sich den Widerspruch gegen die Datenerfassung.",
+      "pxcelBcnLcy": "Misst Verzögerungen bei der Berichterstattung.",
+      "pxcelAcc3PC": "Prüft, ob Cookies von Drittanbietern akzeptiert werden.",
+      "pxcelPage_c010*": "Erfasst, welche Tracking-Pixel geladen wurden.",
+      "fpestid": "Unterscheidet Besucher auf dieser Website.",
+      "__sharethis_cookie_test__": "Prüft, ob Cookies gesetzt werden können.",
+      "st_samesite": "Prüft die Unterstützung für websiteübergreifende Cookies.",
+      "st_shares_*": "Merkt sich, wie oft Seiten geteilt wurden."
+    },
     "machine": true
   },
   "shopify-buy-button": {
@@ -1037,6 +1176,10 @@
     },
     "machine": true
   },
+  "slideshare": {
+    "purpose": "Zeigt eingebettete Folien an.",
+    "machine": true
+  },
   "slimstat": {
     "purpose": "Zählt Besuche auf dieser Website.",
     "cookies": {
@@ -1056,6 +1199,10 @@
     },
     "machine": true
   },
+  "smugmug": {
+    "purpose": "Zeigt eingebettete Fotogalerien an.",
+    "machine": true
+  },
   "snap-pixel": {
     "purpose": "Misst Snapchat-Werbung.",
     "cookies": {
@@ -1068,12 +1215,23 @@
     "purpose": "Gibt eingebettetes Audio wieder.",
     "machine": true
   },
+  "speaker-deck": {
+    "purpose": "Zeigt eingebettete Präsentationsfolien an.",
+    "cookies": {
+      "_secure_speakerd_session": "Behält die Sitzung des Players bei."
+    },
+    "machine": true
+  },
   "spotify": {
     "purpose": "Gibt eingebettete Musik und Podcasts wieder.",
     "cookies": {
       "sp_t": "Erforderlich, damit die Spotify-Einbettung funktioniert.",
       "sp_landing": "Erforderlich, damit die Spotify-Einbettung funktioniert."
     },
+    "machine": true
+  },
+  "spreaker": {
+    "purpose": "Spielt eingebettete Podcast-Folgen ab.",
     "machine": true
   },
   "stay22": {
@@ -1130,12 +1288,23 @@
     "purpose": "Zeigt eingebettete TED-Vorträge an.",
     "machine": true
   },
+  "telegram": {
+    "purpose": "Zeigt Beiträge und ermöglicht die Anmeldung mit Telegram.",
+    "cookies": {
+      "stel_dt": "Merkt sich Ihre Zeitzone."
+    },
+    "machine": true
+  },
   "the-trade-desk": {
     "purpose": "Zeigt früheren Besuchern Werbung an und misst sie.",
     "cookies": {
       "TDID": "Unterscheidet Besucher websiteübergreifend für Werbung.",
       "TDCPM": "Unterscheidet Besucher für Werbung."
     },
+    "machine": true
+  },
+  "threads": {
+    "purpose": "Zeigt eingebettete Beiträge an.",
     "machine": true
   },
   "tidio": {
@@ -1187,6 +1356,10 @@
     "purpose": "Zeigt Bewertungen von Google und anderen Websites an.",
     "machine": true
   },
+  "trustpilot": {
+    "purpose": "Zeigt Bewertungen von Trustpilot an.",
+    "machine": true
+  },
   "trustpilot-invitations": {
     "purpose": "Bittet Kunden, ihren Einkauf zu bewerten.",
     "cookies": {
@@ -1194,8 +1367,12 @@
     },
     "machine": true
   },
-  "trustpilot": {
-    "purpose": "Zeigt Bewertungen von Trustpilot an.",
+  "tumblr": {
+    "purpose": "Zeigt eingebettete Beiträge an.",
+    "machine": true
+  },
+  "twitch": {
+    "purpose": "Zeigt eingebettete Videos an.",
     "machine": true
   },
   "typeform": {
@@ -1242,6 +1419,14 @@
     "purpose": "Zählt Textaufrufe, damit Autoren vergütet werden.",
     "machine": true
   },
+  "videopress": {
+    "purpose": "Zeigt eingebettete Videos an.",
+    "machine": true
+  },
+  "vidyard": {
+    "purpose": "Zeigt eingebettete Videos an.",
+    "machine": true
+  },
   "vimeo": {
     "purpose": "Zeigt eingebettete Videos an.",
     "cookies": {
@@ -1255,6 +1440,10 @@
   },
   "visitortracking": {
     "purpose": "Erkennt Unternehmen, die die Website besuchen.",
+    "machine": true
+  },
+  "vk": {
+    "purpose": "Zeigt eingebettete Beiträge und Social-Media-Widgets an.",
     "machine": true
   },
   "vwo": {
@@ -1302,6 +1491,10 @@
     "cookies": {
       "VISABLELEADS_DONT_TRACK_*": "Merkt sich, dass der Besucher widersprochen hat."
     },
+    "machine": true
+  },
+  "wolfram-cloud": {
+    "purpose": "Zeigt eingebettete interaktive Notebooks an.",
     "machine": true
   },
   "woocommerce-attribution": {

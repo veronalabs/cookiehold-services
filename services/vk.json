@@ -1,0 +1,67 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "vk",
+  "version": 1,
+  "name": "VK",
+  "provider": "LLC \"V Kontakte\"",
+  "category": "media",
+  "purpose": "Shows embedded posts and social widgets.",
+  "privacyUrl": "https://vk.com/privacy",
+  "dataCountry": "",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "vk.ru/js/api/openapi.js",
+      "vk.ru/dist/public/api/openapi.",
+      "vk.ru/js/api/share.js",
+      "vk.ru/dist/public/api/share.",
+      "vk.ru/widget_",
+      "vk.ru/al_widget_poll.php",
+      "vk.com/js/api/openapi.js",
+      "vk.com/dist/public/api/openapi.",
+      "vk.com/js/api/share.js",
+      "vk.com/dist/public/api/share.",
+      "vk.com/widget_",
+      "vk.com/al_widget_poll.php",
+      "vk.com/share.php?act=count"
+    ],
+    "inline": [
+      "VK.Widgets.",
+      "VK.Share.button("
+    ]
+  },
+  "cookies": [],
+  "storage": [
+    "vk_community_widget_expanded"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "social",
+  "wordpress": {
+    "plugins": [
+      "vkontakte/vkontakte.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://vk.com/privacy",
+    "https://vk.com/privacy/eu",
+    "https://dev.vk.com/ru/widgets/post",
+    "https://dev.vk.com/ru/widgets/community",
+    "https://dev.vk.com/static/js/main.8579b124.js",
+    "https://vk.ru/js/api/openapi.js?168",
+    "https://vk.com/js/api/openapi.js?168",
+    "https://vk.ru/js/api/share.js?95",
+    "https://vk.com/js/api/share.js?95",
+    "https://www.dataprivacyframework.gov/list",
+    "https://github.com/jkwakman/Open-Cookie-Database",
+    "https://raw.githubusercontent.com/jkwakman/Open-Cookie-Database/master/open-cookie-database.csv",
+    "https://wordpress.org/plugins/vkontakte/",
+    "https://plugins.svn.wordpress.org/vkontakte/trunk/vkontakte.php",
+    "https://wordpress.org/plugins/heateor-social-comments/",
+    "https://plugins.svn.wordpress.org/heateor-social-comments/trunk/heateor-social-comments.php"
+  ],
+  "checked": "2026-11-10"
+}

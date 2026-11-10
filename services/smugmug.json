@@ -1,0 +1,47 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "smugmug",
+  "version": 1,
+  "name": "SmugMug",
+  "provider": "Awes.me, Inc. d/b/a Awesome",
+  "category": "media",
+  "purpose": "Shows embedded photo galleries.",
+  "privacyUrl": "https://www.smugmug.com/about/privacy",
+  "dataCountry": "USA (EU-US Data Privacy Framework) and other countries",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "api.smugmug.com/services/embed/"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "generic",
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://www.smugmug.com/about/privacy",
+    "https://www.smugmughelp.com/hc/en-us/articles/18212716776340-Share-my-photos",
+    "https://api.smugmug.com/services/oembed/?url=https%3A%2F%2Fcmac.smugmug.com%2FSmugMug%2FHeroes%2FVon-Wongs-INSANE-rooftop&format=json",
+    "https://api.smugmug.com/services/oembed/?url=https%3A%2F%2Fcmac.smugmug.com%2FSmugMug%2FHeroes%2FVon-Wongs-INSANE-rooftop%2Fi-7NBSB2t&format=json",
+    "https://api.smugmug.com/services/embed/album/RJHXVN",
+    "https://api.smugmug.com/services/embed/album/RJHXVN?width=800&height=600",
+    "https://cmac.smugmug.com/SmugMug",
+    "https://cdn.smugmug.com/include/js/smugpage/core-top-f37ec30d346e530e8b834b822c6cf338.js",
+    "https://cdn.smugmug.com/include/js/smugpage/core-config-8360fd0fe27786662fb5e05b1cf4ccae.js",
+    "https://cdn.smugmug.com/include/js/bundles/nodepagewithwidgets-3KQCJHGK.js",
+    "https://cdn.smugmug.com/include/js/bundles/chunks/chunk-XU4KHG7W.js",
+    "https://cdn.smugmug.com/include/js/bundles/chunks/chunk-WZSK57DG.js",
+    "https://www.dataprivacyframework.gov/list",
+    "https://raw.githubusercontent.com/jkwakman/Open-Cookie-Database/master/open-cookie-database.csv",
+    "https://raw.githubusercontent.com/WordPress/WordPress/master/wp-includes/class-wp-oembed.php",
+    "https://wordpress.org/plugins/smugmug-embed/"
+  ],
+  "checked": "2026-11-10"
+}

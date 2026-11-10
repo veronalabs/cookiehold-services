@@ -1,0 +1,42 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "kickstarter",
+  "version": 1,
+  "name": "Kickstarter",
+  "provider": "",
+  "category": "media",
+  "purpose": "Shows embedded project cards.",
+  "privacyUrl": "https://legal.kickstarter.com/policies?name=privacy-policy",
+  "dataCountry": "",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "www.kickstarter.com/projects/*/*/widget/card.html"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "generic",
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://www.kickstarter.com/blog/new-site-features",
+    "https://www.kickstarter.com/projects/maxtemkin/cards-against-humanity/widget/card.html",
+    "https://www.kickstarter.com/projects/maxtemkin/cards-against-humanity/widget/card.html?v=2",
+    "https://legal.kickstarter.com/policies?name=privacy-policy",
+    "https://legal.kickstarter.com/policies/en/?name=cookie-policy",
+    "https://www.kickstarter.com/locale/en.js",
+    "https://www.kickstarter.com/scripts/scroll-timeline-polyfill.js",
+    "https://www.kickstarter.com/scripts/css-anchor-positioning@0.8.0.js",
+    "https://raw.githubusercontent.com/jkwakman/Open-Cookie-Database/master/open-cookie-database.csv",
+    "https://wordpress.org/plugins/search/kickstarter/",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}
