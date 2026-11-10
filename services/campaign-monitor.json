@@ -1,0 +1,49 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "campaign-monitor",
+  "version": 1,
+  "name": "Campaign Monitor",
+  "provider": "Campaign Monitor Pty Ltd",
+  "category": "marketing",
+  "purpose": "Shows email sign-up forms.",
+  "privacyUrl": "https://www.campaignmonitor.com/policies/",
+  "dataCountry": "USA, UK, EU, Australia and other countries",
+  "legalBasis": "consent",
+  "match": {
+    "inline": [
+      "cmApp_signup_writeCookie("
+    ]
+  },
+  "cookies": [
+    {
+      "name": "campaignMonitorViewedIds",
+      "lifetime": "Session",
+      "purpose": "Remembers which sign-up forms have been shown."
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "form",
+  "wordpress": {
+    "plugins": [
+      "forms-for-campaign-monitor/campaign-monitor.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.campaignmonitor.com/policies/",
+    "https://help.campaignmonitor.com/articles/Knowledge/html-signup-forms",
+    "https://help.campaignmonitor.com/articles/Knowledge/popup-forms",
+    "https://help.campaignmonitor.com/articles/Knowledge/about-campaign-monitor-for-wordpress",
+    "https://js.createsend1.com/javascript/copypastesubscribeformlogic.js",
+    "https://plugins.svn.wordpress.org/forms-for-campaign-monitor/trunk/forms/views/public/formLayout.php",
+    "https://plugins.svn.wordpress.org/forms-for-campaign-monitor/trunk/forms/views/public/js/app.js",
+    "https://wordpress.org/plugins/forms-for-campaign-monitor/",
+    "https://plugins.svn.wordpress.org/forms-for-campaign-monitor/trunk/campaign-monitor.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

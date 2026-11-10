@@ -1,0 +1,45 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "cloudup",
+  "version": 1,
+  "name": "Cloudup",
+  "provider": "Aut O’Mattic A8C Ireland Ltd.",
+  "category": "media",
+  "purpose": "Shows embedded files and media.",
+  "privacyUrl": "https://automattic.com/privacy/",
+  "dataCountry": "",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "cloudup.com",
+      "cldup.com"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "generic",
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://automattic.com/privacy/",
+    "https://automattic.com/cookies/",
+    "https://dev.cloudup.com/",
+    "https://cloudup.com/oembed?url=https%3A%2F%2Fcloudup.com%2Fim4WHSzAnxi&format=json",
+    "https://cloudup.com/im4WHSzAnxi?chromeless=true&autoplay=false",
+    "https://s1.cldup.com/build.js?sha=cf3db2",
+    "https://cloudup.com/",
+    "https://automattic.com/products/",
+    "https://cloudup.com/terms",
+    "https://automattic.com/privacy-notice/",
+    "https://wordpress.org/documentation/article/cloudup-embed/",
+    "https://raw.githubusercontent.com/WordPress/WordPress/master/wp-includes/class-wp-oembed.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

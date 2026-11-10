@@ -1,0 +1,62 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "shareaholic",
+  "version": 1,
+  "name": "Shareaholic",
+  "provider": "Shareaholic, Inc.",
+  "category": "marketing",
+  "purpose": "Shows buttons to share pages on social networks.",
+  "privacyUrl": "https://www.shareaholic.com/privacy/",
+  "dataCountry": "USA and other countries",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "cdn.shareaholic.net",
+      "cdn.openshareweb.com/v2/"
+    ],
+    "inline": [
+      "_SHR_SETTINGS"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "SHR_E*",
+      "lifetime": "10 years",
+      "purpose": "Matches visitors using protected email details."
+    }
+  ],
+  "storage": [
+    "SHR_ID",
+    "SHR_CACHE_*",
+    "shareaholic_user_token"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "shareaholic/shareaholic.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.shareaholic.com/privacy/",
+    "https://support.shareaholic.com/hc/en-us/articles/115001134523-Getting-Started-with-Shareaholic",
+    "https://support.shareaholic.com/hc/en-us/articles/200470936-Installing-Shareaholic-on-any-website-with-HTML",
+    "https://support.shareaholic.com/hc/article_attachments/18070136746388",
+    "https://cdn.shareaholic.net/assets/pub/shareaholic.js",
+    "https://cdn.openshareweb.com/v2/81b944a0/main.js",
+    "https://cdn.openshareweb.com/v2/81b944a0/buttons.js",
+    "https://cdn.openshareweb.com/v2/81b944a0/shareCounts.js",
+    "https://plugins.svn.wordpress.org/shareaholic/trunk/shareaholic.php",
+    "https://plugins.svn.wordpress.org/shareaholic/trunk/templates/script_tag.php",
+    "https://plugins.svn.wordpress.org/shareaholic/trunk/utilities.php",
+    "https://wordpress.org/plugins/shareaholic/",
+    "https://plugins.svn.wordpress.org/shareaholic/trunk/",
+    "https://www.dataprivacyframework.gov/list",
+    "https://raw.githubusercontent.com/jkwakman/Open-Cookie-Database/master/open-cookie-database.csv"
+  ],
+  "checked": "2026-11-10"
+}

@@ -1,0 +1,43 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "threads",
+  "version": 1,
+  "name": "Threads",
+  "provider": "",
+  "category": "media",
+  "purpose": "Shows embedded posts.",
+  "privacyUrl": "https://www.facebook.com/privacy/policy/",
+  "dataCountry": "",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "www.threads.com/embed.js",
+      "www.threads.net/embed.js"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "social",
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://developers.facebook.com/documentation/threads/tools-and-resources/embed-a-threads-post",
+    "https://developers.facebook.com/documentation/threads/reference/oembed",
+    "https://graph.threads.com/v1.0/oembed?url=https://www.threads.com/@meta/post/DDzbnVKx57R",
+    "https://www.threads.com/embed.js",
+    "https://www.threads.net/embed.js",
+    "https://raw.githubusercontent.com/facebook/meta-embeds-for-wordpress/main/README.md",
+    "https://www.facebook.com/privacy/policy/",
+    "https://help.instagram.com/515230437301944",
+    "https://privacycenter.instagram.com/policy/",
+    "https://www.facebook.com/privacy/policies/cookies/",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

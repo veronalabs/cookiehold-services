@@ -1,0 +1,59 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "braze",
+  "version": 1,
+  "name": "Braze",
+  "provider": "Braze, Inc.",
+  "category": "marketing",
+  "purpose": "Tracks visits to personalize marketing messages.",
+  "privacyUrl": "https://www.braze.com/company/legal/privacy",
+  "dataCountry": "EU, USA (EU-US Data Privacy Framework) and other countries",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "js.appboycdn.com"
+    ],
+    "inline": [
+      "a.braze={};a.brazeQueue=[];",
+      "braze.initialize("
+    ]
+  },
+  "cookies": [
+    {
+      "name": "ab.storage.*",
+      "lifetime": "400 days",
+      "purpose": "Identifies visitors, devices and browsing sessions."
+    },
+    {
+      "name": "ab.optOut",
+      "lifetime": "400 days",
+      "purpose": "Remembers the visitor's opt-out preference."
+    }
+  ],
+  "storage": [
+    "ab.storage.*"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://www.braze.com/company/legal/privacy",
+    "https://www.braze.com/docs/developer_guide/sdk_integration?sdktab=web",
+    "https://www.braze.com/docs/developer_guide/storage",
+    "https://js.appboycdn.com/web-sdk/7.1/braze.min.js",
+    "https://braze.com/docs/developer_guide/platforms/web/content_security_policy",
+    "https://braze.com/docs/developer_guide/sdk_repository_guides/web",
+    "https://www.braze.com/company/legal/dpa",
+    "https://cdn.sanity.io/files/b7pblshe/marketing-prod/73fb930ae6386b499c37757ccb4fc80a08f4a8f6.pdf",
+    "https://www.braze.com/company/legal/subprocessors",
+    "https://cdn.sanity.io/files/b7pblshe/marketing-prod/56073d92ae50195865f0258019982d5c3263bb0a.pdf",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

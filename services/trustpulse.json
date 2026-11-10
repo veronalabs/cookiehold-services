@@ -1,0 +1,80 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "trustpulse",
+  "version": 1,
+  "name": "TrustPulse",
+  "provider": "Retyp LLC",
+  "category": "marketing",
+  "purpose": "Shows social proof notifications.",
+  "privacyUrl": "https://trustpulse.com/privacy/",
+  "dataCountry": "",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "a.trstplse.com"
+    ],
+    "inline": [
+      "(window,\"tptag\");tptag(\"init\","
+    ]
+  },
+  "cookies": [
+    {
+      "name": "_tpapp",
+      "lifetime": "30 days",
+      "purpose": "Identifies a unique TrustPulse session."
+    },
+    {
+      "name": "tp-shown-*",
+      "lifetime": "2 weeks",
+      "purpose": "Remembers viewed notifications and campaigns."
+    },
+    {
+      "name": "tp-submitted-*",
+      "lifetime": "2 weeks",
+      "purpose": "Links submitted activity to the visitor."
+    },
+    {
+      "name": "tp-widgets-closed",
+      "lifetime": "2 weeks",
+      "purpose": "Remembers campaigns the visitor has closed."
+    },
+    {
+      "name": "tp-analytics-captured",
+      "lifetime": "1 day",
+      "purpose": "Prevents counting the same analytics view twice."
+    }
+  ],
+  "storage": [
+    "trustPulseData",
+    "tpSessionStart",
+    "tpSessionPageviews",
+    "tpVisitsFirst",
+    "tpVisits"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "trustpulse-api/trustpulse.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://trustpulse.com/privacy/",
+    "https://trustpulse.com/terms/",
+    "https://trustpulse.com/gdpr/cookies/",
+    "https://trustpulse.com/docs/how-to-add-trustpulse-to-your-site/",
+    "https://trustpulse.com/gdpr/",
+    "https://trustpulse.com/gdpr/data-processing-agreement/",
+    "https://trustpulse.com/security/",
+    "https://a.trstplse.com/app/js/api.min.js",
+    "https://wordpress.org/plugins/trustpulse-api/",
+    "https://plugins.svn.wordpress.org/trustpulse-api/trunk/",
+    "https://plugins.svn.wordpress.org/trustpulse-api/trunk/trustpulse.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

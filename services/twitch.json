@@ -1,0 +1,53 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "twitch",
+  "version": 1,
+  "name": "Twitch",
+  "provider": "Twitch Interactive, Inc.",
+  "category": "media",
+  "purpose": "Shows embedded videos.",
+  "privacyUrl": "https://legal.twitch.com/en/legal/privacy-notice/",
+  "dataCountry": "USA and other countries",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "player.twitch.tv",
+      "embed.twitch.tv",
+      "clips.twitch.tv/embed"
+    ],
+    "inline": [
+      "new Twitch.Player(",
+      "new Twitch.Embed("
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "video",
+  "wordpress": {
+    "plugins": [
+      "streamweasels-twitch-integration/streamweasels.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://legal.twitch.com/en/legal/privacy-notice/",
+    "https://legal.twitch.com/en/legal/cookie-notice/",
+    "https://legal.twitch.com/legal/privacy-notice/",
+    "https://legal.twitch.com/legal/cookie-notice/",
+    "https://dev.twitch.tv/docs/embed/video-and-clips/",
+    "https://dev.twitch.tv/docs/embed/everything/",
+    "https://player.twitch.tv/js/embed/v1.js",
+    "https://embed.twitch.tv/embed/v1.js",
+    "https://www.dataprivacyframework.gov/list",
+    "https://github.com/jkwakman/Open-Cookie-Database",
+    "https://raw.githubusercontent.com/jkwakman/Open-Cookie-Database/master/open-cookie-database.csv",
+    "https://wordpress.org/plugins/streamweasels-twitch-integration/",
+    "https://plugins.svn.wordpress.org/streamweasels-twitch-integration/trunk/",
+    "https://plugins.svn.wordpress.org/streamweasels-twitch-integration/trunk/streamweasels.php"
+  ],
+  "checked": "2026-11-10"
+}

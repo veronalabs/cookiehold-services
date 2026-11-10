@@ -1,0 +1,68 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "chaport",
+  "version": 1,
+  "name": "Chaport",
+  "provider": "Chaport Inc.",
+  "category": "functional",
+  "purpose": "Live chat.",
+  "privacyUrl": "https://www.chaport.com/privacy",
+  "dataCountry": "",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "app.chaport.com",
+      "assets.chaport.com"
+    ],
+    "inline": [
+      "chaportConfig"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "chaport-*",
+      "lifetime": "360 days by default",
+      "purpose": "Recognises returning chat visitors."
+    },
+    {
+      "name": "wsc_*",
+      "lifetime": "Session to 30 days",
+      "purpose": "Keeps chat details when browser storage is blocked."
+    }
+  ],
+  "storage": [
+    "wsc_*"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "chaport/chaport.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.chaport.com/privacy",
+    "https://docs.chaport.com/api/js/v1/",
+    "https://www.chaport.com/help/installation-on-a-website/install-chaport-on-a-website",
+    "https://www.chaport.com/help/installation-on-a-website/install-chaport-on-wordpress",
+    "https://www.chaport.com/help/chat-widget/direct-chat-link",
+    "https://www.chaport.com/gdpr",
+    "https://www.chaport.com/help/general/where-is-chaport-based",
+    "https://www.chaport.com/press",
+    "https://app.chaport.com/javascripts/insert.js",
+    "https://app.chaport.com/info/widget-assets?jsonpCallback=true&id=56e9162264e94eb633a095fb",
+    "https://assets.chaport.com/assets/insert-main-44130e3574b7e1b9a766249043f659de.js",
+    "https://app.chaport.com/widget/show.html?appid=56e9162264e94eb633a095fb",
+    "https://assets.chaport.com/assets/widget-4554f653ecf79fc9a0f75c95aed72667.js",
+    "https://wordpress.org/plugins/chaport/",
+    "https://plugins.svn.wordpress.org/chaport/trunk/chaport.php",
+    "https://plugins.svn.wordpress.org/chaport/trunk/includes/renderers/chaport_app_id_renderer.php",
+    "https://plugins.svn.wordpress.org/chaport/trunk/includes/snippets/chaport_app_id_code_snippet.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

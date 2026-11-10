@@ -1,0 +1,95 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "mailmunch",
+  "version": 1,
+  "name": "Mailmunch",
+  "provider": "SixMix LLC",
+  "category": "marketing",
+  "purpose": "Shows pop-up sign-up forms.",
+  "privacyUrl": "https://legal.mailmunch.com/privacy/",
+  "dataCountry": "USA",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "a.mailmunch.co"
+    ],
+    "inline": [
+      "var _mmunch ="
+    ]
+  },
+  "cookies": [
+    {
+      "name": "_mailmunch_visitor_id",
+      "lifetime": "365 days",
+      "purpose": "Tells visitors apart."
+    },
+    {
+      "name": "_mailmunch_lead_quality",
+      "lifetime": "365 days",
+      "purpose": "Stores lead quality settings."
+    },
+    {
+      "name": "_mailmunch_seen_month",
+      "lifetime": "30 days",
+      "purpose": "Limits repeat marketing pixel loads."
+    },
+    {
+      "name": "mailmunch_subscribed_*",
+      "lifetime": "365 days",
+      "purpose": "Remembers a mailing list subscription."
+    },
+    {
+      "name": "mailmunch_shown_*",
+      "lifetime": "Site-configured",
+      "purpose": "Remembers forms already shown."
+    },
+    {
+      "name": "mailmunch_pageview_count",
+      "lifetime": "365 days",
+      "purpose": "Counts page views for form display rules."
+    },
+    {
+      "name": "mailmunch_second_pageview",
+      "lifetime": "365 days",
+      "purpose": "Supports form display rules."
+    }
+  ],
+  "storage": [
+    "_mailmunch_*",
+    "mailmunch_*"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "mailmunch/mailmunch.php",
+      "mailchimp-forms-by-mailmunch/mailchimp-mailmunch.php",
+      "constant-contact-forms-by-mailmunch/constantcontact-mailmunch.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.mailmunch.com/",
+    "https://www.mailmunch.com/brand-kit",
+    "https://legal.mailmunch.com/privacy/",
+    "https://legal.mailmunch.com/terms-of-service/",
+    "https://legal.mailmunch.com/gdpr/dpa/",
+    "https://legal.mailmunch.com/gdpr/",
+    "https://help.mailmunch.com/en/articles/4820744-how-to-get-your-mailmunch-site-code",
+    "https://help.mailmunch.com/en/articles/4820789-why-is-the-form-not-showing-up",
+    "https://a.mailmunch.co/app/v1/site.js",
+    "https://a.mailmunch.co/app/v1/popover.js",
+    "https://plugins.svn.wordpress.org/mailmunch/trunk/public/class-mailmunch-public.php",
+    "https://wordpress.org/plugins/mailmunch/",
+    "https://plugins.svn.wordpress.org/mailmunch/trunk/mailmunch.php",
+    "https://wordpress.org/plugins/mailchimp-forms-by-mailmunch/",
+    "https://plugins.svn.wordpress.org/mailchimp-forms-by-mailmunch/trunk/mailchimp-mailmunch.php",
+    "https://wordpress.org/plugins/constant-contact-forms-by-mailmunch/",
+    "https://plugins.svn.wordpress.org/constant-contact-forms-by-mailmunch/trunk/constantcontact-mailmunch.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}
