@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "google-maps",
-  "version": 3,
+  "version": 4,
   "name": "Google Maps",
   "provider": "Google Ireland Limited",
   "category": "media",
@@ -11,9 +11,11 @@
   "legalBasis": "consent",
   "match": {
     "hosts": [
-      "google.com/maps",
       "maps.google.com",
       "maps.googleapis.com"
+    ],
+    "frames": [
+      "google.com/maps"
     ]
   },
   "cookies": [
@@ -50,5 +52,5 @@
     "https://plugins.svn.wordpress.org/wp-store-locator/trunk/",
     "https://developers.google.com/maps/documentation/embed/get-started"
   ],
-  "checked": "2026-11-06"
+  "checked": "2026-11-10"
 }
