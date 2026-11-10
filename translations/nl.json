@@ -273,7 +273,7 @@
     "machine": true
   },
   "digistore24": {
-    "purpose": "Volgt affiliateverkopen en biedt een betaalpagina.",
+    "purpose": "Volgt verkopen via affiliatelinks.",
     "cookies": {
       "ds24c.v1": "Onthoudt gegevens over de affiliate en de campagne."
     },

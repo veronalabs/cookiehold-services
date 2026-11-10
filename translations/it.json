@@ -273,7 +273,7 @@
     "machine": true
   },
   "digistore24": {
-    "purpose": "Traccia le vendite affiliate e offre una pagina di pagamento.",
+    "purpose": "Traccia le vendite dai link di affiliazione.",
     "cookies": {
       "ds24c.v1": "Ricorda i dati dell’affiliato e della campagna."
     },

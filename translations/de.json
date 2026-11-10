@@ -273,7 +273,7 @@
     "machine": true
   },
   "digistore24": {
-    "purpose": "Erfasst Partnerverkäufe und bietet eine Bezahlseite.",
+    "purpose": "Erfasst Verkäufe über Partnerlinks.",
     "cookies": {
       "ds24c.v1": "Merkt sich Angaben zum Partner und zur Kampagne."
     },

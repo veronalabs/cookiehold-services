@@ -273,7 +273,7 @@
     "machine": true
   },
   "digistore24": {
-    "purpose": "Śledzi sprzedaż partnerską i udostępnia stronę płatności.",
+    "purpose": "Śledzi sprzedaż z linków partnerskich.",
     "cookies": {
       "ds24c.v1": "Zapamiętuje dane partnera i kampanii."
     },

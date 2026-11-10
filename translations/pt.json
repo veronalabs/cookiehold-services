@@ -273,7 +273,7 @@
     "machine": true
   },
   "digistore24": {
-    "purpose": "Acompanha vendas de afiliados e oferece uma página de pagamento.",
+    "purpose": "Acompanha as vendas feitas através de links de afiliados.",
     "cookies": {
       "ds24c.v1": "Lembra os dados do afiliado e da campanha."
     },

@@ -273,7 +273,7 @@
     "machine": true
   },
   "digistore24": {
-    "purpose": "Suit les ventes affiliées et propose une page de paiement.",
+    "purpose": "Suit les ventes issues de liens d’affiliation.",
     "cookies": {
       "ds24c.v1": "Mémorise les informations sur l’affilié et la campagne."
     },

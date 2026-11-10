@@ -273,7 +273,7 @@
     "machine": true
   },
   "digistore24": {
-    "purpose": "Registra ventas de afiliados y ofrece una página de pago.",
+    "purpose": "Registra las ventas procedentes de enlaces de afiliados.",
     "cookies": {
       "ds24c.v1": "Recuerda los datos del afiliado y de la campaña."
     },
