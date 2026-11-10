@@ -53,11 +53,63 @@
     "purpose": "Wczytuje czcionki witryny z serwerów Adobe.",
     "machine": true
   },
+  "adroll": {
+    "purpose": "Wyświetla spersonalizowane reklamy dawnym odwiedzającym.",
+    "cookies": {
+      "__adroll": "Rozpoznaje odwiedzających dla reklam kierowanych.",
+      "__ar_v4": "Rejestruje wizyty dla reklam kierowanych.",
+      "__adroll_shared": "Rozpoznaje odwiedzających dla reklam kierowanych.",
+      "__adroll_fpc": "Rozpoznaje odwiedzających dla reklam kierowanych.",
+      "__adroll_consent": "Zapamiętuje wybory dotyczące zgody na reklamy.",
+      "__adroll_consent_params": "Przekazuje wybory dotyczące zgody na reklamy."
+    },
+    "machine": true
+  },
+  "adyen": {
+    "purpose": "Przetwarza płatności i zapobiega oszustwom.",
+    "cookies": {
+      "_RP_UID": "Wykrywa podejrzane działania, aby zapobiegać oszustwom.",
+      "_rp_uid": "Wykrywa podejrzane działania, aby zapobiegać oszustwom."
+    },
+    "machine": true
+  },
+  "affirm": {
+    "purpose": "Umożliwia zakup teraz i płatność później.",
+    "cookies": {
+      "affirm-csrf-token": "Zapobiega sfałszowanym żądaniom.",
+      "Affirm-Locale": "Zapamiętuje język i region."
+    },
+    "machine": true
+  },
+  "afterpay": {
+    "purpose": "Umożliwia zakup teraz i płatność później.",
+    "cookies": {
+      "apt-visitor-id": "Rozpoznaje odbiorców komunikatów o płatnościach."
+    },
+    "machine": true
+  },
+  "albacross": {
+    "purpose": "Rozpoznaje firmy odwiedzające witrynę.",
+    "cookies": {
+      "nQ_cookieId": "Odróżnia odwiedzających.",
+      "nQ_userVisitId": "Rozpoznaje bieżącą wizytę.",
+      "nQ_visitId": "Rozpoznaje sesję odwiedzającego."
+    },
+    "machine": true
+  },
   "amazon-ads": {
     "purpose": "Wyświetla reklamy Amazon i mierzy ich skuteczność.",
     "cookies": {
       "ad-id": "Dostarczanie reklam.",
       "ad-privacy": "Zapisuje rezygnację z reklam."
+    },
+    "machine": true
+  },
+  "amazon-pay": {
+    "purpose": "Przetwarza płatności za pomocą konta Amazon.",
+    "cookies": {
+      "apay-session-set": "Utrzymuje sesję Amazon Pay w przeglądarce.",
+      "upstream-apay-session-set": "Utrzymuje sesję Amazon Pay między stronami."
     },
     "machine": true
   },
@@ -84,6 +136,10 @@
     },
     "machine": true
   },
+  "authorize-net": {
+    "purpose": "Przetwarza płatności online.",
+    "machine": true
+  },
   "awin": {
     "purpose": "Śledzi sprzedaż z linków partnerskich.",
     "cookies": {
@@ -99,6 +155,23 @@
       "AWSESS": "Zapobiega ponownemu wyświetlaniu tej samej reklamy.",
       "awpv*": "Rejestruje, że reklama została zobaczona."
     },
+    "machine": true
+  },
+  "bazaarvoice": {
+    "purpose": "Wyświetla opinie i oceny klientów.",
+    "cookies": {
+      "bv_segment": "Porównuje warianty funkcji opinii.",
+      "BVImpl*": "Porównuje różne wdrożenia opinii.",
+      "bvf_*": "Zapamiętuje przesłane już uwagi.",
+      "bv_authorSubmissionToken": "Ogranicza wielokrotne przesyłanie tej samej opinii.",
+      "bv_metrics": "Mierzy wydajność funkcji opinii.",
+      "BVBRANDID": "Mierzy interakcje odwiedzającego w tej witrynie.",
+      "BVBRANDSID": "Mierzy interakcje podczas sesji przeglądania."
+    },
+    "machine": true
+  },
+  "birdeye": {
+    "purpose": "Wyświetla opinie klientów i udostępnia czat.",
     "machine": true
   },
   "bookeo": {
@@ -120,6 +193,10 @@
     "purpose": "Dostarcza biblioteki kodu używane przez witrynę.",
     "machine": true
   },
+  "braintree": {
+    "purpose": "Przetwarza płatności online.",
+    "machine": true
+  },
   "brevo": {
     "purpose": "Śledzi wizyty i wyświetla formularze zapisu oraz czat.",
     "machine": true
@@ -139,6 +216,10 @@
     },
     "machine": true
   },
+  "buy-me-a-coffee": {
+    "purpose": "Pozwala odwiedzającym dawać napiwki twórcom.",
+    "machine": true
+  },
   "cal-com": {
     "purpose": "Wyświetla osadzony kalendarz rezerwacji.",
     "machine": true
@@ -155,6 +236,21 @@
     "purpose": "Odpowiada na pytania odwiedzających za pomocą czatbota AI.",
     "cookies": {
       "chatbase_anon_id": "Rozpoznaje odwiedzającego na czacie."
+    },
+    "machine": true
+  },
+  "cj": {
+    "purpose": "Śledzi sprzedaż z linków partnerskich.",
+    "cookies": {
+      "cje": "Zapamiętuje kliknięcie linku partnerskiego prowadzące do sprzedaży.",
+      "LCLK": "Łączy polecenia partnerów z zakupami.",
+      "CJSession": "Rozpoznaje sesję, aby przypisać sprzedaż partnerowi.",
+      "CJLoyalty": "Przypisuje punkty lojalnościowe lub zwrot właściwej osobie.",
+      "CJAnalytics": "Mierzy działanie rozwiązania CJ do zgody po kliknięciu.",
+      "cjuser": "Rozpoznaje odwiedzających, aby przypisać sprzedaż partnerom.",
+      "cjUser": "Rozpoznaje odwiedzających, aby przypisać sprzedaż partnerom.",
+      "cjevent_*": "Zapamiętuje kliknięcie linku partnerskiego prowadzące do sprzedaży.",
+      "cjconsent": "Zapamiętuje wybór odwiedzającego dotyczący zgody."
     },
     "machine": true
   },
@@ -262,6 +358,32 @@
     "purpose": "Wyświetla sekcję komentarzy.",
     "machine": true
   },
+  "donorbox": {
+    "purpose": "Wyświetla formularz darowizny.",
+    "cookies": {
+      "donorbox_reminder_widget": "Zapamiętuje niedokończoną darowiznę."
+    },
+    "machine": true
+  },
+  "ecwid": {
+    "purpose": "Wyświetla sklep internetowy i koszyk.",
+    "cookies": {
+      "PSecwid__document__referrerPSreferrer*": "Zapamiętuje stronę odsyłającą.",
+      "PSecwid__shopping__cart__controller__storagePSlastPlace*": "Zapamiętuje miejsce, w którym można wznowić zakupy.",
+      "ec-user-response*": "Zapamiętuje zgodę na ciasteczka i czas jej wyrażenia.",
+      "PSecwid__utm__storagePSutm__data*": "Zapamiętuje dane kampanii do analizy sklepu.",
+      "__eca_s_id_": "Grupuje wizyty na potrzeby analizy sklepu.",
+      "__eca_v_id_": "Odróżnia odwiedzających na potrzeby analizy sklepu."
+    },
+    "machine": true
+  },
+  "ekomi": {
+    "purpose": "Wyświetla opinie i oceny klientów.",
+    "cookies": {
+      "ekomi_tracking_*": "Rejestruje wizyty na certyfikacie opinii sklepu."
+    },
+    "machine": true
+  },
   "elfsight": {
     "purpose": "Wyświetla kanały społecznościowe, opinie i inne widżety.",
     "cookies": {
@@ -307,6 +429,13 @@
   },
   "fathom": {
     "purpose": "Mierzy wizyty bez ciasteczek.",
+    "machine": true
+  },
+  "feefo": {
+    "purpose": "Wyświetla opinie i oceny klientów.",
+    "cookies": {
+      "feefo_session": "Utrzymuje sesję widżetu opinii."
+    },
     "machine": true
   },
   "firstpromoter": {
@@ -415,6 +544,10 @@
     },
     "machine": true
   },
+  "google-pay": {
+    "purpose": "Umożliwia płatności przez Google Pay.",
+    "machine": true
+  },
   "google-recaptcha": {
     "purpose": "Chroni formularze przed spamem.",
     "cookies": {
@@ -447,6 +580,10 @@
   },
   "gtranslate": {
     "purpose": "Tłumaczy stronę na inne języki.",
+    "machine": true
+  },
+  "gumroad": {
+    "purpose": "Wyświetla produkty i otwiera stronę płatności.",
     "machine": true
   },
   "hcaptcha": {
@@ -516,9 +653,23 @@
     "purpose": "Wyświetla osadzone posty i obrazy z Imgur.",
     "machine": true
   },
+  "impact": {
+    "purpose": "Śledzi sprzedaż z linków partnerskich.",
+    "cookies": {
+      "IR_PI": "Rozpoznaje odwiedzających, aby przypisać sprzedaż partnerom.",
+      "IRLD": "Zapamiętuje ostatnie kliknięcie partnerskie, aby uniknąć duplikatów.",
+      "IR_GBD": "Rozpoznaje domenę bazową witryny na potrzeby śledzenia.",
+      "irclickid": "Zapamiętuje kliknięcie partnerskie, aby przypisać sprzedaż."
+    },
+    "machine": true
+  },
   "independent-analytics": {
     "purpose": "Liczy odwiedziny tej witryny.",
     "cookies": {},
+    "machine": true
+  },
+  "infolinks": {
+    "purpose": "Wyświetla reklamy w tekście.",
     "machine": true
   },
   "instagram-embed": {
@@ -545,6 +696,19 @@
     },
     "machine": true
   },
+  "izooto": {
+    "purpose": "Wysyła powiadomienia push w przeglądarce.",
+    "cookies": {
+      "izootoUID": "Odróżnia odwiedzających.",
+      "izootoPushToken": "Zapamiętuje subskrypcję powiadomień push.",
+      "izootoUserProp": "Zapisuje dane odwiedzającego dla dopasowanych powiadomień.",
+      "izootoMDConfig": "Udostępnia dane subskrypcji push między domenami witryny.",
+      "izootoActivePrompt": "Zapamiętuje, kiedy prośba o subskrypcję jest aktywna.",
+      "IZCID": "Rozpoznaje odwiedzającego w witrynach iZooto.",
+      "izootoAllowedSites": "Zapamiętuje witryny powiązane z odwiedzającym."
+    },
+    "machine": true
+  },
   "jetpack-comments": {
     "purpose": "Wyświetla formularz komentarzy z logowaniem społecznościowym.",
     "machine": true
@@ -563,6 +727,10 @@
   },
   "jsdelivr": {
     "purpose": "Dostarcza biblioteki kodu używane przez witrynę.",
+    "machine": true
+  },
+  "judge-me": {
+    "purpose": "Wyświetla opinie klientów.",
     "machine": true
   },
   "kit": {
@@ -597,6 +765,10 @@
     "purpose": "Wyświetla wycieczki i atrakcje do zarezerwowania.",
     "machine": true
   },
+  "ko-fi": {
+    "purpose": "Wyświetla widżet napiwków.",
+    "machine": true
+  },
   "koko-analytics": {
     "purpose": "Liczy odwiedziny tej witryny.",
     "cookies": {
@@ -616,6 +788,13 @@
     "purpose": "Wyświetla osadzone wirtualne wycieczki 360°.",
     "machine": true
   },
+  "lead-forensics": {
+    "purpose": "Rozpoznaje firmy odwiedzające tę witrynę.",
+    "cookies": {
+      "_lfuuid": "Pomaga przypisać wizyty do firm."
+    },
+    "machine": true
+  },
   "leadfeeder": {
     "purpose": "Rozpoznaje firmy odwiedzające witrynę.",
     "cookies": {
@@ -624,6 +803,10 @@
       "_lfa_test_cookie_stored": "Sprawdza, czy można zapisać ciasteczka.",
       "ldfdr_opt_out": "Zapamiętuje, że odwiedzający zrezygnował."
     },
+    "machine": true
+  },
+  "lemon-squeezy": {
+    "purpose": "Obsługuje kasę i przetwarza płatności.",
     "machine": true
   },
   "libsyn": {
@@ -667,6 +850,14 @@
     "purpose": "Wyświetla osadzone nagrania ekranu.",
     "machine": true
   },
+  "loyaltylion": {
+    "purpose": "Oferuje nagrody lojalnościowe i programy poleceń.",
+    "cookies": {
+      "loyaltylion_persistent_data": "Zapamiętuje odwiedzających i linki polecające.",
+      "loyaltylion_temporary_data": "Zapamiętuje aktywność w sesji programu lojalnościowego."
+    },
+    "machine": true
+  },
   "lucky-orange": {
     "purpose": "Mapy cieplne i nagrania sesji.",
     "cookies": {
@@ -707,19 +898,6 @@
     "purpose": "Wyświetla osadzone mapy.",
     "machine": true
   },
-  "matomo-cloud": {
-    "purpose": "Mierzy wizyty i konwersje.",
-    "cookies": {
-      "_pk_id.*": "Odróżnia odwiedzających.",
-      "_pk_ses.*": "Utrzymuje bieżącą wizytę.",
-      "_pk_ref.*": "Zapisuje, skąd przyszedł odwiedzający."
-    },
-    "machine": true
-  },
-  "matomo-tag-manager": {
-    "purpose": "Wczytuje tagi śledzące witryny.",
-    "machine": true
-  },
   "matomo": {
     "purpose": "Mierzy wizyty i konwersje.",
     "cookies": {
@@ -736,8 +914,29 @@
     },
     "machine": true
   },
+  "matomo-cloud": {
+    "purpose": "Mierzy wizyty i konwersje.",
+    "cookies": {
+      "_pk_id.*": "Odróżnia odwiedzających.",
+      "_pk_ses.*": "Utrzymuje bieżącą wizytę.",
+      "_pk_ref.*": "Zapisuje, skąd przyszedł odwiedzający."
+    },
+    "machine": true
+  },
+  "matomo-tag-manager": {
+    "purpose": "Wczytuje tagi śledzące witryny.",
+    "machine": true
+  },
   "matterport": {
     "purpose": "Wyświetla osadzone wirtualne wycieczki 3D.",
+    "machine": true
+  },
+  "media-net": {
+    "purpose": "Wyświetla reklamy dopasowane do treści strony.",
+    "cookies": {
+      "mnet_ad_pref_close": "Zapamiętuje, które pola reklamowe zamknięto.",
+      "mnet_session_depth": "Rejestruje liczbę przeglądanych stron."
+    },
     "machine": true
   },
   "meta-pixel": {
@@ -751,6 +950,17 @@
   },
   "metricool": {
     "purpose": "Zlicza wizyty i wyświetlone strony.",
+    "machine": true
+  },
+  "mgid": {
+    "purpose": "Wyświetla reklamy natywne i mierzy konwersje.",
+    "cookies": {
+      "MgidStorage": "Obsługuje widżet reklamowy.",
+      "mg_sync": "Zapamiętuje dopasowanych partnerów reklamowych.",
+      "muidn": "Odróżnia odwiedzających dla reklam i raportów.",
+      "MgidSensor*": "Mierzy wizyty i konwersje reklam.",
+      "mgunrtrg": "Zapamiętuje rezygnację z reklam."
+    },
     "machine": true
   },
   "microanalytics": {
@@ -788,6 +998,10 @@
     "cookies": {
       "mp_*": "Odróżnia odwiedzających."
     },
+    "machine": true
+  },
+  "mollie": {
+    "purpose": "Przetwarza płatności online.",
     "machine": true
   },
   "momoyoga": {
@@ -877,16 +1091,12 @@
     },
     "machine": true
   },
-  "paddle-retain": {
-    "purpose": "Wyświetla oferty rozliczeniowe i śledzi korzystanie.",
-    "machine": true
-  },
   "paddle": {
     "purpose": "Obsługuje kasę i przetwarza płatności.",
     "machine": true
   },
-  "paypal-marketing": {
-    "purpose": "Mierzy zakupy w tej witrynie na potrzeby marketingu PayPal.",
+  "paddle-retain": {
+    "purpose": "Wyświetla oferty rozliczeniowe i śledzi korzystanie.",
     "machine": true
   },
   "paypal": {
@@ -897,6 +1107,10 @@
       "x-pp-s": "Przetwarzanie płatności.",
       "nsid": "Zapobieganie nadużyciom."
     },
+    "machine": true
+  },
+  "paypal-marketing": {
+    "purpose": "Mierzy zakupy w tej witrynie na potrzeby marketingu PayPal.",
     "machine": true
   },
   "phorest": {
@@ -978,8 +1192,49 @@
     "purpose": "Wyświetla opinie klientów i pieczęć oceny.",
     "machine": true
   },
+  "pushalert": {
+    "purpose": "Wysyła powiadomienia push w przeglądarce.",
+    "cookies": {
+      "pushalert_subs_status": "Zapamiętuje stan subskrypcji powiadomień.",
+      "pushalert_subs_dialog": "Zapamiętuje, czy wyświetlono prośbę o subskrypcję.",
+      "pushalert_already_subscribed": "Zapamiętuje, czy powiadomienia są subskrybowane.",
+      "pushalert_subs_id": "Rozpoznaje subskrypcję powiadomień."
+    },
+    "machine": true
+  },
+  "pushengage": {
+    "purpose": "Wysyła powiadomienia push w przeglądarce.",
+    "machine": true
+  },
+  "quantcast": {
+    "purpose": "Mierzy odbiorców i personalizuje reklamy.",
+    "cookies": {
+      "__qca": "Odróżnia odwiedzających na potrzeby pomiaru odbiorców.",
+      "qoo": "Zapamiętuje rezygnację z reklam.",
+      "qor": "Zapamiętuje rezygnację z reklam."
+    },
+    "machine": true
+  },
   "quora-pixel": {
     "purpose": "Mierzy reklamy Quora.",
+    "machine": true
+  },
+  "rakuten-advertising": {
+    "purpose": "Śledzi sprzedaż z linków partnerskich.",
+    "cookies": {
+      "rmStore*": "Zapisuje identyfikatory kliknięć partnerskich i ustawienia śledzenia.",
+      "rmlconsent_*": "Zapamiętuje zgodę dla określonej domeny.",
+      "Rmuid": "Rozpoznaje odwiedzających na potrzeby śledzenia partnerskiego.",
+      "lsn_statp": "Rozpoznaje odwiedzających na potrzeby śledzenia partnerskiego.",
+      "lsclick_mid*": "Zapisuje datę kliknięcia partnerskiego i identyfikator wydawcy."
+    },
+    "machine": true
+  },
+  "razorpay": {
+    "purpose": "Przetwarza płatności online.",
+    "cookies": {
+      "rzp_unified_session_id": "Rozpoznaje sesję płatności."
+    },
     "machine": true
   },
   "reamaze": {
@@ -995,6 +1250,10 @@
     "cookies": {
       "_rdt_uuid": "Pomiar reklam."
     },
+    "machine": true
+  },
+  "reviews-io": {
+    "purpose": "Wyświetla opinie i oceny klientów.",
     "machine": true
   },
   "rybbit": {
@@ -1018,6 +1277,10 @@
     "purpose": "Wyświetla opinie klientów i recenzje wideo.",
     "machine": true
   },
+  "sezzle": {
+    "purpose": "Umożliwia zakup teraz i płatność później.",
+    "machine": true
+  },
   "shopify-buy-button": {
     "purpose": "Wyświetla produkty Shopify i koszyk.",
     "cookies": {
@@ -1030,11 +1293,26 @@
     "purpose": "Szybciej dostarcza obrazy witryny.",
     "machine": true
   },
+  "six-sense": {
+    "purpose": "Rozpoznaje odwiedzające firmy dla celów marketingowych.",
+    "cookies": {
+      "6suuid": "Rozpoznaje odwiedzających w różnych witrynach.",
+      "_gd_visitor": "Odróżnia odwiedzających w tej witrynie.",
+      "_gd_session": "Grupuje aktywność w sesję przeglądania.",
+      "_gd_svisitor": "Łączy wizyty z identyfikatorem odwiedzającego.",
+      "_6si_cid": "Łączy wizyty z kampanią reklamową 6sense."
+    },
+    "machine": true
+  },
   "sketchfab": {
     "purpose": "Wyświetla osadzone modele 3D.",
     "cookies": {
       "sb_csrftoken": "Chroni przed sfałszowanymi żądaniami."
     },
+    "machine": true
+  },
+  "skimlinks": {
+    "purpose": "Tworzy i śledzi linki partnerskie.",
     "machine": true
   },
   "slimstat": {
@@ -1073,6 +1351,18 @@
     "cookies": {
       "sp_t": "Niezbędne do działania osadzenia Spotify.",
       "sp_landing": "Niezbędne do działania osadzenia Spotify."
+    },
+    "machine": true
+  },
+  "square": {
+    "purpose": "Przetwarza płatności.",
+    "machine": true
+  },
+  "stamped": {
+    "purpose": "Wyświetla opinie klientów.",
+    "cookies": {
+      "stamped-launcher-opened": "Zapobiega ponownemu liczeniu tego samego otwarcia przycisku.",
+      "stamped-user-reviews": "Zapamiętuje produkty ocenione przez odwiedzającego."
     },
     "machine": true
   },
@@ -1173,6 +1463,13 @@
     },
     "machine": true
   },
+  "tripadvisor": {
+    "purpose": "Wyświetla opinie i oceny Tripadvisor.",
+    "cookies": {
+      "TADCID": "Śledzi odwiedzających i prowizje za polecenia."
+    },
+    "machine": true
+  },
   "trusted-shops": {
     "purpose": "Wyświetla pieczęć zaufania i opinie o sklepie.",
     "cookies": {
@@ -1187,15 +1484,15 @@
     "purpose": "Wyświetla opinie z Google i innych witryn.",
     "machine": true
   },
+  "trustpilot": {
+    "purpose": "Wyświetla opinie z Trustpilot.",
+    "machine": true
+  },
   "trustpilot-invitations": {
     "purpose": "Prosi klientów o ocenę zakupu.",
     "cookies": {
       "TP.uuid": "Rozpoznaje przeglądarkę."
     },
-    "machine": true
-  },
-  "trustpilot": {
-    "purpose": "Wyświetla opinie z Trustpilot.",
     "machine": true
   },
   "typeform": {
@@ -1272,6 +1569,16 @@
       "_wingify_sn": "Utrzymuje bieżącą sesję.",
       "_wingify_s": "Zlicza sesje przeglądarki odwiedzającego.",
       "_wingify_exp_*": "Zapamiętuje wyświetloną wersję testu."
+    },
+    "machine": true
+  },
+  "webpushr": {
+    "purpose": "Wysyła powiadomienia push w przeglądarce.",
+    "cookies": {
+      "_webpushrPageViews": "Liczy odsłony przed prośbą o powiadomienia push.",
+      "_webpushrSubscriberID": "Zapamiętuje subskrypcję push w witrynach HTTP.",
+      "_webpushrEndPoint": "Zapisuje punkt końcowy subskrypcji push.",
+      "_webpushrLastVisit": "Zapamiętuje ostatnią wizytę subskrybenta."
     },
     "machine": true
   },
@@ -1365,6 +1672,10 @@
       "_ym_metrika_enabled": "Sprawdza, czy ciasteczka działają.",
       "_ym_hostIndex": "Ogranicza liczbę żądań."
     },
+    "machine": true
+  },
+  "yotpo": {
+    "purpose": "Wyświetla opinie i oceny klientów.",
     "machine": true
   },
   "youcanbookme": {
@@ -1473,6 +1784,13 @@
       "isiframeenabled": "Zapamiętuje, że czat na żywo został wyłączony.",
       "_zldvfp": "Rozpoznaje odwiedzających z kampanii e-mailowych.",
       "ZSIQ*": "Zapamiętuje, czy adres IP odwiedzającego jest zablokowany."
+    },
+    "machine": true
+  },
+  "zoominfo": {
+    "purpose": "Rozpoznaje firmy odwiedzające tę witrynę.",
+    "cookies": {
+      "_zitok": "Odróżnia odwiedzających."
     },
     "machine": true
   }

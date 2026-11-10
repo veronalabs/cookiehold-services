@@ -1,0 +1,61 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "media-net",
+  "version": 1,
+  "name": "Media.net",
+  "provider": "Media.Net Advertising FZ-LLC",
+  "category": "marketing",
+  "purpose": "Shows ads based on the page content.",
+  "privacyUrl": "https://www.media.net/privacy-policy/",
+  "dataCountry": "USA and other countries",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "contextual.media.net"
+    ],
+    "inline": [
+      "window._mNHandle",
+      "window._mNDetails.loadTag(",
+      "medianet_versionId"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "mnet_ad_pref_close",
+      "lifetime": "30 days",
+      "purpose": "Remembers which ad units were closed."
+    },
+    {
+      "name": "mnet_session_depth",
+      "lifetime": "Session",
+      "purpose": "Records browsing depth across pages."
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "media-net-ads-manager/index.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.media.net/privacy-policy/",
+    "https://www.media.net/ads/monetizepros/",
+    "https://plugins.svn.wordpress.org/media-net-ads-manager/trunk/README.txt",
+    "https://plugins.svn.wordpress.org/media-net-ads-manager/trunk/app/public/MnetInjectedAdTag.php",
+    "https://contextual.media.net/dmedianet.js",
+    "https://contextual.media.net/nmedianet.js",
+    "https://plugins.svn.wordpress.org/media-net-ads-manager/trunk/js/medianetAdInjector.js",
+    "https://raw.githubusercontent.com/jkwakman/Open-Cookie-Database/master/open-cookie-database.csv",
+    "https://wordpress.org/plugins/media-net-ads-manager/",
+    "https://plugins.svn.wordpress.org/media-net-ads-manager/trunk/",
+    "https://plugins.svn.wordpress.org/media-net-ads-manager/trunk/index.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

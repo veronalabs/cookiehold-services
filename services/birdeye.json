@@ -1,0 +1,48 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "birdeye",
+  "version": 1,
+  "name": "Birdeye",
+  "provider": "BirdEye, Inc.",
+  "category": "media",
+  "purpose": "Shows customer reviews and provides chat.",
+  "privacyUrl": "https://birdeye.com/privacy/",
+  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "birdeye.com/embed/",
+      "widgets-v7.birdeye.com",
+      "webchat.birdeye.com"
+    ]
+  },
+  "cookies": [],
+  "storage": [
+    "be.webchat.data.*"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "generic",
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://birdeye.com/privacy/",
+    "https://support.birdeye.com/en/articles/12653032-how-to-embed-the-birdeye-widget-on-your-business-website-iframe",
+    "https://support.birdeye.com/en/articles/12653028-how-do-i-embed-the-chatbot-ai-widget-on-my-business-website",
+    "https://birdeye.com/embed/v7/169391374881433/9/9876543219915183",
+    "https://birdeye.com/embed/v6/153051201319303/1/2317973919/3768af4a1f610c8e4379b6b5b9f2d93b9960991ed5397fc8",
+    "https://webchat.birdeye.com/public/bubble.js",
+    "https://webchat.birdeye.com/public/chatWindow.js",
+    "https://widgets-v7.birdeye.com/api/widgets?bid=169391374881433&wno=9&seoEnabled=false",
+    "https://widgets-v7.birdeye.com/_next/static/chunks/pages/_app-52d00b77a9bc73ec.js",
+    "https://widgets-v7.birdeye.com/_next/static/chunks/pages/v8/slider-67a09f9d296b5d1b.js",
+    "https://support.birdeye.com/en/articles/12653968-how-do-i-embed-reviews-on-my-wordpress-based-business-website-using-birdeye-s-wordpress-plugin",
+    "https://api.wordpress.org/plugins/info/1.2/?action=query_plugins&request%5Bsearch%5D=birdeye&request%5Bper_page%5D=20",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

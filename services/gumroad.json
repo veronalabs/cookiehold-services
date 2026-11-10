@@ -1,0 +1,45 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "gumroad",
+  "version": 1,
+  "name": "Gumroad",
+  "provider": "Gumroad, Inc.",
+  "category": "functional",
+  "purpose": "Shows products and opens checkout.",
+  "privacyUrl": "https://gumroad.com/privacy",
+  "dataCountry": "USA and other countries",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "gumroad.com/js/",
+      "gumroad.com/l/",
+      "assets.gumroad.com"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "generic",
+  "wordpress": {
+    "plugins": [
+      "gumroad/gumroad.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://gumroad.com/help/article/44-build-gumroad-into-your-website",
+    "https://gumroad.com/privacy",
+    "https://gumroad.com/help/article/110-gumroads-subprocessors",
+    "https://gumroad.com/js/gumroad.js",
+    "https://assets.gumroad.com/js/gumroad-bundle.js",
+    "https://www.dataprivacyframework.gov/list",
+    "https://raw.githubusercontent.com/jkwakman/Open-Cookie-Database/master/open-cookie-database.csv",
+    "https://wordpress.org/plugins/gumroad/",
+    "https://plugins.svn.wordpress.org/gumroad/trunk/",
+    "https://plugins.svn.wordpress.org/gumroad/trunk/gumroad.php"
+  ],
+  "checked": "2026-11-10"
+}

@@ -1,0 +1,75 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "mgid",
+  "version": 1,
+  "name": "MGID",
+  "provider": "MGID Inc.",
+  "category": "marketing",
+  "purpose": "Shows native ads and measures conversions.",
+  "privacyUrl": "https://www.mgid.com/services/privacy-policy",
+  "dataCountry": "EU (Netherlands) and USA (EU-US Data Privacy Framework)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "jsc.mgid.com"
+    ],
+    "inline": [
+      "_mgc.load",
+      "MgSensor.invoke(",
+      "_mgq.push([\"MgSensorInvoke\""
+    ]
+  },
+  "cookies": [
+    {
+      "name": "MgidStorage",
+      "lifetime": "Session",
+      "purpose": "Supports the ad widget."
+    },
+    {
+      "name": "mg_sync",
+      "lifetime": "1 month",
+      "purpose": "Remembers matched advertising partners."
+    },
+    {
+      "name": "muidn",
+      "lifetime": "1 year",
+      "purpose": "Tells visitors apart for ads and reporting."
+    },
+    {
+      "name": "MgidSensor*",
+      "lifetime": "90 days",
+      "purpose": "Measures visits and ad conversions."
+    },
+    {
+      "name": "mgunrtrg",
+      "lifetime": "2 years",
+      "purpose": "Remembers the advertising opt-out."
+    }
+  ],
+  "storage": [
+    "mgMuidn",
+    "MG_tcfv2Data",
+    "MG_gppData",
+    "MG_uspString"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://www.mgid.com/services/privacy-policy",
+    "https://www.mgid.com/services/cookie-notice",
+    "https://help.mgid.com/how-to-add-widgets-to-wordpress",
+    "https://jsc.mgid.com/site/1066641.js",
+    "https://www.mgid.com/blog/tracking-conversions-on-the-mgid-platform",
+    "https://help.mgid.com/mgid-pixel-js-code-direct-installation",
+    "https://help.mgid.com/fr/installation-du-code-du-widget-mgid-sur-la-plateforme-blogger",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

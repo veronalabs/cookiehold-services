@@ -1,0 +1,56 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "lemon-squeezy",
+  "version": 1,
+  "name": "Lemon Squeezy",
+  "provider": "Sold through Link, LLC",
+  "category": "essential",
+  "purpose": "Runs the checkout and processes payments.",
+  "privacyUrl": "https://www.lemonsqueezy.com/privacy",
+  "dataCountry": "USA and other countries",
+  "legalBasis": "contract",
+  "match": {
+    "hosts": [
+      "app.lemonsqueezy.com/js/lemon.js",
+      "assets.lemonsqueezy.com/lemon.js",
+      "lemonsqueezy.com/checkout/"
+    ],
+    "inline": [
+      "LemonSqueezy.Url.Open(",
+      "LemonSqueezy.Setup(",
+      "window.createLemonSqueezy()"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "lemon-squeezy/lemonsqueezy.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.lemonsqueezy.com/privacy",
+    "https://www.lemonsqueezy.com/dpa",
+    "https://www.lemonsqueezy.com/terms",
+    "https://www.lemonsqueezy.com/buyer-terms",
+    "https://docs.lemonsqueezy.com/help/checkout/checkout-overlay",
+    "https://docs.lemonsqueezy.com/help/lemonjs",
+    "https://docs.lemonsqueezy.com/guides/developer-guide/lemonjs",
+    "https://app.lemonsqueezy.com/js/lemon.js",
+    "https://assets.lemonsqueezy.com/lemon.js",
+    "https://docs.lemonsqueezy.com/help/affiliates-for-merchants/getting-started",
+    "https://docs.lemonsqueezy.com/help/affiliates-for-merchants/getting-referrals",
+    "https://docs.lemonsqueezy.com/help/affiliates/generating-referrals",
+    "https://wordpress.org/plugins/lemon-squeezy/",
+    "https://plugins.svn.wordpress.org/lemon-squeezy/trunk/",
+    "https://plugins.svn.wordpress.org/lemon-squeezy/trunk/lemonsqueezy.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

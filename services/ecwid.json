@@ -1,0 +1,86 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "ecwid",
+  "version": 1,
+  "name": "Ecwid",
+  "provider": "Ecwid, Inc.",
+  "category": "functional",
+  "purpose": "Shows an online store and shopping cart.",
+  "privacyUrl": "https://www.lightspeedhq.com/legal/privacy-policy/",
+  "dataCountry": "USA (EU-US Data Privacy Framework), Canada and other countries",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "app.ecwid.com/script.js",
+      "djqizrxa6f10j.cloudfront.net/ec-sdk/storefront/",
+      "d34ikvsdm2rlij.cloudfront.net/storefront/static/"
+    ],
+    "inline": [
+      "xProductBrowser(",
+      "Ecwid.OnAPILoaded.add("
+    ]
+  },
+  "cookies": [
+    {
+      "name": "PSecwid__document__referrerPSreferrer*",
+      "lifetime": "90 days",
+      "purpose": "Remembers the referring page."
+    },
+    {
+      "name": "PSecwid__shopping__cart__controller__storagePSlastPlace*",
+      "lifetime": "180 days",
+      "purpose": "Remembers where to continue shopping."
+    },
+    {
+      "name": "ec-user-response*",
+      "lifetime": "180 days (EU/UK/CH); 365 days",
+      "purpose": "Remembers cookie consent and when it was given."
+    },
+    {
+      "name": "PSecwid__utm__storagePSutm__data*",
+      "lifetime": "90 days",
+      "purpose": "Remembers campaign details for store analytics."
+    },
+    {
+      "name": "__eca_s_id_",
+      "lifetime": "30 minutes",
+      "purpose": "Groups visits for store analytics."
+    },
+    {
+      "name": "__eca_v_id_",
+      "lifetime": "365 days",
+      "purpose": "Tells visitors apart for store analytics."
+    }
+  ],
+  "storage": [
+    "ec_storefront_ab_test"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "generic",
+  "wordpress": {
+    "plugins": [
+      "ecwid-shopping-cart/ecwid-shopping-cart.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.ecwid.com/privacy-policy",
+    "https://www.lightspeedhq.com/legal/privacy-policy/",
+    "https://docs.ecwid.com/storefronts/store-configuration-settings/overview",
+    "https://docs.ecwid.com/api-reference/rest-api/storefront-widget-details/static-store-pages",
+    "https://support.ecwid.com/hc/en-us/articles/6229619464220-Cookies-used-in-your-Ecwid-store",
+    "https://app.ecwid.com/script.js?1003&data_platform=code",
+    "https://d34ikvsdm2rlij.cloudfront.net/storefront/static/2026/all/ecommerce-d6zwkmx6.js",
+    "https://www.ecwid.com/ecommerce-hosting",
+    "https://www.lightspeedhq.com/legal/subprocessors/",
+    "https://www.lightspeedhq.com/legal/lightspeed-subprocessors/",
+    "https://wordpress.org/plugins/ecwid-shopping-cart/",
+    "https://plugins.svn.wordpress.org/ecwid-shopping-cart/trunk/",
+    "https://plugins.svn.wordpress.org/ecwid-shopping-cart/trunk/ecwid-shopping-cart.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

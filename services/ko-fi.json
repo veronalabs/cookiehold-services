@@ -1,0 +1,47 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "ko-fi",
+  "version": 1,
+  "name": "Ko-fi",
+  "provider": "Ko-Fi Labs Limited",
+  "category": "functional",
+  "purpose": "Shows a tip widget.",
+  "privacyUrl": "https://more.ko-fi.com/privacy",
+  "dataCountry": "",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "ko-fi.com"
+    ],
+    "inline": [
+      "kofiWidgetOverlay.draw("
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "generic",
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://more.ko-fi.com/privacy",
+    "https://ko-fi.com/home/privacy",
+    "https://help.ko-fi.com/hc/en-us/articles/360018381678-Ko-fi-tip-widget",
+    "https://help.ko-fi.com/hc/en-us/articles/115004002614-Adding-a-Ko-fi-Button-to-your-WordPress-site-or-blog",
+    "https://ko-fi.com/Manage/donation-widget-setup",
+    "https://storage.ko-fi.com/cdn/scripts/overlay-widget.js",
+    "https://storage.ko-fi.com/cdn/widget/Widget_2.js",
+    "https://wordpress.org/plugins/ko-fi-button/",
+    "https://plugins.svn.wordpress.org/ko-fi-button/trunk/",
+    "https://plugins.svn.wordpress.org/ko-fi-button/trunk/Ko_fi.php",
+    "https://plugins.svn.wordpress.org/ko-fi-button/trunk/class-ko-fi.php",
+    "https://raw.githubusercontent.com/jkwakman/Open-Cookie-Database/master/open-cookie-database.csv",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

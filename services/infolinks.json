@@ -1,0 +1,51 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "infolinks",
+  "version": 1,
+  "name": "Infolinks",
+  "provider": "Infolinks Media, LLC",
+  "category": "marketing",
+  "purpose": "Shows in-text ads.",
+  "privacyUrl": "https://www.infolinks.com/privacy-policy/",
+  "dataCountry": "USA and other countries",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "resources.infolinks.com"
+    ],
+    "inline": [
+      "infolinks_pid"
+    ]
+  },
+  "cookies": [],
+  "storage": [
+    "il_cuid"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "infolinks-officlial-plugin/infolinksintextads.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.infolinks.com/privacy-policy/",
+    "https://www.infolinks.com/products/",
+    "https://www.infolinks.com/support/technical/how-do-i-integrate-infolinks-into-my-website/",
+    "https://www.infolinks.com/support/technical/how-do-i-integrate-the-infolinks-script-on-my-wordpress-site/",
+    "https://www.infolinks.com/wp-content/uploads/2016/03/Optimization-guide-2016.pdf",
+    "https://resources.infolinks.com/js/infolinks_main.js",
+    "https://resources.infolinks.com/js/2067.005-4.011/ice.js",
+    "https://resources.infolinks.com/js/2067.005-4.011/icemobile.js",
+    "https://wordpress.org/plugins/infolinks-officlial-plugin/",
+    "https://plugins.svn.wordpress.org/infolinks-officlial-plugin/trunk/",
+    "https://plugins.svn.wordpress.org/infolinks-officlial-plugin/trunk/infolinksintextads.php",
+    "https://www.dataprivacyframework.gov/list",
+    "https://raw.githubusercontent.com/jkwakman/Open-Cookie-Database/master/open-cookie-database.csv"
+  ],
+  "checked": "2026-11-10"
+}

@@ -1,0 +1,74 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "webpushr",
+  "version": 1,
+  "name": "Webpushr",
+  "provider": "",
+  "category": "marketing",
+  "purpose": "Sends web push notifications.",
+  "privacyUrl": "https://www.webpushr.com/privacy-policy",
+  "dataCountry": "",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "cdn.webpushr.com"
+    ],
+    "inline": [
+      "webpushr-jssdk"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "_webpushrPageViews",
+      "lifetime": "90 days",
+      "purpose": "Counts page views before showing the push prompt."
+    },
+    {
+      "name": "_webpushrSubscriberID",
+      "lifetime": "365 days",
+      "purpose": "Remembers the push subscription on HTTP sites."
+    },
+    {
+      "name": "_webpushrEndPoint",
+      "lifetime": "90 days",
+      "purpose": "Stores the push subscription endpoint."
+    },
+    {
+      "name": "_webpushrLastVisit",
+      "lifetime": "3 days",
+      "purpose": "Remembers the subscriber's last visit."
+    }
+  ],
+  "storage": [
+    "_webpushr",
+    "_webpushrPromptAction",
+    "_webpushrSessionLog",
+    "_webpushrSubscriberCount",
+    "_webpushrCustomAttribute"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "webpushr-web-push-notifications/push.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.webpushr.com/privacy-policy",
+    "https://www.webpushr.com/docs/manual-integration",
+    "https://www.webpushr.com/docs/wordpress-integration",
+    "https://www.webpushr.com/terms-of-use",
+    "https://www.webpushr.com/contact-us",
+    "https://cdn.webpushr.com/app.min.js",
+    "https://wordpress.org/plugins/webpushr-web-push-notifications/",
+    "https://plugins.svn.wordpress.org/webpushr-web-push-notifications/trunk/",
+    "https://plugins.svn.wordpress.org/webpushr-web-push-notifications/trunk/push.php",
+    "https://plugins.svn.wordpress.org/webpushr-web-push-notifications/trunk/include/webpushr_functions.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

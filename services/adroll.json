@@ -1,0 +1,90 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "adroll",
+  "version": 1,
+  "name": "AdRoll",
+  "provider": "NextRoll Limited",
+  "category": "marketing",
+  "purpose": "Shows personalised ads to past visitors.",
+  "privacyUrl": "https://www.nextroll.com/privacy",
+  "dataCountry": "USA and other countries",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "s.adroll.com",
+      "a.adroll.com",
+      "d.adroll.com",
+      "x.adroll.com"
+    ],
+    "inline": [
+      "adroll_adv_id",
+      "adroll_pix_id"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "__adroll",
+      "lifetime": "13 months",
+      "purpose": "Recognises visitors for targeted ads."
+    },
+    {
+      "name": "__ar_v4",
+      "lifetime": "1 year",
+      "purpose": "Records visits for targeted ads."
+    },
+    {
+      "name": "__adroll_shared",
+      "lifetime": "13 months",
+      "purpose": "Recognises visitors for targeted ads."
+    },
+    {
+      "name": "__adroll_fpc",
+      "lifetime": "1 year",
+      "purpose": "Recognises visitors for targeted ads."
+    },
+    {
+      "name": "__adroll_consent",
+      "lifetime": "1 year",
+      "purpose": "Remembers advertising consent choices."
+    },
+    {
+      "name": "__adroll_consent_params",
+      "lifetime": "Session",
+      "purpose": "Passes advertising consent choices."
+    }
+  ],
+  "storage": [
+    "__adroll_consent_data",
+    "__adroll_fpc",
+    "adroll_pxlcat",
+    "adroll_tpc",
+    "adroll_dqs",
+    "adroll_flgs"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "adroll-for-woocommerce-stores-dev/adroll-for-woocommerce.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.nextroll.com/privacy",
+    "https://help.adroll.com/hc/en-us/articles/211846018-What-is-the-AdRoll-Pixel",
+    "https://help.adroll.com/hc/en-us/articles/360040116252-Connect-AdRoll-to-your-Site-Add-the-Pixel-to-your-Website-Header",
+    "https://help.adroll.com/hc/en-us/articles/212675687-Connect-AdRoll-to-your-Site-Install-the-Pixel-with-GTM",
+    "https://help.adroll.com/hc/en-us/articles/360037915191-Third-Party-Cookie-Consent-Banner-Didomi",
+    "https://help.adroll.com/hc/en-us/articles/6964547103629-Pixel-Troubleshooting-CSP-Errors",
+    "https://s.adroll.com/j/roundtrip.js",
+    "https://wordpress.org/plugins/adroll-for-woocommerce-stores-dev/",
+    "https://plugins.svn.wordpress.org/adroll-for-woocommerce-stores-dev/trunk/",
+    "https://plugins.svn.wordpress.org/adroll-for-woocommerce-stores-dev/trunk/adroll-for-woocommerce.php",
+    "https://plugins.svn.wordpress.org/adroll-for-woocommerce-stores-dev/trunk/pixel.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

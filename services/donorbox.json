@@ -1,0 +1,53 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "donorbox",
+  "version": 1,
+  "name": "Donorbox",
+  "provider": "Rebel Idealist Inc.",
+  "category": "functional",
+  "purpose": "Shows a donation form.",
+  "privacyUrl": "https://donorbox.org/explore/privacy",
+  "dataCountry": "USA and other countries",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "donorbox.org"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "donorbox_reminder_widget",
+      "lifetime": "60 days or Session",
+      "purpose": "Remembers an unfinished donation."
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "generic",
+  "wordpress": {
+    "plugins": [
+      "donorbox-donation-form/donorbox_embed_campaign.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://donorbox.org/explore/privacy",
+    "https://donorbox.org/privacy",
+    "https://donorbox.zendesk.com/hc/en-us/articles/360020559151-Cross-domain-tracking-for-Google-Analytics",
+    "https://donorbox.zendesk.com/hc/en-us/articles/360020559071-How-to-Embed-a-Donation-Form-on-WordPress",
+    "https://donorbox.zendesk.com/hc/en-us/articles/25301889960084-How-to-add-a-Giving-Reminder-to-your-pop-up-donation-form",
+    "https://donorbox.org/nonprofit-blog/popup-donation",
+    "https://donorbox.zendesk.com/hc/en-us/articles/41126081081620-How-to-add-a-Pop-Up-Donation-Form-to-your-website",
+    "https://donorbox.org/widget.js",
+    "https://donorbox.org/install-popup-button.js",
+    "https://wordpress.org/plugins/donorbox-donation-form/",
+    "https://plugins.svn.wordpress.org/donorbox-donation-form/trunk/",
+    "https://plugins.svn.wordpress.org/donorbox-donation-form/trunk/donorbox_embed_campaign.php",
+    "https://raw.githubusercontent.com/jkwakman/Open-Cookie-Database/master/open-cookie-database.csv",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

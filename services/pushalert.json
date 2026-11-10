@@ -1,0 +1,69 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "pushalert",
+  "version": 1,
+  "name": "PushAlert",
+  "provider": "InkWired Technologies Private Limited",
+  "category": "marketing",
+  "purpose": "Sends web push notifications.",
+  "privacyUrl": "https://pushalert.co/privacy-policy.html",
+  "dataCountry": "USA and other countries",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "cdn.pushalert.co"
+    ],
+    "inline": [
+      "cdn.pushalert.co/"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "pushalert_subs_status",
+      "lifetime": "Up to 400 days",
+      "purpose": "Remembers the notification subscription status."
+    },
+    {
+      "name": "pushalert_subs_dialog",
+      "lifetime": "400 days",
+      "purpose": "Remembers whether the subscription prompt was shown."
+    },
+    {
+      "name": "pushalert_already_subscribed",
+      "lifetime": "400 days",
+      "purpose": "Remembers whether notifications are subscribed to."
+    },
+    {
+      "name": "pushalert_subs_id",
+      "lifetime": "400 days",
+      "purpose": "Identifies the notification subscription."
+    }
+  ],
+  "storage": [
+    "pa_web_push",
+    "pa_web_push_*"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "pushalert-web-push-notifications/pushalert.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://pushalert.co/privacy-policy.html",
+    "https://pushalert.co/cookie-policy.html",
+    "https://pushalert.co/data-processing-addendum.html",
+    "https://pushalert.co/documentation/integration/push-notifications-https-website",
+    "https://pushalert.co/documentation/integration/push-notifications-wordpress",
+    "https://wordpress.org/plugins/pushalert-web-push-notifications/",
+    "https://plugins.svn.wordpress.org/pushalert-web-push-notifications/trunk/pushalert.php",
+    "https://plugins.svn.wordpress.org/pushalert-web-push-notifications/trunk/js/pushalert.js",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

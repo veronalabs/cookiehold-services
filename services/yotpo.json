@@ -1,0 +1,57 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "yotpo",
+  "version": 1,
+  "name": "Yotpo Reviews",
+  "provider": "Yotpo Ltd.",
+  "category": "media",
+  "purpose": "Shows customer reviews and ratings.",
+  "privacyUrl": "https://www.yotpo.com/privacy-policy/",
+  "dataCountry": "USA, Israel, UK, EU, Australia, Philippines and other locations",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "staticw2.yotpo.com",
+      "cdn-widgetsrepository.yotpo.com/v1/loader/",
+      "api.yotpo.com/conversion_tracking.gif"
+    ],
+    "inline": [
+      "staticw2.yotpo.com/",
+      "yotpoTrackConversionData"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "generic",
+  "wordpress": {
+    "plugins": [
+      "yotpo-social-reviews-for-woocommerce/wc_yotpo.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.yotpo.com/privacy-policy/",
+    "https://www.yotpo.com/data-processing-addendum/",
+    "https://www.yotpo.com/subprocessors/",
+    "https://www.yotpo.com/yotpo-privacy-guide/",
+    "https://support.yotpo.com/generic-other-platforms-installing-yotpo-reviews-v3",
+    "https://support.yotpo.com/v1/docs/generic-other-platforms-installing-yotpo-reviews-v1",
+    "https://support.yotpo.com/docs/implementing-yotpo-review-widgets-with-single-page-application-spa",
+    "https://support.yotpo.com/docs/implementing-yotpo-loyalty-referrals-modules-with-single-page-application-spa",
+    "https://support.yotpo.com/docs/yotpo-cookies",
+    "https://support.yotpo.com/docs/how-to-disable-cookie-collection-for-yotpo-reviews-widgets",
+    "https://plugins.svn.wordpress.org/yotpo-social-reviews-for-woocommerce/trunk/assets/js/v2HeaderScript.js",
+    "https://plugins.svn.wordpress.org/yotpo-social-reviews-for-woocommerce/trunk/assets/js/v3HeaderScript.js",
+    "https://staticw2.yotpo.com/widget.js",
+    "https://wordpress.org/plugins/yotpo-social-reviews-for-woocommerce/",
+    "https://plugins.svn.wordpress.org/yotpo-social-reviews-for-woocommerce/trunk/",
+    "https://plugins.svn.wordpress.org/yotpo-social-reviews-for-woocommerce/trunk/wc_yotpo.php",
+    "https://raw.githubusercontent.com/jkwakman/Open-Cookie-Database/master/open-cookie-database.csv",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}
