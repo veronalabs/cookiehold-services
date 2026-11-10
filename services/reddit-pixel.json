@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "reddit-pixel",
-  "version": 3,
+  "version": 4,
   "name": "Reddit Pixel",
   "provider": "Reddit Netherlands B.V.",
   "category": "marketing",
@@ -33,15 +33,23 @@
   },
   "placeholder": null,
   "wordpress": {
-    "plugins": [],
-    "handles": []
+    "plugins": [
+      "reddit-for-woocommerce/reddit-for-woocommerce.php"
+    ],
+    "handles": [
+      "reddit_tracking"
+    ]
   },
   "sources": [
     "https://www.redditinc.com/policies/privacy-policy",
     "https://www.dataprivacyframework.gov/participant/Reddit-Inc-5735",
     "https://github.com/jkwakman/Open-Cookie-Database",
     "https://www.dataprivacyframework.gov/list",
-    "https://www.reddit.com/policies/privacy-policy"
+    "https://www.reddit.com/policies/privacy-policy",
+    "https://wordpress.org/plugins/reddit-for-woocommerce/",
+    "https://plugins.svn.wordpress.org/reddit-for-woocommerce/trunk/reddit-for-woocommerce.php",
+    "https://plugins.svn.wordpress.org/reddit-for-woocommerce/tags/1.0.7/includes/Assets.php",
+    "https://plugins.svn.wordpress.org/reddit-for-woocommerce/tags/1.0.7/js/src/tracking/pixel/utils.js"
   ],
-  "checked": "2026-11-06"
+  "checked": "2026-11-10"
 }

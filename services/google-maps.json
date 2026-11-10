@@ -35,7 +35,13 @@
   "wordpress": {
     "plugins": [
       "agile-store-locator/agile-store-locator.php",
-      "wp-store-locator/wp-store-locator.php"
+      "wp-store-locator/wp-store-locator.php",
+      "google-maps-easy/gmp.php",
+      "google-maps-widget/google-maps-widget.php",
+      "map-block-gutenberg/map-block-gutenberg.php",
+      "gmap-embed/srm_gmap_embed.php",
+      "simple-map/simple-map.php",
+      "gmap-block/gmap-block.php"
     ],
     "handles": [
       "wpgmza_canvas_layer",
@@ -50,7 +56,19 @@
     "https://plugins.svn.wordpress.org/wp-google-maps/trunk/",
     "https://plugins.svn.wordpress.org/agile-store-locator/trunk/",
     "https://plugins.svn.wordpress.org/wp-store-locator/trunk/",
-    "https://developers.google.com/maps/documentation/embed/get-started"
+    "https://developers.google.com/maps/documentation/embed/get-started",
+    "https://wordpress.org/plugins/google-maps-easy/",
+    "https://plugins.svn.wordpress.org/google-maps-easy/trunk/gmp.php",
+    "https://wordpress.org/plugins/google-maps-widget/",
+    "https://plugins.svn.wordpress.org/google-maps-widget/trunk/google-maps-widget.php",
+    "https://wordpress.org/plugins/map-block-gutenberg/",
+    "https://plugins.svn.wordpress.org/map-block-gutenberg/trunk/map-block-gutenberg.php",
+    "https://wordpress.org/plugins/gmap-embed/",
+    "https://plugins.svn.wordpress.org/gmap-embed/trunk/srm_gmap_embed.php",
+    "https://wordpress.org/plugins/simple-map/",
+    "https://plugins.svn.wordpress.org/simple-map/trunk/simple-map.php",
+    "https://wordpress.org/plugins/gmap-block/",
+    "https://plugins.svn.wordpress.org/gmap-block/trunk/gmap-block.php"
   ],
   "checked": "2026-11-10"
 }

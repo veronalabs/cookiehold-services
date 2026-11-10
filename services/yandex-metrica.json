@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "yandex-metrica",
-  "version": 3,
+  "version": 4,
   "name": "Yandex Metrica",
   "provider": "Air Smart Advertising Solutions FZ-LLC",
   "category": "statistics",
@@ -63,7 +63,10 @@
   },
   "placeholder": null,
   "wordpress": {
-    "plugins": [],
+    "plugins": [
+      "yandex-metrica/yandex-metrica.php",
+      "yandex-metrika/yandex-metrika.php"
+    ],
     "handles": []
   },
   "sources": [
@@ -71,7 +74,11 @@
     "https://yandex.com/legal/metrica_termsofuse/en/",
     "https://yandex.com/legal/metrica_agreement/en/",
     "https://yandex.com/support/metrica/en/general/cookie-usage",
-    "https://yandex.com/support/metrica/en/code/counter-initialize"
+    "https://yandex.com/support/metrica/en/code/counter-initialize",
+    "https://wordpress.org/plugins/yandex-metrica/",
+    "https://plugins.svn.wordpress.org/yandex-metrica/trunk/yandex-metrica.php",
+    "https://wordpress.org/plugins/yandex-metrika/",
+    "https://plugins.svn.wordpress.org/yandex-metrika/trunk/yandex-metrika.php"
   ],
-  "checked": "2026-10-28"
+  "checked": "2026-11-10"
 }

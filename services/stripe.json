@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "stripe",
-  "version": 3,
+  "version": 4,
   "name": "Stripe",
   "provider": "Stripe Payments Europe, Limited",
   "category": "essential",
@@ -38,7 +38,12 @@
   "placeholder": null,
   "wordpress": {
     "plugins": [
-      "woocommerce-gateway-stripe/woocommerce-gateway-stripe.php"
+      "woocommerce-gateway-stripe/woocommerce-gateway-stripe.php",
+      "woo-stripe-payment/stripe-payments.php",
+      "stripe-payments/accept-stripe-payments.php",
+      "funnelkit-stripe-woo-payment-gateway/funnelkit-stripe-woo-payment-gateway.php",
+      "easy-paypal-donation/easy-paypal-donation.php",
+      "wp-ecommerce-paypal/wp-ecommerce-paypal.php"
     ],
     "handles": []
   },
@@ -53,7 +58,17 @@
     "https://stripe.com/cookie-settings",
     "https://docs.stripe.com/ips",
     "https://docs.stripe.com/disputes/prevention/advanced-fraud-detection",
-    "https://plugins.svn.wordpress.org/woocommerce-gateway-stripe/trunk/woocommerce-gateway-stripe.php"
+    "https://plugins.svn.wordpress.org/woocommerce-gateway-stripe/trunk/woocommerce-gateway-stripe.php",
+    "https://wordpress.org/plugins/woo-stripe-payment/",
+    "https://plugins.svn.wordpress.org/woo-stripe-payment/trunk/stripe-payments.php",
+    "https://wordpress.org/plugins/stripe-payments/",
+    "https://plugins.svn.wordpress.org/stripe-payments/trunk/accept-stripe-payments.php",
+    "https://wordpress.org/plugins/funnelkit-stripe-woo-payment-gateway/",
+    "https://plugins.svn.wordpress.org/funnelkit-stripe-woo-payment-gateway/trunk/funnelkit-stripe-woo-payment-gateway.php",
+    "https://wordpress.org/plugins/easy-paypal-donation/",
+    "https://plugins.svn.wordpress.org/easy-paypal-donation/trunk/easy-paypal-donation.php",
+    "https://wordpress.org/plugins/wp-ecommerce-paypal/",
+    "https://plugins.svn.wordpress.org/wp-ecommerce-paypal/trunk/wp-ecommerce-paypal.php"
   ],
-  "checked": "2026-11-06"
+  "checked": "2026-11-10"
 }

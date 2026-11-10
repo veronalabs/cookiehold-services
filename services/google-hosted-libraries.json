@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "google-hosted-libraries",
-  "version": 2,
+  "version": 3,
   "name": "Google Hosted Libraries",
   "provider": "Google Ireland Limited",
   "category": "essential",
@@ -22,14 +22,18 @@
   },
   "placeholder": null,
   "wordpress": {
-    "plugins": [],
+    "plugins": [
+      "use-google-libraries/use-google-libraries.php"
+    ],
     "handles": []
   },
   "sources": [
     "https://developers.google.com/speed/libraries",
     "https://developers.google.com/speed/libraries/terms",
     "https://policies.google.com/privacy",
-    "https://www.dataprivacyframework.gov/list"
+    "https://www.dataprivacyframework.gov/list",
+    "https://wordpress.org/plugins/use-google-libraries/",
+    "https://plugins.svn.wordpress.org/use-google-libraries/trunk/use-google-libraries.php"
   ],
-  "checked": "2026-11-06"
+  "checked": "2026-11-10"
 }

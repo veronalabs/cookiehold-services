@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "calendly",
-  "version": 3,
+  "version": 4,
   "name": "Calendly",
   "provider": "Calendly LLC",
   "category": "functional",
@@ -30,7 +30,9 @@
   },
   "placeholder": "generic",
   "wordpress": {
-    "plugins": [],
+    "plugins": [
+      "embed-calendly-scheduling/embed-calendly-scheduling.php"
+    ],
     "handles": []
   },
   "sources": [
@@ -40,7 +42,9 @@
     "https://calendly.com/legal/data-processing-addendum",
     "https://calendly.com/help/calendly-sub-processors-gdpr-ccpa",
     "https://calendly.com/help/calendly-cookie-management-and-banner",
-    "https://developer.calendly.com/api-docs/overview/embedding/getting-started"
+    "https://developer.calendly.com/api-docs/overview/embedding/getting-started",
+    "https://wordpress.org/plugins/embed-calendly-scheduling/",
+    "https://plugins.svn.wordpress.org/embed-calendly-scheduling/trunk/embed-calendly-scheduling.php"
   ],
   "checked": "2026-11-10"
 }

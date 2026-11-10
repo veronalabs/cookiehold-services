@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "instagram-embed",
-  "version": 2,
+  "version": 3,
   "name": "Instagram embeds",
   "provider": "Meta Platforms Ireland Limited",
   "category": "media",
@@ -32,7 +32,11 @@
     "plugins": [
       "instagram-feed/instagram-feed.php",
       "spotlight-social-photo-feeds/plugin.php",
-      "wp-social-reviews/wp-social-reviews.php"
+      "wp-social-reviews/wp-social-reviews.php",
+      "insta-gallery/insta-gallery.php",
+      "instagram-widget-by-wpzoom/instagram-widget-by-wpzoom.php",
+      "social-photo-feed-widget/social-photo-feed-widget.php",
+      "meks-easy-instagram-widget/meks-easy-instagram-widget.php"
     ],
     "handles": []
   },
@@ -43,7 +47,15 @@
     "https://www.dataprivacyframework.gov/list",
     "https://plugins.svn.wordpress.org/instagram-feed/trunk/instagram-feed.php",
     "https://plugins.svn.wordpress.org/spotlight-social-photo-feeds/trunk/plugin.php",
-    "https://plugins.svn.wordpress.org/wp-social-reviews/trunk/wp-social-reviews.php"
+    "https://plugins.svn.wordpress.org/wp-social-reviews/trunk/wp-social-reviews.php",
+    "https://wordpress.org/plugins/insta-gallery/",
+    "https://plugins.svn.wordpress.org/insta-gallery/trunk/insta-gallery.php",
+    "https://wordpress.org/plugins/instagram-widget-by-wpzoom/",
+    "https://plugins.svn.wordpress.org/instagram-widget-by-wpzoom/trunk/instagram-widget-by-wpzoom.php",
+    "https://wordpress.org/plugins/social-photo-feed-widget/",
+    "https://plugins.svn.wordpress.org/social-photo-feed-widget/trunk/social-photo-feed-widget.php",
+    "https://wordpress.org/plugins/meks-easy-instagram-widget/",
+    "https://plugins.svn.wordpress.org/meks-easy-instagram-widget/trunk/meks-easy-instagram-widget.php"
   ],
-  "checked": "2026-10-31"
+  "checked": "2026-11-10"
 }

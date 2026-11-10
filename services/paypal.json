@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "paypal",
-  "version": 3,
+  "version": 4,
   "name": "PayPal",
   "provider": "PayPal (Europe) S.à r.l. et Cie, S.C.A.",
   "category": "essential",
@@ -46,7 +46,12 @@
   "placeholder": null,
   "wordpress": {
     "plugins": [
-      "woocommerce-paypal-payments/woocommerce-paypal-payments.php"
+      "woocommerce-paypal-payments/woocommerce-paypal-payments.php",
+      "pymntpl-paypal-woocommerce/pymntpl-paypal-woocommerce.php",
+      "paypal-donations/paypal-donations.php",
+      "easy-paypal-donation/easy-paypal-donation.php",
+      "wp-ecommerce-paypal/wp-ecommerce-paypal.php",
+      "woo-paypal-gateway/woo-paypal-gateway.php"
     ],
     "handles": []
   },
@@ -55,7 +60,17 @@
     "https://www.paypal.com/uk/legalhub/paypal/cookie-full",
     "https://github.com/jkwakman/Open-Cookie-Database",
     "https://wordpress.org/plugins/woocommerce-paypal-payments/",
-    "https://developer.paypal.com/sdk/js/set-up"
+    "https://developer.paypal.com/sdk/js/set-up",
+    "https://wordpress.org/plugins/pymntpl-paypal-woocommerce/",
+    "https://plugins.svn.wordpress.org/pymntpl-paypal-woocommerce/trunk/pymntpl-paypal-woocommerce.php",
+    "https://wordpress.org/plugins/paypal-donations/",
+    "https://plugins.svn.wordpress.org/paypal-donations/trunk/paypal-donations.php",
+    "https://wordpress.org/plugins/easy-paypal-donation/",
+    "https://plugins.svn.wordpress.org/easy-paypal-donation/trunk/easy-paypal-donation.php",
+    "https://wordpress.org/plugins/wp-ecommerce-paypal/",
+    "https://plugins.svn.wordpress.org/wp-ecommerce-paypal/trunk/wp-ecommerce-paypal.php",
+    "https://wordpress.org/plugins/woo-paypal-gateway/",
+    "https://plugins.svn.wordpress.org/woo-paypal-gateway/trunk/woo-paypal-gateway.php"
   ],
-  "checked": "2026-11-06"
+  "checked": "2026-11-10"
 }
