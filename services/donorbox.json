@@ -11,7 +11,9 @@
   "legalBasis": "consent",
   "match": {
     "hosts": [
-      "donorbox.org"
+      "donorbox.org/embed/",
+      "donorbox.org/widget.js",
+      "donorbox.org/install-popup-button.js"
     ]
   },
   "cookies": [

@@ -12,7 +12,6 @@
   "match": {
     "hosts": [
       "gumroad.com/js/",
-      "gumroad.com/l/",
       "assets.gumroad.com"
     ]
   },
