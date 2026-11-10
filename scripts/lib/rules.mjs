@@ -64,7 +64,8 @@ export function checkServices(files) {
     if (data.id !== id) problems.push(`${where}: the id is "${data.id}", but the file is named "${id}".`);
     if (text !== format(data)) problems.push(`${where}: not formatted. Run npm run format.`);
 
-    for (const host of data.match.hosts ?? []) {
+    // Hosts and frames share one space: a pattern is claimed once, by one list of one service.
+    for (const host of [...(data.match.hosts ?? []), ...(data.match.frames ?? [])]) {
       if (hosts.has(host)) problems.push(`${where}: the host "${host}" is already claimed by ${hosts.get(host)}.`);
       hosts.set(host, id);
     }
