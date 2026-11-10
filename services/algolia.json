@@ -12,19 +12,13 @@
   "match": {
     "hosts": [
       "cdn.jsdelivr.net/npm/algoliasearch",
-      "cdn.jsdelivr.net/npm/instantsearch.js",
-      "cdn.jsdelivr.net/npm/instantsearch.css",
       "cdn.jsdelivr.net/npm/search-insights",
-      "cdn.jsdelivr.net/npm/@algolia/autocomplete-js",
-      "cdn.jsdelivr.net/npm/@algolia/autocomplete-theme-classic",
       "cdn.jsdelivr.net/npm/@docsearch/js",
       "cdn.jsdelivr.net/npm/@docsearch/css"
     ],
     "inline": [
-      "window[\"@algolia/autocomplete-js\"]",
       "AlgoliaAnalyticsObject",
       "window.docsearch({",
-      "instantsearch({",
       "algoliasearch("
     ]
   },

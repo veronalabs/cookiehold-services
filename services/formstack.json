@@ -14,9 +14,7 @@
       "formstack.com/forms",
       "sfapi.formstack.io/FormEngine/"
     ],
-    "inline": [
-      "fsLightbox"
-    ]
+    "inline": []
   },
   "cookies": [],
   "storage": [
