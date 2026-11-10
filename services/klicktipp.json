@@ -1,0 +1,48 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "klicktipp",
+  "version": 1,
+  "name": "KlickTipp",
+  "provider": "Klick-Tipp Limited",
+  "category": "marketing",
+  "purpose": "Shows email sign-up forms.",
+  "privacyUrl": "https://www.klicktipp.com/de/datenschutzerklarung/",
+  "dataCountry": "EU",
+  "legalBasis": "consent",
+  "match": {
+    "inline": [
+      "klicktippFrontend"
+    ]
+  },
+  "cookies": [],
+  "storage": [
+    "klicktipp_visitor_id",
+    "klicktipp_session_id",
+    "klicktipp_view_*"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "form",
+  "wordpress": {
+    "plugins": [
+      "klicktipp/klicktipp-plugin.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.klicktipp.com/de/support/wissensdatenbank/anmeldeformular-erstellen/",
+    "https://www.klicktipp.com/de/datenschutzerklarung/",
+    "https://www.klicktipp.com/de/impressum/",
+    "https://www.klicktipp.com/support/knowledge-base/wordpress/",
+    "https://www.klicktipp.com/support/knowledge-base/tagging-pixels-tracking-campaigns/",
+    "https://www.klicktipp.com/de/support/wissensdatenbank/spam-schutz-quellcode-auf-der-webseite-einsetzen/",
+    "https://www.klicktipp.com/support/knowledge-base/spam-protection-sign-up-forms/",
+    "https://wordpress.org/plugins/klicktipp/",
+    "https://plugins.svn.wordpress.org/klicktipp/trunk/klicktipp-plugin.php",
+    "https://plugins.svn.wordpress.org/klicktipp/trunk/assets/js/klicktipp-frontend.js",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

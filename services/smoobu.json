@@ -1,0 +1,56 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "smoobu",
+  "version": 1,
+  "name": "Smoobu",
+  "provider": "Smoobu GmbH",
+  "category": "functional",
+  "purpose": "Shows holiday rental availability and booking.",
+  "privacyUrl": "https://www.smoobu.com/en/privacy-policy/",
+  "dataCountry": "EU (Germany / Ireland) and USA",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "login.smoobu.com",
+      "booking.smoobu.com"
+    ],
+    "inline": [
+      "BookingToolIframe.initialize("
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "generic",
+  "wordpress": {
+    "plugins": [
+      "bookingflow-smoobu-for-wp/smoobu-calendar.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.smoobu.com/en/privacy-policy/",
+    "https://www.smoobu.com/en/terms/dpa/",
+    "https://www.smoobu.com/en/subprocessor/",
+    "https://www.smoobu.com/en/cookie-policy/",
+    "https://support.smoobu.com/hc/en-us/articles/360017260180-How-do-I-add-Smoobu-s-Booking-Engine-to-my-own-website",
+    "https://support.smoobu.com/hc/en-us/articles/360010836700-Add-the-Booking-Engine-to-your-website",
+    "https://support.smoobu.com/hc/en-us/articles/360015377680-Advanced-ways-to-embed-your-Booking-Engine",
+    "https://support.smoobu.com/hc/en-us/articles/360013391160-Show-your-availability-calendar-on-your-website-Calendar-iFrame",
+    "https://support.smoobu.com/hc/de/articles/360013391160-Zeige-deinen-Verf%C3%BCgbarkeitskalender-auf-deiner-Webseite-Kalender-iFrame",
+    "https://support.smoobu.com/hc/pt/articles/360010836700-Como-integrar-o-Motor-de-Reservas-Smoobu-no-meu-site-externo",
+    "https://login.smoobu.com/js/Settings/BookingToolIframe.js",
+    "https://login.smoobu.com/js/Apartment/CalendarWidget.js",
+    "https://login.smoobu.com/en/booking-tool/iframe/12532",
+    "https://booking.smoobu.com/sunnyhouses",
+    "https://booking.smoobu.com/assets/javascripts/9dd233f58101419a7af77df850b54d57-versioned.js",
+    "https://wordpress.org/plugins/bookingflow-smoobu-for-wp/",
+    "https://plugins.svn.wordpress.org/bookingflow-smoobu-for-wp/trunk/",
+    "https://plugins.svn.wordpress.org/bookingflow-smoobu-for-wp/trunk/smoobu-calendar.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

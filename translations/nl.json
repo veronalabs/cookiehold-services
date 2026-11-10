@@ -28,6 +28,16 @@
     },
     "machine": true
   },
+  "adcell": {
+    "purpose": "Volgt verkopen via affiliatelinks.",
+    "cookies": {
+      "ADCELLpid*": "Onthoudt de klik op een affiliatelink om de verkoop toe te wijzen.",
+      "ADCELLspid*": "Onthoudt de klik op een affiliatelink om de verkoop toe te wijzen.",
+      "ADCELLvpid*": "Onthoudt een advertentieweergave om de verkoop toe te wijzen.",
+      "adcell_loyalty": "Onthoudt een verwijzing via een loyaliteitspartner."
+    },
+    "machine": true
+  },
   "addtoany": {
     "purpose": "Toont knoppen om pagina's op sociale netwerken te delen.",
     "cookies": {
@@ -147,6 +157,10 @@
     "purpose": "Toont een ingesloten boekingskalender.",
     "machine": true
   },
+  "calenso": {
+    "purpose": "Toont een ingesloten boekingskalender.",
+    "machine": true
+  },
   "cdnjs": {
     "purpose": "Levert codebibliotheken die de site gebruikt.",
     "machine": true
@@ -244,6 +258,10 @@
     "purpose": "Toont advertenties aan eerdere bezoekers.",
     "machine": true
   },
+  "customer-alliance": {
+    "purpose": "Toont beoordelingen en waarderingen van klanten.",
+    "machine": true
+  },
   "dailymotion": {
     "purpose": "Toont ingesloten video's.",
     "cookies": {
@@ -251,6 +269,13 @@
       "ts": "Rolt updates van de speler uit.",
       "client_token": "Houdt het afspelen van video soepel.",
       "dmvk": "Voorkomt dat een video wordt onderbroken."
+    },
+    "machine": true
+  },
+  "digistore24": {
+    "purpose": "Volgt affiliateverkopen en biedt een betaalpagina.",
+    "cookies": {
+      "ds24c.v1": "Onthoudt gegevens over de affiliate en de campagne."
     },
     "machine": true
   },
@@ -274,6 +299,10 @@
     "cookies": {
       "encheventsnippet": "Onderscheidt bezoekers van elkaar."
     },
+    "machine": true
+  },
+  "etermin": {
+    "purpose": "Laat bezoekers online afspraken maken.",
     "machine": true
   },
   "etracker": {
@@ -545,6 +574,10 @@
     },
     "machine": true
   },
+  "jameda": {
+    "purpose": "Toont beoordelingen van artsen en laat u afspraken maken.",
+    "machine": true
+  },
   "jetpack-comments": {
     "purpose": "Toont het reactieformulier met inloggen via sociale media.",
     "machine": true
@@ -585,6 +618,10 @@
     },
     "machine": true
   },
+  "klicktipp": {
+    "purpose": "Toont aanmeldformulieren voor e-mail.",
+    "machine": true
+  },
   "kliken": {
     "purpose": "Volgt verkopen uit advertenties en retarget bezoekers.",
     "cookies": {
@@ -606,6 +643,10 @@
   },
   "komoot": {
     "purpose": "Toont ingesloten routekaarten.",
+    "machine": true
+  },
+  "kununu": {
+    "purpose": "Toont beoordelingen van werkgevers.",
     "machine": true
   },
   "kustom": {
@@ -707,19 +748,6 @@
     "purpose": "Toont ingesloten kaarten.",
     "machine": true
   },
-  "matomo-cloud": {
-    "purpose": "Meet bezoeken en conversies.",
-    "cookies": {
-      "_pk_id.*": "Onderscheidt bezoekers van elkaar.",
-      "_pk_ses.*": "Houdt het huidige bezoek bij.",
-      "_pk_ref.*": "Bewaart waar de bezoeker vandaan kwam."
-    },
-    "machine": true
-  },
-  "matomo-tag-manager": {
-    "purpose": "Laadt de trackingtags van de site.",
-    "machine": true
-  },
   "matomo": {
     "purpose": "Meet bezoeken en conversies.",
     "cookies": {
@@ -734,6 +762,19 @@
       "mtm_cookie_consent": "Onthoudt de toestemming voor trackingcookies.",
       "mtm_consent_removed": "Onthoudt de afmelding voor tracking."
     },
+    "machine": true
+  },
+  "matomo-cloud": {
+    "purpose": "Meet bezoeken en conversies.",
+    "cookies": {
+      "_pk_id.*": "Onderscheidt bezoekers van elkaar.",
+      "_pk_ses.*": "Houdt het huidige bezoek bij.",
+      "_pk_ref.*": "Bewaart waar de bezoeker vandaan kwam."
+    },
+    "machine": true
+  },
+  "matomo-tag-manager": {
+    "purpose": "Laadt de trackingtags van de site.",
     "machine": true
   },
   "matterport": {
@@ -877,16 +918,12 @@
     },
     "machine": true
   },
-  "paddle-retain": {
-    "purpose": "Toont factuuraanbiedingen en volgt het gebruik.",
-    "machine": true
-  },
   "paddle": {
     "purpose": "Verzorgt het afrekenen en verwerkt betalingen.",
     "machine": true
   },
-  "paypal-marketing": {
-    "purpose": "Meet winkelen op deze site voor de marketing van PayPal.",
+  "paddle-retain": {
+    "purpose": "Toont factuuraanbiedingen en volgt het gebruik.",
     "machine": true
   },
   "paypal": {
@@ -897,6 +934,10 @@
       "x-pp-s": "Betalingsverwerking.",
       "nsid": "Fraudepreventie."
     },
+    "machine": true
+  },
+  "paypal-marketing": {
+    "purpose": "Meet winkelen op deze site voor de marketing van PayPal.",
     "machine": true
   },
   "phorest": {
@@ -982,6 +1023,10 @@
     "purpose": "Meet Quora-advertenties.",
     "machine": true
   },
+  "rapidmail": {
+    "purpose": "Toont aanmeldformulieren voor de nieuwsbrief.",
+    "machine": true
+  },
   "reamaze": {
     "purpose": "Chat met de klantenservice.",
     "machine": true
@@ -995,6 +1040,10 @@
     "cookies": {
       "_rdt_uuid": "Meting van advertenties."
     },
+    "machine": true
+  },
+  "resmio": {
+    "purpose": "Laat bezoekers tafels in restaurants reserveren.",
     "machine": true
   },
   "rybbit": {
@@ -1054,6 +1103,10 @@
       "ssupp.vid": "Bewaart het chatgesprek tussen pagina's.",
       "ssupp.visits": "Telt bezoeken om chatberichten gericht te tonen."
     },
+    "machine": true
+  },
+  "smoobu": {
+    "purpose": "Toont beschikbaarheid en boekingen van vakantieverblijven.",
     "machine": true
   },
   "snap-pixel": {
@@ -1162,6 +1215,10 @@
     },
     "machine": true
   },
+  "timify": {
+    "purpose": "Laat u afspraken maken.",
+    "machine": true
+  },
   "tradetracker": {
     "purpose": "Volgt verkopen via affiliatelinks.",
     "cookies": {
@@ -1187,15 +1244,15 @@
     "purpose": "Toont beoordelingen van Google en andere sites.",
     "machine": true
   },
+  "trustpilot": {
+    "purpose": "Toont beoordelingen van Trustpilot.",
+    "machine": true
+  },
   "trustpilot-invitations": {
     "purpose": "Vraagt klanten hun aankoop te beoordelen.",
     "cookies": {
       "TP.uuid": "Herkent de browser."
     },
-    "machine": true
-  },
-  "trustpilot": {
-    "purpose": "Toont beoordelingen van Trustpilot.",
     "machine": true
   },
   "typeform": {

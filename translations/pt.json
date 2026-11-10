@@ -28,6 +28,16 @@
     },
     "machine": true
   },
+  "adcell": {
+    "purpose": "Acompanha as vendas feitas através de links de afiliados.",
+    "cookies": {
+      "ADCELLpid*": "Lembra o clique de afiliado para atribuir a venda.",
+      "ADCELLspid*": "Lembra o clique de afiliado para atribuir a venda.",
+      "ADCELLvpid*": "Lembra uma visualização do anúncio para atribuir a venda.",
+      "adcell_loyalty": "Lembra uma indicação de um afiliado de um programa de fidelização."
+    },
+    "machine": true
+  },
   "addtoany": {
     "purpose": "Mostra botões para partilhar páginas nas redes sociais.",
     "cookies": {
@@ -147,6 +157,10 @@
     "purpose": "Mostra um calendário de agendamento incorporado.",
     "machine": true
   },
+  "calenso": {
+    "purpose": "Mostra um calendário de agendamento incorporado.",
+    "machine": true
+  },
   "cdnjs": {
     "purpose": "Fornece bibliotecas de código que o site usa.",
     "machine": true
@@ -244,6 +258,10 @@
     "purpose": "Mostra anúncios a visitantes anteriores.",
     "machine": true
   },
+  "customer-alliance": {
+    "purpose": "Mostra avaliações e opiniões de clientes.",
+    "machine": true
+  },
   "dailymotion": {
     "purpose": "Mostra vídeos incorporados.",
     "cookies": {
@@ -251,6 +269,13 @@
       "ts": "Distribui atualizações do player.",
       "client_token": "Mantém a reprodução do vídeo fluida.",
       "dmvk": "Evita que um vídeo seja interrompido."
+    },
+    "machine": true
+  },
+  "digistore24": {
+    "purpose": "Acompanha vendas de afiliados e oferece uma página de pagamento.",
+    "cookies": {
+      "ds24c.v1": "Lembra os dados do afiliado e da campanha."
     },
     "machine": true
   },
@@ -274,6 +299,10 @@
     "cookies": {
       "encheventsnippet": "Distingue os visitantes."
     },
+    "machine": true
+  },
+  "etermin": {
+    "purpose": "Permite aos visitantes marcar consultas online.",
     "machine": true
   },
   "etracker": {
@@ -545,6 +574,10 @@
     },
     "machine": true
   },
+  "jameda": {
+    "purpose": "Mostra avaliações de médicos e permite marcar consultas.",
+    "machine": true
+  },
   "jetpack-comments": {
     "purpose": "Mostra o formulário de comentários com início de sessão social.",
     "machine": true
@@ -585,6 +618,10 @@
     },
     "machine": true
   },
+  "klicktipp": {
+    "purpose": "Mostra formulários de subscrição por e-mail.",
+    "machine": true
+  },
   "kliken": {
     "purpose": "Acompanha as vendas dos anúncios e volta a impactar os visitantes.",
     "cookies": {
@@ -606,6 +643,10 @@
   },
   "komoot": {
     "purpose": "Mostra mapas de percursos incorporados.",
+    "machine": true
+  },
+  "kununu": {
+    "purpose": "Mostra avaliações de empregadores.",
     "machine": true
   },
   "kustom": {
@@ -707,19 +748,6 @@
     "purpose": "Mostra mapas incorporados.",
     "machine": true
   },
-  "matomo-cloud": {
-    "purpose": "Mede visitas e conversões.",
-    "cookies": {
-      "_pk_id.*": "Distingue os visitantes.",
-      "_pk_ses.*": "Mantém a visita atual.",
-      "_pk_ref.*": "Guarda a origem do visitante."
-    },
-    "machine": true
-  },
-  "matomo-tag-manager": {
-    "purpose": "Carrega as tags de rastreio do site.",
-    "machine": true
-  },
   "matomo": {
     "purpose": "Mede visitas e conversões.",
     "cookies": {
@@ -734,6 +762,19 @@
       "mtm_cookie_consent": "Lembra o consentimento para cookies de rastreio.",
       "mtm_consent_removed": "Lembra a recusa do rastreio."
     },
+    "machine": true
+  },
+  "matomo-cloud": {
+    "purpose": "Mede visitas e conversões.",
+    "cookies": {
+      "_pk_id.*": "Distingue os visitantes.",
+      "_pk_ses.*": "Mantém a visita atual.",
+      "_pk_ref.*": "Guarda a origem do visitante."
+    },
+    "machine": true
+  },
+  "matomo-tag-manager": {
+    "purpose": "Carrega as tags de rastreio do site.",
     "machine": true
   },
   "matterport": {
@@ -877,16 +918,12 @@
     },
     "machine": true
   },
-  "paddle-retain": {
-    "purpose": "Mostra ofertas de faturação e acompanha a utilização.",
-    "machine": true
-  },
   "paddle": {
     "purpose": "Gere o checkout e processa os pagamentos.",
     "machine": true
   },
-  "paypal-marketing": {
-    "purpose": "Mede compras neste site para o marketing do PayPal.",
+  "paddle-retain": {
+    "purpose": "Mostra ofertas de faturação e acompanha a utilização.",
     "machine": true
   },
   "paypal": {
@@ -897,6 +934,10 @@
       "x-pp-s": "Processamento de pagamentos.",
       "nsid": "Prevenção de fraudes."
     },
+    "machine": true
+  },
+  "paypal-marketing": {
+    "purpose": "Mede compras neste site para o marketing do PayPal.",
     "machine": true
   },
   "phorest": {
@@ -982,6 +1023,10 @@
     "purpose": "Mede anúncios do Quora.",
     "machine": true
   },
+  "rapidmail": {
+    "purpose": "Mostra formulários de subscrição da newsletter.",
+    "machine": true
+  },
   "reamaze": {
     "purpose": "Chat de apoio ao cliente.",
     "machine": true
@@ -995,6 +1040,10 @@
     "cookies": {
       "_rdt_uuid": "Medição de anúncios."
     },
+    "machine": true
+  },
+  "resmio": {
+    "purpose": "Permite aos visitantes reservar mesas em restaurantes.",
     "machine": true
   },
   "rybbit": {
@@ -1054,6 +1103,10 @@
       "ssupp.vid": "Mantém a conversa do chat entre páginas.",
       "ssupp.visits": "Conta as visitas para direcionar as mensagens do chat."
     },
+    "machine": true
+  },
+  "smoobu": {
+    "purpose": "Mostra a disponibilidade e reservas de alojamentos de férias.",
     "machine": true
   },
   "snap-pixel": {
@@ -1162,6 +1215,10 @@
     },
     "machine": true
   },
+  "timify": {
+    "purpose": "Permite marcar consultas.",
+    "machine": true
+  },
   "tradetracker": {
     "purpose": "Acompanha as vendas feitas através de links de afiliados.",
     "cookies": {
@@ -1187,15 +1244,15 @@
     "purpose": "Mostra avaliações do Google e de outros sites.",
     "machine": true
   },
+  "trustpilot": {
+    "purpose": "Mostra avaliações do Trustpilot.",
+    "machine": true
+  },
   "trustpilot-invitations": {
     "purpose": "Pede aos clientes que avaliem a sua compra.",
     "cookies": {
       "TP.uuid": "Reconhece o navegador."
     },
-    "machine": true
-  },
-  "trustpilot": {
-    "purpose": "Mostra avaliações do Trustpilot.",
     "machine": true
   },
   "typeform": {

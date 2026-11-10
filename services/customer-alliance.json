@@ -1,0 +1,36 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "customer-alliance",
+  "version": 1,
+  "name": "Customer Alliance",
+  "provider": "CA Customer Alliance GmbH",
+  "category": "media",
+  "purpose": "Shows customer reviews and ratings.",
+  "privacyUrl": "https://www.customer-alliance.com/en/privacy-policy",
+  "dataCountry": "EU (Germany)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "widget.customer-alliance.com"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "generic",
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://www.customer-alliance.com/en/privacy-policy",
+    "https://www.customer-alliance.com/en/pricing-and-packaging",
+    "https://support.customer-alliance.com/en/knowledge-base/how-to-integrate-our-widget-into-your-website-1",
+    "https://support.customer-alliance.com/en/knowledge-base/how-to-integrate-our-widget-into-your-website",
+    "https://widget.customer-alliance.com/reviews/js/standard/fyQs18VN3.js"
+  ],
+  "checked": "2026-11-10"
+}

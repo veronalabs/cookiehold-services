@@ -1,0 +1,47 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "timify",
+  "version": 1,
+  "name": "TIMIFY",
+  "provider": "TerminApp GmbH",
+  "category": "functional",
+  "purpose": "Lets you book appointments.",
+  "privacyUrl": "https://www.timify.com/en/legal/",
+  "dataCountry": "EU (Germany) and USA",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "book.timify.com"
+    ],
+    "inline": [
+      "TimifyWidget.openIframe("
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "generic",
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://www.timify.com/en/legal/",
+    "https://www.timify.com/en/support/3705978-how-to-embed-the-timify-booking-widget-in-your-website-or-cms/",
+    "https://www.timify.com/en/support/3702874-customise-your-timify-booking-widget-advanced-settings/",
+    "https://book.timify.com/widget/widget.min.js",
+    "https://book.timify.com/",
+    "https://book.timify.com/static/js/main.e3016004.js",
+    "https://www.timify.com/en/pages/eu-general-data-protection-regulation/",
+    "https://www.timify.com/en/key-accounts/integration/",
+    "https://cdn.timify.com/legal/TerminApp-GmbH-AV-DE.pdf",
+    "https://cdn.timify.com/uploads/widgets/TIMIFY_Wordpress_Plugin_EN-20170803094306-203.pdf",
+    "https://raw.githubusercontent.com/timify/wordpress-plugin/master/timify-widget.php",
+    "https://plugins.svn.wordpress.org/timify/trunk/timify.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

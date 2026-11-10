@@ -1,0 +1,52 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "jameda",
+  "version": 1,
+  "name": "jameda",
+  "provider": "Jameda GmbH; Doctoralia Internet S.L.; ZnanyLekarz sp. z o.o.",
+  "category": "media",
+  "purpose": "Shows doctor reviews and appointment booking.",
+  "privacyUrl": "https://www.jameda.de/patienten-datenschutz-erklaerung",
+  "dataCountry": "USA, UK and Australia",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "platform.docplanner.com/js/widget.js",
+      "www.jameda.de/platform/js/widget.js",
+      "widgets.jameda.de",
+      "www.jameda.de/ajax/marketing/doctor/widget/",
+      "www.jameda.de/ajax/marketing/facility/widget/"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "generic",
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://www.jameda.de/patienten-datenschutz-erklaerung",
+    "https://www.jameda.de/datenschutz",
+    "https://www.jameda.de/cookie-richtlinie",
+    "https://help.docplanner.com/10/doc/installation-und-konfiguration-des-jameda-widgets-fur-webseiten",
+    "https://pro.jameda.de/blog/patientenbindung-staerken-jameda-basiszugang",
+    "https://pro.jameda.de/produkte/funktionen/online-terminvergabe",
+    "https://www.jameda.de/link",
+    "https://platform.docplanner.com/js/jade-app-rs-d3ad9a81.js",
+    "https://d33106nj6xnu75.cloudfront.net/registry/monolith/manifest.json",
+    "https://d33106nj6xnu75.cloudfront.net/integrations-patient-portal/widget-configurator/1.4.67/js/remoteEntry.js",
+    "https://d33106nj6xnu75.cloudfront.net/integrations-patient-portal/widget-configurator/1.4.67/js/9506.85c8abb6.js",
+    "https://platform.docplanner.com/js/widget.js",
+    "https://www.jameda.de/platform/js/widget.js",
+    "https://widgets.jameda.de/doctor/widget/certificate/stefan-quellmann",
+    "https://platform.docplanner.com/widgets/app-e45ca672.js",
+    "https://www.dataprivacyframework.gov/list",
+    "https://api.wordpress.org/plugins/info/1.2/?action=query_plugins&request%5Bsearch%5D=jameda&request%5Bper_page%5D=10"
+  ],
+  "checked": "2026-11-10"
+}

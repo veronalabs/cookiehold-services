@@ -1,0 +1,58 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "resmio",
+  "version": 1,
+  "name": "resmio",
+  "provider": "resmio GmbH",
+  "category": "functional",
+  "purpose": "Lets visitors reserve restaurant tables.",
+  "privacyUrl": "https://www.resmio.com/en/privacy-policy/",
+  "dataCountry": "EU, USA and other countries",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "static.resmio.com",
+      "app.resmio.com",
+      "api.resmio.com"
+    ],
+    "inline": [
+      "static.resmio.com/static/de/widget.js",
+      "static.resmio.com/static/de/button.js",
+      "static.resmio.com/static/reputation-widget.js"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "generic",
+  "wordpress": {
+    "plugins": [
+      "resmio-button-and-widget/resmio-btn-wdgt.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.resmio.com/en/privacy-policy/",
+    "https://www.resmio.com/en/privacy-notice-b2c/",
+    "https://www.resmio.com/hilfe/verarbeitung-und-schutz-daten/",
+    "https://www.resmio.com/en/help/data-processing/",
+    "https://www.resmio.com/en/help/integration/",
+    "https://www.resmio.com/en/help/integration/wordpress/",
+    "https://www.resmio.com/en/help/feedback-management-faq/",
+    "https://static.resmio.com/static/de/widget.js",
+    "https://static.resmio.com/static/de/button.js",
+    "https://static.resmio.com/static/reputation-widget.js",
+    "https://app.resmio.com/ristorante-resmio/widget",
+    "https://dd7g6vmdl9i96.cloudfront.net/4.26.4/widget.bundle.js",
+    "https://wordpress.org/plugins/resmio-button-and-widget/",
+    "https://plugins.svn.wordpress.org/resmio-button-and-widget/trunk/",
+    "https://plugins.svn.wordpress.org/resmio-button-and-widget/trunk/resmio-btn-wdgt.php",
+    "https://plugins.svn.wordpress.org/resmio-button-and-widget/trunk/templates/",
+    "https://plugins.svn.wordpress.org/resmio-button-and-widget/trunk/templates/shortcodes.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}
