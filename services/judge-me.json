@@ -1,0 +1,56 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "judge-me",
+  "version": 1,
+  "name": "Judge.me Reviews",
+  "provider": "Judge.me Ltd",
+  "category": "media",
+  "purpose": "Shows customer reviews.",
+  "privacyUrl": "https://judge.me/privacy",
+  "dataCountry": "USA, EU (Germany) and other countries",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "cdn.judge.me",
+      "cdnwidget.judge.me"
+    ],
+    "inline": [
+      "window.jdgm=window.jdgm||{}"
+    ]
+  },
+  "cookies": [],
+  "storage": [
+    "jdgm_keycdn_detected",
+    "jdgm_reviewed_products",
+    "jdgm_thumb_votes",
+    "jdgm_store_review_verification",
+    "jdgm_rs_referral",
+    "jdgm_widget_interactions"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "generic",
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://judge.me/privacy",
+    "https://judge.me/media-kit",
+    "https://judge.me/help/en/articles/8389728-getting-started-with-judge-me",
+    "https://judge.me/help/en/articles/8390001-list-of-judge-me-s-sub-processors",
+    "https://judge.me/help/en/articles/11868548-judge-me-sunsetting-on-woocommerce-square-squarespace-bigcommerce-duda-and-prestashop",
+    "https://judge.me/api/docs",
+    "https://judge.me/help/en/articles/8415544-understanding-judge-me-loading-speed-and-performance",
+    "https://judge.me/help/en/articles/8409211-retrieving-cached-widgets-from-the-judge-me-cache-server",
+    "https://plugins.svn.wordpress.org/judgeme-product-reviews-woocommerce/trunk/judgeme.php",
+    "https://plugins.svn.wordpress.org/judgeme-product-reviews-woocommerce/trunk/templates/judgeme/header-template.php",
+    "https://cdnwidget.judge.me/loader.js",
+    "https://cdnwidget.judge.me/shopify_v2.js",
+    "https://wordpress.org/plugins/judgeme-product-reviews-woocommerce/",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

@@ -1,0 +1,50 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "mollie",
+  "version": 1,
+  "name": "Mollie",
+  "provider": "Mollie B.V.",
+  "category": "essential",
+  "purpose": "Processes online payments.",
+  "privacyUrl": "https://www.mollie.com/legal/privacy",
+  "dataCountry": "",
+  "legalBasis": "contract",
+  "match": {
+    "hosts": [
+      "js.mollie.com"
+    ],
+    "inline": [
+      "Mollie(",
+      "Mollie.Checkout(",
+      "Mollie2.Checkout("
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "mollie-payments-for-woocommerce/mollie-payments-for-woocommerce.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.mollie.com/legal/privacy",
+    "https://www.mollie.com/legal/impressum",
+    "https://docs.mollie.com/docs/mollie-components",
+    "https://docs.mollie.com/docs/custom-checkout-components",
+    "https://www.mollie.com/legal/cookies",
+    "https://js.mollie.com/v1/mollie.js",
+    "https://js.mollie.com/v2/mollie.js",
+    "https://www.mollie.com/legal/sub-processors",
+    "https://wordpress.org/plugins/mollie-payments-for-woocommerce/",
+    "https://plugins.svn.wordpress.org/mollie-payments-for-woocommerce/trunk/mollie-payments-for-woocommerce.php",
+    "https://raw.githubusercontent.com/jkwakman/Open-Cookie-Database/master/open-cookie-database.csv",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

@@ -1,0 +1,72 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "quantcast",
+  "version": 1,
+  "name": "Quantcast",
+  "provider": "Quantcast International Limited",
+  "category": "marketing",
+  "purpose": "Measures audiences and personalizes ads.",
+  "privacyUrl": "https://legal.quantcast.com/#https-legal-quantcast-com-products-and-services-privacy-policy-eea-uk-ch",
+  "dataCountry": "USA, EU (Germany) and Singapore",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "secure.quantserve.com",
+      "edge.quantserve.com",
+      "pixel.quantserve.com"
+    ],
+    "inline": [
+      "window._qevents",
+      "_qevents.push("
+    ]
+  },
+  "cookies": [
+    {
+      "name": "__qca",
+      "lifetime": "13 months",
+      "purpose": "Tells visitors apart for audience measurement."
+    },
+    {
+      "name": "qoo",
+      "lifetime": "5 years",
+      "purpose": "Remembers an advertising opt-out."
+    },
+    {
+      "name": "qor",
+      "lifetime": "5 years",
+      "purpose": "Remembers an advertising opt-out."
+    }
+  ],
+  "storage": [
+    "__qca",
+    "_qcses_*",
+    "_qcbt:*"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "audience-analytics-by-quantcast/audience-analytics.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://legal.quantcast.com/#https-legal-quantcast-com-products-and-services-privacy-policy-eea-uk-ch",
+    "https://legal.quantcast.com/#privacy-faqs",
+    "https://help.quantcast.com/docs/installing-live-tag",
+    "https://help.quantcast.com/v1/docs/advanced-installation-image-pixels-non-javascript",
+    "https://help.quantcast.com/docs/implement-live-tag-with-google-tag-manager",
+    "https://help.quantcast.com/docs/how-to-implement-quantcast-measure",
+    "https://help.quantcast.com/docs/tagging",
+    "https://help.quantcast.com/docs/implement-live-tag-in-wordpress",
+    "https://secure.quantserve.com/quant.js",
+    "https://wordpress.org/plugins/audience-analytics-by-quantcast/",
+    "https://plugins.svn.wordpress.org/audience-analytics-by-quantcast/trunk/",
+    "https://plugins.svn.wordpress.org/audience-analytics-by-quantcast/trunk/audience-analytics.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

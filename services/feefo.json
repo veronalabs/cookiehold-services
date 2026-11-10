@@ -1,0 +1,60 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "feefo",
+  "version": 1,
+  "name": "Feefo",
+  "provider": "Feefo Holdings Limited",
+  "category": "media",
+  "purpose": "Shows customer reviews and ratings.",
+  "privacyUrl": "https://business.feefo.com/privacy-policy",
+  "dataCountry": "",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "api.feefo.com",
+      "register.feefo.com"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "feefo_session",
+      "lifetime": "14 days",
+      "purpose": "Maintains the review widget session."
+    }
+  ],
+  "storage": [
+    "feefoUserId"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "generic",
+  "wordpress": {
+    "plugins": [
+      "feefo-ratings-reviews-for-woocommerce/feefo-ratings-and-reviews.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://business.feefo.com/privacy-policy",
+    "https://business.feefo.com/compliance/cookie-policy",
+    "https://business.feefo.com/security",
+    "https://help.feefo.com/knowledge-base/feefo-2.0-widgets-implementation-guide",
+    "https://help.feefo.com/knowledge-base/pop-up-reviews",
+    "https://help.feefo.com/knowledge-base/content-security-policies",
+    "https://help.feefo.com/knowledge-base/how-clients-can-test-widgets-2.0-before-the-automatic-migration",
+    "https://help.feefo.com/knowledge-base/event-tracking",
+    "https://api.feefo.com/api/javascript/feefo-com",
+    "https://api.feefo.com/feefo-widgets-data/loader/widgets/feefo-com",
+    "https://register.feefo.com//feefo-widget-v2/js/feefo-widget.js",
+    "https://register.feefo.com//feefo-widget-v2/legacy/assets/js/feefo-widget.min.js",
+    "https://register.feefo.com/feefo-widgets-app/feefo_widgets_loader.js",
+    "https://register.feefo.com/feefo-widget-v2/js/loader/on-page.bundle.js",
+    "https://wordpress.org/plugins/feefo-ratings-reviews-for-woocommerce/",
+    "https://plugins.svn.wordpress.org/feefo-ratings-reviews-for-woocommerce/trunk/",
+    "https://plugins.svn.wordpress.org/feefo-ratings-reviews-for-woocommerce/trunk/feefo-ratings-and-reviews.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

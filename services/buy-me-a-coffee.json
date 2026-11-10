@@ -1,0 +1,44 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "buy-me-a-coffee",
+  "version": 1,
+  "name": "Buy Me a Coffee",
+  "provider": "Publisherr, Inc.",
+  "category": "functional",
+  "purpose": "Lets visitors tip creators.",
+  "privacyUrl": "https://buymeacoffee.com/privacy-policy",
+  "dataCountry": "USA and other countries",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "cdnjs.buymeacoffee.com",
+      "buymeacoffee.com/widget/page/"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "generic",
+  "wordpress": {
+    "plugins": [
+      "buymeacoffee/buy-me-a-coffee.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://buymeacoffee.com/privacy-policy",
+    "https://buymeacoffee.com/cookie-policy",
+    "https://buymeacoffee.com/brand",
+    "https://help.buymeacoffee.com/en/articles/10206530-creative-ways-to-share-your-buy-me-a-coffee-page",
+    "https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js",
+    "https://wordpress.org/plugins/buymeacoffee/",
+    "https://plugins.svn.wordpress.org/buymeacoffee/trunk/buy-me-a-coffee.php",
+    "https://plugins.svn.wordpress.org/buymeacoffee/trunk/admin/class-buy-me-a-coffee-admin.php",
+    "https://downloads.wordpress.org/plugin/buymeacoffee.4.4.10.zip",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

@@ -1,0 +1,63 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "loyaltylion",
+  "version": 1,
+  "name": "LoyaltyLion",
+  "provider": "LoyaltyLion Ltd",
+  "category": "marketing",
+  "purpose": "Provides loyalty rewards and referral programs.",
+  "privacyUrl": "https://loyaltylion.com/privacy",
+  "dataCountry": "EU (Ireland) and USA",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "sdk.loyaltylion.net",
+      "sdk-static.loyaltylion.net"
+    ],
+    "inline": [
+      "sdk.loyaltylion.net/",
+      "isLoyaltyLion"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "loyaltylion_persistent_data",
+      "lifetime": "1 year",
+      "purpose": "Remembers visitors and referral links."
+    },
+    {
+      "name": "loyaltylion_temporary_data",
+      "lifetime": "Session",
+      "purpose": "Remembers loyalty session activity."
+    }
+  ],
+  "storage": [
+    "loyaltylion_persistent_data",
+    "loyaltylion_temporary_data",
+    "ll_loader_revision"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://loyaltylion.com/privacy",
+    "https://loyaltylion.com/sub-processors",
+    "https://help.loyaltylion.com/en/articles/1961702-gdpr-loyaltylion",
+    "https://developers.loyaltylion.com/sdk/installation",
+    "https://developers.loyaltylion.com/sdk/installation.md",
+    "https://sdk.loyaltylion.net/static/2/20261110/loader.js",
+    "https://sdk-static.loyaltylion.net/static/2/lion-loader-bef4df60389ec043.js",
+    "https://sdk-static.loyaltylion.net/static/2/lion-core-4153f4aea18339db.js",
+    "https://wordpress.org/plugins/search/loyaltylion/",
+    "https://plugins.svn.wordpress.org/loyaltylion/trunk/",
+    "https://raw.githubusercontent.com/jkwakman/Open-Cookie-Database/master/open-cookie-database.csv",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

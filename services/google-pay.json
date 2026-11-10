@@ -1,0 +1,44 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "google-pay",
+  "version": 1,
+  "name": "Google Pay",
+  "provider": "Google Ireland Limited",
+  "category": "essential",
+  "purpose": "Enables payments with Google Pay.",
+  "privacyUrl": "https://payments.google.com/payments/apis-secure/get_legal_document?ldl=en-GB&ldo=0&ldt=privacynotice",
+  "dataCountry": "USA and other countries (EU-US Data Privacy Framework)",
+  "legalBasis": "contract",
+  "match": {
+    "hosts": [
+      "pay.google.com/gp/p/"
+    ],
+    "inline": [
+      "new google.payments.api.PaymentsClient("
+    ]
+  },
+  "cookies": [],
+  "storage": [
+    "google.payments.api.storage.isreadytopay.result"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://developers.google.com/pay/api/web/guides/tutorial",
+    "https://pay.google.com/gp/p/js/pay.js",
+    "https://payments.google.com/payments/apis-secure/get_legal_document?ldl=en-GB&ldo=0&ldt=privacynotice",
+    "https://policies.google.com/privacy?hl=en-GB",
+    "https://policies.google.com/privacy/frameworks?hl=en",
+    "https://developers.google.com/pay/api/web/support/faq",
+    "https://blog.google/products-and-platforms/platforms/google-pay/payment-apps-update/",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

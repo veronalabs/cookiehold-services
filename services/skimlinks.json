@@ -1,0 +1,48 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "skimlinks",
+  "version": 1,
+  "name": "Skimlinks",
+  "provider": "Skimbit Ltd",
+  "category": "marketing",
+  "purpose": "Creates and tracks affiliate links.",
+  "privacyUrl": "https://www.skimlinks.com/privacy-policies/",
+  "dataCountry": "EMEA, Asia and USA",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "s.skimresources.com"
+    ],
+    "inline": [
+      "skimlinks_domain"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "skimlinks/plugin.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.skimlinks.com/privacy-policies/",
+    "https://www.skimlinks.com/user-cookies/",
+    "https://support.skimlinks.com/hc/en-us/articles/360024714273-How-do-I-install-Skimlinks",
+    "https://support.skimlinks.com/hc/en-us/articles/223836108-Installing-Skimlinks-on-a-WordPress-site",
+    "https://plugins.svn.wordpress.org/skimlinks/trunk/functions.php",
+    "https://plugins.svn.wordpress.org/skimlinks/trunk/plugin.php",
+    "https://plugins.svn.wordpress.org/skimlinks/trunk/readme.txt",
+    "https://wordpress.org/plugins/skimlinks/",
+    "https://plugins.svn.wordpress.org/skimlinks/trunk/",
+    "https://www.dataprivacyframework.gov/list",
+    "https://github.com/jkwakman/Open-Cookie-Database",
+    "https://raw.githubusercontent.com/jkwakman/Open-Cookie-Database/master/open-cookie-database.csv"
+  ],
+  "checked": "2026-11-10"
+}

@@ -1,0 +1,75 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "six-sense",
+  "version": 1,
+  "name": "6sense",
+  "provider": "6Sense Insights, Inc.",
+  "category": "marketing",
+  "purpose": "Identifies visiting companies for marketing.",
+  "privacyUrl": "https://6sense.com/privacy-policy",
+  "dataCountry": "USA (EU-US Data Privacy Framework) and other countries",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "6sc.co",
+      "j.6sc.com"
+    ],
+    "inline": [
+      "window._6si"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "6suuid",
+      "lifetime": "2 years",
+      "purpose": "Recognises visitors across websites."
+    },
+    {
+      "name": "_gd_visitor",
+      "lifetime": "2 years",
+      "purpose": "Tells visitors apart on this website."
+    },
+    {
+      "name": "_gd_session",
+      "lifetime": "4 hours",
+      "purpose": "Groups activity into a browsing session."
+    },
+    {
+      "name": "_gd_svisitor",
+      "lifetime": "2 years",
+      "purpose": "Links visits to a visitor identifier."
+    },
+    {
+      "name": "_6si_cid",
+      "lifetime": "4 hours",
+      "purpose": "Links visits to a 6sense ad campaign."
+    }
+  ],
+  "storage": [
+    "_6senseCompanyIdentification",
+    "_6senseTTL",
+    "_6senseCompanyDetails",
+    "_6signalTTL"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://6sense.com/privacy-policy",
+    "https://support.6sense.com/docs/6sense-cookies-and-browser-storage",
+    "https://support.6sense.com/docs/set-up-6sense-webtag-20-1",
+    "https://support.6sense.com/docs/how-to-check-if-the-6sense-webtag-is-firing",
+    "https://support.6sense.com/docs/quick-start-guide-adobe-launch-via-configuration",
+    "https://6sense.com/guides/integrating-6sense-with-google-analytics-and-google-ads/",
+    "https://j.6sc.co/6si.min.js",
+    "https://support.6sense.com/docs/visitor-retargeting-prerequisites",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

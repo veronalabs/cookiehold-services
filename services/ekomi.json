@@ -1,0 +1,52 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "ekomi",
+  "version": 1,
+  "name": "eKomi",
+  "provider": "eKomi Holding GmbH",
+  "category": "media",
+  "purpose": "Shows customer reviews and ratings.",
+  "privacyUrl": "https://www.ekomi.de/de/datenschutz/",
+  "dataCountry": "",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "sw-assets.ekomiapps.de",
+      "widgets.ekomi.com"
+    ],
+    "inline": [
+      "_ekomiWidgetsServerUrl"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "ekomi_tracking_*",
+      "lifetime": "1 year",
+      "purpose": "Records visits to a shop's review certificate."
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "generic",
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://www.ekomi.de/de/datenschutz/",
+    "https://ekomi01.atlassian.net/wiki/spaces/KB/pages/3434610693/eKomi+Widgets",
+    "https://ekomi01.atlassian.net/wiki/spaces/KB/pages/4583817222/IdoSell+Guide+to+Install+Product+Widget+s+on+Product+Detailed+Page",
+    "https://ekomi01.atlassian.net/wiki/spaces/KB/pages/1109065819/Official+eKomi+Plugin+for+WooCommerce",
+    "https://sw-assets.ekomiapps.de/static_resources/widget.js",
+    "https://sw-assets.ekomiapps.de/static_resources/f-widget.js",
+    "https://sw-assets.ekomiapps.de/static_resources/x-widget.js",
+    "https://all-widgets.ekomiapps.de/",
+    "https://wordpress.org/plugins/ekomi-integration/",
+    "https://plugins.svn.wordpress.org/ekomi-integration/trunk/",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

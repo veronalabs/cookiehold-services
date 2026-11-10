@@ -1,0 +1,67 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "afterpay",
+  "version": 1,
+  "name": "Afterpay",
+  "provider": "",
+  "category": "essential",
+  "purpose": "Enables buy now, pay later payments.",
+  "privacyUrl": "https://www.afterpay.com/en-US/privacy-policy",
+  "dataCountry": "USA, Australia, New Zealand, Canada, Japan, UK, EU and other countries",
+  "legalBasis": "contract",
+  "match": {
+    "hosts": [
+      "portal.afterpay.com",
+      "js.afterpay.com",
+      "static.afterpay.com/shopify-afterpay-javascript.js",
+      "js.squarecdn.com/square-marketplace.js"
+    ],
+    "inline": [
+      "AfterPay.initialize(",
+      "Afterpay.initializeForPopup(",
+      "var afterpay_js_snippet_version"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "apt-visitor-id",
+      "lifetime": "7 days",
+      "purpose": "Identifies visitors to payment messaging."
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "afterpay-gateway-for-woocommerce/afterpay-gateway-for-woocommerce.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.afterpay.com/en-US/privacy-policy",
+    "https://www.afterpay.com/en-AU/privacy-policy",
+    "https://www.clearpay.co.uk/en-GB/privacy-policy",
+    "https://www.clearpay.co.uk/en-GB/cookies",
+    "https://developers.afterpay.com/afterpay-online-developer/v-1/api-reference/javascript-afterpay-js/information",
+    "https://developers.afterpay.com/afterpay-online-developer/guides/api-development/api-quickstart/create-a-checkout.md",
+    "https://developers.afterpay.com/afterpay-online-developer/guides/api-development/additional-features/express-checkout/integrated-shipping.md",
+    "https://developers.afterpay.com/afterpay-online-developer/guides/afterpay-messaging/migration",
+    "https://developers.afterpay.com/afterpay-online-developer/guides/afterpay-messaging/implementation.md",
+    "https://developers.afterpay.com/afterpay-online-developer/guides/afterpay-messaging/launch-afterpay-info-modal-anywhere.md",
+    "https://developers.afterpay.com/afterpay-online-developer/guides/platforms/shopify/manually-add-afterpay-site-messaging-to-theme.md",
+    "https://portal.afterpay.com/afterpay.js",
+    "https://js.afterpay.com/afterpay-1.x.js",
+    "https://static.afterpay.com/shopify-afterpay-javascript.js",
+    "https://js.squarecdn.com/square-marketplace.js",
+    "https://static.afterpay.com/shopify-cash-app-afterpay-banner-liquid.html",
+    "https://wordpress.org/plugins/afterpay-gateway-for-woocommerce/",
+    "https://plugins.svn.wordpress.org/afterpay-gateway-for-woocommerce/trunk/",
+    "https://plugins.svn.wordpress.org/afterpay-gateway-for-woocommerce/trunk/afterpay-gateway-for-woocommerce.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

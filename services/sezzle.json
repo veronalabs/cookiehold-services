@@ -1,0 +1,67 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "sezzle",
+  "version": 1,
+  "name": "Sezzle",
+  "provider": "Sezzle Inc.",
+  "category": "essential",
+  "purpose": "Enables buy now, pay later payments.",
+  "privacyUrl": "https://legal.sezzle.com/privacy/en-us",
+  "dataCountry": "USA and other countries",
+  "legalBasis": "contract",
+  "match": {
+    "hosts": [
+      "widget.sezzle.com",
+      "checkout-sdk.sezzle.com",
+      "checkout.sezzle.com"
+    ],
+    "inline": [
+      "document.sezzleConfig",
+      "new SezzleInstallmentWidget(",
+      "checkoutSdk.renderSezzleButton(",
+      "new AwesomeSezzle("
+    ]
+  },
+  "cookies": [],
+  "storage": [
+    "szl_session_uuid",
+    "szl_order_identifier",
+    "szl_checkout_uuid"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "sezzle-woocommerce-payment/woocommerce-gateway-sezzle.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://legal.sezzle.com/privacy/en-us",
+    "https://legal.sezzle.com/data-processing-addendum/en-us/",
+    "https://docs.sezzle.com/docs/guides/sezzle/introduction",
+    "https://docs.sezzle.com/llms.txt",
+    "https://docs.sezzle.com/docs/guides/widgets/sdk.md",
+    "https://docs.sezzle.com/docs/guides/direct/integration.md",
+    "https://docs.sezzle.com/docs/guides/widgets/checkout-installments.md",
+    "https://docs.sezzle.com/docs/guides/widgets/static.md",
+    "https://my.sezzle.com/merchant-marketing-guidelines",
+    "https://checkout-sdk.sezzle.com/checkout.min.js",
+    "https://checkout-sdk.sezzle.com/express_checkout.min.js",
+    "https://checkout-sdk.sezzle.com/installment-widget.min.js",
+    "https://widget.sezzle.com/v1/javascript/price-widget",
+    "https://widget.sezzle.com/v1/javascript/price-widget/initial",
+    "https://raw.githubusercontent.com/sezzle/static-widgets/production/dist/bundle.js",
+    "https://wordpress.org/plugins/sezzle-woocommerce-payment/",
+    "https://plugins.svn.wordpress.org/sezzle-woocommerce-payment/trunk/",
+    "https://plugins.svn.wordpress.org/sezzle-woocommerce-payment/trunk/woocommerce-gateway-sezzle.php",
+    "https://plugins.svn.wordpress.org/sezzle-woocommerce-payment/trunk/includes/class-sezzle-checkout.php",
+    "https://www.dataprivacyframework.gov/list",
+    "https://github.com/jkwakman/Open-Cookie-Database",
+    "https://raw.githubusercontent.com/jkwakman/Open-Cookie-Database/master/open-cookie-database.csv"
+  ],
+  "checked": "2026-11-10"
+}

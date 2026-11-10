@@ -1,0 +1,75 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "adyen",
+  "version": 1,
+  "name": "Adyen",
+  "provider": "Adyen N.V.",
+  "category": "essential",
+  "purpose": "Processes payments and prevents fraud.",
+  "privacyUrl": "https://www.adyen.com/privacy-policy",
+  "dataCountry": "Europe, USA, India, Singapore, Japan and Australia",
+  "legalBasis": "contract",
+  "match": {
+    "hosts": [
+      "checkoutshopper-live.adyen.com",
+      "checkoutshopper-test.adyen.com",
+      "checkoutshopper-live.cdn.adyen.com",
+      "checkoutshopper-test.cdn.adyen.com",
+      "checkoutshopper-live-us.cdn.adyen.com",
+      "checkoutshopper-live-au.cdn.adyen.com",
+      "checkoutshopper-live-nea.cdn.adyen.com",
+      "checkoutshopper-live-in.cdn.adyen.com"
+    ],
+    "inline": [
+      "AdyenCheckout(",
+      "window.AdyenWeb"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "_RP_UID",
+      "lifetime": "30 days",
+      "purpose": "Identifies suspicious activity to prevent fraud."
+    },
+    {
+      "name": "_rp_uid",
+      "lifetime": "400 days",
+      "purpose": "Identifies suspicious activity to prevent fraud."
+    }
+  ],
+  "storage": [
+    "_rp_uid",
+    "adyen-checkout__checkout-attempt-id",
+    "adyen-checkout__session"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "wc-adyen-payment-gateway/woocommerce-adyen.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.adyen.com/privacy-policy",
+    "https://www.adyen.com/legal/adyen-terms-and-conditions",
+    "https://www.adyen.com/privacy-policy/transaction",
+    "https://www.adyen.com/privacy-policy/checkout",
+    "https://www.adyen.com/infrastructure",
+    "https://www.adyen.com/policies-and-disclaimer/cookie-policy",
+    "https://docs.adyen.com/online-payments/web-best-practices/",
+    "https://docs.adyen.com/standard/integration/drop-in/best-practices",
+    "https://docs.adyen.com/online-payments/build-your-integration/sessions-flow/?platform=Web&integration=Drop-in",
+    "https://docs.adyen.com/online-payments/analytics-and-data-tracking",
+    "https://docs.adyen.com/risk-management/fraud-data-collection",
+    "https://checkoutshopper-live.adyen.com/checkoutshopper/assets/js/datacollection/datacollection.js",
+    "https://checkoutshopper-live.adyen.com/checkoutshopper/sdk/6.46.0/adyen.js",
+    "https://www.dataprivacyframework.gov/list",
+    "https://wordpress.org/plugins/wc-adyen-payment-gateway/",
+    "https://plugins.svn.wordpress.org/wc-adyen-payment-gateway/trunk/woocommerce-adyen.php"
+  ],
+  "checked": "2026-11-10"
+}

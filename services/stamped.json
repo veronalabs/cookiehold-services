@@ -1,0 +1,61 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "stamped",
+  "version": 1,
+  "name": "Stamped",
+  "provider": "WeCommerce Holdings Limited Partnership dba Stamped",
+  "category": "media",
+  "purpose": "Shows reviews and measures review-led sales.",
+  "privacyUrl": "https://website.stamped.io/privacy-policy/",
+  "dataCountry": "",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "cdn1.stamped.io",
+      "stamped.io/conversion_tracking.gif"
+    ],
+    "inline": [
+      "StampedFn.init("
+    ]
+  },
+  "cookies": [
+    {
+      "name": "stamped-launcher-opened",
+      "lifetime": "1 day",
+      "purpose": "Avoids counting the same launcher opening again."
+    },
+    {
+      "name": "stamped-user-reviews",
+      "lifetime": "1 day",
+      "purpose": "Remembers products the visitor has reviewed."
+    }
+  ],
+  "storage": [
+    "stamped_app_key",
+    "stamped_referral_code"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "generic",
+  "wordpress": {
+    "plugins": [
+      "stampedio-product-reviews/stampedio-product-reviews.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://website.stamped.io/privacy-policy/",
+    "https://stampedsupport.stamped.io/hc/en-us/articles/10097784538011-Displaying-Reviews-Using-widgets-outside-of-e-commerce-platforms",
+    "https://cdn1.stamped.io/files/widget.min.js",
+    "https://wordpress.org/plugins/stampedio-product-reviews/",
+    "https://plugins.svn.wordpress.org/stampedio-product-reviews/trunk/",
+    "https://plugins.svn.wordpress.org/stampedio-product-reviews/trunk/stampedio-product-reviews.php",
+    "https://plugins.svn.wordpress.org/stampedio-product-reviews/trunk/view/stmpd_view.php",
+    "https://plugins.svn.wordpress.org/stampedio-product-reviews/trunk/includes/stmpd_includes.php",
+    "https://plugins.svn.wordpress.org/stampedio-product-reviews/trunk/assets/js/woo-stamped.io-public.js",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

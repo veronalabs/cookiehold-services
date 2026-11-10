@@ -1,0 +1,108 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "cj",
+  "version": 1,
+  "name": "CJ Affiliate",
+  "provider": "Epsilon International UK Ltd",
+  "category": "marketing",
+  "purpose": "Tracks sales from affiliate links.",
+  "privacyUrl": "https://www.cj.com/legal/privacy-policy-services-uk",
+  "dataCountry": "USA and India",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "www.mczbf.com/tags/",
+      "emjcd.com",
+      "www.p.zjptg.com/tag/"
+    ],
+    "inline": [
+      "cj.sitePage",
+      "cj.order",
+      "cjapitag",
+      "cj.navigate("
+    ]
+  },
+  "cookies": [
+    {
+      "name": "cje",
+      "lifetime": "13 months",
+      "purpose": "Remembers the affiliate click that led to a sale."
+    },
+    {
+      "name": "LCLK",
+      "lifetime": "13 months",
+      "purpose": "Links affiliate referrals to purchases."
+    },
+    {
+      "name": "CJSession",
+      "lifetime": "Session",
+      "purpose": "Identifies the session for affiliate attribution."
+    },
+    {
+      "name": "CJLoyalty",
+      "lifetime": "13 months",
+      "purpose": "Credits loyalty points or cash back to the right visitor."
+    },
+    {
+      "name": "CJAnalytics",
+      "lifetime": "13 months",
+      "purpose": "Measures CJ's on-click consent solution."
+    },
+    {
+      "name": "cjuser",
+      "lifetime": "13 months",
+      "purpose": "Identifies visitors for affiliate attribution."
+    },
+    {
+      "name": "cjUser",
+      "lifetime": "395 days",
+      "purpose": "Identifies visitors for affiliate attribution."
+    },
+    {
+      "name": "cjevent_*",
+      "lifetime": "13 months",
+      "purpose": "Remembers the affiliate click that led to a sale."
+    },
+    {
+      "name": "cjconsent",
+      "lifetime": "13 months",
+      "purpose": "Remembers the visitor's consent choice."
+    }
+  ],
+  "storage": [
+    "cjevent"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "cj-affiliate-network-integration/cjapi_tracking.php",
+      "code-for-cj-affiliate-network/cj-tracking.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.cj.com/solutions/cj-affiliate",
+    "https://www.cj.com/legal/privacy",
+    "https://www.cj.com/legal/privacy-policy-services-uk",
+    "https://www.cj.com/legal/cookie-list",
+    "https://docs.cj.com/docs/universal-tag",
+    "https://docs.cj.com/docs/universal-tag-implementation.md",
+    "https://docs.cj.com/docs/http-cookie.md",
+    "https://docs.cj.com/docs/pub-onloadtracking.md",
+    "https://docs.cj.com/docs/pub-onclicktracking.md",
+    "https://docs.cj.com/docs/woocommerce-plugin.md",
+    "https://www.mczbf.com/tags/11111/tag.js",
+    "https://plugins.svn.wordpress.org/cj-affiliate-network-integration/trunk/cjapi_tracking.php",
+    "https://plugins.svn.wordpress.org/cj-affiliate-network-integration/trunk/assets/cjapi-tag.js",
+    "https://plugins.svn.wordpress.org/cj-affiliate-network-integration/trunk/woocommerce/cjapi_set_ss_cookie.php",
+    "https://wordpress.org/plugins/cj-affiliate-network-integration/",
+    "https://wordpress.org/plugins/code-for-cj-affiliate-network/",
+    "https://plugins.svn.wordpress.org/code-for-cj-affiliate-network/trunk/cj-tracking.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

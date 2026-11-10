@@ -1,0 +1,58 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "lead-forensics",
+  "version": 1,
+  "name": "Lead Forensics",
+  "provider": "",
+  "category": "marketing",
+  "purpose": "Identifies businesses visiting this website.",
+  "privacyUrl": "https://www.leadforensics.com/compliance/privacy-policy/",
+  "dataCountry": "UK and EU",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "secure.leadforensics.com",
+      "ipv4.leadforensics.com/api/analyser/",
+      "ipv6.leadforensics.com"
+    ],
+    "inline": [
+      ".leadforensics.com/api/analyser/"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "_lfuuid",
+      "lifetime": "1 year",
+      "purpose": "Helps match visits to businesses."
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "lead-forensics-roi/lead-forensics-roi.php",
+      "lead-forensics-roi/lead-forensics.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.leadforensics.com/compliance/privacy-policy/",
+    "https://www.leadforensics.com/compliance/data-compliance/",
+    "https://www.leadforensics.com/compliance/cookie-policy/",
+    "https://www.leadforensics.com/compliance/customer-faq/",
+    "https://www.leadforensics.com/",
+    "https://secure.leadforensics.com/js/156541.js",
+    "https://www.leadforensics.com/wp-content/cache/min/1/js/156541.js?ver=1793704291",
+    "https://www.leadforensics.com/wp-content/uploads/2026/05/LF_Terms-of-service.pdf",
+    "https://trust.leadforensics.com/",
+    "https://wordpress.org/plugins/lead-forensics-roi/",
+    "https://plugins.svn.wordpress.org/lead-forensics-roi/trunk/lead-forensics-roi.php",
+    "https://plugins.svn.wordpress.org/lead-forensics-roi/tags/3.3.11/lead-forensics.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

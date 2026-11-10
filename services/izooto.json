@@ -1,0 +1,91 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "izooto",
+  "version": 1,
+  "name": "iZooto",
+  "provider": "Datability Technologies Private Limited",
+  "category": "marketing",
+  "purpose": "Sends web push notifications.",
+  "privacyUrl": "https://izooto.com/privacy-policy",
+  "dataCountry": "",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "cdn.izooto.com"
+    ],
+    "inline": [
+      "window._izq = window._izq || []"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "izootoUID",
+      "lifetime": "1500 days",
+      "purpose": "Tells visitors apart."
+    },
+    {
+      "name": "izootoPushToken",
+      "lifetime": "1500 days",
+      "purpose": "Remembers the push subscription."
+    },
+    {
+      "name": "izootoUserProp",
+      "lifetime": "1500 days",
+      "purpose": "Stores visitor attributes for tailored notifications."
+    },
+    {
+      "name": "izootoMDConfig",
+      "lifetime": "1500 days",
+      "purpose": "Shares push subscription details across site domains."
+    },
+    {
+      "name": "izootoActivePrompt",
+      "lifetime": "1500 days",
+      "purpose": "Remembers when the subscription prompt is active."
+    },
+    {
+      "name": "IZCID",
+      "lifetime": "15000 days",
+      "purpose": "Identifies a visitor across iZooto sites."
+    },
+    {
+      "name": "izootoAllowedSites",
+      "lifetime": "15000 days",
+      "purpose": "Remembers sites associated with the visitor."
+    }
+  ],
+  "storage": [
+    "izooto*"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "izooto-web-push/izooto.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://izooto.com/privacy-policy",
+    "https://izooto.com/terms-of-service",
+    "https://help.izooto.com/docs/web-push-setup",
+    "https://help.izooto.com/docs/news-hub-method-call-feature",
+    "https://help.izooto.com/docs/user-properties",
+    "https://help.izooto.com/docs/user-properties.md",
+    "https://help.izooto.com/docs/wordpress-integration",
+    "https://cdn.izooto.com/scripts/83600dbdd34d91e3b153aaf01a445e32dc49e63b.js",
+    "https://cdn.izooto.com/scripts/sdk/main.js",
+    "https://cdn.izooto.com/scripts/sdk/izooto.js",
+    "https://cdn.izooto.com/scripts/sak/iz_setcid.html?v=1",
+    "https://wordpress.org/plugins/izooto-web-push/",
+    "https://plugins.svn.wordpress.org/izooto-web-push/trunk/",
+    "https://plugins.svn.wordpress.org/izooto-web-push/trunk/izooto.php",
+    "https://plugins.svn.wordpress.org/izooto-web-push/trunk/includes/",
+    "https://plugins.svn.wordpress.org/izooto-web-push/trunk/includes/izootosdk.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

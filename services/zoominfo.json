@@ -1,0 +1,53 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "zoominfo",
+  "version": 1,
+  "name": "ZoomInfo",
+  "provider": "ZoomInfo Technologies LLC",
+  "category": "marketing",
+  "purpose": "Identifies companies visiting this website.",
+  "privacyUrl": "https://www.zoominfo.com/legal/privacy-policy",
+  "dataCountry": "USA (EU-US Data Privacy Framework) and other countries",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "js.zi-scripts.com",
+      "ws.zoominfo.com",
+      "wss.zoominfo.com/pixel/"
+    ],
+    "inline": [
+      "window.ZIProjectKey",
+      "wss.zoominfo.com/pixel/"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "_zitok",
+      "lifetime": "365 days",
+      "purpose": "Tells visitors apart."
+    }
+  ],
+  "storage": [
+    "ziScriptSession",
+    "ziPendingTelemetry",
+    "_ziVisitorInfo"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://www.zoominfo.com/legal/privacy-policy",
+    "https://www.zoominfo.com/features/identify-website-visitors",
+    "https://tech-docs-library.zoominfo.com/zoominfo-script-implementation-guide.pdf",
+    "https://tech-docs-library.zoominfo.com/websights-implementation-guide.pdf",
+    "https://js.zi-scripts.com/zi-tag.js",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}
