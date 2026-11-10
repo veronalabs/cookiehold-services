@@ -14,6 +14,23 @@
       "simplybook.me/v2/widget/",
       "simplybook.it/v2/widget/"
     ],
+    "frames": [
+      "simplybook.me/v2/",
+      "simplybook.it/v2/",
+      "simplybook.asia/v2/",
+      "bookingsystem.nu/v2/",
+      "simplybooking.io/v2/",
+      "simplybook.vip/v2/",
+      "simplybook.cc/v2/",
+      "simplybook.us/v2/",
+      "simplybook.pro/v2/",
+      "enterpriseappointments.com/v2/",
+      "simplybook.webnode.page/v2/",
+      "servicebookings.net/v2/",
+      "booking.names.uk/v2/",
+      "booking.lcn.uk/v2/",
+      "booking.register365.ie/v2/"
+    ],
     "inline": [
       "new SimplybookWidget("
     ]

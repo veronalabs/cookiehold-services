@@ -14,7 +14,9 @@
       "formstack.com/forms/js.php/",
       "sfapi.formstack.io/FormEngine/"
     ],
-    "inline": []
+    "frames": [
+      "formstack.com/forms/"
+    ]
   },
   "cookies": [],
   "storage": [

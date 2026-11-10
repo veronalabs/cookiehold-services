@@ -10,8 +10,8 @@
   "dataCountry": "USA (EU-US Data Privacy Framework); other countries",
   "legalBasis": "consent",
   "match": {
-    "hosts": [
-      "docs.google.com/forms/d/e/*/viewform?embedded=true"
+    "frames": [
+      "docs.google.com/forms/"
     ]
   },
   "cookies": [],

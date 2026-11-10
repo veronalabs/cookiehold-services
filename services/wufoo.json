@@ -14,6 +14,9 @@
       "wufoo.com/scripts/",
       "wufoo.com/embed/"
     ],
+    "frames": [
+      "wufoo.com/forms/"
+    ],
     "inline": [
       "new WufooForm(",
       "WufooFormEmbedKit("

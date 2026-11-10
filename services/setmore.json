@@ -13,6 +13,9 @@
     "hosts": [
       "assets.setmore.com/integration/",
       "my.setmore.com/webapp/js/src/others/"
+    ],
+    "frames": [
+      "booking.setmore.com"
     ]
   },
   "cookies": [],
