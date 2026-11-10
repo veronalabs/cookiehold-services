@@ -11,8 +11,8 @@
   "legalBasis": "consent",
   "match": {
     "hosts": [
-      "forms.office.com",
-      "forms.cloud.microsoft"
+      "forms.office.com/Pages/ResponsePage.aspx",
+      "forms.cloud.microsoft/Pages/ResponsePage.aspx"
     ]
   },
   "cookies": [

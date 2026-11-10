@@ -12,8 +12,7 @@
   "match": {
     "hosts": [
       "arcgis.com/apps",
-      "js.arcgis.com",
-      "arcg.is"
+      "js.arcgis.com"
     ]
   },
   "cookies": [],

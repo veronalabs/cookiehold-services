@@ -11,7 +11,7 @@
   "legalBasis": "consent",
   "match": {
     "hosts": [
-      "docs.google.com/forms/"
+      "docs.google.com/forms/d/e/*/viewform?embedded=true"
     ]
   },
   "cookies": [],
