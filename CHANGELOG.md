@@ -2,6 +2,14 @@
 
 Every release, newest first. Sites pick up a release within a week.
 
+## 1.12.1 (2026-11-10)
+
+- Logos for 50 more services, so 222 of the 399 have one (the rest show their
+  initials). They come from Simple Icons and gilbarbara/logos, or from each
+  brand's own press kit where its terms allow it to be shown; see CREDITS.md.
+  Brands whose terms require a licence for their logo, such as Adobe, Amazon,
+  Microsoft, LinkedIn, Salesforce and Canva, keep their initials.
+
 ## 1.12.0 (2026-11-10)
 
 - 184 new services, from 215 to 399: chat and support (15), email, automation
