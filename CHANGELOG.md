@@ -2,6 +2,25 @@
 
 Every release, newest first. Sites pick up a release within a week.
 
+## 1.12.0 (2026-11-10)
+
+- 184 new services, from 215 to 399: chat and support (15), email, automation
+  and pop-ups (25), embeds and social (39, eight of them providers WordPress
+  embeds itself), maps, forms, booking and site tools (21), analytics, testing
+  and monitoring (28), commerce, reviews, payments, affiliate, ads and push (44),
+  and services common in Germany, Austria and Switzerland (12). Each has machine
+  translations in seven languages; 58 have a logo.
+- A new list in `match`, `frames`: page addresses that count only when a frame
+  shows them, such as a booking or form page. A site's own script that merely
+  links to such a page now runs, where a host pattern held it. Calendly and
+  Google Maps use it, and so do the new booking and form services.
+- 49 more WordPress plugins are named, each made to add one service, and four
+  plugins' tracking scripts (Reddit, Snapchat, TikTok, Klaviyo) wait for consent
+  with their service instead of running into a missing function.
+- AdRoll, Quantcast, Marketo, Account Engagement and ScorecardResearch join
+  `common`: tag managers often add them.
+- bookingkit no longer cites a third party's repository.
+
 ## 1.11.1 (2026-11-07)
 
 - PixelYourSite's `sessionStorage` key, which keeps the referrer the visit came
