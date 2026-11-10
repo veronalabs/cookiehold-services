@@ -11,6 +11,9 @@
   "legalBasis": "consent",
   "match": {
     "hosts": [
+      "www.etermin.net/js/"
+    ],
+    "frames": [
       "www.etermin.net"
     ]
   },

@@ -13,6 +13,9 @@
     "hosts": [
       "book.timify.com/widget/"
     ],
+    "frames": [
+      "book.timify.com"
+    ],
     "inline": [
       "TimifyWidget.openIframe("
     ]
