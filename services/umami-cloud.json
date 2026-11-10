@@ -1,0 +1,56 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "umami-cloud",
+  "version": 1,
+  "name": "Umami Cloud",
+  "provider": "Umami Software, Inc.",
+  "category": "statistics",
+  "purpose": "Measures visits without cookies.",
+  "privacyUrl": "https://umami.is/privacy",
+  "dataCountry": "EU and USA",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "cloud.umami.is",
+      "us.umami.is",
+      "eu.umami.is",
+      "analytics.umami.is"
+    ]
+  },
+  "cookies": [],
+  "storage": [
+    "umami.disabled"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "integrate-umami/wp-umami.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://umami.is/privacy",
+    "https://docs.umami.is/docs/cloud",
+    "https://docs.umami.is/docs/cloud/faq",
+    "https://umami.is/subprocessors",
+    "https://umami.is/dpa",
+    "https://docs.umami.is/docs/faq",
+    "https://docs.umami.is/docs/collect-data",
+    "https://docs.umami.is/docs/bypass-ad-blockers",
+    "https://umami.is/blog/umami-cloud-error-tracking-integrations",
+    "https://docs.umami.is/docs/exclude-my-own-visits",
+    "https://cloud.umami.is/script.js",
+    "https://docs.umami.is/docs/replays",
+    "https://cloud.umami.is/recorder.js",
+    "https://docs.umami.is/docs/pixels",
+    "https://wordpress.org/plugins/integrate-umami/",
+    "https://plugins.svn.wordpress.org/integrate-umami/trunk/",
+    "https://plugins.svn.wordpress.org/integrate-umami/trunk/wp-umami.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

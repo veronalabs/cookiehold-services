@@ -1,0 +1,45 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "bluesky",
+  "version": 1,
+  "name": "Bluesky",
+  "provider": "Bluesky Social, PBC",
+  "category": "media",
+  "purpose": "Shows embedded posts.",
+  "privacyUrl": "https://bsky.social/about/support/privacy-policy",
+  "dataCountry": "",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "embed.bsky.app"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "social",
+  "wordpress": {
+    "plugins": [
+      "social-integration-for-bluesky/social-integration-for-bluesky.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://bsky.social/about/support/privacy-policy",
+    "https://bsky.social/about/blog/post-embeds-guide",
+    "https://bsky.network/docs/oembed/",
+    "https://embed.bsky.app/static/embed.js",
+    "https://embed.bsky.app/embed/did:plc:vjug55kidv6sye7ykr5faxxn/app.bsky.feed.post/3jzn6g7ixgq2y",
+    "https://embed.bsky.app/static/post-D8-Hi36E.js",
+    "https://embed.bsky.app/static/logo-WhKaIFp7.js",
+    "https://bsky.social/about/support/network-services-privacy-policy",
+    "https://www.dataprivacyframework.gov/list",
+    "https://wordpress.org/plugins/social-integration-for-bluesky/",
+    "https://plugins.svn.wordpress.org/social-integration-for-bluesky/trunk/",
+    "https://plugins.svn.wordpress.org/social-integration-for-bluesky/trunk/social-integration-for-bluesky.php"
+  ],
+  "checked": "2026-11-10"
+}

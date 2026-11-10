@@ -1,0 +1,50 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "google-docs",
+  "version": 1,
+  "name": "Google Docs",
+  "provider": "Google Ireland Limited",
+  "category": "media",
+  "purpose": "Shows embedded documents, sheets, and slides.",
+  "privacyUrl": "https://policies.google.com/privacy?gl=ie&hl=en-GB",
+  "dataCountry": "Worldwide, including USA (EU-US Data Privacy Framework)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "docs.google.com/spreadsheets/d/*/gviz/"
+    ],
+    "frames": [
+      "docs.google.com/document/",
+      "docs.google.com/spreadsheets/",
+      "docs.google.com/presentation/"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "generic",
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://support.google.com/docs/answer/183965?hl=en",
+    "https://workspaceupdates.googleblog.com/2023/10/upcoming-changes-to-third-party-cookies-in-google-drive.html",
+    "https://developers.google.com/apps-script/reference/document/document-app",
+    "https://developers.google.com/chart/interactive/docs/spreadsheets",
+    "https://developers.google.com/apps-script/reference/slides/slides-app",
+    "https://policies.google.com/privacy?gl=ie&hl=en-GB",
+    "https://policies.google.com/privacy?hl=en",
+    "https://policies.google.com/privacy/frameworks?hl=en",
+    "https://policies.google.com/technologies/cookies?hl=en",
+    "https://docs.google.com/spreadsheets/d/1XWJLkAwch5GXAt_7zOFDcg8Wm8Xv29_8PWuuW15qmAE/edit",
+    "https://docs.google.com/_/spreadsheets/_/js/k=spreadsheets.waffle_js_prod.ru.UlFf0ltEyfc.es5.O/am=AAAAAAHA/d=0/wt=0/rs=AB9W7jsFlPqMAfo7zA_-djevg2sfQ6sxFw/m=ritzmain",
+    "https://www.dataprivacyframework.gov/list",
+    "https://wordpress.org/plugins/embedpress/",
+    "https://plugins.svn.wordpress.org/embedpress/trunk/embedpress.php"
+  ],
+  "checked": "2026-11-10"
+}

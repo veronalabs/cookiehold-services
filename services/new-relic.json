@@ -1,0 +1,66 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "new-relic",
+  "version": 1,
+  "name": "New Relic Browser",
+  "provider": "New Relic, Inc.",
+  "category": "statistics",
+  "purpose": "Measures website performance.",
+  "privacyUrl": "https://newrelic.com/termsandconditions/services-notices",
+  "dataCountry": "USA (EU-US Data Privacy Framework), EU or Japan (account region)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "js-agent.newrelic.com",
+      "bam.nr-data.net",
+      "bam-cell.nr-data.net",
+      "bam.eu01.nr-data.net",
+      "bam.jp.nr-data.net",
+      "gov-bam.nr-data.net"
+    ],
+    "inline": [
+      "window.NREUM||(NREUM={})"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "NREUM",
+      "lifetime": "Session",
+      "purpose": "Measures page load time in older browsers."
+    },
+    {
+      "name": "NRAGENT",
+      "lifetime": "Session",
+      "purpose": "Links browser and server performance traces."
+    }
+  ],
+  "storage": [
+    "NRBA_SESSION::*"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://newrelic.com/termsandconditions/services-notices",
+    "https://newrelic.com/termsandconditions/privacy",
+    "https://docs.newrelic.com/docs/browser/browser-monitoring/installation/install-browser-monitoring-agent/",
+    "https://docs.newrelic.com/docs/browser/new-relic-browser/getting-started/compatibility-requirements-browser-monitoring/",
+    "https://docs.newrelic.com/docs/browser/browser-monitoring/troubleshooting/troubleshoot-your-browser-monitoring-installation/",
+    "https://docs.newrelic.com/docs/browser/new-relic-browser/performance-quality/security-browser-monitoring/",
+    "https://docs.newrelic.com/docs/browser/browser-monitoring/page-load-timing-resources/new-relic-cookies-used-browser/",
+    "https://docs.newrelic.com/docs/browser/browser-monitoring/page-load-timing-resources/cookie-collection-session-tracking/",
+    "https://docs.newrelic.com/docs/accounts/accounts-billing/account-setup/choose-your-data-center/",
+    "https://js-agent.newrelic.com/nr-loader-spa-current.min.js",
+    "https://js-agent.newrelic.com/nr-spa-1.324.1.min.js",
+    "https://www.dataprivacyframework.gov/list",
+    "https://wordpress.org/plugins/rt-newrelic-browser/",
+    "https://plugins.svn.wordpress.org/rt-newrelic-browser/trunk/NewRelicBrowser.php"
+  ],
+  "checked": "2026-11-10"
+}

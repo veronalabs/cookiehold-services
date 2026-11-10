@@ -1,0 +1,49 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "rumble",
+  "version": 1,
+  "name": "Rumble",
+  "provider": "Rumble USA Inc.",
+  "category": "media",
+  "purpose": "Shows embedded videos.",
+  "privacyUrl": "https://rumble.com/s/privacy",
+  "dataCountry": "USA and Canada",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "rumble.com/embed"
+    ],
+    "inline": [
+      "Rumble(\"play\","
+    ]
+  },
+  "cookies": [],
+  "storage": [
+    "RumbleLastView*"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "video",
+  "wordpress": {
+    "plugins": [
+      "rumble/rumble.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://rumble.com/s/privacy",
+    "https://rumble.support/en/help/rumble-basics-how-to-embed-your-video",
+    "https://rumble.com/v1alix5-rumble-basics-how-to-embed-your-video.html",
+    "https://rumble.com/embed/v17j3tt/",
+    "https://rumble.com/embedJS/u4.v17j3tt/",
+    "https://rumble.com/j/pv/1145/ui.r2.js",
+    "https://wordpress.org/plugins/rumble/",
+    "https://plugins.svn.wordpress.org/rumble/trunk/",
+    "https://plugins.svn.wordpress.org/rumble/trunk/rumble.php",
+    "https://www.dataprivacyframework.gov/list",
+    "https://raw.githubusercontent.com/jkwakman/Open-Cookie-Database/master/open-cookie-database.csv"
+  ],
+  "checked": "2026-11-10"
+}

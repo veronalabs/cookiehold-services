@@ -1,0 +1,45 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "unbounce",
+  "version": 1,
+  "name": "Unbounce",
+  "provider": "Unbounce Marketing Solutions Inc.",
+  "category": "marketing",
+  "purpose": "Shows pop-ups and sticky bars.",
+  "privacyUrl": "https://unbounce.com/privacy/",
+  "dataCountry": "USA and other countries",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "ubembed.com"
+    ]
+  },
+  "cookies": [],
+  "storage": [
+    "ub-emb-*"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://unbounce.com/product/popups-and-sticky-bars/",
+    "https://unbounce.com/privacy/",
+    "https://documentation.unbounce.com/hc/en-us/articles/360020659971-Installing-your-Popup-Sticky-Bar-on-Other-Platforms",
+    "https://documentation.unbounce.com/api/v2/help_center/en-us/articles/360020659971.json",
+    "https://documentation.unbounce.com/hc/article_attachments/360021297792",
+    "https://b48a4e7ad98347daac142a145770b4cf.js-integration.ubembed.com",
+    "https://assets.ubembed.com/universalscript/releases/v0.184.0/bundle.js",
+    "https://documentation.unbounce.com/hc/en-us/articles/115005919683-Targeting-Your-Popup-Sticky-Bar",
+    "https://wordpress.org/plugins/unbounce/",
+    "https://plugins.svn.wordpress.org/unbounce/trunk/",
+    "https://plugins.svn.wordpress.org/unbounce/trunk/Unbounce-Page.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

@@ -1,0 +1,61 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "pure-chat",
+  "version": 1,
+  "name": "Pure Chat",
+  "provider": "Ruby Receptionists, Inc. and Pure Chat, Inc.",
+  "category": "functional",
+  "purpose": "Provides live chat and support messages.",
+  "privacyUrl": "https://purechat.com/privacy-policy/",
+  "dataCountry": "USA",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "app.purechat.com"
+    ],
+    "inline": [
+      "app.purechat.com/VisitorWidget/WidgetScript",
+      "window.purechatApi"
+    ]
+  },
+  "cookies": [],
+  "storage": [
+    "_purechatLocalStorageAccess",
+    "purechat_*"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "pure-chat/purechat.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://purechat.com/",
+    "https://purechat.com/privacy-policy/",
+    "https://purechat.com/dpa/",
+    "https://purechat.com/about-us/",
+    "https://support.purechat.com/",
+    "https://support.purechat.com/en_US/setup-guides/how-to-add-pure-chat-to-your-websites-html",
+    "https://support.purechat.com/en_US/setup-guides/where-can-i-find-my-pure-chat-code-snippet",
+    "https://support.purechat.com/en_US/setup-guides/add-pure-chat-to-your-wordpress-website",
+    "https://app.purechat.com/VisitorWidget/WidgetScript",
+    "https://app.purechat.com/version",
+    "https://prod.purechatcdn.com/assets/legacy.13851.js",
+    "https://prod.purechatcdn.com/assets/modern_initializer.13851.js",
+    "https://assets.ruby.com/hubfs/Cookie%20Notice.pdf",
+    "https://help.purechat.com/privacy",
+    "https://help.purechat.com/gdpr",
+    "https://wordpress.org/plugins/pure-chat/",
+    "https://plugins.svn.wordpress.org/pure-chat/trunk/",
+    "https://plugins.svn.wordpress.org/pure-chat/trunk/purechat.php",
+    "https://plugins.svn.wordpress.org/pure-chat/trunk/purechatwidgetcode.js",
+    "https://www.dataprivacyframework.gov/list",
+    "https://raw.githubusercontent.com/jkwakman/Open-Cookie-Database/master/open-cookie-database.csv"
+  ],
+  "checked": "2026-11-10"
+}

@@ -1,0 +1,41 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "tumblr",
+  "version": 1,
+  "name": "Tumblr",
+  "provider": "Tumblr, Inc.",
+  "category": "media",
+  "purpose": "Shows embedded posts.",
+  "privacyUrl": "https://www.tumblr.com/privacy/en",
+  "dataCountry": "USA and other countries",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "assets.tumblr.com/post.js",
+      "embed.tumblr.com/embed/post/"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "social",
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://www.tumblr.com/privacy/en",
+    "https://help.tumblr.com/knowledge-base/embed-basics/",
+    "https://raw.githubusercontent.com/tumblr/docs/master/api.md",
+    "https://www.tumblr.com/oembed/1.0?url=https%3A%2F%2Fstaff.tumblr.com%2Fpost%2F832577330595643392",
+    "https://assets.tumblr.com/post.js",
+    "https://raw.githubusercontent.com/tumblr/policy/master/privacy-policy.txt",
+    "https://raw.githubusercontent.com/tumblr/policy/master/terms-of-service.txt",
+    "https://www.dataprivacyframework.gov/list",
+    "https://raw.githubusercontent.com/jkwakman/Open-Cookie-Database/master/open-cookie-database.csv"
+  ],
+  "checked": "2026-11-10"
+}

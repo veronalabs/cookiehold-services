@@ -1,0 +1,48 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "arcgis",
+  "version": 1,
+  "name": "ArcGIS",
+  "provider": "Environmental Systems Research Institute, Inc.",
+  "category": "media",
+  "purpose": "Shows embedded maps.",
+  "privacyUrl": "https://www.esri.com/en-us/privacy/privacy-statements/privacy-statement",
+  "dataCountry": "USA (EU-US Data Privacy Framework) and other countries",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "arcgis.com/apps",
+      "js.arcgis.com"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "map",
+  "wordpress": {
+    "plugins": [
+      "embed-webmap/embed-webmap.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.esri.com/en-us/privacy/privacy-statements/privacy-statement",
+    "https://www.esri.com/en-us/privacy/privacy-statements/privacy-supplement",
+    "https://support.esri.com/en-us/knowledge-base/embed-an-arcgis-online-web-application-in-a-website-146-000012322",
+    "https://www.esri.com/arcgis-blog/products/arcgis-online/mapping/embed-web-maps",
+    "https://developers.arcgis.com/javascript/latest/references/embeddable-components/",
+    "https://support.esri.com/en-us/knowledge-base/how-to-prepare-an-experience-in-arcgis-experience-build-000034207",
+    "https://js.arcgis.com/5.1/embeddable-components/",
+    "https://js.arcgis.com/5.1/embeddable-components/QCCRVEMO.js",
+    "https://js.arcgis.com/5.1/embeddable-components/KJVN2674.js",
+    "https://support.esri.com/en-us/knowledge-base/the-portal-for-arcgis-login-page-appears-blank-000013440",
+    "https://www.dataprivacyframework.gov/list",
+    "https://wordpress.org/plugins/embed-webmap/",
+    "https://plugins.svn.wordpress.org/embed-webmap/trunk/",
+    "https://plugins.svn.wordpress.org/embed-webmap/trunk/embed-webmap.php"
+  ],
+  "checked": "2026-11-10"
+}

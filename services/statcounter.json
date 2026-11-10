@@ -1,0 +1,63 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "statcounter",
+  "version": 1,
+  "name": "Statcounter",
+  "provider": "",
+  "category": "statistics",
+  "purpose": "Measures visits and visitor activity.",
+  "privacyUrl": "https://statcounter.com/about/legal/",
+  "dataCountry": "",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "statcounter.com/counter/",
+      "c.statcounter.com"
+    ],
+    "inline": [
+      "var sc_project=",
+      "var sc_security="
+    ]
+  },
+  "cookies": [
+    {
+      "name": "sc_is_visitor_unique",
+      "lifetime": "2 years",
+      "purpose": "Tells visitors apart and counts return visits."
+    },
+    {
+      "name": "sc_session_fallback",
+      "lifetime": "30 minutes",
+      "purpose": "Keeps tracking settings when session storage fails."
+    }
+  ],
+  "storage": [
+    "statcounter_*",
+    "sc_medium_source",
+    "statcounter.com/localstorage/"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://statcounter.com/about/legal/",
+    "https://statcounter.com/about/cookies/",
+    "https://statcounter.com/support/faq/304-how-can-i-make-statcounter-compliant-with-the-w3c-validator/",
+    "https://www.statcounter.com/counter/counter.js",
+    "https://statcounter.com/default/",
+    "https://statcounter.com/support/contact/",
+    "https://statcounter.com/support/faq/314-statcounter-and-the-gdpr/",
+    "https://blog.statcounter.com/2008/06/outage-explosion-at-the-planet/",
+    "https://www.dataprivacyframework.gov/list",
+    "https://wordpress.org/plugins/official-statcounter-plugin-for-wordpress/",
+    "https://plugins.svn.wordpress.org/official-statcounter-plugin-for-wordpress/trunk/",
+    "https://plugins.svn.wordpress.org/official-statcounter-plugin-for-wordpress/trunk/StatCounter-Wordpress-Plugin.php"
+  ],
+  "checked": "2026-11-10"
+}

@@ -1,0 +1,123 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "dynatrace",
+  "version": 1,
+  "name": "Dynatrace",
+  "provider": "Dynatrace, LLC",
+  "category": "statistics",
+  "purpose": "Measures website performance.",
+  "privacyUrl": "https://www.dynatrace.com/company/trust-center/privacy/",
+  "dataCountry": "USA (EU-US Data Privacy Framework), EU and other regions (hosting/support)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "js-cdn.dynatrace.com"
+    ],
+    "inline": [
+      "https://js-cdn.dynatrace.com/jstag/"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "dtCookie*",
+      "lifetime": "Session",
+      "purpose": "Links requests within a visit."
+    },
+    {
+      "name": "dtPC*",
+      "lifetime": "Session",
+      "purpose": "Routes monitoring data and links sessions."
+    },
+    {
+      "name": "dtSa*",
+      "lifetime": "Session",
+      "purpose": "Links actions across pages."
+    },
+    {
+      "name": "dTValidationCookie*",
+      "lifetime": "A few milliseconds",
+      "purpose": "Finds the cookie domain."
+    },
+    {
+      "name": "rxVisitor*",
+      "lifetime": "Session or 2 years",
+      "purpose": "Recognizes returning visitors."
+    },
+    {
+      "name": "rxvt*",
+      "lifetime": "Session",
+      "purpose": "Stores the session timeout."
+    },
+    {
+      "name": "dtsrVID*",
+      "lifetime": "Session",
+      "purpose": "Identifies the recorded page view."
+    },
+    {
+      "name": "dtSR*",
+      "lifetime": "Session",
+      "purpose": "Keeps recordings consistent across pages."
+    },
+    {
+      "name": "dtUSR_*",
+      "lifetime": "Session or 2 years",
+      "purpose": "Recognizes returning visitors."
+    },
+    {
+      "name": "dtSN_*",
+      "lifetime": "Session",
+      "purpose": "Links requests within a session."
+    },
+    {
+      "name": "dtCM_*",
+      "lifetime": "Session",
+      "purpose": "Remembers the monitoring consent choice."
+    }
+  ],
+  "storage": [
+    "rxVisitor*",
+    "rxvisitid*",
+    "rxvt*",
+    "dtCookie*",
+    "dtSa*",
+    "ruxitagentjs_*",
+    "dt-pVO",
+    "dtsrNOSR",
+    "dtSR*",
+    "dtsrTID",
+    "dtsrTIDrSt",
+    "dtCFG_*",
+    "dtCM_*",
+    "dtOFF_*",
+    "dtSC_*",
+    "dtTAB_*",
+    "dtTabUnload"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://www.dynatrace.com/company/trust-center/privacy/",
+    "https://www.dynatrace.com/company/trust-center/privacy/supplemental/",
+    "https://docs.dynatrace.com/docs/observe/digital-experience/rum/web-frontends/initial-setup/set-up-agentless-monitoring",
+    "https://docs.dynatrace.com/docs/observe/digital-experience/rum/web-frontends/initial-setup/snippet-formats",
+    "https://docs.dynatrace.com/docs/observe/digital-experience/rum/web-frontends/initial-setup/adapt-csp-rules",
+    "https://docs.dynatrace.com/docs/manage/data-privacy-and-security/data-privacy/rum-cookies-and-web-storage",
+    "https://docs.dynatrace.com/docs/manage/data-privacy-and-security-classic/data-privacy/rum-cookies-and-web-storage-classic",
+    "https://docs.dynatrace.com/docs/observe/digital-experience/rum/web-frontends/additional-configuration/data-privacy-web",
+    "https://docs.dynatrace.com/docs/manage/data-privacy-and-security/data-security/data-security-controls",
+    "https://www.dynatrace.com/company/trust-center/customers/subprocessors-dynatrace-services/",
+    "https://www.dynatrace.com/",
+    "https://js-cdn.dynatrace.com/jstag/145e12d594f/bf25977vwq/7f8d596bca766857_complete.js",
+    "https://js-cdn.dynatrace.com/jstag/145e12d594f/cg36988wxq/477g8ec68708x5c1_complete.js",
+    "https://www.dataprivacyframework.gov/list",
+    "https://wordpress.org/plugins/search/dynatrace/"
+  ],
+  "checked": "2026-11-10"
+}

@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "mailerlite",
-  "version": 2,
+  "version": 3,
   "name": "MailerLite",
   "provider": "MailerLite Limited",
   "category": "marketing",
@@ -48,7 +48,8 @@
   "placeholder": "form",
   "wordpress": {
     "plugins": [
-      "official-mailerlite-sign-up-forms/mailerlite.php"
+      "official-mailerlite-sign-up-forms/mailerlite.php",
+      "woo-mailerlite/woo-mailerlite.php"
     ],
     "handles": []
   },
@@ -61,7 +62,9 @@
     "https://static.mailerlite.com/js/universal.js",
     "https://wordpress.org/plugins/official-mailerlite-sign-up-forms/",
     "https://plugins.svn.wordpress.org/official-mailerlite-sign-up-forms/trunk/",
-    "https://www.mailerlite.com/legal/data-processing-agreement"
+    "https://www.mailerlite.com/legal/data-processing-agreement",
+    "https://wordpress.org/plugins/woo-mailerlite/",
+    "https://plugins.svn.wordpress.org/woo-mailerlite/trunk/woo-mailerlite.php"
   ],
-  "checked": "2026-11-06"
+  "checked": "2026-11-10"
 }

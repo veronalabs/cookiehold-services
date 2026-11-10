@@ -1,0 +1,77 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "fareharbor",
+  "version": 1,
+  "name": "FareHarbor",
+  "provider": "FareHarbor B.V.",
+  "category": "functional",
+  "purpose": "Lets visitors book tours and activities.",
+  "privacyUrl": "https://fareharbor.com/legal/privacy/",
+  "dataCountry": "USA, Malta and Philippines",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "fareharbor.com/embeds/",
+      "fh-kit.com/buttons/"
+    ],
+    "inline": [
+      "FH.autoLightframe(",
+      "FH.open("
+    ]
+  },
+  "cookies": [
+    {
+      "name": "fh-target-language",
+      "lifetime": "Session",
+      "purpose": "Remembers the visitor's language."
+    },
+    {
+      "name": "fh-content-language",
+      "lifetime": "Session",
+      "purpose": "Remembers the content language."
+    },
+    {
+      "name": "fh-units-language",
+      "lifetime": "Session",
+      "purpose": "Remembers the preferred measurement units."
+    }
+  ],
+  "storage": [
+    "fareharbor-uuid",
+    "fareharbor-refs",
+    "fareharbor-gclid",
+    "fareharbor-wbraid",
+    "fareharbor-gbraid",
+    "fareharbor-utm-*",
+    "fareharbor-language-*"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "generic",
+  "wordpress": {
+    "plugins": [
+      "fareharbor/fareharbor.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://fareharbor.com/legal/privacy/",
+    "https://fareharbor.com/legal/tos-providers/",
+    "https://fareharbor.com/legal/data-processing-agreement/",
+    "https://fareharbor.com/legal/sub-processors/",
+    "https://fareharbor.com/legal/end-user-cookie-list/",
+    "https://fareharbor.com/legal/cookie-list/",
+    "https://pages.fareharbor.com/gb/website/integrations/lightframe/",
+    "https://pages.fareharbor.com/website/integrations/lightframe/lightframe-api/",
+    "https://pages.fareharbor.com/website/integrations/getting-started-with-integrations/links-and-embeds/",
+    "https://fareharbor.com/embeds/api/v1/?autolightframe=yes",
+    "https://fh-kit.com/buttons/v2/",
+    "https://wordpress.org/plugins/fareharbor/",
+    "https://plugins.svn.wordpress.org/fareharbor/trunk/",
+    "https://plugins.svn.wordpress.org/fareharbor/trunk/fareharbor.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

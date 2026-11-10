@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "pinterest-embed",
-  "version": 3,
+  "version": 4,
   "name": "Pinterest embeds",
   "provider": "Pinterest Europe Limited and Pinterest, Inc.",
   "category": "media",
@@ -29,7 +29,9 @@
   },
   "placeholder": "social",
   "wordpress": {
-    "plugins": [],
+    "plugins": [
+      "jquery-pin-it-button-for-images/jquery-pin-it-button-for-images.php"
+    ],
     "handles": []
   },
   "sources": [
@@ -42,7 +44,9 @@
     "https://policy.pinterest.com/en/privacy-policy",
     "https://policy.pinterest.com/en/cookies",
     "https://help.pinterest.com/en/business/article/pinterest-tag-parameters-and-cookies",
-    "https://www.dataprivacyframework.gov/list"
+    "https://www.dataprivacyframework.gov/list",
+    "https://wordpress.org/plugins/jquery-pin-it-button-for-images/",
+    "https://plugins.svn.wordpress.org/jquery-pin-it-button-for-images/trunk/jquery-pin-it-button-for-images.php"
   ],
-  "checked": "2026-11-06"
+  "checked": "2026-11-10"
 }

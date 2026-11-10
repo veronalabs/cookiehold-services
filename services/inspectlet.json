@@ -1,0 +1,57 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "inspectlet",
+  "version": 1,
+  "name": "Inspectlet",
+  "provider": "Inspectlet, Inc.",
+  "category": "statistics",
+  "purpose": "Records visits to understand website use.",
+  "privacyUrl": "https://www.inspectlet.com/terms-of-service",
+  "dataCountry": "USA",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "cdn.inspectlet.com"
+    ],
+    "inline": [
+      "window.__insp"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "__insp_*",
+      "lifetime": "Session to 1 year",
+      "purpose": "Recognises visitors and keeps the recording session."
+    }
+  ],
+  "storage": [
+    "__insp_*"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "inspectlet-heatmaps-and-user-session-recording/inspectlet-user-session-recording-and-heatmaps.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.inspectlet.com/",
+    "https://www.inspectlet.com/terms-of-service",
+    "https://docs.inspectlet.com/docs/installing-inspectlet",
+    "https://docs.inspectlet.com/docs/cookies",
+    "https://docs.inspectlet.com/docs/privacy-impact-assessment-under-gdpr",
+    "https://cdn.inspectlet.com/inspectlet.js",
+    "https://docs.inspectlet.com/docs/installing-inspectlet-with-wordpress",
+    "https://www.inspectlet.com/guides/visitor-recording-privacy",
+    "https://docs.inspectlet.com/docs/using-inspectlet-with-a-content-security-policy-directive",
+    "https://www.dataprivacyframework.gov/list",
+    "https://wordpress.org/plugins/inspectlet-heatmaps-and-user-session-recording/",
+    "https://plugins.svn.wordpress.org/inspectlet-heatmaps-and-user-session-recording/trunk/",
+    "https://plugins.svn.wordpress.org/inspectlet-heatmaps-and-user-session-recording/trunk/inspectlet-user-session-recording-and-heatmaps.php"
+  ],
+  "checked": "2026-11-10"
+}

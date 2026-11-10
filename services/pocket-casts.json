@@ -1,0 +1,41 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "pocket-casts",
+  "version": 1,
+  "name": "Pocket Casts",
+  "provider": "Automattic Inc.",
+  "category": "media",
+  "purpose": "Plays embedded podcasts.",
+  "privacyUrl": "https://support.pocketcasts.com/knowledge-base/privacy-policy/",
+  "dataCountry": "",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "pca.st/embed/"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "audio",
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://support.pocketcasts.com/knowledge-base/privacy-policy/",
+    "https://support.pocketcasts.com/knowledge-base/embedding-the-pocket-casts-player-on-your-website/",
+    "https://pca.st/oembed.json?url=https%3A%2F%2Fpca.st%2F4cq4x1zt",
+    "https://pca.st/embed/4cq4x1zt",
+    "https://pca.st/assets/podcast_embed-d4b05680d6d1347cb1cc8acce773b28ce319379b918fa2a298904ed3203b7d28.js",
+    "https://pca.st/oembed.json?url=https%3A%2F%2Fpca.st%2Fepisode%2F3a0c9aad-7d39-448d-b992-46c42b19a774",
+    "https://pca.st/embed/iwdebrvt",
+    "https://pca.st/assets/embed-22f846ccf972d6d33b5d12b3f4186cf215f0d251182494dd10486684e2f83aa3.js",
+    "https://wordpress.org/plugins/search/pocket+casts/",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

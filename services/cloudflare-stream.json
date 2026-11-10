@@ -1,0 +1,53 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "cloudflare-stream",
+  "version": 1,
+  "name": "Cloudflare Stream",
+  "provider": "Cloudflare, Inc.",
+  "category": "media",
+  "purpose": "Shows embedded videos.",
+  "privacyUrl": "https://www.cloudflare.com/privacypolicy/",
+  "dataCountry": "USA (EU-US Data Privacy Framework), EEA and other countries",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "cloudflarestream.com",
+      "videodelivery.net"
+    ],
+    "inline": [
+      "Stream(document.getElementById('stream-player'))"
+    ]
+  },
+  "cookies": [],
+  "storage": [
+    "stream.estimatedBandwidth"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "video",
+  "wordpress": {
+    "plugins": [
+      "cloudflare-stream/cloudflare-stream.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://developers.cloudflare.com/stream/",
+    "https://www.cloudflare.com/privacypolicy/",
+    "https://developers.cloudflare.com/stream/viewing-videos/using-the-stream-player/",
+    "https://developers.cloudflare.com/stream/viewing-videos/using-the-stream-player/using-the-player-api/",
+    "https://developers.cloudflare.com/stream/faq/",
+    "https://developers.cloudflare.com/stream/examples/stream-player/",
+    "https://embed.cloudflarestream.com/embed/sdk.latest.js",
+    "https://customer-f33zs165nr7gyfy4.cloudflarestream.com/6b9e68b07dfee8cc2d116e4c51d6a957/iframe",
+    "https://customer-f33zs165nr7gyfy4.cloudflarestream.com/embed/sdk-iframe-integration.fla9.latest.js?video=6b9e68b07dfee8cc2d116e4c51d6a957",
+    "https://developers.cloudflare.com/fundamentals/reference/policies-compliances/cloudflare-cookies/",
+    "https://www.dataprivacyframework.gov/list",
+    "https://wordpress.org/plugins/cloudflare-stream/",
+    "https://plugins.svn.wordpress.org/cloudflare-stream/trunk/",
+    "https://plugins.svn.wordpress.org/cloudflare-stream/trunk/cloudflare-stream.php"
+  ],
+  "checked": "2026-11-10"
+}

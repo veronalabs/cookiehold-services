@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "x-embed",
-  "version": 3,
+  "version": 4,
   "name": "X (Twitter) embeds",
   "provider": "X Internet Unlimited Company",
   "category": "media",
@@ -37,7 +37,8 @@
   "placeholder": "social",
   "wordpress": {
     "plugins": [
-      "custom-twitter-feeds/custom-twitter-feed.php"
+      "custom-twitter-feeds/custom-twitter-feed.php",
+      "easy-twitter-feed-widget/easy-twitter-feed-widget.php"
     ],
     "handles": []
   },
@@ -48,7 +49,9 @@
     "https://plugins.svn.wordpress.org/custom-twitter-feeds/trunk/custom-twitter-feed.php",
     "https://help.x.com/en/rules-and-policies/x-cookies",
     "https://help.x.com/en/x-for-websites-ads-info-and-privacy",
-    "https://platform.twitter.com/widgets.js"
+    "https://platform.twitter.com/widgets.js",
+    "https://wordpress.org/plugins/easy-twitter-feed-widget/",
+    "https://plugins.svn.wordpress.org/easy-twitter-feed-widget/trunk/easy-twitter-feed-widget.php"
   ],
-  "checked": "2026-11-06"
+  "checked": "2026-11-10"
 }

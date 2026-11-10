@@ -1,0 +1,73 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "crowdsignal",
+  "version": 1,
+  "name": "Crowdsignal",
+  "provider": "Aut O’Mattic A8C Ireland Ltd.",
+  "category": "functional",
+  "purpose": "Shows embedded polls, surveys and ratings.",
+  "privacyUrl": "https://automattic.com/privacy/",
+  "dataCountry": "",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "static.polldaddy.com/p/",
+      "secure.polldaddy.com/p/",
+      "app.crowdsignal.com/survey.js",
+      "polldaddy.com/survey.js",
+      "polldaddy.com/js/rating/",
+      "crowdsignal.net"
+    ],
+    "inline": [
+      "var pd_tags",
+      "polldaddy.add(",
+      "polldaddy.com/survey.js",
+      "PDRTJS_settings_"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "PD_poll_*",
+      "lifetime": "30 days (configurable)",
+      "purpose": "Prevents repeat votes."
+    },
+    {
+      "name": "pd_embed_*",
+      "lifetime": "2 days",
+      "purpose": "Limits repeat popup displays."
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "form",
+  "wordpress": {
+    "plugins": [
+      "polldaddy/polldaddy.php",
+      "crowdsignal-forms/crowdsignal-forms.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://crowdsignal.com/support/using-custom-tags-to-track-poll-votes/",
+    "https://crowdsignal.com/support/oembed/",
+    "https://crowdsignal.com/support/your-privacy/",
+    "https://crowdsignal.com/terms/",
+    "https://automattic.com/privacy/",
+    "https://automattic.com/privacy-notice/",
+    "https://automattic.com/cookies/",
+    "https://static.polldaddy.com/p/3191508.js",
+    "https://app.crowdsignal.com/survey.js",
+    "https://polldaddy.com/js/rating/rating.js",
+    "https://plugins.svn.wordpress.org/polldaddy/trunk/polldaddy-shortcode.php",
+    "https://plugins.svn.wordpress.org/polldaddy/trunk/polldaddy.php",
+    "https://plugins.svn.wordpress.org/crowdsignal-forms/trunk/crowdsignal-forms.php",
+    "https://wordpress.org/plugins/polldaddy/",
+    "https://wordpress.org/plugins/crowdsignal-forms/",
+    "https://wordpress.org/documentation/article/crowdsignal-embed/",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

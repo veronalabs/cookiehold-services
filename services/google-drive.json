@@ -1,0 +1,46 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "google-drive",
+  "version": 1,
+  "name": "Google Drive",
+  "provider": "Google Ireland Limited",
+  "category": "media",
+  "purpose": "Shows embedded files and videos.",
+  "privacyUrl": "https://policies.google.com/privacy",
+  "dataCountry": "Worldwide, including USA (EU-US Data Privacy Framework)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "drive.google.com/file/d/*/preview"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "generic",
+  "wordpress": {
+    "plugins": [
+      "google-drive-embedder/google_drive_embedder.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://workspaceupdates.googleblog.com/2023/10/upcoming-changes-to-third-party-cookies-in-google-drive.html",
+    "https://support.google.com/drive/answer/2423694?hl=en",
+    "https://drive.google.com/file/d/1DkG-nhV_oRQ2M76AAPeagxs3Okg4HF7W/preview",
+    "https://www.gstatic.com/_/apps-fileview/_/js/k=apps-fileview.v.ru.dwi7zK2MkMc.O/am=AAAAYA/d=1/rs=AO0039uJcsg5rI9XtSjizMtOWcnga8jTWA/m=v,wb?wli=v.l876SEQ5KRw.inkLoadThreadedWasmModule.O%3A%3Bv.CSJISM_PpUE.inkLoadWasmModule.O%3A%3B",
+    "https://policies.google.com/privacy",
+    "https://policies.google.com/privacy?hl=en&gl=ie",
+    "https://policies.google.com/privacy/frameworks?hl=en",
+    "https://policies.google.com/technologies/cookies?hl=en",
+    "https://knowledge.workspace.google.com/admin/compliance/data-covered-by-data-regions?hl=en",
+    "https://www.dataprivacyframework.gov/list",
+    "https://wordpress.org/plugins/google-drive-embedder/",
+    "https://plugins.svn.wordpress.org/google-drive-embedder/trunk/",
+    "https://plugins.svn.wordpress.org/google-drive-embedder/trunk/google_drive_embedder.php"
+  ],
+  "checked": "2026-11-10"
+}

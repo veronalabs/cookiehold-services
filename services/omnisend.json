@@ -1,0 +1,85 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "omnisend",
+  "version": 1,
+  "name": "Omnisend",
+  "provider": "",
+  "category": "marketing",
+  "purpose": "Tracks visits and shows email sign-up forms.",
+  "privacyUrl": "https://www.omnisend.com/privacy/",
+  "dataCountry": "EEA, USA and other countries",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "omnisnippet1.com"
+    ],
+    "inline": [
+      "window.omnisend = window.omnisend",
+      "omnisend.push([\"brandID\""
+    ]
+  },
+  "cookies": [
+    {
+      "name": "omnisend-form-*",
+      "lifetime": "365 days",
+      "purpose": "Remembers sign-up forms shown and their test variant."
+    },
+    {
+      "name": "soundest-product-picker",
+      "lifetime": "Session",
+      "purpose": "Records whether the product picker is in use."
+    },
+    {
+      "name": "omnisendSessionID*",
+      "lifetime": "30 minutes",
+      "purpose": "Identifies a visitor's browsing session."
+    },
+    {
+      "name": "omnisendContactID*",
+      "lifetime": "365 days",
+      "purpose": "Identifies a contact for marketing."
+    },
+    {
+      "name": "omnisendShopifyCart",
+      "lifetime": "Session",
+      "purpose": "Remembers the shopping cart contents."
+    },
+    {
+      "name": "omnisendBigcommerceCart*",
+      "lifetime": "Session",
+      "purpose": "Remembers the shopping cart contents."
+    }
+  ],
+  "storage": [
+    "_omnisend",
+    "_omnisend_temp_contact_id"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "omnisend-connect/omnisend-woocommerce.php",
+      "omnisend/class-omnisend-core-bootstrap.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.omnisend.com/privacy/",
+    "https://www.omnisend.com/data-processing-agreement/",
+    "https://api-docs.omnisend.com/reference/javascript-snippet",
+    "https://api-docs.omnisend.com/v3/reference/javascript-snippet",
+    "https://support.omnisend.com/en/articles/1933402-manage-omnisend-tracking-cookies",
+    "https://omnisnippet1.com/inshop/launcher-v2.js",
+    "https://omnisnippet1.com/forms/main.js",
+    "https://omnisnippet1.com/platforms/woocommerce.js",
+    "https://wordpress.org/plugins/omnisend-connect/",
+    "https://wordpress.org/plugins/omnisend/",
+    "https://plugins.svn.wordpress.org/omnisend-connect/trunk/omnisend-woocommerce.php",
+    "https://plugins.svn.wordpress.org/omnisend/trunk/class-omnisend-core-bootstrap.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}
