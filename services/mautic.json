@@ -1,0 +1,69 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "mautic",
+  "version": 1,
+  "name": "Mautic",
+  "provider": "",
+  "category": "marketing",
+  "purpose": "Tracks visits for marketing campaigns.",
+  "privacyUrl": "https://mautic.org/privacy-policy/",
+  "dataCountry": "",
+  "legalBasis": "consent",
+  "match": {
+    "inline": [
+      "MauticTrackingObject"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "mautic_device_id",
+      "lifetime": "1 year",
+      "purpose": "Recognizes a returning visitor's device."
+    },
+    {
+      "name": "mautic_referer_id",
+      "lifetime": "30 minutes",
+      "purpose": "Remembers the last tracked page."
+    },
+    {
+      "name": "mtc_id",
+      "lifetime": "Session",
+      "purpose": "Stores the visitor's contact ID."
+    },
+    {
+      "name": "mtc_sid",
+      "lifetime": "Session",
+      "purpose": "Stores a legacy device identifier."
+    }
+  ],
+  "storage": [
+    "mtc_id",
+    "mtc_sid",
+    "mautic_device_id"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "wp-mautic/wpmautic.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://docs.mautic.org/en/7.2/contacts/manage_contacts.html",
+    "https://docs.mautic.org/en/7.2/configuration/tracking_script.html",
+    "https://mautic.org/features/data-sovereignty/",
+    "https://mautic.org/privacy-policy/",
+    "https://mautic.org/cookie-policy/",
+    "https://m.mautic.org/mtc.js",
+    "https://raw.githubusercontent.com/mautic/mautic/7.1/app/bundles/PageBundle/Model/PageModel.php",
+    "https://raw.githubusercontent.com/mautic/mautic/7.1/app/bundles/CoreBundle/Helper/CookieHelper.php",
+    "https://docs.mautic.org/en/7.1/plugins/wordpress.html",
+    "https://wordpress.org/plugins/wp-mautic/",
+    "https://plugins.svn.wordpress.org/wp-mautic/trunk/wpmautic.php"
+  ],
+  "checked": "2026-11-10"
+}

@@ -1,0 +1,60 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "sendpulse",
+  "version": 1,
+  "name": "SendPulse",
+  "provider": "SendPulse Inc.",
+  "category": "marketing",
+  "purpose": "Shows sign-up forms and web push notifications.",
+  "privacyUrl": "https://sendpulse.com/legal/pp",
+  "dataCountry": "EU (Germany) and USA",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "web.webformscr.com",
+      "static-login.sendpulse.com",
+      "web.webpushs.com"
+    ],
+    "inline": [
+      "static-login.sendpulse.com/apps/fc3/build/loader.js",
+      "oSpP.push("
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "form",
+  "wordpress": {
+    "plugins": [
+      "sendpulse-email-marketing-newsletter/sendpulse-newsletter.php",
+      "sendpulse-web-push/init.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://sendpulse.com/legal/pp",
+    "https://sendpulse.com/legal/processing",
+    "https://sendpulse.com/legal/cookies",
+    "https://sendpulse.com/knowledge-base/email-service/mailing-list-recipients/create-subscription-form",
+    "https://sendpulse.com/knowledge-base/email-service/additional/insert-form-code-google-tag-manager",
+    "https://sendpulse.com/images/En-knowledge_base/sub_form_w_google_tm/scr01-en-min.png",
+    "https://sendpulse.com/knowledge-base/push-notifications/add-website-send-push-notifications",
+    "https://sendpulse.com/images/En-knowledge_base/push/add-site/updates/scr3-min.png",
+    "https://sendpulse.com/knowledge-base/push-notifications/additional-variables-segmentation-personalization-web-push-notifications",
+    "https://sendpulse.com/knowledge-base/app-directory/wordpress",
+    "https://web.webformscr.com/apps/fc3/build/loader.js",
+    "https://web.webformscr.com/apps/fc3/build/default-handler.js",
+    "https://static-login.sendpulse.com/apps/fc3/build/loader.js",
+    "https://web.webformscr.com/formstore/6067fc7b668271248b623057f251cc7af195dd128b5b8ffa66fabc184e4947c7.js",
+    "https://wordpress.org/plugins/sendpulse-email-marketing-newsletter/",
+    "https://plugins.svn.wordpress.org/sendpulse-email-marketing-newsletter/trunk/sendpulse-newsletter.php",
+    "https://wordpress.org/plugins/sendpulse-web-push/",
+    "https://plugins.svn.wordpress.org/sendpulse-web-push/trunk/init.php",
+    "https://plugins.svn.wordpress.org/sendpulse-web-push/trunk/sendpulse-webpush.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

@@ -11,6 +11,14 @@
     "purpose": "Fügt der Seite ein Menü für Barrierefreiheit hinzu.",
     "machine": true
   },
+  "account-engagement": {
+    "purpose": "Erfasst Besuche für Marketingkampagnen.",
+    "cookies": {
+      "pi_opt_in*": "Merkt sich die Tracking-Auswahl des Besuchers.",
+      "pardot": "Behält die aktuelle Sitzung bei."
+    },
+    "machine": true
+  },
   "activecampaign": {
     "purpose": "Erfasst Besuche für E-Mail-Marketing.",
     "cookies": {
@@ -77,11 +85,30 @@
     "purpose": "Spielt eingebettete Podcasts und Folgen ab.",
     "machine": true
   },
+  "attentive": {
+    "purpose": "Erfasst Besuche und zeigt SMS-Anmeldeformulare an.",
+    "cookies": {
+      "_attn_": "Speichert die Identität und das Surfverhalten des Besuchers.",
+      "__attentive_id": "Unterscheidet Besucher und steuert die Anzeige von Anmeldeformularen.",
+      "__attentive_dv": "Begrenzt Prüfungen auf gelöschte Besucherkennungen.",
+      "__attentive_ss_referrer": "Merkt sich die Herkunft für die Anzeige von Anmeldeformularen.",
+      "__attentive_pv": "Zählt Seitenaufrufe der Sitzung für die Anzeige von Anmeldeformularen.",
+      "__attentive_cco": "Hält fest, wann die Besucherkennung ersetzt werden soll.",
+      "attntv_mstore_*": "Verknüpft Kontaktdaten beim Bezahlen mit Besucheraktionen.",
+      "__attentive_ceid": "Erkennt das Attentive-Konto über Subdomains des Bezahlvorgangs hinweg.",
+      "__attentive_domain": "Erkennt die Attentive-Region über Subdomains des Bezahlvorgangs hinweg."
+    },
+    "machine": true
+  },
   "audioboom": {
     "purpose": "Spielt eingebettete Podcast-Folgen ab.",
     "cookies": {
       "_audioboo_session2": "Hält Besuch und Anmeldung zusammen."
     },
+    "machine": true
+  },
+  "aweber": {
+    "purpose": "Zeigt Anmeldeformulare für Newsletter an.",
     "machine": true
   },
   "awin": {
@@ -120,6 +147,14 @@
     "purpose": "Liefert Code-Bibliotheken, die die Website nutzt.",
     "machine": true
   },
+  "braze": {
+    "purpose": "Erfasst Besuche für personalisierte Marketingnachrichten.",
+    "cookies": {
+      "ab.storage.*": "Unterscheidet Besucher, Geräte und Sitzungen.",
+      "ab.optOut": "Merkt sich den Widerspruch des Besuchers."
+    },
+    "machine": true
+  },
   "brevo": {
     "purpose": "Erfasst Besuche und zeigt Anmeldeformulare und Chat an.",
     "machine": true
@@ -145,6 +180,13 @@
   },
   "calendly": {
     "purpose": "Zeigt einen eingebetteten Buchungskalender an.",
+    "machine": true
+  },
+  "campaign-monitor": {
+    "purpose": "Zeigt Anmeldeformulare für E-Mails an.",
+    "cookies": {
+      "campaignMonitorViewedIds": "Merkt sich, welche Anmeldeformulare angezeigt wurden."
+    },
     "machine": true
   },
   "cdnjs": {
@@ -201,6 +243,10 @@
     "purpose": "Zeigt eingebettete virtuelle 360°-Rundgänge an.",
     "machine": true
   },
+  "constant-contact": {
+    "purpose": "Zeigt Anmeldeformulare für E-Mails an.",
+    "machine": true
+  },
   "contentsquare": {
     "purpose": "Heatmaps und Sitzungsaufzeichnungen.",
     "cookies": {
@@ -244,6 +290,13 @@
     "purpose": "Zeigt früheren Besuchern Werbung an.",
     "machine": true
   },
+  "customer-io": {
+    "purpose": "Erfasst Besuche für automatisiertes E-Mail-Marketing.",
+    "cookies": {
+      "_cio*": "Merkt sich die Identität des Besuchers für E-Mail-Marketing."
+    },
+    "machine": true
+  },
   "dailymotion": {
     "purpose": "Zeigt eingebettete Videos an.",
     "cookies": {
@@ -262,10 +315,31 @@
     "purpose": "Zeigt den Kommentarbereich an.",
     "machine": true
   },
+  "drip": {
+    "purpose": "Erfasst Besuche für automatisierte E-Mails.",
+    "cookies": {
+      "_drip_client_*": "Merkt sich den Besucher und erfasst Aktivitäten auf der Website.",
+      "_dripSegment*": "Merkt sich, welche Anmeldeformulare der Besucher sehen kann."
+    },
+    "machine": true
+  },
   "elfsight": {
     "purpose": "Zeigt Social-Media-Feeds, Bewertungen und andere Widgets an.",
     "cookies": {
       "elfsight_viewed_recently": "Verhindert, dass ein Besuch als mehrere Aufrufe gezählt wird."
+    },
+    "machine": true
+  },
+  "emailoctopus": {
+    "purpose": "Zeigt Anmeldeformulare für E-Mail-Newsletter an.",
+    "machine": true
+  },
+  "emarsys": {
+    "purpose": "Erfasst Besuche für personalisiertes Marketing.",
+    "cookies": {
+      "scarab.visitor": "Unterscheidet Besucher über mehrere Besuche hinweg.",
+      "scarab.profile": "Speichert das Surfverhalten für Empfehlungen.",
+      "scarab.mayViewed": "Merkt sich Klicks auf empfohlene Produkte."
     },
     "machine": true
   },
@@ -325,6 +399,15 @@
   },
   "flickr": {
     "purpose": "Zeigt eingebettete Fotos an.",
+    "machine": true
+  },
+  "fomo": {
+    "purpose": "Zeigt letzte Käufe und Besucheraktivitäten an.",
+    "cookies": {
+      "Fomo._g.*": "Verknüpft Benachrichtigungen mit Conversions.",
+      "Fomo._i.url.*": "Verhindert die erneute Erfassung von Aktivitäten.",
+      "fomo_utm_*": "Merkt sich Empfehlungskampagnen von Fomo."
+    },
     "machine": true
   },
   "font-awesome": {
@@ -463,6 +546,10 @@
       "_hp2_id.*": "Unterscheidet Besucher.",
       "_hp2_ses_props.*": "Behält die aktuelle Sitzung bei."
     },
+    "machine": true
+  },
+  "hello-bar": {
+    "purpose": "Zeigt Werbeleisten und Pop-ups an.",
     "machine": true
   },
   "help-scout": {
@@ -626,6 +713,10 @@
     },
     "machine": true
   },
+  "leadpages": {
+    "purpose": "Zeigt eingebettete Anmeldeformulare an.",
+    "machine": true
+  },
   "libsyn": {
     "purpose": "Spielt eingebettete Podcast-Folgen ab.",
     "machine": true
@@ -703,21 +794,29 @@
     "purpose": "Zeigt Anmeldeformulare für Newsletter an.",
     "machine": true
   },
+  "mailmunch": {
+    "purpose": "Zeigt Anmeldeformulare als Pop-ups an.",
+    "cookies": {
+      "_mailmunch_visitor_id": "Unterscheidet Besucher.",
+      "_mailmunch_lead_quality": "Speichert Einstellungen zur Qualität von Interessenten.",
+      "_mailmunch_seen_month": "Begrenzt das wiederholte Laden von Marketing-Pixeln.",
+      "mailmunch_subscribed_*": "Merkt sich die Anmeldung zu einer Mailingliste.",
+      "mailmunch_shown_*": "Merkt sich bereits angezeigte Formulare.",
+      "mailmunch_pageview_count": "Zählt Seitenaufrufe für die Regeln zur Formularanzeige.",
+      "mailmunch_second_pageview": "Unterstützt Regeln zur Formularanzeige."
+    },
+    "machine": true
+  },
   "mapbox": {
     "purpose": "Zeigt eingebettete Karten an.",
     "machine": true
   },
-  "matomo-cloud": {
-    "purpose": "Misst Besuche und Conversions.",
+  "marketo": {
+    "purpose": "Erfasst Besuche und Klicks für Marketing.",
     "cookies": {
-      "_pk_id.*": "Unterscheidet Besucher.",
-      "_pk_ses.*": "Behält den aktuellen Besuch bei.",
-      "_pk_ref.*": "Speichert, woher der Besucher gekommen ist."
+      "_mkto_trk": "Verknüpft Besuche und Klicks mit einem Besucher oder Interessenten.",
+      "mkto_opt_out": "Merkt sich, dass der Besucher das Tracking deaktiviert hat."
     },
-    "machine": true
-  },
-  "matomo-tag-manager": {
-    "purpose": "Lädt die Tracking-Tags der Website.",
     "machine": true
   },
   "matomo": {
@@ -736,8 +835,31 @@
     },
     "machine": true
   },
+  "matomo-cloud": {
+    "purpose": "Misst Besuche und Conversions.",
+    "cookies": {
+      "_pk_id.*": "Unterscheidet Besucher.",
+      "_pk_ses.*": "Behält den aktuellen Besuch bei.",
+      "_pk_ref.*": "Speichert, woher der Besucher gekommen ist."
+    },
+    "machine": true
+  },
+  "matomo-tag-manager": {
+    "purpose": "Lädt die Tracking-Tags der Website.",
+    "machine": true
+  },
   "matterport": {
     "purpose": "Zeigt eingebettete virtuelle 3D-Rundgänge an.",
+    "machine": true
+  },
+  "mautic": {
+    "purpose": "Erfasst Besuche für Marketingkampagnen.",
+    "cookies": {
+      "mautic_device_id": "Erkennt das Gerät eines wiederkehrenden Besuchers.",
+      "mautic_referer_id": "Merkt sich die zuletzt erfasste Seite.",
+      "mtc_id": "Speichert die Kontakt-ID des Besuchers.",
+      "mtc_sid": "Speichert eine ältere Gerätekennung."
+    },
     "machine": true
   },
   "meta-pixel": {
@@ -813,6 +935,18 @@
     "purpose": "Lädt lizenzierte Schriftarten und zählt Seitenaufrufe.",
     "machine": true
   },
+  "omnisend": {
+    "purpose": "Erfasst Besuche und zeigt E-Mail-Anmeldeformulare an.",
+    "cookies": {
+      "omnisend-form-*": "Merkt sich angezeigte Anmeldeformulare und ihre Testvariante.",
+      "soundest-product-picker": "Hält fest, ob die Produktauswahl verwendet wird.",
+      "omnisendSessionID*": "Erkennt die Sitzung eines Besuchers.",
+      "omnisendContactID*": "Erkennt einen Kontakt für Marketing.",
+      "omnisendShopifyCart": "Merkt sich den Inhalt des Warenkorbs.",
+      "omnisendBigcommerceCart*": "Merkt sich den Inhalt des Warenkorbs."
+    },
+    "machine": true
+  },
   "onesignal": {
     "purpose": "Sendet Web-Push-Benachrichtigungen und In-App-Nachrichten.",
     "machine": true
@@ -847,6 +981,21 @@
     },
     "machine": true
   },
+  "optimonk": {
+    "purpose": "Zeigt Werbe-Pop-ups und Anmeldeformulare an.",
+    "cookies": {
+      "optimonkClient": "Merkt sich Besucher- und Kampagnenaktivitäten.",
+      "optiMonkClient*": "Merkt sich Besucher- und Kampagnenaktivitäten.",
+      "omLastFilled": "Merkt sich das zuletzt gesendete Pop-up-Formular.",
+      "omAbTest*": "Behält die A/B-Testvariante des Besuchers bei.",
+      "optiMonkSession": "Erkennt den aktuellen Besuch.",
+      "optiMonkExperiments*": "Merkt sich die Zuordnung zu Kampagnentests.",
+      "optiMonkViewedProducts": "Merkt sich zuletzt angesehene Produkte.",
+      "optiMonkSplitUrlTests": "Merkt sich die URL-Testvariante des Besuchers.",
+      "optiMonkSmartAbTest_*": "Behält die angezeigte A/B-Testvariante bei."
+    },
+    "machine": true
+  },
   "optinmonster": {
     "purpose": "Zeigt Pop-ups und Anmeldeformulare an.",
     "cookies": {
@@ -877,16 +1026,12 @@
     },
     "machine": true
   },
-  "paddle-retain": {
-    "purpose": "Zeigt Angebote zur Abrechnung an und erfasst die Nutzung.",
-    "machine": true
-  },
   "paddle": {
     "purpose": "Führt den Bezahlvorgang aus und wickelt Zahlungen ab.",
     "machine": true
   },
-  "paypal-marketing": {
-    "purpose": "Misst Einkäufe auf dieser Website für das Marketing von PayPal.",
+  "paddle-retain": {
+    "purpose": "Zeigt Angebote zur Abrechnung an und erfasst die Nutzung.",
     "machine": true
   },
   "paypal": {
@@ -897,6 +1042,10 @@
       "x-pp-s": "Zahlungsabwicklung.",
       "nsid": "Betrugsprävention."
     },
+    "machine": true
+  },
+  "paypal-marketing": {
+    "purpose": "Misst Einkäufe auf dieser Website für das Marketing von PayPal.",
     "machine": true
   },
   "phorest": {
@@ -960,6 +1109,13 @@
     "purpose": "Spielt eingebettete Podcast-Folgen ab.",
     "machine": true
   },
+  "poptin": {
+    "purpose": "Zeigt Pop-ups und Anmeldeformulare an.",
+    "cookies": {
+      "poptin_*": "Merkt sich Besuche, angezeigte Pop-ups und Anmeldungen."
+    },
+    "machine": true
+  },
   "popup-maker": {
     "purpose": "Merkt sich, welche Pop-ups angezeigt oder geschlossen wurden.",
     "cookies": {
@@ -974,12 +1130,27 @@
     },
     "machine": true
   },
+  "privy": {
+    "purpose": "Zeigt Pop-ups und Anmeldeformulare an.",
+    "cookies": {
+      "_privy_*": "Merkt sich Besucher und ihre Interaktionen mit Anzeigen."
+    },
+    "machine": true
+  },
   "provenexpert": {
     "purpose": "Zeigt Kundenbewertungen und ein Bewertungssiegel an.",
     "machine": true
   },
   "quora-pixel": {
     "purpose": "Misst Quora-Werbung.",
+    "machine": true
+  },
+  "rd-station": {
+    "purpose": "Erfasst Besuche für automatisiertes Marketing.",
+    "cookies": {
+      "rdtrk": "Verknüpft Seitenbesuche mit einem Marketing-Interessenten.",
+      "__trf.src": "Merkt sich, wie der Besucher auf die Website gelangt ist."
+    },
     "machine": true
   },
   "reamaze": {
@@ -1012,6 +1183,10 @@
       "ajs_user_id": "Speichert den angemeldeten Benutzer.",
       "ajs_group_id": "Speichert die Gruppe, zu der der Besucher gehört."
     },
+    "machine": true
+  },
+  "sendpulse": {
+    "purpose": "Zeigt Anmeldeformulare und Web-Push-Benachrichtigungen an.",
     "machine": true
   },
   "senja": {
@@ -1095,6 +1270,14 @@
     "cookies": {
       "__stripe_mid": "Betrugsprävention.",
       "__stripe_sid": "Betrugsprävention."
+    },
+    "machine": true
+  },
+  "sumo": {
+    "purpose": "Zeigt Pop-ups und Anmeldeformulare an.",
+    "cookies": {
+      "__smVID": "Unterscheidet Besucher.",
+      "__smSubscribed": "Merkt sich eine E-Mail-Anmeldung für die Formularanzeige."
     },
     "machine": true
   },
@@ -1187,6 +1370,10 @@
     "purpose": "Zeigt Bewertungen von Google und anderen Websites an.",
     "machine": true
   },
+  "trustpilot": {
+    "purpose": "Zeigt Bewertungen von Trustpilot an.",
+    "machine": true
+  },
   "trustpilot-invitations": {
     "purpose": "Bittet Kunden, ihren Einkauf zu bewerten.",
     "cookies": {
@@ -1194,8 +1381,15 @@
     },
     "machine": true
   },
-  "trustpilot": {
-    "purpose": "Zeigt Bewertungen von Trustpilot an.",
+  "trustpulse": {
+    "purpose": "Zeigt Benachrichtigungen über Aktivitäten anderer an.",
+    "cookies": {
+      "_tpapp": "Erkennt eine einzelne TrustPulse-Sitzung.",
+      "tp-shown-*": "Merkt sich angesehene Benachrichtigungen und Kampagnen.",
+      "tp-submitted-*": "Verknüpft übermittelte Aktivitäten mit dem Besucher.",
+      "tp-widgets-closed": "Merkt sich vom Besucher geschlossene Kampagnen.",
+      "tp-analytics-captured": "Verhindert, dass derselbe Analyseaufruf doppelt gezählt wird."
+    },
     "machine": true
   },
   "typeform": {
@@ -1203,6 +1397,10 @@
     "cookies": {
       "tf_respondent_cc": "Hält das Formular funktionsfähig."
     },
+    "machine": true
+  },
+  "unbounce": {
+    "purpose": "Zeigt Pop-ups und fixierte Leisten an.",
     "machine": true
   },
   "unpkg": {
