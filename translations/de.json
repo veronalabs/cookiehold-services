@@ -193,10 +193,25 @@
     "purpose": "Liefert Code-Bibliotheken, die die Website nutzt.",
     "machine": true
   },
+  "chaport": {
+    "purpose": "Live-Chat.",
+    "cookies": {
+      "chaport-*": "Erkennt wiederkehrende Chat-Besucher.",
+      "wsc_*": "Speichert Chat-Daten, wenn der Browser-Speicher blockiert ist."
+    },
+    "machine": true
+  },
   "chatbase": {
     "purpose": "Beantwortet Fragen von Besuchern mit einem KI-Chatbot.",
     "cookies": {
       "chatbase_anon_id": "Erkennt den Besucher im Chat."
+    },
+    "machine": true
+  },
+  "chatra": {
+    "purpose": "Ermöglicht Besuchern einen Chat mit dem Support.",
+    "cookies": {
+      "Chatra.*": "Merkt sich Chat-Besucher und den Chat-Status."
     },
     "machine": true
   },
@@ -241,6 +256,10 @@
   },
   "cloudpano": {
     "purpose": "Zeigt eingebettete virtuelle 360°-Rundgänge an.",
+    "machine": true
+  },
+  "comm100": {
+    "purpose": "Live-Chat für den Support.",
     "machine": true
   },
   "constant-contact": {
@@ -426,8 +445,19 @@
     "purpose": "Live-Chat und Support-Nachrichten.",
     "machine": true
   },
+  "freshdesk": {
+    "purpose": "Zeigt Hilfeartikel und ein Support-Formular an.",
+    "machine": true
+  },
   "fullstory": {
     "purpose": "Sitzungsaufzeichnungen und Nutzungsanalyse.",
+    "machine": true
+  },
+  "getbutton": {
+    "purpose": "Zeigt eine Chat-Schaltfläche für WhatsApp und Messenger an.",
+    "cookies": {
+      "gb-widget-cookie*": "Begrenzt, wie oft die Chat-Begrüßung erscheint."
+    },
     "machine": true
   },
   "getresponse": {
@@ -640,6 +670,13 @@
     "purpose": "Zählt Besuche.",
     "machine": true
   },
+  "jivochat": {
+    "purpose": "Live-Chat.",
+    "cookies": {
+      "jv_store_*": "Speichert den Chat-Besucher und Sitzungsdaten."
+    },
+    "machine": true
+  },
   "jotform": {
     "purpose": "Zeigt eingebettete Formulare an.",
     "machine": true
@@ -751,6 +788,17 @@
       "__lc_cst": "Verifiziert den Chat-Besucher.",
       "__lc2_cid": "Unterscheidet Chat-Besucher.",
       "__lc2_cst": "Unterscheidet Chat-Besucher."
+    },
+    "machine": true
+  },
+  "liveperson": {
+    "purpose": "Live-Chat und Support-Nachrichten.",
+    "cookies": {
+      "LPSID-*": "Erkennt die aktuelle oder letzte Sitzung eines Besuchers.",
+      "LPSessionID": "Erkennt die aktuelle oder letzte Sitzung eines Besuchers.",
+      "LPCID-*": "Ruft Gesprächsdaten ab.",
+      "LPCKEY-*": "Ruft Gesprächsdaten ab.",
+      "lpTestCookie*": "Prüft, ob der Browser Cookies akzeptiert."
     },
     "machine": true
   },
@@ -935,6 +983,24 @@
     "purpose": "Lädt lizenzierte Schriftarten und zählt Seitenaufrufe.",
     "machine": true
   },
+  "olark": {
+    "purpose": "Live-Chat.",
+    "cookies": {
+      "hblid": "Erkennt wiederkehrende Chat-Besucher.",
+      "wcsid": "Behält die Chat-Sitzung bei.",
+      "olfsk": "Behält den Chatverlauf über Seiten hinweg bei.",
+      "_okdetect": "Behält den Chat bei Änderungen am Speicher bei.",
+      "_okbk": "Merkt sich den Status des Chat-Fensters.",
+      "_ok": "Merkt sich die Olark Website-ID.",
+      "_oklv": "Hält die Chat-Sitzung aktiv.",
+      "_okla": "Speichert die Quelle der Chat-Dateien zwischen.",
+      "_okgid": "Behält das zugewiesene Chat-Team bei.",
+      "_okac": "Prüft, ob sich Chat-Dateien geändert haben.",
+      "_okck": "Prüft, ob dauerhafte Cookies funktionieren.",
+      "_okcs": "Prüft, ob Sitzungs-Cookies funktionieren."
+    },
+    "machine": true
+  },
   "omnisend": {
     "purpose": "Erfasst Besuche und zeigt E-Mail-Anmeldeformulare an.",
     "cookies": {
@@ -1109,6 +1175,13 @@
     "purpose": "Spielt eingebettete Podcast-Folgen ab.",
     "machine": true
   },
+  "podium": {
+    "purpose": "Ermöglicht Ihnen, ein Unternehmen per Chat zu kontaktieren.",
+    "cookies": {
+      "lS_podium-website-widget-*": "Merkt sich Chat-Besucher und Widget-Einstellungen."
+    },
+    "machine": true
+  },
   "poptin": {
     "purpose": "Zeigt Pop-ups und Anmeldeformulare an.",
     "cookies": {
@@ -1139,6 +1212,24 @@
   },
   "provenexpert": {
     "purpose": "Zeigt Kundenbewertungen und ein Bewertungssiegel an.",
+    "machine": true
+  },
+  "pure-chat": {
+    "purpose": "Live-Chat und Support-Nachrichten.",
+    "machine": true
+  },
+  "qualtrics": {
+    "purpose": "Sammelt Feedback über Umfragen auf der Website.",
+    "cookies": {
+      "QSI_ReplaySession_Info_*": "Erkennt eine aufgezeichnete Sitzung.",
+      "QSI_TestSessions_*": "Erkennt Testaufzeichnungen.",
+      "QSI_S_*": "Merkt sich die Auswahl für Umfragen.",
+      "QSI_SI_*": "Verhindert wiederholte Einladungen zu Umfragen.",
+      "QSIPopUnder_PopUnderTarget_SI_*": "Verhindert doppelte Umfragefenster.",
+      "QST": "Verhindert wiederholte Antworten auf Umfragen.",
+      "QSI_CT": "Zählt Besucheraktionen.",
+      "QSI_ReplaySession_Throttled_*": "Pausiert die Aufzeichnung nach Fehlern."
+    },
     "machine": true
   },
   "quora-pixel": {
@@ -1239,6 +1330,13 @@
     },
     "machine": true
   },
+  "snapengage": {
+    "purpose": "Live-Chat.",
+    "cookies": {
+      "SnapABug*": "Behält den Chat, seinen Verlauf und seine Einstellungen bei."
+    },
+    "machine": true
+  },
   "soundcloud": {
     "purpose": "Gibt eingebettetes Audio wieder.",
     "machine": true
@@ -1283,6 +1381,16 @@
   },
   "superchat": {
     "purpose": "Live-Chat und Links zu Messengern.",
+    "machine": true
+  },
+  "surveymonkey": {
+    "purpose": "Zeigt eingebettete Umfragen an.",
+    "cookies": {
+      "ep201": "Hilft, Missbrauch zu verhindern und Probleme zu beheben.",
+      "ep203": "Erkennt Geräte, um geteilte Konten zu erkennen.",
+      "sm_ir": "Unterstützt die Seite mit Umfrageergebnissen.",
+      "sm_rec": "Behält den Anmeldestatus für geschützte Umfragen bei."
+    },
     "machine": true
   },
   "taboola": {
@@ -1411,6 +1519,13 @@
     "purpose": "Zeigt Fotos an, die bei Unsplash gehostet werden.",
     "machine": true
   },
+  "usabilla": {
+    "purpose": "Sammelt Feedback zur Website.",
+    "cookies": {
+      "usbls": "Unterscheidet neue von wiederkehrenden Besuchern."
+    },
+    "machine": true
+  },
   "userlike": {
     "purpose": "Live-Chat.",
     "cookies": {
@@ -1423,6 +1538,10 @@
     "cookies": {
       "__eventn_id_*": "Unterscheidet Besucher."
     },
+    "machine": true
+  },
+  "usersnap": {
+    "purpose": "Sammelt Feedback und Fehlermeldungen.",
     "machine": true
   },
   "userway": {

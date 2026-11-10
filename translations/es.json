@@ -193,10 +193,25 @@
     "purpose": "Sirve bibliotecas de código que usa el sitio.",
     "machine": true
   },
+  "chaport": {
+    "purpose": "Chat en vivo.",
+    "cookies": {
+      "chaport-*": "Reconoce a los visitantes que vuelven al chat.",
+      "wsc_*": "Conserva los datos del chat si el almacenamiento del navegador está bloqueado."
+    },
+    "machine": true
+  },
   "chatbase": {
     "purpose": "Responde a las preguntas de los visitantes con un chatbot de IA.",
     "cookies": {
       "chatbase_anon_id": "Reconoce al visitante en el chat."
+    },
+    "machine": true
+  },
+  "chatra": {
+    "purpose": "Permite a los visitantes chatear con soporte.",
+    "cookies": {
+      "Chatra.*": "Recuerda a los visitantes y el estado del chat."
     },
     "machine": true
   },
@@ -241,6 +256,10 @@
   },
   "cloudpano": {
     "purpose": "Muestra visitas virtuales de 360° incrustadas.",
+    "machine": true
+  },
+  "comm100": {
+    "purpose": "Chat en vivo para soporte.",
     "machine": true
   },
   "constant-contact": {
@@ -426,8 +445,19 @@
     "purpose": "Chat en vivo y mensajes de soporte.",
     "machine": true
   },
+  "freshdesk": {
+    "purpose": "Muestra artículos de ayuda y un formulario de soporte.",
+    "machine": true
+  },
   "fullstory": {
     "purpose": "Grabaciones de sesiones y analítica de uso.",
+    "machine": true
+  },
+  "getbutton": {
+    "purpose": "Muestra un botón de chat de WhatsApp y mensajería.",
+    "cookies": {
+      "gb-widget-cookie*": "Limita la frecuencia del saludo del chat."
+    },
     "machine": true
   },
   "getresponse": {
@@ -640,6 +670,13 @@
     "purpose": "Cuenta las visitas.",
     "machine": true
   },
+  "jivochat": {
+    "purpose": "Chat en vivo.",
+    "cookies": {
+      "jv_store_*": "Conserva los datos del visitante y de la sesión del chat."
+    },
+    "machine": true
+  },
   "jotform": {
     "purpose": "Muestra formularios incrustados.",
     "machine": true
@@ -751,6 +788,17 @@
       "__lc_cst": "Verifica al visitante del chat.",
       "__lc2_cid": "Distingue a los visitantes del chat entre sí.",
       "__lc2_cst": "Distingue a los visitantes del chat entre sí."
+    },
+    "machine": true
+  },
+  "liveperson": {
+    "purpose": "Chat en vivo y mensajes de soporte.",
+    "cookies": {
+      "LPSID-*": "Identifica la sesión actual o última del visitante.",
+      "LPSessionID": "Identifica la sesión actual o última del visitante.",
+      "LPCID-*": "Recupera los datos de la conversación.",
+      "LPCKEY-*": "Recupera los datos de la conversación.",
+      "lpTestCookie*": "Comprueba si el navegador acepta cookies."
     },
     "machine": true
   },
@@ -935,6 +983,24 @@
     "purpose": "Carga fuentes con licencia y cuenta las visitas a páginas.",
     "machine": true
   },
+  "olark": {
+    "purpose": "Chat en vivo.",
+    "cookies": {
+      "hblid": "Reconoce a los visitantes que vuelven al chat.",
+      "wcsid": "Mantiene la sesión del chat.",
+      "olfsk": "Conserva el historial del chat entre páginas.",
+      "_okdetect": "Mantiene el chat cuando cambia el almacenamiento.",
+      "_okbk": "Recuerda el estado de la ventana del chat.",
+      "_ok": "Recuerda el ID del sitio de Olark.",
+      "_oklv": "Mantiene activa la sesión del chat.",
+      "_okla": "Guarda temporalmente el origen de los archivos del chat.",
+      "_okgid": "Conserva el equipo de chat asignado.",
+      "_okac": "Comprueba si han cambiado los archivos del chat.",
+      "_okck": "Comprueba si funcionan las cookies persistentes.",
+      "_okcs": "Comprueba si funcionan las cookies de sesión."
+    },
+    "machine": true
+  },
   "omnisend": {
     "purpose": "Rastrea visitas y muestra formularios de suscripción por correo.",
     "cookies": {
@@ -1109,6 +1175,13 @@
     "purpose": "Reproduce episodios de pódcast incrustados.",
     "machine": true
   },
+  "podium": {
+    "purpose": "Permite contactar con una empresa por chat.",
+    "cookies": {
+      "lS_podium-website-widget-*": "Recuerda a los visitantes del chat y sus opciones del widget."
+    },
+    "machine": true
+  },
   "poptin": {
     "purpose": "Muestra ventanas emergentes y formularios de suscripción.",
     "cookies": {
@@ -1139,6 +1212,24 @@
   },
   "provenexpert": {
     "purpose": "Muestra opiniones de clientes y un sello de valoración.",
+    "machine": true
+  },
+  "pure-chat": {
+    "purpose": "Chat en vivo y mensajes de soporte.",
+    "machine": true
+  },
+  "qualtrics": {
+    "purpose": "Recoge opiniones mediante encuestas del sitio.",
+    "cookies": {
+      "QSI_ReplaySession_Info_*": "Identifica una sesión grabada.",
+      "QSI_TestSessions_*": "Identifica grabaciones de prueba.",
+      "QSI_S_*": "Recuerda la selección de participantes en encuestas.",
+      "QSI_SI_*": "Evita invitaciones repetidas a encuestas.",
+      "QSIPopUnder_PopUnderTarget_SI_*": "Evita ventanas de encuesta duplicadas.",
+      "QST": "Evita respuestas repetidas a encuestas.",
+      "QSI_CT": "Cuenta las acciones de los visitantes.",
+      "QSI_ReplaySession_Throttled_*": "Pausa la grabación tras errores."
+    },
     "machine": true
   },
   "quora-pixel": {
@@ -1239,6 +1330,13 @@
     },
     "machine": true
   },
+  "snapengage": {
+    "purpose": "Chat en vivo.",
+    "cookies": {
+      "SnapABug*": "Conserva el chat, su historial y sus ajustes."
+    },
+    "machine": true
+  },
   "soundcloud": {
     "purpose": "Reproduce audio incrustado.",
     "machine": true
@@ -1283,6 +1381,16 @@
   },
   "superchat": {
     "purpose": "Chat en directo y enlaces a aplicaciones de mensajería.",
+    "machine": true
+  },
+  "surveymonkey": {
+    "purpose": "Muestra encuestas incrustadas.",
+    "cookies": {
+      "ep201": "Ayuda a prevenir abusos y resolver problemas.",
+      "ep203": "Identifica dispositivos para detectar cuentas compartidas.",
+      "sm_ir": "Permite el funcionamiento de la página de resultados de encuestas.",
+      "sm_rec": "Mantiene el estado de autenticación en encuestas protegidas."
+    },
     "machine": true
   },
   "taboola": {
@@ -1411,6 +1519,13 @@
     "purpose": "Muestra fotos alojadas en Unsplash.",
     "machine": true
   },
+  "usabilla": {
+    "purpose": "Recoge opiniones sobre el sitio.",
+    "cookies": {
+      "usbls": "Distingue a los visitantes nuevos de los recurrentes."
+    },
+    "machine": true
+  },
   "userlike": {
     "purpose": "Chat en vivo.",
     "cookies": {
@@ -1423,6 +1538,10 @@
     "cookies": {
       "__eventn_id_*": "Distingue a los visitantes entre sí."
     },
+    "machine": true
+  },
+  "usersnap": {
+    "purpose": "Recoge opiniones e informes de errores.",
     "machine": true
   },
   "userway": {

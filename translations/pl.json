@@ -193,10 +193,25 @@
     "purpose": "Dostarcza biblioteki kodu używane przez witrynę.",
     "machine": true
   },
+  "chaport": {
+    "purpose": "Czat na żywo.",
+    "cookies": {
+      "chaport-*": "Rozpoznaje powracających użytkowników czatu.",
+      "wsc_*": "Zachowuje dane czatu, gdy pamięć przeglądarki jest zablokowana."
+    },
+    "machine": true
+  },
   "chatbase": {
     "purpose": "Odpowiada na pytania odwiedzających za pomocą czatbota AI.",
     "cookies": {
       "chatbase_anon_id": "Rozpoznaje odwiedzającego na czacie."
+    },
+    "machine": true
+  },
+  "chatra": {
+    "purpose": "Umożliwia odwiedzającym rozmowę z pomocą na czacie.",
+    "cookies": {
+      "Chatra.*": "Zapamiętuje użytkowników i stan czatu."
     },
     "machine": true
   },
@@ -241,6 +256,10 @@
   },
   "cloudpano": {
     "purpose": "Wyświetla osadzone wirtualne wycieczki 360°.",
+    "machine": true
+  },
+  "comm100": {
+    "purpose": "Czat na żywo z pomocą.",
     "machine": true
   },
   "constant-contact": {
@@ -426,8 +445,19 @@
     "purpose": "Czat na żywo i wiadomości do pomocy.",
     "machine": true
   },
+  "freshdesk": {
+    "purpose": "Wyświetla artykuły pomocy i formularz kontaktowy.",
+    "machine": true
+  },
   "fullstory": {
     "purpose": "Nagrania sesji i analityka użytkowania.",
+    "machine": true
+  },
+  "getbutton": {
+    "purpose": "Wyświetla przycisk czatu WhatsApp i komunikatorów.",
+    "cookies": {
+      "gb-widget-cookie*": "Ogranicza częstotliwość wyświetlania powitania na czacie."
+    },
     "machine": true
   },
   "getresponse": {
@@ -640,6 +670,13 @@
     "purpose": "Zlicza wizyty.",
     "machine": true
   },
+  "jivochat": {
+    "purpose": "Czat na żywo.",
+    "cookies": {
+      "jv_store_*": "Przechowuje dane użytkownika i sesji czatu."
+    },
+    "machine": true
+  },
   "jotform": {
     "purpose": "Wyświetla osadzone formularze.",
     "machine": true
@@ -751,6 +788,17 @@
       "__lc_cst": "Weryfikuje odwiedzającego czatu.",
       "__lc2_cid": "Odróżnia odwiedzających czatu.",
       "__lc2_cst": "Odróżnia odwiedzających czatu."
+    },
+    "machine": true
+  },
+  "liveperson": {
+    "purpose": "Czat na żywo i wiadomości do pomocy.",
+    "cookies": {
+      "LPSID-*": "Identyfikuje bieżącą lub ostatnią sesję odwiedzającego.",
+      "LPSessionID": "Identyfikuje bieżącą lub ostatnią sesję odwiedzającego.",
+      "LPCID-*": "Pobiera dane rozmowy.",
+      "LPCKEY-*": "Pobiera dane rozmowy.",
+      "lpTestCookie*": "Sprawdza, czy przeglądarka akceptuje ciasteczka."
     },
     "machine": true
   },
@@ -935,6 +983,24 @@
     "purpose": "Wczytuje licencjonowane czcionki i zlicza odsłony stron.",
     "machine": true
   },
+  "olark": {
+    "purpose": "Czat na żywo.",
+    "cookies": {
+      "hblid": "Rozpoznaje powracających użytkowników czatu.",
+      "wcsid": "Utrzymuje sesję czatu.",
+      "olfsk": "Zachowuje historię czatu między stronami.",
+      "_okdetect": "Zachowuje czat po zmianach w pamięci przeglądarki.",
+      "_okbk": "Zapamiętuje stan okna czatu.",
+      "_ok": "Zapamiętuje identyfikator witryny Olark.",
+      "_oklv": "Utrzymuje aktywną sesję czatu.",
+      "_okla": "Tymczasowo zapisuje źródło plików czatu.",
+      "_okgid": "Zachowuje przypisany zespół czatu.",
+      "_okac": "Sprawdza, czy pliki czatu się zmieniły.",
+      "_okck": "Sprawdza, czy trwałe ciasteczka działają.",
+      "_okcs": "Sprawdza, czy ciasteczka sesyjne działają."
+    },
+    "machine": true
+  },
   "omnisend": {
     "purpose": "Śledzi wizyty i wyświetla formularze zapisu na e-maile.",
     "cookies": {
@@ -1109,6 +1175,13 @@
     "purpose": "Odtwarza osadzone odcinki podcastów.",
     "machine": true
   },
+  "podium": {
+    "purpose": "Umożliwia kontakt z firmą przez czat.",
+    "cookies": {
+      "lS_podium-website-widget-*": "Zapamiętuje użytkowników czatu i ustawienia widżetu."
+    },
+    "machine": true
+  },
   "poptin": {
     "purpose": "Wyświetla okienka pop-up i formularze zapisu.",
     "cookies": {
@@ -1139,6 +1212,24 @@
   },
   "provenexpert": {
     "purpose": "Wyświetla opinie klientów i pieczęć oceny.",
+    "machine": true
+  },
+  "pure-chat": {
+    "purpose": "Czat na żywo i wiadomości do pomocy.",
+    "machine": true
+  },
+  "qualtrics": {
+    "purpose": "Zbiera opinie za pomocą ankiet na stronie.",
+    "cookies": {
+      "QSI_ReplaySession_Info_*": "Identyfikuje nagraną sesję.",
+      "QSI_TestSessions_*": "Identyfikuje nagrania testowe.",
+      "QSI_S_*": "Zapamiętuje dobór uczestników ankiet.",
+      "QSI_SI_*": "Zapobiega ponownym zaproszeniom do ankiet.",
+      "QSIPopUnder_PopUnderTarget_SI_*": "Zapobiega powielaniu okien ankiet.",
+      "QST": "Zapobiega ponownym odpowiedziom na ankiety.",
+      "QSI_CT": "Liczy działania odwiedzających.",
+      "QSI_ReplaySession_Throttled_*": "Wstrzymuje nagrywanie po błędach."
+    },
     "machine": true
   },
   "quora-pixel": {
@@ -1239,6 +1330,13 @@
     },
     "machine": true
   },
+  "snapengage": {
+    "purpose": "Czat na żywo.",
+    "cookies": {
+      "SnapABug*": "Zachowuje czat, jego historię i ustawienia."
+    },
+    "machine": true
+  },
   "soundcloud": {
     "purpose": "Odtwarza osadzone treści audio.",
     "machine": true
@@ -1283,6 +1381,16 @@
   },
   "superchat": {
     "purpose": "Czat na żywo i linki do komunikatorów.",
+    "machine": true
+  },
+  "surveymonkey": {
+    "purpose": "Wyświetla osadzone ankiety.",
+    "cookies": {
+      "ep201": "Pomaga zapobiegać nadużyciom i rozwiązywać problemy.",
+      "ep203": "Identyfikuje urządzenia, aby wykryć współdzielenie kont.",
+      "sm_ir": "Zapewnia działanie strony wyników ankiety.",
+      "sm_rec": "Zachowuje stan logowania do chronionych ankiet."
+    },
     "machine": true
   },
   "taboola": {
@@ -1411,6 +1519,13 @@
     "purpose": "Wyświetla zdjęcia hostowane przez Unsplash.",
     "machine": true
   },
+  "usabilla": {
+    "purpose": "Zbiera opinie o witrynie.",
+    "cookies": {
+      "usbls": "Odróżnia nowych odwiedzających od powracających."
+    },
+    "machine": true
+  },
   "userlike": {
     "purpose": "Czat na żywo.",
     "cookies": {
@@ -1423,6 +1538,10 @@
     "cookies": {
       "__eventn_id_*": "Odróżnia odwiedzających."
     },
+    "machine": true
+  },
+  "usersnap": {
+    "purpose": "Zbiera opinie i zgłoszenia błędów.",
     "machine": true
   },
   "userway": {
