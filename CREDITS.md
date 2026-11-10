@@ -170,9 +170,6 @@ supplied.
 - digistore24: Digistore24 press page https://www.digistore24.com/de/presse/
 - ecwid: Ecwid media page https://www.ecwid.com/media. The cart icon from its
   logo
-- etracker: etracker press page https://www.etracker.com/en/press/. Its terms:
-  "All logos and graphics provided here can be used freely in publications
-  with reference to etracker."
 - eversports: Eversports press page
   https://www.eversportsmanager.com/de-AT/presse
 - jameda: jameda press portal https://presse.jameda.de/presskits/logo. The
@@ -182,13 +179,11 @@ supplied.
   https://automattic.com/press/brand-materials/. Its terms name Automattic's
   partners and editorial use; the logo is used here only to identify the
   service.
-- judge-me: Judge.me media kit https://judge.me/media-kit. Its symbol, which
-  the kit offers "for compact placements where Judge.me is already identified"
+- judge-me: Judge.me media kit https://judge.me/media-kit. Its white symbol,
+  as supplied; the kit offers it "For compact placements where Judge.me is
+  already identified"
 - kit: Kit brand page https://kit.com/brand. Its wordmark; Kit has no separate
   symbol
-- leadfeeder: Leadfeeder (now Dealfront) brand kit
-  https://www.leadfeeder.com/contact/. The Dealfront mark, Leadfeeder's new
-  name
 - loyaltylion: LoyaltyLion brand guidelines
   https://loyaltylion.com/resources/brand-guidelines. Its black icon, as
   supplied
@@ -217,12 +212,7 @@ supplied.
 - rybbit: Rybbit brand kit https://rybbit.com/brand
 - shortpixel-cdn: ShortPixel media kit https://shortpixel.com/ (footer,
   MediaKIT.zip). Its robot
-- six-sense: 6sense media kit
-  https://revcity.6sense.com/home/discussion/798/6sense-media-kit. Its black
-  emblem, as supplied
 - snowplow: Snowplow newsroom https://snowplow.io/newsroom
-- stamped: Stamped branding guidelines https://dev.k8s.stamped.io/branding.
-  Its logomark, as supplied in white
 - taboola: Taboola branding page https://www.taboola.com/branding
 - tally: Tally press kit https://tally.so/help/press-kit. Its icon, as
   supplied
