@@ -1,0 +1,61 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "doofinder",
+  "version": 1,
+  "name": "Doofinder",
+  "provider": "Doofinder, S.L.",
+  "category": "functional",
+  "purpose": "Provides shop search.",
+  "privacyUrl": "https://www.doofinder.com/en/privacy-policy",
+  "dataCountry": "Account region: EU (Ireland), USA or Singapore",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "eu1-config.doofinder.com",
+      "us1-config.doofinder.com",
+      "ap1-config.doofinder.com",
+      "cdn.doofinder.com"
+    ]
+  },
+  "cookies": [],
+  "storage": [
+    "df-random-userid",
+    "df-session",
+    "df-cookies-allowed",
+    "df-apps",
+    "df-script-version",
+    "df-hashid",
+    "df-tab-id",
+    "df-previous-kv-*",
+    "df-recommendation-widget-last-clicked-item",
+    "df-conversation-id"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "doofinder-for-woocommerce/doofinder-for-woocommerce.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.doofinder.com/en/privacy-policy",
+    "https://www.doofinder.com/en/data-processing-agreement",
+    "https://support.doofinder.com/getting-started/installing-doofinder",
+    "https://support.doofinder.com/getting-started/update-script",
+    "https://support.doofinder.com/troubleshooting-articles/doofinder-and-the-data-usage",
+    "https://support.doofinder.com/troubleshooting-articles/implementing-cookie-consent-for-doofinder-services",
+    "https://support.doofinder.com/plugins/vtex/installation-guide/installation-steps-vtex.html",
+    "https://cdn.doofinder.com/vtex/checkout.js",
+    "https://woocommerce.doofinder.com/",
+    "https://eu1-config.doofinder.com/2.x/d1561efc-063e-4f74-ba3d-055ab6216c11.js",
+    "https://support.doofinder.com/faq/indexing",
+    "https://wordpress.org/plugins/doofinder-for-woocommerce/",
+    "https://plugins.svn.wordpress.org/doofinder-for-woocommerce/trunk/doofinder-for-woocommerce.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

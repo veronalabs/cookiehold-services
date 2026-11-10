@@ -1,0 +1,44 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "scribd",
+  "version": 1,
+  "name": "Scribd",
+  "provider": "Scribd, Inc.",
+  "category": "media",
+  "purpose": "Shows embedded documents.",
+  "privacyUrl": "https://support.scribd.com/hc/en-us/articles/210129366-Global-Privacy-Policy",
+  "dataCountry": "EU and USA (and other countries)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "www.scribd.com/embeds/",
+      "www.scribd.com/javascripts/scribd_api.js",
+      "s-f.scribdassets.com/javascripts/scribd_api.js"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "generic",
+  "wordpress": {
+    "plugins": [
+      "scribd-doc-embedder/scribd_doc.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://support.scribd.com/hc/en-us/articles/210134766-Embedding-documents",
+    "https://support.scribd.com/hc/en-us/articles/210129366-Global-Privacy-Policy",
+    "https://www.scribd.com/javascripts/scribd_api.js",
+    "https://s-f.scribdassets.com/javascripts/scribd_api.js",
+    "https://www.dataprivacyframework.gov/list",
+    "https://raw.githubusercontent.com/jkwakman/Open-Cookie-Database/master/open-cookie-database.csv",
+    "https://wordpress.org/plugins/scribd-doc-embedder/",
+    "https://plugins.svn.wordpress.org/scribd-doc-embedder/trunk/",
+    "https://plugins.svn.wordpress.org/scribd-doc-embedder/trunk/scribd_doc.php"
+  ],
+  "checked": "2026-11-10"
+}

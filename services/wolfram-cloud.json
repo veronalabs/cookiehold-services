@@ -1,0 +1,56 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "wolfram-cloud",
+  "version": 1,
+  "name": "Wolfram Cloud",
+  "provider": "",
+  "category": "media",
+  "purpose": "Shows embedded interactive notebooks.",
+  "privacyUrl": "https://legal.wolfram.com/privacy/wolfram-privacy-policy/",
+  "dataCountry": "",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "www.wolframcloud.com/obj/",
+      "www.wolframcloud.com/object/",
+      "unpkg.com/wolfram-notebook-embedder"
+    ],
+    "inline": [
+      "WolframNotebookEmbedder.embed("
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "generic",
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://www.wolfram.com/cloud/",
+    "https://legal.wolfram.com/privacy/wolfram-privacy-policy/",
+    "https://legal.wolfram.com/privacy/data-retention/",
+    "https://reference.wolfram.com/language/WolframNotebookEmbedder/",
+    "https://reference.wolfram.com/language/WolframNotebookEmbedder/docs/GettingStarted/",
+    "https://reference.wolfram.com/language/WolframNotebookEmbedder/docs/LibraryInterface/",
+    "https://reference.wolfram.com/language/workflow/EmbedACloudNotebookInAWebpage.html",
+    "https://reference.wolfram.com/language/ref/EmbedCode.html",
+    "https://www.wolfram.com/content-developers/",
+    "https://www.wolfram.com/products/",
+    "https://unpkg.com/wolfram-notebook-embedder@0.3/dist/wolfram-notebook-embedder.min.js",
+    "https://plugins.svn.wordpress.org/wolfram-notebook-embedder/trunk/WolframNotebookEmbedder.php",
+    "https://plugins.svn.wordpress.org/wolfram-notebook-embedder/trunk/WneOembed.php",
+    "https://plugins.svn.wordpress.org/wolfram-notebook-embedder/trunk/WneRender.php",
+    "https://wordpress.org/documentation/article/wolfram-embed/",
+    "https://wordpress.org/plugins/wolfram-notebook-embedder/",
+    "https://plugins.svn.wordpress.org/wolfram-notebook-embedder/trunk/",
+    "https://www.wolframcloud.com/oembed?url=https%3A%2F%2Fwww.wolframcloud.com%2Fobj%2F4beadfbb-84dd-4b26-87b6-bcd30b9abd65&format=json",
+    "https://raw.githubusercontent.com/jkwakman/Open-Cookie-Database/master/open-cookie-database.csv",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

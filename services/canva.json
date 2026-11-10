@@ -1,0 +1,45 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "canva",
+  "version": 1,
+  "name": "Canva",
+  "provider": "Canva Pty Ltd",
+  "category": "media",
+  "purpose": "Shows embedded designs.",
+  "privacyUrl": "https://www.canva.com/policies/privacy-policy/",
+  "dataCountry": "Australia, USA (EU-US Data Privacy Framework) and other countries",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "www.canva.com/design/*/view?embed",
+      "www.canva.com/design/*/*/view?embed",
+      "sdk.canva.com/v1/embed.js"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "generic",
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://www.canva.com/help/embed-designs/",
+    "https://www.canva.dev/blog/engineering/how-canva-makes-content-embeddable-and-why-you-should-too/",
+    "https://sdk.canva.com/v1/embed.js",
+    "https://www.canva.com/_oembed?url=https%3A%2F%2Fwww.canva.com%2Fdesign%2FDACHZTlgWkU%2Fview&format=json",
+    "https://www.canva.com/design/DACSWFLr08k/view?embed",
+    "https://www.canva.com/policies/privacy-policy/",
+    "https://www.canva.com/policies/cookies-policy/",
+    "https://www.canva.com/policies/data-privacy-framework-statement/",
+    "https://www.dataprivacyframework.gov/list",
+    "https://raw.githubusercontent.com/jkwakman/Open-Cookie-Database/master/open-cookie-database.csv",
+    "https://wordpress.org/plugins/embedpress/",
+    "https://plugins.svn.wordpress.org/embedpress/trunk/embedpress.php"
+  ],
+  "checked": "2026-11-10"
+}

@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "bookingkit",
-  "version": 2,
+  "version": 3,
   "name": "bookingkit",
   "provider": "bookingkit GmbH",
   "category": "functional",
@@ -48,8 +48,7 @@
     "https://help.bookingkit.com/en/articles/16339593-my-booking-widget-takes-a-long-time-to-load-what-can-i-do",
     "https://v3.widget.bookingkit.com/bookingkitWidgetElements.js",
     "https://4706b1799db005bf104.widget.bookingkit.net/bkscript/6dfd2c67962b9442abd2a28759a7445e/",
-    "https://bookingkit.com/privacy-statement/",
-    "https://github.com/netresearch/usercentrics-widgets"
+    "https://bookingkit.com/privacy-statement/"
   ],
-  "checked": "2026-11-06"
+  "checked": "2026-11-10"
 }

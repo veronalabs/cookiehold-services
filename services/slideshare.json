@@ -1,0 +1,39 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "slideshare",
+  "version": 1,
+  "name": "Slideshare",
+  "provider": "Scribd, Inc.",
+  "category": "media",
+  "purpose": "Shows embedded slides.",
+  "privacyUrl": "https://support.scribd.com/hc/en-us/articles/210129366-Global-Privacy-Policy",
+  "dataCountry": "USA, EU and other countries",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "www.slideshare.net/slideshow/embed_code/"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "generic",
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://support.scribd.com/hc/en-us/articles/210129366-Global-Privacy-Policy",
+    "https://support.scribd.com/hc/en-us/articles/360055666911-Embedding-content-from-Slideshare",
+    "https://support.scribd.com/hc/en-us/articles/53231623793684-Slideshare-API-errors-the-public-API-has-been-retired",
+    "https://www.slideshare.net/slideshow/libguides-2012-slideshare/13595340",
+    "https://www.dataprivacyframework.gov/list",
+    "https://github.com/jkwakman/Open-Cookie-Database",
+    "https://raw.githubusercontent.com/jkwakman/Open-Cookie-Database/master/open-cookie-database.csv",
+    "https://wordpress.org/plugins/slideshare/"
+  ],
+  "checked": "2026-11-10"
+}

@@ -1,0 +1,51 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "speaker-deck",
+  "version": 1,
+  "name": "Speaker Deck",
+  "provider": "Speaker Deck LLC",
+  "category": "media",
+  "purpose": "Shows embedded presentation slides.",
+  "privacyUrl": "https://speakerdeck.com/privacy",
+  "dataCountry": "",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "speakerdeck.com/assets/embed.js",
+      "speakerdeck.com/player/"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "_secure_speakerd_session",
+      "lifetime": "14 days",
+      "purpose": "Keeps the player session.",
+      "httpOnly": true
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "generic",
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://speakerdeck.com/privacy",
+    "https://speakerdeck.com/faq",
+    "https://help.speakerdeck.com/help/how-do-i-share-a-deck",
+    "https://speakerdeck.com/jnunemaker/atom",
+    "https://speakerdeck.com/oembed.json?url=https://speakerdeck.com/jnunemaker/atom",
+    "https://speakerdeck.com/assets/embed.js",
+    "https://speakerdeck.com/player/31f86a9069ae0132dede22511952b5a3",
+    "https://d1eu30co0ohy4w.cloudfront.net/assets/js/player-458b819004f658d0d8fa.js",
+    "https://d1eu30co0ohy4w.cloudfront.net/assets/js/stats-066544ee5ddf3e5e4a9c.js",
+    "https://wordpress.org/documentation/article/speaker-deck-embed/",
+    "https://raw.githubusercontent.com/jkwakman/Open-Cookie-Database/master/open-cookie-database.csv",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

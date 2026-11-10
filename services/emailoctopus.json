@@ -1,0 +1,46 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "emailoctopus",
+  "version": 1,
+  "name": "EmailOctopus",
+  "provider": "Three Hearts Digital Ltd",
+  "category": "marketing",
+  "purpose": "Shows email newsletter sign-up forms.",
+  "privacyUrl": "https://emailoctopus.com/legal/privacy",
+  "dataCountry": "EU (primarily Ireland), USA and other countries",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "eocampaign1.com/form/",
+      "emailoctopus.com/bundles/emailoctopuslist/"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "form",
+  "wordpress": {
+    "plugins": [
+      "emailoctopus/emailoctopus.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://emailoctopus.com/legal/privacy",
+    "https://help.emailoctopus.com/article/251-how-to-add-the-form-code-to-my-website",
+    "https://emailoctopus.com/legal/subprocessors",
+    "https://emailoctopus.com/legal/terms",
+    "https://help.emailoctopus.com/article/250-how-to-create-a-pop-up-form",
+    "https://eocampaign1.com/form/XXX-XXX-XXX-XXX.js",
+    "https://wordpress.org/plugins/emailoctopus/",
+    "https://plugins.svn.wordpress.org/emailoctopus/trunk/emailoctopus.php",
+    "https://plugins.svn.wordpress.org/emailoctopus/trunk/src/Form.php",
+    "https://plugins.svn.wordpress.org/emailoctopus/trunk/public/build/legacy-frontend.js",
+    "https://www.dataprivacyframework.gov/list",
+    "https://raw.githubusercontent.com/jkwakman/Open-Cookie-Database/master/open-cookie-database.csv"
+  ],
+  "checked": "2026-11-10"
+}

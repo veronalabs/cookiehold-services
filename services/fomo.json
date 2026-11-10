@@ -1,0 +1,77 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "fomo",
+  "version": 1,
+  "name": "Fomo",
+  "provider": "Solstice Equity Partners Inc.",
+  "category": "marketing",
+  "purpose": "Shows recent purchases and visitor activity.",
+  "privacyUrl": "https://www.relaycommerce.io/privacy-policy",
+  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "load.usefomo.com",
+      "load.fomo.com",
+      "fomo.com/api/v1/"
+    ],
+    "inline": [
+      "load.usefomo.com/api/v1/"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "Fomo._g.*",
+      "lifetime": "72 minutes to 7 days",
+      "purpose": "Links notifications to conversions."
+    },
+    {
+      "name": "Fomo._i.url.*",
+      "lifetime": "1 day",
+      "purpose": "Prevents repeat activity capture."
+    },
+    {
+      "name": "fomo_utm_*",
+      "lifetime": "28 minutes 48 seconds",
+      "purpose": "Remembers Fomo referral campaigns."
+    }
+  ],
+  "storage": [
+    "Fomo.*",
+    "FMO_attr",
+    "FMO_client_id",
+    "disable-fomo-*",
+    "_fi-storage_*",
+    "fomoPush*"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "fomo/woocommerce-plugin-fomo-v2.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://usefomo.com/",
+    "https://www.relaycommerce.io/privacy-policy",
+    "https://usefomo.com/terms",
+    "https://www.relaycommerce.io/subpage-dpa",
+    "https://www.relaycommerce.io/subprocessors",
+    "https://docs.usefomo.com/reference/basic-usage",
+    "https://help.usefomo.com/article/416-new-domain-usefomo-com",
+    "https://help.usefomo.com/article/210-embedding-fomo-in-a-javascript-only-environment",
+    "https://help.usefomo.com/article/341-connecting-fomo-with-wordpress",
+    "https://load.usefomo.com/api/v1/36K9pUyuj8sukckFW66iCg/load.js",
+    "https://load.fomo.com/api/v1/36K9pUyuj8sukckFW66iCg/load.js",
+    "https://load.usefomo.com/widget/push_notifications.js",
+    "https://wordpress.org/plugins/fomo/",
+    "https://plugins.svn.wordpress.org/fomo/trunk/",
+    "https://plugins.svn.wordpress.org/fomo/trunk/woocommerce-plugin-fomo-v2.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

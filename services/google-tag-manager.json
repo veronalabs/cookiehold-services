@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "google-tag-manager",
-  "version": 3,
+  "version": 4,
   "name": "Google Tag Manager",
   "provider": "Google Ireland Limited",
   "category": "essential",
@@ -28,7 +28,13 @@
   "wordpress": {
     "plugins": [
       "google-site-kit/google-site-kit.php",
-      "duracelltomi-google-tag-manager/duracelltomi-google-tag-manager-for-wordpress.php"
+      "duracelltomi-google-tag-manager/duracelltomi-google-tag-manager-for-wordpress.php",
+      "gtm-kit/gtm-kit.php",
+      "beehive-analytics/beehive-analytics.php",
+      "metronet-tag-manager/metronet-tag-manager.php",
+      "wk-google-analytics/wk-ga.php",
+      "google-tag-manager/google-tag-manager.php",
+      "gtm-server-side/gtm-server-side.php"
     ],
     "handles": []
   },
@@ -42,7 +48,19 @@
     "https://support.google.com/tagmanager/answer/9323295?hl=en",
     "https://support.google.com/tagmanager/answer/14847097?hl=en",
     "https://developers.google.com/tag-platform/security/concepts/consent-mode",
-    "https://plugins.svn.wordpress.org/google-site-kit/trunk/google-site-kit.php"
+    "https://plugins.svn.wordpress.org/google-site-kit/trunk/google-site-kit.php",
+    "https://wordpress.org/plugins/gtm-kit/",
+    "https://plugins.svn.wordpress.org/gtm-kit/trunk/gtm-kit.php",
+    "https://wordpress.org/plugins/beehive-analytics/",
+    "https://plugins.svn.wordpress.org/beehive-analytics/trunk/beehive-analytics.php",
+    "https://wordpress.org/plugins/metronet-tag-manager/",
+    "https://plugins.svn.wordpress.org/metronet-tag-manager/trunk/metronet-tag-manager.php",
+    "https://wordpress.org/plugins/wk-google-analytics/",
+    "https://plugins.svn.wordpress.org/wk-google-analytics/trunk/wk-ga.php",
+    "https://wordpress.org/plugins/google-tag-manager/",
+    "https://plugins.svn.wordpress.org/google-tag-manager/trunk/google-tag-manager.php",
+    "https://wordpress.org/plugins/gtm-server-side/",
+    "https://plugins.svn.wordpress.org/gtm-server-side/trunk/gtm-server-side.php"
   ],
-  "checked": "2026-11-06"
+  "checked": "2026-11-10"
 }

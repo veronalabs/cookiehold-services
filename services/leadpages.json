@@ -1,0 +1,55 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "leadpages",
+  "version": 1,
+  "name": "Leadpages",
+  "provider": "Leadpages (US), Inc.",
+  "category": "marketing",
+  "purpose": "Shows embedded sign-up forms.",
+  "privacyUrl": "https://leadpages.com/legal/privacy",
+  "dataCountry": "USA and other countries",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "static.leadpages.net/leadboxes/",
+      "my.lpages.co/serve-leadbox/",
+      "leadpages.co/serve-leadbox/",
+      "leadpages.co/leadboxes/",
+      "leadpages.com/api/popup/"
+    ],
+    "inline": [
+      "LpLeadboxes.forceBodyWrap();"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "form",
+  "wordpress": {
+    "plugins": [
+      "leadpages/leadpages-official.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://leadpages.com/legal/privacy",
+    "https://support.leadpages.com/hc/en-us/articles/115000463348-Publish-your-pop-up",
+    "https://support.leadpages.com/hc/en-us/articles/115001654467-Advanced-Publishing-Options-For-Pop-Ups",
+    "https://static.leadpages.net/leadboxes/current/embed.js",
+    "https://support.leadpages.com/hc/en-us/articles/360003799812-Leadpages-and-data-protection",
+    "https://support.leadpages.com/hc/en-us/articles/44792707260301--New-Leadpages-Analytics-Insights-Understanding-Your-Page-Performance",
+    "https://leadpages.com/legal/cookies",
+    "https://leadpages.com/legal/gdpr",
+    "https://wordpress.org/plugins/leadpages/",
+    "https://plugins.svn.wordpress.org/leadpages/trunk/",
+    "https://plugins.svn.wordpress.org/leadpages/trunk/leadpages-official.php",
+    "https://plugins.svn.wordpress.org/leadpages/trunk/includes/Popups.php",
+    "https://plugins.svn.wordpress.org/leadpages/trunk/includes/PopupScope.php",
+    "https://plugins.svn.wordpress.org/leadpages/trunk/includes/providers/config/production.config.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

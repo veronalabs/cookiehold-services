@@ -1,0 +1,51 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "equalweb",
+  "version": 1,
+  "name": "EqualWeb",
+  "provider": "EqualWeb Ltd.",
+  "category": "functional",
+  "purpose": "Provides website accessibility tools.",
+  "privacyUrl": "https://www.equalweb.com/legal/privacy/",
+  "dataCountry": "",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "cdn.equalweb.com",
+      "access.equalweb.com"
+    ],
+    "inline": [
+      "window.interdeal"
+    ]
+  },
+  "cookies": [],
+  "storage": [
+    "INDbtnPosition",
+    "INDNavigation",
+    "INDcustomMenuLang",
+    "INDcustomMenuLang-full-ISO"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "equalweb/equalweb.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.equalweb.com/platform/accessibility_widget/",
+    "https://www.equalweb.com/legal/privacy/",
+    "https://www.equalweb.com/platform/accessibility_widget/integrations/html.html",
+    "https://cdn.equalweb.com/core/5.0.5/accessibility.js",
+    "https://plugins.svn.wordpress.org/equalweb/trunk/includes/class-eqw-widget.php",
+    "https://plugins.svn.wordpress.org/equalweb/trunk/equalweb.php",
+    "https://plugins.svn.wordpress.org/equalweb/trunk/readme.txt",
+    "https://wordpress.org/plugins/equalweb/",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

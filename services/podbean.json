@@ -1,0 +1,60 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "podbean",
+  "version": 1,
+  "name": "Podbean",
+  "provider": "Podbean Inc.",
+  "category": "media",
+  "purpose": "Plays embedded podcasts.",
+  "privacyUrl": "https://www.podbean.com/privacy",
+  "dataCountry": "USA and other countries",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "www.podbean.com/player-v2/",
+      "www.podbean.com/media/player/",
+      "www.podbean.org/media/player/",
+      "pbcdn1.podbean.com/fs1/player/api.js"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "PBSECURESUSID",
+      "lifetime": "Session",
+      "purpose": "Supports essential Podbean features."
+    },
+    {
+      "name": "pb-www-site",
+      "lifetime": "Session",
+      "purpose": "Supports essential Podbean features."
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "audio",
+  "wordpress": {
+    "plugins": [
+      "podbean-shortcode/podbean_shortcode.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.podbean.com/privacy",
+    "https://www.podbean.com/cookies",
+    "https://help.podbean.com/support/solutions/articles/25000004800-embed-your-podcast-player-elsewhere",
+    "https://www.podbean.com/media/oembed?format=json&url=https%3A%2F%2Fwww.podbean.com%2Few%2Fpb-u66a6-18e48d3",
+    "https://developers.podbean.com/apidoc/widget",
+    "https://pbcdn1.podbean.com/fs1/player/api.js",
+    "https://www.podbean.com/player-v2/?i=u66a6-18e48d3-pb",
+    "https://www.podbean.com/player-v2/js/app.87091cab.js",
+    "https://www.podbean.com/player-v2/js/chunk-vendors.fe6422ae.js",
+    "https://wordpress.org/plugins/podbean-shortcode/",
+    "https://plugins.svn.wordpress.org/podbean-shortcode/trunk/",
+    "https://plugins.svn.wordpress.org/podbean-shortcode/trunk/podbean_shortcode.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

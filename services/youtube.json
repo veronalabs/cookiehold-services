@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "youtube",
-  "version": 5,
+  "version": 6,
   "name": "YouTube",
   "provider": "Google Ireland Limited",
   "category": "media",
@@ -46,7 +46,9 @@
   "wordpress": {
     "plugins": [
       "feeds-for-youtube/youtube-feed.php",
-      "wp-social-reviews/wp-social-reviews.php"
+      "wp-social-reviews/wp-social-reviews.php",
+      "youtube-embed-plus/youtube.php",
+      "wp-youtube-lyte/wp-youtube-lyte.php"
     ],
     "handles": []
   },
@@ -64,7 +66,11 @@
     "https://developers.google.com/youtube/terms/developer-policies",
     "https://policies.google.com/faq?hl=en",
     "https://developers.google.com/youtube/player_parameters",
-    "https://support.google.com/youtube/answer/7174035?hl=en"
+    "https://support.google.com/youtube/answer/7174035?hl=en",
+    "https://wordpress.org/plugins/youtube-embed-plus/",
+    "https://plugins.svn.wordpress.org/youtube-embed-plus/trunk/youtube.php",
+    "https://wordpress.org/plugins/wp-youtube-lyte/",
+    "https://plugins.svn.wordpress.org/wp-youtube-lyte/trunk/wp-youtube-lyte.php"
   ],
-  "checked": "2026-11-07"
+  "checked": "2026-11-10"
 }

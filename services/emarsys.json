@@ -1,0 +1,64 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "emarsys",
+  "version": 1,
+  "name": "SAP Engagement Cloud",
+  "provider": "Emarsys eMarketing Systems GmbH",
+  "category": "marketing",
+  "purpose": "Tracks visits to personalize marketing.",
+  "privacyUrl": "https://emarsys.com/privacy-statement/",
+  "dataCountry": "EU (Austria) and USA",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "cdn.scarabresearch.com",
+      "recommender.scarabresearch.com"
+    ],
+    "inline": [
+      "ScarabQueue"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "scarab.visitor",
+      "lifetime": "1 year",
+      "purpose": "Tells visitors apart across visits."
+    },
+    {
+      "name": "scarab.profile",
+      "lifetime": "1 year",
+      "purpose": "Stores browsing information for recommendations."
+    },
+    {
+      "name": "scarab.mayViewed",
+      "lifetime": "Session",
+      "purpose": "Remembers clicks on recommended products."
+    }
+  ],
+  "storage": [
+    "scarab.visitor",
+    "scarab.mayViewed"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://emarsys.com/privacy-statement/",
+    "https://emarsys.com/press-release/sap-engagement-cloud-bringing-enterprisegrade-engagement-to-marketing-teams-worldwide/",
+    "https://dev.emarsys.com/docs/web-extend-guides/321befdc63bc6-web-extend-api-introduction",
+    "https://help.sap.com/docs/SAP_ENGAGEMENT_CLOUD/c68c0f660ecd456195d98c00a678e04e/8ae7f1a7f7d44c5095085a47b1874890.html",
+    "https://help.sap.com/docs/SAP_EMARSYS/5d44574160f44536b0130abf58cb87cc/fdf7038174c11014a04fe292e01076b4.html",
+    "https://gist.github.com/EmarsysDocumentationGists/c275ab26a1ef7c2dfdcdbe519e0598f2",
+    "https://gist.github.com/EmarsysDocumentationGists/503f9e8cfcd892fd65e2c2a1596daf27",
+    "https://cdn.scarabresearch.com/js/1DF86BF95CBE8F19/scarab-v2.js",
+    "https://www.sap.com/docs/download/agreements/product-use-and-support-terms/cls/en/list-of-data-centers-for-sap-cloud-services-english-v.1-2025.pdf",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}
