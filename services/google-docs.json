@@ -11,6 +11,9 @@
   "legalBasis": "consent",
   "match": {
     "hosts": [
+      "docs.google.com/spreadsheets/d/*/gviz/"
+    ],
+    "frames": [
       "docs.google.com/document/",
       "docs.google.com/spreadsheets/",
       "docs.google.com/presentation/"
