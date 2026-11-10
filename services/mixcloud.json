@@ -1,0 +1,53 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "mixcloud",
+  "version": 1,
+  "name": "Mixcloud",
+  "provider": "Mixcloud Limited",
+  "category": "media",
+  "purpose": "Plays embedded audio.",
+  "privacyUrl": "https://www.mixcloud.com/privacy/",
+  "dataCountry": "USA and other countries",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "www.mixcloud.com/widget/iframe/",
+      "widget.mixcloud.com",
+      "player-widget.mixcloud.com"
+    ],
+    "inline": [
+      "Mixcloud.PlayerWidget("
+    ]
+  },
+  "cookies": [],
+  "storage": [
+    "mx:player:*"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "audio",
+  "wordpress": {
+    "plugins": [
+      "list-mixcloud/list-mixcloud.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.mixcloud.com/privacy/",
+    "https://help.mixcloud.com/hc/en-us/articles/360004031440-Embedding-content-using-the-Mixcloud-widget",
+    "https://www.mixcloud.com/developers/",
+    "https://www.mixcloud.com/developers/widget/",
+    "https://app.mixcloud.com/oembed/?url=https%3A%2F%2Fwww.mixcloud.com%2Fspartacus%2Fparty-time%2F&format=json",
+    "https://widget.mixcloud.com/media/js/widgetApi.js",
+    "https://www.dataprivacyframework.gov/list",
+    "https://github.com/jkwakman/Open-Cookie-Database",
+    "https://raw.githubusercontent.com/jkwakman/Open-Cookie-Database/master/open-cookie-database.csv",
+    "https://wordpress.org/plugins/list-mixcloud/",
+    "https://plugins.svn.wordpress.org/list-mixcloud/trunk/",
+    "https://plugins.svn.wordpress.org/list-mixcloud/trunk/list-mixcloud.php",
+    "https://player-widget.mixcloud.com/assets/index-CJTRFN_y.js"
+  ],
+  "checked": "2026-11-10"
+}

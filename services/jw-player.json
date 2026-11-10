@@ -1,0 +1,59 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "jw-player",
+  "version": 1,
+  "name": "JWX Web Player",
+  "provider": "JWP, Inc. d/b/a JWX",
+  "category": "media",
+  "purpose": "Shows embedded videos.",
+  "privacyUrl": "https://jwx.com/legal/privacy/",
+  "dataCountry": "USA (EU-US Data Privacy Framework) and other countries",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "cdn.jwplayer.com"
+    ],
+    "inline": [
+      "jwplayer(",
+      "jwplayer.key"
+    ]
+  },
+  "cookies": [],
+  "storage": [
+    "jwplayer.*",
+    "jwplayerLocalId"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "video",
+  "wordpress": {
+    "plugins": [
+      "jw-player/jw-player.php",
+      "jw-player-7-for-wp/jw-player-7-for-wp.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://jwx.com/web-player",
+    "https://jwx.com/viewer-experience-pricing",
+    "https://jwx.com/blog/introducing-jwx",
+    "https://jwx.com/legal/privacy/",
+    "https://jwx.com/legal/dpa/",
+    "https://docs.jwplayer.com/players/docs/add-a-cloud-hosted-player",
+    "https://docs.jwplayer.com/players/docs/add-a-self-hosted-player",
+    "https://docs.jwplayer.com/platform/reference/embed-content-with-the-delivery-api",
+    "https://docs.jwplayer.com/platform/reference/get_libraries-player-id-js",
+    "https://cdn.jwplayer.com/libraries/ALJ3XQCI.js",
+    "https://ssl.p.jwpcdn.com/player/v/8.51.16/jwpsrv.js",
+    "https://www.dataprivacyframework.gov/list",
+    "https://wordpress.org/plugins/jw-player/",
+    "https://plugins.svn.wordpress.org/jw-player/trunk/jw-player.php",
+    "https://wordpress.org/plugins/jw-player-7-for-wp/",
+    "https://plugins.svn.wordpress.org/jw-player-7-for-wp/trunk/jw-player-7-for-wp.php",
+    "https://github.com/jkwakman/Open-Cookie-Database",
+    "https://raw.githubusercontent.com/jkwakman/Open-Cookie-Database/master/open-cookie-database.csv"
+  ],
+  "checked": "2026-11-10"
+}

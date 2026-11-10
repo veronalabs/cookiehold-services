@@ -1,0 +1,50 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "amazon-kindle",
+  "version": 1,
+  "name": "Kindle Instant Book Previews",
+  "provider": "",
+  "category": "media",
+  "purpose": "Shows embedded Kindle book previews.",
+  "privacyUrl": "https://digprjsurvey.amazon.co.uk/csad/help/node/GX7NJQ4ZB8MHFRNJ",
+  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "read.amazon.com/kp/",
+      "read.amazon.co.uk/kp/",
+      "read.amazon.com.au/kp/",
+      "read.amazon.in/kp/"
+    ]
+  },
+  "cookies": [],
+  "storage": [
+    "KWR_Display_Settings",
+    "kfwClientVersion"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "generic",
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://kdp.amazon.com/en_US/help/topic/G201723090",
+    "https://read.amazon.com/kp/api/oembed?url=https%3A%2F%2Fwww.amazon.com%2Fdp%2FB07D23CFGR&format=json&maxwidth=600&maxheight=800",
+    "https://read.amazon.co.uk/kp/api/oembed?url=https%3A%2F%2Fwww.amazon.co.uk%2Fdp%2FB00Y7WCHQW&format=json",
+    "https://read.amazon.com.au/kp/api/oembed?url=https%3A%2F%2Fwww.amazon.com.au%2Fdp%2FB07D23CFGR&format=json&maxwidth=600&maxheight=800",
+    "https://read.amazon.in/kp/api/oembed?url=https%3A%2F%2Fwww.amazon.in%2Fdp%2FB07D23CFGR&format=json&maxwidth=600&maxheight=800",
+    "https://read.amazon.com/kp/card?asin=B07D23CFGR&preview=inline&linkCode=kpe",
+    "https://m.media-amazon.com/images/I/91tJ-SA2eEL.js",
+    "https://m.media-amazon.com/images/I/814Xc5N3tBL.js",
+    "https://digprjsurvey.amazon.co.uk/csad/help/node/GX7NJQ4ZB8MHFRNJ",
+    "https://digprjsurvey.amazon.co.uk/csad/help/node/GR2TDVTNRVM2PY2M",
+    "https://digprjsurvey.amazon.co.uk/csad/help/node/GVASXV5UZ64R4Y25",
+    "https://raw.githubusercontent.com/WordPress/WordPress/master/wp-includes/class-wp-oembed.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}
