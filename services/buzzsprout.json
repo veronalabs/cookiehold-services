@@ -11,7 +11,8 @@
   "legalBasis": "consent",
   "match": {
     "hosts": [
-      "www.buzzsprout.com"
+      "www.buzzsprout.com/*/episodes/",
+      "www.buzzsprout.com/assets/"
     ]
   },
   "cookies": [],
