@@ -1,0 +1,52 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "constant-contact",
+  "version": 1,
+  "name": "Constant Contact",
+  "provider": "Constant Contact, Inc.",
+  "category": "marketing",
+  "purpose": "Shows email sign-up forms.",
+  "privacyUrl": "https://www.constantcontact.com/legal/privacy-notice",
+  "dataCountry": "USA (EU-US Data Privacy Framework) and other countries",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "static.ctctcdn.com/js/signup-form-widget/"
+    ],
+    "inline": [
+      "var _ctct_m ="
+    ]
+  },
+  "cookies": [],
+  "storage": [
+    "ctct_banner_last_seen_*",
+    "ctct_flyout_last_seen_*",
+    "ctct_popup_last_seen_*"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "form",
+  "wordpress": {
+    "plugins": [
+      "constant-contact-forms/constant-contact-forms.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.constantcontact.com/legal/privacy-notice",
+    "https://www.constantcontact.com/legal/gdpr-addendum",
+    "https://www.constantcontact.com/legal/customer-contact-data-notice",
+    "https://www.constantcontact.com/legal/data-processing-addendum",
+    "https://www.constantcontact.com/legal/cookie-notice",
+    "https://knowledgebase.constantcontact.com/email-digital-marketing/tutorials/KnowledgeBase/18265-Create-an-inline-contact-sign-up-form-to-embed-on-a-website?lang=en_US",
+    "https://knowledgebase.constantcontact.com/email-digital-marketing/articles/KnowledgeBase/18053-Install-a-contact-sign-up-form-on-a-website?lang=en_US",
+    "https://imgssl.constantcontact.com/kb/SignUpFormsTab/18053/universal-code-overlay-copy-to-clipboard-step3.png",
+    "https://static.ctctcdn.com/js/signup-form-widget/current/signup-form-widget.min.js",
+    "https://wordpress.org/plugins/constant-contact-forms/",
+    "https://plugins.svn.wordpress.org/constant-contact-forms/trunk/constant-contact-forms.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

@@ -38,6 +38,13 @@ site owners, so every change is checked before it is merged.
    `connect.facebook.net/*/sdk.js` for the SDK in any language. Keep the literal
    patterns a service already has beside it: older plugins read `*` as a
    character, so the wildcard matches nothing there.
+
+   A **page address** that sites put in a frame (a booking page, a form page,
+   `calendly.com`) goes in `match.frames`, not `hosts`. A frame pattern holds
+   only an iframe, so a site's own script that merely links to the page keeps
+   running. Use `hosts` for what loads as a script, an image or a request,
+   such as the widget script. A pattern is claimed once across hosts and
+   frames.
 4. Add the script handles of plugins whose own code fails without the service
    to `wordpress.handles`. A handle that holds a site's own ID can end in `*`,
    such as `google_gtagjs*`, with at least six characters before it. When

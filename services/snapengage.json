@@ -1,0 +1,57 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "snapengage",
+  "version": 1,
+  "name": "SnapEngage",
+  "provider": "SnapEngage LLC and TeamSupport LLC",
+  "category": "functional",
+  "purpose": "Provides live chat.",
+  "privacyUrl": "https://snapengage.com/privacy-policy/",
+  "dataCountry": "Europe, USA and other countries (varies by hosting and feature)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "storage.googleapis.com/code.snapengage.com/",
+      "commondatastorage.googleapis.com/code.snapengage.com/"
+    ],
+    "inline": [
+      "code.snapengage.com/js/"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "SnapABug*",
+      "lifetime": "Up to 1 year by default",
+      "purpose": "Keeps the chat, its history and its settings."
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "snapengage/snapengage.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://snapengage.com/",
+    "https://snapengage.com/privacy-policy/",
+    "https://www.teamsupport.com/terms-of-service/",
+    "https://www.teamsupport.com/subprocessors_list/",
+    "https://snapengage.com/quickly-scale-your-global-reach-with-live-chat/",
+    "https://developer.snapengage.com/",
+    "https://developer.snapengage.com/javascript-api/",
+    "https://storage.googleapis.com/code.snapengage.com/js/8e01c706-fb83-42b6-a96e-ec03bf2cab5c.js",
+    "https://help.snapengage.com/live-chat-cookies/",
+    "https://support.teamsupport.com/knowledgeBase/30982688",
+    "https://wordpress.org/plugins/snapengage/",
+    "https://plugins.svn.wordpress.org/snapengage/trunk/",
+    "https://plugins.svn.wordpress.org/snapengage/trunk/snapengage.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

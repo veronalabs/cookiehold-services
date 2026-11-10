@@ -1,0 +1,85 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "liveperson",
+  "version": 1,
+  "name": "LivePerson",
+  "provider": "LivePerson, Inc.",
+  "category": "functional",
+  "purpose": "Provides live chat and support messages.",
+  "privacyUrl": "https://www.liveperson.com/policies/privacy/",
+  "dataCountry": "EU, UK, USA (EU-US Data Privacy Framework) and other countries by service",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "lptag.liveperson.net",
+      "lpcdn.lpsnmedia.net"
+    ],
+    "inline": [
+      "window.lpTag=window.lpTag||{}"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "LPSID-*",
+      "lifetime": "Session",
+      "purpose": "Identifies the current or last visitor session."
+    },
+    {
+      "name": "LPSessionID",
+      "lifetime": "Session",
+      "purpose": "Identifies the current or last visitor session.",
+      "httpOnly": true
+    },
+    {
+      "name": "LPCID-*",
+      "lifetime": "Session",
+      "purpose": "Retrieves conversation data."
+    },
+    {
+      "name": "LPCKEY-*",
+      "lifetime": "Session",
+      "purpose": "Retrieves conversation data."
+    },
+    {
+      "name": "lpTestCookie*",
+      "lifetime": "Session",
+      "purpose": "Checks whether the browser accepts cookies."
+    }
+  ],
+  "storage": [
+    "LPVID",
+    "LPSID-*",
+    "lpLastVisit-*",
+    "lpTabId",
+    "lpPmCalleeDfs",
+    "lpStrMap",
+    "lpMessaging-*",
+    "lpTestCase"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "liveperson/liveperson.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.liveperson.com/policies/privacy/",
+    "https://www.liveperson.com/policies/subprocessors/",
+    "https://community.liveperson.com/kb/articles/1119-add-the-liveperson-tag-to-your-website",
+    "https://developers.liveperson.com/web-tag-overview.html",
+    "https://developers.liveperson.com/cookies-and-conversational-cloud-overview.html",
+    "https://lpcdn.lpsnmedia.net/p/tag-js/latest/tag.js?site=5288836",
+    "https://lptag.liveperson.net/tag/tag.js?site=5288836",
+    "https://www.liveperson.com/company/media-kit/",
+    "https://wordpress.org/plugins/liveperson/",
+    "https://plugins.svn.wordpress.org/liveperson/trunk/",
+    "https://plugins.svn.wordpress.org/liveperson/trunk/liveperson.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

@@ -1,0 +1,50 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "aweber",
+  "version": 1,
+  "name": "AWeber",
+  "provider": "AWeber Systems, Inc.",
+  "category": "marketing",
+  "purpose": "Shows newsletter sign-up forms.",
+  "privacyUrl": "https://www.aweber.com/privacy.htm",
+  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "forms.aweber.com",
+      "optin.com"
+    ],
+    "inline": [
+      "forms.aweber.com/form/",
+      "aweber-wjs-"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "form",
+  "wordpress": {
+    "plugins": [
+      "aweber-web-form-widget/aweber.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.aweber.com/privacy.htm",
+    "https://www.aweber.com/dpst.htm",
+    "https://docs.aweber.com/sign-up-forms/sign-up-form-publish-options",
+    "https://docs.aweber.com/sign-up-forms/upgrading-drag-drop-signup-forms-to-the-ai-signup-form-builder",
+    "https://docs.aweber.com/sign-up-forms/installing-and-configuring-your-ai-signup-form-on-your-website",
+    "https://www.aweber.com/events",
+    "https://forms.aweber.com/form/31/300571931.js",
+    "https://assets.aweber-static.com/aweberjs/aweber.js",
+    "https://wordpress.org/plugins/aweber-web-form-widget/",
+    "https://plugins.svn.wordpress.org/aweber-web-form-widget/trunk/aweber.php",
+    "https://plugins.svn.wordpress.org/aweber-web-form-widget/trunk/php/aweber_webform_plugin.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

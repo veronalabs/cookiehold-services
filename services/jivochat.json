@@ -1,0 +1,58 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "jivochat",
+  "version": 1,
+  "name": "JivoChat",
+  "provider": "LLC TECNOLOGY DISTRIBUTION LTDA",
+  "category": "functional",
+  "purpose": "Live chat.",
+  "privacyUrl": "https://www.jivochat.com/files/privacy_policy.pdf",
+  "dataCountry": "EEA, USA and South-East Asia",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "code.jivosite.com"
+    ],
+    "inline": [
+      "code.jivosite.com/widget/"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "jv_store_*",
+      "lifetime": "12 hours",
+      "purpose": "Keeps the chat visitor and session details."
+    }
+  ],
+  "storage": [
+    "jv_*"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "jivochat/class-jivosite.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.jivochat.com/files/privacy_policy.pdf",
+    "https://www.jivochat.com/security/",
+    "https://www.jivochat.com/help/functions/cookies.html",
+    "https://www.jivochat.com/cookies/",
+    "https://www.jivochat.com/help/installation/how-to-install-on-wordpress.html",
+    "https://www.jivochat.com/_next/static/chunks/96150-bf122b005805efa3.js",
+    "https://code.jivosite.com/widget/AozbxraWZ7",
+    "https://code.jivosite.com/script/widget/config/AozbxraWZ7",
+    "https://code-jvs1.jivosite.com/js/bundle.js?rand=1794224040",
+    "https://wordpress.org/plugins/jivochat/",
+    "https://plugins.svn.wordpress.org/jivochat/trunk/",
+    "https://plugins.svn.wordpress.org/jivochat/trunk/class-jivosite.php",
+    "https://www.dataprivacyframework.gov/list",
+    "https://raw.githubusercontent.com/jkwakman/Open-Cookie-Database/master/open-cookie-database.csv"
+  ],
+  "checked": "2026-11-10"
+}
