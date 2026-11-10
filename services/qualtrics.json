@@ -1,0 +1,94 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "qualtrics",
+  "version": 1,
+  "name": "Qualtrics",
+  "provider": "Qualtrics, LLC",
+  "category": "statistics",
+  "purpose": "Collects feedback through website surveys.",
+  "privacyUrl": "https://www.qualtrics.com/privacy-statement/",
+  "dataCountry": "USA and other countries (customer-selected hosting)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "siteintercept.qualtrics.com"
+    ],
+    "inline": [
+      ".siteintercept.qualtrics.com/SIE/",
+      "\"undefined\"===typeof QSI&&(QSI={},"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "QSI_ReplaySession_Info_*",
+      "lifetime": "Session",
+      "purpose": "Identifies a recorded session."
+    },
+    {
+      "name": "QSI_TestSessions_*",
+      "lifetime": "Session",
+      "purpose": "Identifies test recordings."
+    },
+    {
+      "name": "QSI_S_*",
+      "lifetime": "1 week",
+      "purpose": "Remembers survey sampling."
+    },
+    {
+      "name": "QSI_SI_*",
+      "lifetime": "Configured by site",
+      "purpose": "Prevents repeated survey invitations."
+    },
+    {
+      "name": "QSIPopUnder_PopUnderTarget_SI_*",
+      "lifetime": "Session",
+      "purpose": "Prevents duplicate survey windows."
+    },
+    {
+      "name": "QST",
+      "lifetime": "6 months",
+      "purpose": "Prevents repeat survey responses."
+    },
+    {
+      "name": "QSI_CT",
+      "lifetime": "Session",
+      "purpose": "Counts visitor events."
+    },
+    {
+      "name": "QSI_ReplaySession_Throttled_*",
+      "lifetime": "1 minute or 1 hour",
+      "purpose": "Pauses recording after errors."
+    }
+  ],
+  "storage": [
+    "QSI_HistorySession",
+    "QSI_OptInIDsAndWindowNames",
+    "QSI_OptInIDsAndTargetOrigins",
+    "QSI_QualtricsSurveyHistory",
+    "Q_INTER"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "qualtrics-survey-embeds/qualtrics-embed.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.qualtrics.com/support/website-app-feedback/getting-started-with-website-app-feedback/website-app-feedback-technical-documentation/",
+    "https://www.qualtrics.com/support/website-app-feedback/getting-started-with-website-app-feedback/website-app-feedback-browser-cookies/",
+    "https://www.qualtrics.com/privacy-statement/",
+    "https://www.qualtrics.com/subprocessor-list/",
+    "https://www.qualtrics.com/news/qualtrics-commitment-to-secure-and-private-ai/",
+    "https://zn85jou57xphaxsod-qxm.siteintercept.qualtrics.com/SIE/?Q_ZID=ZN_85JoU57XPHaxsod",
+    "https://wordpress.org/plugins/qualtrics-survey-embeds/",
+    "https://plugins.svn.wordpress.org/qualtrics-survey-embeds/trunk/",
+    "https://plugins.svn.wordpress.org/qualtrics-survey-embeds/trunk/qualtrics-embed.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

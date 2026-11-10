@@ -151,10 +151,25 @@
     "purpose": "Dostarcza biblioteki kodu używane przez witrynę.",
     "machine": true
   },
+  "chaport": {
+    "purpose": "Czat na żywo.",
+    "cookies": {
+      "chaport-*": "Rozpoznaje powracających użytkowników czatu.",
+      "wsc_*": "Zachowuje dane czatu, gdy pamięć przeglądarki jest zablokowana."
+    },
+    "machine": true
+  },
   "chatbase": {
     "purpose": "Odpowiada na pytania odwiedzających za pomocą czatbota AI.",
     "cookies": {
       "chatbase_anon_id": "Rozpoznaje odwiedzającego na czacie."
+    },
+    "machine": true
+  },
+  "chatra": {
+    "purpose": "Umożliwia odwiedzającym rozmowę z pomocą na czacie.",
+    "cookies": {
+      "Chatra.*": "Zapamiętuje użytkowników i stan czatu."
     },
     "machine": true
   },
@@ -199,6 +214,10 @@
   },
   "cloudpano": {
     "purpose": "Wyświetla osadzone wirtualne wycieczki 360°.",
+    "machine": true
+  },
+  "comm100": {
+    "purpose": "Czat na żywo z pomocą.",
     "machine": true
   },
   "contentsquare": {
@@ -343,8 +362,19 @@
     "purpose": "Czat na żywo i wiadomości do pomocy.",
     "machine": true
   },
+  "freshdesk": {
+    "purpose": "Wyświetla artykuły pomocy i formularz kontaktowy.",
+    "machine": true
+  },
   "fullstory": {
     "purpose": "Nagrania sesji i analityka użytkowania.",
+    "machine": true
+  },
+  "getbutton": {
+    "purpose": "Wyświetla przycisk czatu WhatsApp i komunikatorów.",
+    "cookies": {
+      "gb-widget-cookie*": "Ogranicza częstotliwość wyświetlania powitania na czacie."
+    },
     "machine": true
   },
   "getresponse": {
@@ -553,6 +583,13 @@
     "purpose": "Zlicza wizyty.",
     "machine": true
   },
+  "jivochat": {
+    "purpose": "Czat na żywo.",
+    "cookies": {
+      "jv_store_*": "Przechowuje dane użytkownika i sesji czatu."
+    },
+    "machine": true
+  },
   "jotform": {
     "purpose": "Wyświetla osadzone formularze.",
     "machine": true
@@ -663,6 +700,17 @@
     },
     "machine": true
   },
+  "liveperson": {
+    "purpose": "Czat na żywo i wiadomości do pomocy.",
+    "cookies": {
+      "LPSID-*": "Identyfikuje bieżącą lub ostatnią sesję odwiedzającego.",
+      "LPSessionID": "Identyfikuje bieżącą lub ostatnią sesję odwiedzającego.",
+      "LPCID-*": "Pobiera dane rozmowy.",
+      "LPCKEY-*": "Pobiera dane rozmowy.",
+      "lpTestCookie*": "Sprawdza, czy przeglądarka akceptuje ciasteczka."
+    },
+    "machine": true
+  },
   "loom": {
     "purpose": "Wyświetla osadzone nagrania ekranu.",
     "machine": true
@@ -707,19 +755,6 @@
     "purpose": "Wyświetla osadzone mapy.",
     "machine": true
   },
-  "matomo-cloud": {
-    "purpose": "Mierzy wizyty i konwersje.",
-    "cookies": {
-      "_pk_id.*": "Odróżnia odwiedzających.",
-      "_pk_ses.*": "Utrzymuje bieżącą wizytę.",
-      "_pk_ref.*": "Zapisuje, skąd przyszedł odwiedzający."
-    },
-    "machine": true
-  },
-  "matomo-tag-manager": {
-    "purpose": "Wczytuje tagi śledzące witryny.",
-    "machine": true
-  },
   "matomo": {
     "purpose": "Mierzy wizyty i konwersje.",
     "cookies": {
@@ -734,6 +769,19 @@
       "mtm_cookie_consent": "Zapamiętuje zgodę na ciasteczka śledzące.",
       "mtm_consent_removed": "Zapamiętuje rezygnację ze śledzenia."
     },
+    "machine": true
+  },
+  "matomo-cloud": {
+    "purpose": "Mierzy wizyty i konwersje.",
+    "cookies": {
+      "_pk_id.*": "Odróżnia odwiedzających.",
+      "_pk_ses.*": "Utrzymuje bieżącą wizytę.",
+      "_pk_ref.*": "Zapisuje, skąd przyszedł odwiedzający."
+    },
+    "machine": true
+  },
+  "matomo-tag-manager": {
+    "purpose": "Wczytuje tagi śledzące witryny.",
     "machine": true
   },
   "matterport": {
@@ -813,6 +861,24 @@
     "purpose": "Wczytuje licencjonowane czcionki i zlicza odsłony stron.",
     "machine": true
   },
+  "olark": {
+    "purpose": "Czat na żywo.",
+    "cookies": {
+      "hblid": "Rozpoznaje powracających użytkowników czatu.",
+      "wcsid": "Utrzymuje sesję czatu.",
+      "olfsk": "Zachowuje historię czatu między stronami.",
+      "_okdetect": "Zachowuje czat po zmianach w pamięci przeglądarki.",
+      "_okbk": "Zapamiętuje stan okna czatu.",
+      "_ok": "Zapamiętuje identyfikator witryny Olark.",
+      "_oklv": "Utrzymuje aktywną sesję czatu.",
+      "_okla": "Tymczasowo zapisuje źródło plików czatu.",
+      "_okgid": "Zachowuje przypisany zespół czatu.",
+      "_okac": "Sprawdza, czy pliki czatu się zmieniły.",
+      "_okck": "Sprawdza, czy trwałe ciasteczka działają.",
+      "_okcs": "Sprawdza, czy ciasteczka sesyjne działają."
+    },
+    "machine": true
+  },
   "onesignal": {
     "purpose": "Wysyła powiadomienia web push i wiadomości w aplikacji.",
     "machine": true
@@ -877,16 +943,12 @@
     },
     "machine": true
   },
-  "paddle-retain": {
-    "purpose": "Wyświetla oferty rozliczeniowe i śledzi korzystanie.",
-    "machine": true
-  },
   "paddle": {
     "purpose": "Obsługuje kasę i przetwarza płatności.",
     "machine": true
   },
-  "paypal-marketing": {
-    "purpose": "Mierzy zakupy w tej witrynie na potrzeby marketingu PayPal.",
+  "paddle-retain": {
+    "purpose": "Wyświetla oferty rozliczeniowe i śledzi korzystanie.",
     "machine": true
   },
   "paypal": {
@@ -897,6 +959,10 @@
       "x-pp-s": "Przetwarzanie płatności.",
       "nsid": "Zapobieganie nadużyciom."
     },
+    "machine": true
+  },
+  "paypal-marketing": {
+    "purpose": "Mierzy zakupy w tej witrynie na potrzeby marketingu PayPal.",
     "machine": true
   },
   "phorest": {
@@ -960,6 +1026,13 @@
     "purpose": "Odtwarza osadzone odcinki podcastów.",
     "machine": true
   },
+  "podium": {
+    "purpose": "Umożliwia kontakt z firmą przez czat.",
+    "cookies": {
+      "lS_podium-website-widget-*": "Zapamiętuje użytkowników czatu i ustawienia widżetu."
+    },
+    "machine": true
+  },
   "popup-maker": {
     "purpose": "Zapamiętuje, które okienka wyświetlono lub zamknięto.",
     "cookies": {
@@ -976,6 +1049,24 @@
   },
   "provenexpert": {
     "purpose": "Wyświetla opinie klientów i pieczęć oceny.",
+    "machine": true
+  },
+  "pure-chat": {
+    "purpose": "Czat na żywo i wiadomości do pomocy.",
+    "machine": true
+  },
+  "qualtrics": {
+    "purpose": "Zbiera opinie za pomocą ankiet na stronie.",
+    "cookies": {
+      "QSI_ReplaySession_Info_*": "Identyfikuje nagraną sesję.",
+      "QSI_TestSessions_*": "Identyfikuje nagrania testowe.",
+      "QSI_S_*": "Zapamiętuje dobór uczestników ankiet.",
+      "QSI_SI_*": "Zapobiega ponownym zaproszeniom do ankiet.",
+      "QSIPopUnder_PopUnderTarget_SI_*": "Zapobiega powielaniu okien ankiet.",
+      "QST": "Zapobiega ponownym odpowiedziom na ankiety.",
+      "QSI_CT": "Liczy działania odwiedzających.",
+      "QSI_ReplaySession_Throttled_*": "Wstrzymuje nagrywanie po błędach."
+    },
     "machine": true
   },
   "quora-pixel": {
@@ -1064,6 +1155,13 @@
     },
     "machine": true
   },
+  "snapengage": {
+    "purpose": "Czat na żywo.",
+    "cookies": {
+      "SnapABug*": "Zachowuje czat, jego historię i ustawienia."
+    },
+    "machine": true
+  },
   "soundcloud": {
     "purpose": "Odtwarza osadzone treści audio.",
     "machine": true
@@ -1100,6 +1198,16 @@
   },
   "superchat": {
     "purpose": "Czat na żywo i linki do komunikatorów.",
+    "machine": true
+  },
+  "surveymonkey": {
+    "purpose": "Wyświetla osadzone ankiety.",
+    "cookies": {
+      "ep201": "Pomaga zapobiegać nadużyciom i rozwiązywać problemy.",
+      "ep203": "Identyfikuje urządzenia, aby wykryć współdzielenie kont.",
+      "sm_ir": "Zapewnia działanie strony wyników ankiety.",
+      "sm_rec": "Zachowuje stan logowania do chronionych ankiet."
+    },
     "machine": true
   },
   "taboola": {
@@ -1187,15 +1295,15 @@
     "purpose": "Wyświetla opinie z Google i innych witryn.",
     "machine": true
   },
+  "trustpilot": {
+    "purpose": "Wyświetla opinie z Trustpilot.",
+    "machine": true
+  },
   "trustpilot-invitations": {
     "purpose": "Prosi klientów o ocenę zakupu.",
     "cookies": {
       "TP.uuid": "Rozpoznaje przeglądarkę."
     },
-    "machine": true
-  },
-  "trustpilot": {
-    "purpose": "Wyświetla opinie z Trustpilot.",
     "machine": true
   },
   "typeform": {
@@ -1213,6 +1321,13 @@
     "purpose": "Wyświetla zdjęcia hostowane przez Unsplash.",
     "machine": true
   },
+  "usabilla": {
+    "purpose": "Zbiera opinie o witrynie.",
+    "cookies": {
+      "usbls": "Odróżnia nowych odwiedzających od powracających."
+    },
+    "machine": true
+  },
   "userlike": {
     "purpose": "Czat na żywo.",
     "cookies": {
@@ -1225,6 +1340,10 @@
     "cookies": {
       "__eventn_id_*": "Odróżnia odwiedzających."
     },
+    "machine": true
+  },
+  "usersnap": {
+    "purpose": "Zbiera opinie i zgłoszenia błędów.",
     "machine": true
   },
   "userway": {

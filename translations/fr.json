@@ -151,10 +151,25 @@
     "purpose": "Fournit les bibliothèques de code utilisées par le site.",
     "machine": true
   },
+  "chaport": {
+    "purpose": "Discussion en direct.",
+    "cookies": {
+      "chaport-*": "Reconnaît les visiteurs qui reviennent dans la discussion.",
+      "wsc_*": "Conserve les données de discussion si le stockage du navigateur est bloqué."
+    },
+    "machine": true
+  },
   "chatbase": {
     "purpose": "Répond aux questions des visiteurs avec un chatbot d’IA.",
     "cookies": {
       "chatbase_anon_id": "Reconnaît le visiteur dans la discussion."
+    },
+    "machine": true
+  },
+  "chatra": {
+    "purpose": "Permet aux visiteurs de discuter avec l’assistance.",
+    "cookies": {
+      "Chatra.*": "Mémorise les visiteurs et l’état de la discussion."
     },
     "machine": true
   },
@@ -199,6 +214,10 @@
   },
   "cloudpano": {
     "purpose": "Affiche des visites virtuelles à 360° embarquées.",
+    "machine": true
+  },
+  "comm100": {
+    "purpose": "Discussion en direct avec l’assistance.",
     "machine": true
   },
   "contentsquare": {
@@ -343,8 +362,19 @@
     "purpose": "Discussion en direct et messages d’assistance.",
     "machine": true
   },
+  "freshdesk": {
+    "purpose": "Affiche des articles d’aide et un formulaire d’assistance.",
+    "machine": true
+  },
   "fullstory": {
     "purpose": "Enregistrements de session et statistiques d’utilisation.",
+    "machine": true
+  },
+  "getbutton": {
+    "purpose": "Affiche un bouton de discussion WhatsApp et de messagerie.",
+    "cookies": {
+      "gb-widget-cookie*": "Limite la fréquence du message d’accueil de la discussion."
+    },
     "machine": true
   },
   "getresponse": {
@@ -553,6 +583,13 @@
     "purpose": "Compte les visites.",
     "machine": true
   },
+  "jivochat": {
+    "purpose": "Discussion en direct.",
+    "cookies": {
+      "jv_store_*": "Conserve les données du visiteur et de la session de discussion."
+    },
+    "machine": true
+  },
   "jotform": {
     "purpose": "Affiche des formulaires embarqués.",
     "machine": true
@@ -663,6 +700,17 @@
     },
     "machine": true
   },
+  "liveperson": {
+    "purpose": "Discussion en direct et messages d’assistance.",
+    "cookies": {
+      "LPSID-*": "Identifie la session actuelle ou précédente du visiteur.",
+      "LPSessionID": "Identifie la session actuelle ou précédente du visiteur.",
+      "LPCID-*": "Récupère les données de conversation.",
+      "LPCKEY-*": "Récupère les données de conversation.",
+      "lpTestCookie*": "Vérifie si le navigateur accepte les cookies."
+    },
+    "machine": true
+  },
   "loom": {
     "purpose": "Affiche des enregistrements d’écran embarqués.",
     "machine": true
@@ -707,19 +755,6 @@
     "purpose": "Affiche des cartes embarquées.",
     "machine": true
   },
-  "matomo-cloud": {
-    "purpose": "Mesure les visites et les conversions.",
-    "cookies": {
-      "_pk_id.*": "Distingue les visiteurs.",
-      "_pk_ses.*": "Conserve la visite en cours.",
-      "_pk_ref.*": "Mémorise la provenance du visiteur."
-    },
-    "machine": true
-  },
-  "matomo-tag-manager": {
-    "purpose": "Charge les balises de suivi du site.",
-    "machine": true
-  },
   "matomo": {
     "purpose": "Mesure les visites et les conversions.",
     "cookies": {
@@ -734,6 +769,19 @@
       "mtm_cookie_consent": "Mémorise le consentement aux cookies de suivi.",
       "mtm_consent_removed": "Mémorise le refus du suivi."
     },
+    "machine": true
+  },
+  "matomo-cloud": {
+    "purpose": "Mesure les visites et les conversions.",
+    "cookies": {
+      "_pk_id.*": "Distingue les visiteurs.",
+      "_pk_ses.*": "Conserve la visite en cours.",
+      "_pk_ref.*": "Mémorise la provenance du visiteur."
+    },
+    "machine": true
+  },
+  "matomo-tag-manager": {
+    "purpose": "Charge les balises de suivi du site.",
     "machine": true
   },
   "matterport": {
@@ -813,6 +861,24 @@
     "purpose": "Charge des polices sous licence et compte les pages vues.",
     "machine": true
   },
+  "olark": {
+    "purpose": "Discussion en direct.",
+    "cookies": {
+      "hblid": "Reconnaît les visiteurs qui reviennent dans la discussion.",
+      "wcsid": "Conserve la session de discussion.",
+      "olfsk": "Conserve l’historique de discussion entre les pages.",
+      "_okdetect": "Conserve la discussion lorsque le stockage change.",
+      "_okbk": "Mémorise l’état de la fenêtre de discussion.",
+      "_ok": "Mémorise l’identifiant du site Olark.",
+      "_oklv": "Maintient la session de discussion active.",
+      "_okla": "Met en cache la source des fichiers de discussion.",
+      "_okgid": "Conserve l’équipe de discussion attribuée.",
+      "_okac": "Vérifie si les fichiers de discussion ont changé.",
+      "_okck": "Vérifie si les cookies persistants fonctionnent.",
+      "_okcs": "Vérifie si les cookies de session fonctionnent."
+    },
+    "machine": true
+  },
   "onesignal": {
     "purpose": "Envoie des notifications push web et des messages intégrés.",
     "machine": true
@@ -877,16 +943,12 @@
     },
     "machine": true
   },
-  "paddle-retain": {
-    "purpose": "Affiche des offres de facturation et suit l’utilisation.",
-    "machine": true
-  },
   "paddle": {
     "purpose": "Gère la commande et traite les paiements.",
     "machine": true
   },
-  "paypal-marketing": {
-    "purpose": "Mesure les achats sur ce site pour le marketing de PayPal.",
+  "paddle-retain": {
+    "purpose": "Affiche des offres de facturation et suit l’utilisation.",
     "machine": true
   },
   "paypal": {
@@ -897,6 +959,10 @@
       "x-pp-s": "Traitement des paiements.",
       "nsid": "Prévention de la fraude."
     },
+    "machine": true
+  },
+  "paypal-marketing": {
+    "purpose": "Mesure les achats sur ce site pour le marketing de PayPal.",
     "machine": true
   },
   "phorest": {
@@ -960,6 +1026,13 @@
     "purpose": "Lit des épisodes de podcast embarqués.",
     "machine": true
   },
+  "podium": {
+    "purpose": "Permet de contacter une entreprise par discussion.",
+    "cookies": {
+      "lS_podium-website-widget-*": "Mémorise les visiteurs et leurs choix dans le module de discussion."
+    },
+    "machine": true
+  },
   "popup-maker": {
     "purpose": "Mémorise les fenêtres contextuelles affichées ou fermées.",
     "cookies": {
@@ -976,6 +1049,24 @@
   },
   "provenexpert": {
     "purpose": "Affiche des avis clients et un sceau de notation.",
+    "machine": true
+  },
+  "pure-chat": {
+    "purpose": "Discussion en direct et messages d’assistance.",
+    "machine": true
+  },
+  "qualtrics": {
+    "purpose": "Recueille des avis par des enquêtes sur le site.",
+    "cookies": {
+      "QSI_ReplaySession_Info_*": "Identifie une session enregistrée.",
+      "QSI_TestSessions_*": "Identifie les enregistrements de test.",
+      "QSI_S_*": "Mémorise la sélection des participants aux enquêtes.",
+      "QSI_SI_*": "Évite les invitations répétées aux enquêtes.",
+      "QSIPopUnder_PopUnderTarget_SI_*": "Évite les fenêtres d’enquête en double.",
+      "QST": "Évite les réponses répétées aux enquêtes.",
+      "QSI_CT": "Compte les actions des visiteurs.",
+      "QSI_ReplaySession_Throttled_*": "Met l’enregistrement en pause après des erreurs."
+    },
     "machine": true
   },
   "quora-pixel": {
@@ -1064,6 +1155,13 @@
     },
     "machine": true
   },
+  "snapengage": {
+    "purpose": "Discussion en direct.",
+    "cookies": {
+      "SnapABug*": "Conserve la discussion, son historique et ses réglages."
+    },
+    "machine": true
+  },
   "soundcloud": {
     "purpose": "Lit de l’audio embarqué.",
     "machine": true
@@ -1100,6 +1198,16 @@
   },
   "superchat": {
     "purpose": "Discussion en direct et liens vers des messageries.",
+    "machine": true
+  },
+  "surveymonkey": {
+    "purpose": "Affiche des enquêtes embarquées.",
+    "cookies": {
+      "ep201": "Aide à prévenir les abus et à résoudre les problèmes.",
+      "ep203": "Identifie les appareils pour détecter le partage de compte.",
+      "sm_ir": "Permet le fonctionnement de la page de résultats des enquêtes.",
+      "sm_rec": "Conserve l’état de connexion aux enquêtes protégées."
+    },
     "machine": true
   },
   "taboola": {
@@ -1187,15 +1295,15 @@
     "purpose": "Affiche des avis de Google et d’autres sites.",
     "machine": true
   },
+  "trustpilot": {
+    "purpose": "Affiche des avis Trustpilot.",
+    "machine": true
+  },
   "trustpilot-invitations": {
     "purpose": "Invite les clients à évaluer leur achat.",
     "cookies": {
       "TP.uuid": "Reconnaît le navigateur."
     },
-    "machine": true
-  },
-  "trustpilot": {
-    "purpose": "Affiche des avis Trustpilot.",
     "machine": true
   },
   "typeform": {
@@ -1213,6 +1321,13 @@
     "purpose": "Affiche des photos hébergées par Unsplash.",
     "machine": true
   },
+  "usabilla": {
+    "purpose": "Recueille des avis sur le site.",
+    "cookies": {
+      "usbls": "Distingue les nouveaux visiteurs de ceux qui reviennent."
+    },
+    "machine": true
+  },
   "userlike": {
     "purpose": "Discussion en direct.",
     "cookies": {
@@ -1225,6 +1340,10 @@
     "cookies": {
       "__eventn_id_*": "Distingue les visiteurs."
     },
+    "machine": true
+  },
+  "usersnap": {
+    "purpose": "Recueille des avis et des signalements de bugs.",
     "machine": true
   },
   "userway": {

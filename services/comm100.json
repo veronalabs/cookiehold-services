@@ -1,0 +1,63 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "comm100",
+  "version": 1,
+  "name": "Comm100 Live Chat",
+  "provider": "Comm100 Network Corporation",
+  "category": "functional",
+  "purpose": "Provides live chat support.",
+  "privacyUrl": "https://www.comm100.com/privacy/",
+  "dataCountry": "USA, Canada, Europe or Singapore (depends on deployment)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "vue.comm100.com",
+      "standby.comm100vue.com"
+    ],
+    "inline": [
+      "Comm100API"
+    ]
+  },
+  "cookies": [],
+  "storage": [
+    "comm100_visitorguid_*",
+    "comm100_visitor_*",
+    "comm100_chat_*",
+    "comm100_session_*",
+    "comm100_page_*",
+    "comm100_crossSiteChatTransfer_*",
+    "comm100_frequencyLimit_*",
+    "comm100_soundOff"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "comm100-live-chat/comm100livechat.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.comm100.com/privacy/",
+    "https://www.comm100.com/privacy/cookie-policy/",
+    "https://www.comm100.com/",
+    "https://www.comm100.com/trust-center/data-hosting-residency/",
+    "https://help.comm100.com/how-to-install-live-chat-code-onto-my-website",
+    "https://developer.comm100.com/visitor-side-api-get-started",
+    "https://vue.comm100.com/livechat.ashx?siteId=100",
+    "https://vue.comm100.com/visitorside/js/common.f10102df.js",
+    "https://vue.comm100.com/visitorside/js/vendor.eaf28315.js",
+    "https://vue.comm100.com/visitorside/js/bundle.c40afae0.js",
+    "https://wordpress.org/plugins/comm100-live-chat/",
+    "https://plugins.svn.wordpress.org/comm100-live-chat/trunk/",
+    "https://plugins.svn.wordpress.org/comm100-live-chat/trunk/comm100livechat.php",
+    "https://plugins.svn.wordpress.org/comm100-live-chat/trunk/plugin_files/",
+    "https://plugins.svn.wordpress.org/comm100-live-chat/trunk/readme.txt",
+    "https://www.dataprivacyframework.gov/list",
+    "https://raw.githubusercontent.com/jkwakman/Open-Cookie-Database/master/open-cookie-database.csv"
+  ],
+  "checked": "2026-11-10"
+}
