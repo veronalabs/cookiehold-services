@@ -1,0 +1,74 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "whatconverts",
+  "version": 1,
+  "name": "WhatConverts",
+  "provider": "Icon Digital LLC",
+  "category": "marketing",
+  "purpose": "Tracks which marketing campaigns lead to calls.",
+  "privacyUrl": "https://www.whatconverts.com/privacy-policy/",
+  "dataCountry": "USA and other countries",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "s.ksrndkehqnwntyxlhgto.com",
+      "scripts.iconnode.com"
+    ],
+    "inline": [
+      "$wc_leads=$wc_leads||{doc:"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "wc_visitor",
+      "lifetime": "2 years",
+      "purpose": "Tells visitors apart."
+    },
+    {
+      "name": "wc_client",
+      "lifetime": "180 days",
+      "purpose": "Remembers the first marketing source."
+    },
+    {
+      "name": "wc_client_current",
+      "lifetime": "Session",
+      "purpose": "Remembers the latest marketing source."
+    },
+    {
+      "name": "wc_swap",
+      "lifetime": "5 minutes",
+      "purpose": "Remembers the tracking phone numbers shown."
+    }
+  ],
+  "storage": [
+    "wc_visitor",
+    "wc_client",
+    "wc_client_current",
+    "wc_swap"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "whatconverts/whatconverts.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.whatconverts.com/privacy-policy/",
+    "https://www.whatconverts.com/GDPR",
+    "https://www.whatconverts.com/help/docs/using-whatconverts/lead-tracking/general-tracking/add-your-tracking-script-manually/",
+    "https://www.whatconverts.com/help/docs/troubleshooting-and-faqs/troubleshooting/troubleshoot-cookie-issues/",
+    "https://www.whatconverts.com/help/docs/integrations/form-integrations/track-e-goi-web-forms/",
+    "https://s.ksrndkehqnwntyxlhgto.com/51367.js",
+    "https://scripts.iconnode.com/51367.js",
+    "https://wordpress.org/plugins/whatconverts/",
+    "https://plugins.svn.wordpress.org/whatconverts/trunk/",
+    "https://plugins.svn.wordpress.org/whatconverts/trunk/whatconverts.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

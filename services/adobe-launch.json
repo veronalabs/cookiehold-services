@@ -1,0 +1,47 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "adobe-launch",
+  "version": 1,
+  "name": "Adobe Experience Platform Tags",
+  "provider": "Adobe Systems Software Ireland Limited",
+  "category": "essential",
+  "purpose": "Loads the site's other tags.",
+  "privacyUrl": "https://www.adobe.com/privacy/policy.html",
+  "dataCountry": "Worldwide, including USA (EU-US Data Privacy Framework)",
+  "legalBasis": "legitimate-interest",
+  "match": {
+    "hosts": [
+      "assets.adobedtm.com"
+    ],
+    "inline": [
+      "_satellite.pageBottom();"
+    ]
+  },
+  "cookies": [],
+  "storage": [
+    "com.adobe.reactor.*"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://experienceleague.adobe.com/en/docs/experience-platform/tags/home",
+    "https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/hosts/managed-by-adobe-host",
+    "https://experienceleague.adobe.com/en/docs/platform-learn/implement-in-websites/configure-tags/add-embed-code",
+    "https://experienceleague.adobe.com/en/docs/analytics/implementation/launch/deploy-dev",
+    "https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/environments/environments",
+    "https://www.adobe.com/privacy/policy.html",
+    "https://www.adobe.com/privacy/eudatatransfers.html",
+    "https://www.adobe.com/privacy/experience-cloud.html",
+    "https://assets.adobedtm.com/launch-EN93497c30fdf0424eb678d5f4ffac66dc.min.js",
+    "https://assets.adobedtm.com/launch-EN93497c30fdf0424eb678d5f4ffac66dc.js",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-10"
+}

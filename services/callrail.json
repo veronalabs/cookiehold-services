@@ -1,0 +1,54 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "callrail",
+  "version": 1,
+  "name": "CallRail",
+  "provider": "CallRail, LLC",
+  "category": "marketing",
+  "purpose": "Tracks which marketing campaigns lead to calls.",
+  "privacyUrl": "https://www.callrail.com/privacy",
+  "dataCountry": "USA",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "cdn.callrail.com"
+    ],
+    "inline": [
+      "cdn.callrail.com/companies/"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "callrail-phone-call-tracking/callrail.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.callrail.com/privacy",
+    "https://support.callrail.com/hc/en-us/articles/5711814948877-Dynamic-number-insertion-overview",
+    "https://support.callrail.com/hc/en-us/articles/5711709638541-Installing-the-JavaScript-snippet",
+    "https://support.callrail.com/hc/article_attachments/5711725414285",
+    "https://support.callrail.com/hc/en-us/articles/47064642365965-Cookie-Consent-banners",
+    "https://support.callrail.com/hc/en-us/articles/5711281135245-Set-a-custom-cookie-duration",
+    "https://support.callrail.com/hc/en-us/articles/5711970014221-Multi-touch-cost-per-lead-report",
+    "https://support.callrail.com/hc/en-us/articles/5711641928077-Installing-CallRail-s-WordPress-plugin",
+    "https://apidocs.callrail.com/",
+    "https://www.callrail.com/legal/dpa/",
+    "https://cdn.callrail.com/companies/183570817/5706dbe6dc972c634a65/12/swap.js",
+    "https://cdn.callrail.com/companies/411892629/1dbf0fc11eabdc04483a/12/swap.js",
+    "https://cdn.callrail.com/companies/785622206/81fbf538633804b8dea6/12/swap.js",
+    "https://wordpress.org/plugins/callrail-phone-call-tracking/",
+    "https://plugins.svn.wordpress.org/callrail-phone-call-tracking/trunk/callrail.php",
+    "https://www.dataprivacyframework.gov/list",
+    "https://github.com/jkwakman/Open-Cookie-Database",
+    "https://raw.githubusercontent.com/jkwakman/Open-Cookie-Database/master/open-cookie-database.csv"
+  ],
+  "checked": "2026-11-10"
+}

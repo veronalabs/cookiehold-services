@@ -1,0 +1,52 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "sentry",
+  "version": 1,
+  "name": "Sentry",
+  "provider": "Functional Software, Inc. d/b/a Sentry",
+  "category": "statistics",
+  "purpose": "Tracks errors on the site.",
+  "privacyUrl": "https://sentry.io/privacy/",
+  "dataCountry": "EU (Germany), USA (EU-US Data Privacy Framework) and other countries",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "js.sentry-cdn.com",
+      "browser.sentry-cdn.com"
+    ],
+    "inline": [
+      "window.sentryOnLoad",
+      "Sentry.init("
+    ]
+  },
+  "cookies": [],
+  "storage": [
+    "sentry_previous_trace",
+    "sentryReplaySession"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "wp-sentry-integration/wp-sentry.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://sentry.io/privacy/",
+    "https://sentry.io/legal/dpa/",
+    "https://docs.sentry.io/platforms/javascript/install/loader/",
+    "https://docs.sentry.io/api/projects/retrieve-a-client-key/",
+    "https://docs.sentry.io/organization/data-storage-location/",
+    "https://docs.sentry.io/platforms/javascript/data-management/data-collected/",
+    "https://browser.sentry-cdn.com/11.11.0/bundle.tracing.replay.js",
+    "https://www.dataprivacyframework.gov/list",
+    "https://wordpress.org/plugins/wp-sentry-integration/",
+    "https://plugins.svn.wordpress.org/wp-sentry-integration/trunk/",
+    "https://plugins.svn.wordpress.org/wp-sentry-integration/trunk/wp-sentry.php"
+  ],
+  "checked": "2026-11-10"
+}
