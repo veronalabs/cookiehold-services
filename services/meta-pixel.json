@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "meta-pixel",
-  "version": 6,
+  "version": 7,
   "name": "Meta Pixel",
   "provider": "Meta Platforms Ireland Limited",
   "category": "marketing",
@@ -19,7 +19,8 @@
       "fbq('init'",
       "fbq(\"init\"",
       "fbq('track",
-      "fbq(\"track"
+      "fbq(\"track",
+      "FacebookSignal.initPixel("
     ]
   },
   "cookies": [
@@ -72,7 +73,8 @@
     "https://developers.facebook.com/docs/meta-pixel/implementation/conversion-tracking/",
     "https://plugins.svn.wordpress.org/pixelyoursite/trunk/facebook-pixel-master.php",
     "https://wordpress.org/plugins/facebook-conversion-pixel/",
-    "https://plugins.svn.wordpress.org/facebook-conversion-pixel/trunk/facebook-conversion-pixel.php"
+    "https://plugins.svn.wordpress.org/facebook-conversion-pixel/trunk/facebook-conversion-pixel.php",
+    "https://plugins.svn.wordpress.org/official-facebook-pixel/trunk/js/facebook_signal.js"
   ],
-  "checked": "2026-11-10"
+  "checked": "2026-11-11"
 }
