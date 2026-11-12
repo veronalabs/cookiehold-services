@@ -1,0 +1,47 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "google-customer-reviews",
+  "version": 1,
+  "name": "Google Customer Reviews",
+  "provider": "Google Ireland Limited",
+  "category": "marketing",
+  "purpose": "Shows store reviews and asks buyers for one.",
+  "privacyUrl": "https://policies.google.com/privacy",
+  "dataCountry": "",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "www.gstatic.com/shopping/merchant/",
+      "apis.google.com/js/platform.js?onload=renderOptIn",
+      "apis.google.com/js/platform.js?onload=renderBadge"
+    ],
+    "inline": [
+      "merchantwidget.start(",
+      "gapi.surveyoptin",
+      "renderOptIn"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "google-listings-and-ads/google-listings-and-ads.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://support.google.com/merchants/answer/7124319",
+    "https://support.google.com/merchants/answer/7105655",
+    "https://support.google.com/merchants/answer/7106244",
+    "https://policies.google.com/privacy",
+    "https://plugins.svn.wordpress.org/google-listings-and-ads/tags/3.10.0/src/Google/BadgeWidget.php",
+    "https://plugins.svn.wordpress.org/google-listings-and-ads/tags/3.10.0/src/Google/ReviewsOptIn.php",
+    "https://plugins.svn.wordpress.org/google-listings-and-ads/tags/3.10.0/src/Google/ConsentGatedScriptTrait.php"
+  ],
+  "checked": "2026-11-12"
+}
