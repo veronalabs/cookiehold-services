@@ -2,6 +2,13 @@
 
 Every release, newest first. Sites pick up a release within a week.
 
+## 1.13.1 (2026-11-13)
+
+- OpenFreeMap, a new Media service (#58). WP Maps and MapPress draw their
+  Leaflet maps from it by default, and its tiles loaded before any choice.
+  CookieHold holds a map plugin's own script with the tile server its map
+  draws from, so it can only hold one the list names. 401 services.
+
 ## 1.13.0 (2026-11-13)
 
 - Google Customer Reviews, a new Marketing service (#53). Google for
