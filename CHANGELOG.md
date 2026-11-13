@@ -2,6 +2,20 @@
 
 Every release, newest first. Sites pick up a release within a week.
 
+## 1.13.0 (2026-11-13)
+
+- Google Customer Reviews, a new Marketing service (#53). Google for
+  WooCommerce loads its store widget and survey opt-in from an inline loader;
+  three inline matches now hold both until a yes, and its hosts cover Google's
+  own snippets. 400 services.
+- WP Go Maps' main script (`wpgmza`) now waits with Google Maps (#54). Its
+  settings name Google's addresses and were held while the script ran without
+  them, so a map never drew after a yes. Held together, they run in order and
+  its own retry draws the map, on Google and OpenStreetMap alike.
+- Meta Pixel's `FacebookSignal.initPixel(` script waits with the pixel (#52).
+  Run before the pixel, it found no `fbq`, so Meta Pixel for WordPress sent no
+  page view after a yes.
+
 ## 1.12.1 (2026-11-10)
 
 - Logos for 50 more services, so 222 of the 399 have one (the rest show their
