@@ -1,0 +1,38 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "openfreemap",
+  "version": 1,
+  "name": "OpenFreeMap",
+  "provider": "Hyperknot Software Kft.",
+  "category": "media",
+  "purpose": "Shows embedded maps.",
+  "privacyUrl": "https://openfreemap.org/privacy/",
+  "dataCountry": "EU (Hungary); may use Cloudflare's global CDN",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "tiles.openfreemap.org"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "map",
+  "wordpress": {
+    "plugins": [
+      "wp-google-map-plugin/wp-google-map-plugin.php",
+      "mappress-google-maps-for-wordpress/mappress.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://openfreemap.org/privacy/",
+    "https://openfreemap.org/tos/",
+    "https://plugins.svn.wordpress.org/wp-google-map-plugin/tags/5.0.3/modules/shortcode/views/put-wpgmp.php",
+    "https://plugins.svn.wordpress.org/mappress-google-maps-for-wordpress/tags/2.97.17/mappress.php"
+  ],
+  "checked": "2026-11-13"
+}
