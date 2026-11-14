@@ -1,0 +1,58 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "clevertap",
+  "version": 1,
+  "name": "CleverTap",
+  "provider": "WizRocket Inc.",
+  "category": "marketing",
+  "purpose": "Tracks visits to personalize marketing messages.",
+  "privacyUrl": "https://clevertap.com/privacy-policy/",
+  "dataCountry": "EU, India, USA, Singapore, Indonesia, UAE (EU-US Data Privacy Framework)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "static.clevertap.com",
+      "d2r1yp2w7bby2u.cloudfront.net/js/clevertap.min.js",
+      "d2r1yp2w7bby2u.cloudfront.net/js/a.js",
+      "clevertap-prod.com"
+    ],
+    "inline": [
+      "clevertap.account.push("
+    ]
+  },
+  "cookies": [
+    {
+      "name": "WZRK_*",
+      "lifetime": "10 years",
+      "purpose": "Remembers visitors, sessions and website activity."
+    }
+  ],
+  "storage": [
+    "WZRK_*"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://clevertap.com/privacy-policy/",
+    "https://clevertap.com/eu-us-data-privacy-framework-policy/",
+    "https://clevertap.com/terms-service/",
+    "https://developer.clevertap.com/docs/web-quickstart-guide",
+    "https://developer.clevertap.com/docs/idc",
+    "https://developer.clevertap.com/docs/sdk-endpoints",
+    "https://developer.clevertap.com/docs/sdk-changes-for-gdpr-compliance",
+    "https://developer.clevertap.com/docs/july-2023",
+    "https://developer.clevertap.com/docs/multi-instance-support-web",
+    "https://static.clevertap.com/js/clevertap.min.js",
+    "https://d2r1yp2w7bby2u.cloudfront.net/js/clevertap.min.js",
+    "https://fy.wordpress.org/plugins/journify-for-woocommerce/",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-14"
+}

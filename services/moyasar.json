@@ -1,0 +1,45 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "moyasar",
+  "version": 1,
+  "name": "Moyasar",
+  "provider": "Moyasar Financial Company",
+  "category": "essential",
+  "purpose": "Processes online payments.",
+  "privacyUrl": "https://moyasar.com/en/resources/privacy-policy/",
+  "dataCountry": "Saudi Arabia",
+  "legalBasis": "contract",
+  "match": {
+    "inline": [
+      "Moyasar.init("
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "moyasar/moyasar-payments.php",
+      "moyasar/moyasar.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://moyasar.com/en/resources/privacy-policy/",
+    "https://docs.moyasar.com/getting-started/your-first-payment",
+    "https://docs.moyasar.com/guides/card-payments/basic-integration",
+    "https://docs.moyasar.com/assets/js/69d08698.b8b822e3.js",
+    "https://cdn.jsdelivr.net/npm/moyasar-payment-form@2.3.0/dist/moyasar.umd.min.js",
+    "https://cdn.moyasar.com/mpf/1.7.3/moyasar.js",
+    "https://plugins.svn.wordpress.org/moyasar/trunk/includes/class-moyasar.php",
+    "https://www.dataprivacyframework.gov/list",
+    "https://wordpress.org/plugins/moyasar/",
+    "https://plugins.svn.wordpress.org/moyasar/trunk/moyasar-payments.php",
+    "https://plugins.svn.wordpress.org/moyasar/tags/7.1.10/moyasar.php"
+  ],
+  "checked": "2026-11-14"
+}

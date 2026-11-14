@@ -1,0 +1,105 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "moengage",
+  "version": 1,
+  "name": "MoEngage",
+  "provider": "MoEngage Global Inc.",
+  "category": "marketing",
+  "purpose": "Tracks visits for personalized messages.",
+  "privacyUrl": "https://www.moengage.com/privacy-policy/",
+  "dataCountry": "USA, EU, India, Singapore, Indonesia (EU-US Data Privacy Framework)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "cdn.moengage.com"
+    ],
+    "inline": [
+      "moengage_object",
+      "moengage_q"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "moe_uuid",
+      "lifetime": "2 years",
+      "purpose": "Tells visitors and devices apart."
+    },
+    {
+      "name": "moe_u_d",
+      "lifetime": "2 years",
+      "purpose": "Remembers visitor and device details."
+    },
+    {
+      "name": "moe_s_a_s",
+      "lifetime": "2 years",
+      "purpose": "Remembers the push notification prompt status."
+    },
+    {
+      "name": "moe_s_n",
+      "lifetime": "2 years",
+      "purpose": "Remembers the visit and its source."
+    },
+    {
+      "name": "moe_o_s_t",
+      "lifetime": "2 years",
+      "purpose": "Remembers when the notification prompt appeared."
+    },
+    {
+      "name": "moe_h_a_s",
+      "lifetime": "2 years",
+      "purpose": "Remembers the browser push permission status."
+    },
+    {
+      "name": "moe_s_d",
+      "lifetime": "2 years",
+      "purpose": "Remembers the push notification subscription."
+    },
+    {
+      "name": "moe_d_d",
+      "lifetime": "2 years",
+      "purpose": "Tells devices apart."
+    },
+    {
+      "name": "moe_c_s",
+      "lifetime": "2 years",
+      "purpose": "Remembers whether subdomains share visitor data."
+    },
+    {
+      "name": "moe_i_m",
+      "lifetime": "2 years",
+      "purpose": "Links current and previous visitor identities."
+    },
+    {
+      "name": "moe_dis",
+      "lifetime": "2 years",
+      "purpose": "Remembers whether the SDK is disabled."
+    },
+    {
+      "name": "moe_dt_d",
+      "lifetime": "2 years",
+      "purpose": "Remembers whether tracking is disabled."
+    }
+  ],
+  "storage": [
+    "MOE_DATA"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://www.moengage.com/privacy-policy/",
+    "https://www.moengage.com/docs/developer-guide/web-sdk/web-sdk-integration/basic-integration/web-sdk-integration",
+    "https://www.moengage.com/docs/developer-guide/web-sdk/web-sdk-integration/advanced-integration/cookies-used-by-web-sdk",
+    "https://www.moengage.com/docs/user-guide/data/key-concepts/data-centers-in-moengage",
+    "https://cdn.moengage.com/release/dc_1/versions/2/moe_webSdk.min.latest.js",
+    "https://www.moengage.com/docs/developer-guide/ecommerce-platforms/woo-commerce/woocommerce",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-14"
+}

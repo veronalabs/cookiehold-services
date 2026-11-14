@@ -1,0 +1,60 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "myfatoorah",
+  "version": 1,
+  "name": "MyFatoorah",
+  "provider": "",
+  "category": "essential",
+  "purpose": "Processes online payments.",
+  "privacyUrl": "https://www.myfatoorah.com/en/privacy-policy/",
+  "dataCountry": "",
+  "legalBasis": "contract",
+  "match": {
+    "hosts": [
+      "myfatoorah.com/cardview/v2/session.js",
+      "myfatoorah.com/payment/v1/session.js",
+      "myfatoorah.com/sessions/v1/session.js",
+      "myfatoorah.com/applepay/v3/applepay.js",
+      "myfatoorah.com/googlepay/v1/googlepay.js"
+    ],
+    "inline": [
+      "myfatoorah.init(",
+      "myFatoorah.init("
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "myfatoorah-woocommerce/myfatoorah-woocommerce.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.myfatoorah.com/en/privacy-policy/",
+    "https://docs.myfatoorah.com/docs/embedded-integration-steps",
+    "https://docs.myfatoorah.com/docs/embedded-integration-steps.md",
+    "https://docs.myfatoorah.com/docs/embedded-payment-v3",
+    "https://docs.myfatoorah.com/docs/embedded-payment-v3.md",
+    "https://portal.myfatoorah.com/Files/API/mf-config.json",
+    "https://portal.myfatoorah.com/cardview/v2/session.js",
+    "https://portal.myfatoorah.com/payment/v1/session.js",
+    "https://portal.myfatoorah.com/sessions/v1/session.js",
+    "https://portal.myfatoorah.com/applepay/v3/applepay.js",
+    "https://portal.myfatoorah.com/googlepay/v1/googlepay.js",
+    "https://wordpress.org/plugins/myfatoorah-woocommerce/",
+    "https://plugins.svn.wordpress.org/myfatoorah-woocommerce/trunk/",
+    "https://plugins.svn.wordpress.org/myfatoorah-woocommerce/trunk/myfatoorah-woocommerce.php",
+    "https://plugins.svn.wordpress.org/myfatoorah-woocommerce/trunk/includes/payments/class-wc-gateway-myfatoorah.php",
+    "https://plugins.svn.wordpress.org/myfatoorah-woocommerce/trunk/includes/payments/class-wc-gateway-myfatoorah-v2.php",
+    "https://plugins.svn.wordpress.org/myfatoorah-woocommerce/trunk/includes/templates/sectionForm.php",
+    "https://downloads.wordpress.org/plugin/myfatoorah-woocommerce.latest-stable.zip",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-14"
+}

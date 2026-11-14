@@ -216,7 +216,8 @@ const PRIVATE = [
   [/github\.com\/(?:navidkashani|veronalabs)\/cookiehold(?![-\w])/, 'a link to a private repository'],
   [/\bTODO\b/, 'TODO'],
   [/\bFIXME\b/, 'FIXME'],
-  [/\bPro\b/, '"Pro"'],
+  // A service's own name may hold the word ("Muslim Pro"); the plugin's edition may not.
+  [/(?<!\bMuslim )\bPro\b/, '"Pro"'],
   [/\bNexus\b/, '"Nexus"'],
   [/\bADRs?\b/, '"ADR"'],
 ];

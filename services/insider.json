@@ -1,0 +1,62 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "insider",
+  "version": 1,
+  "name": "Insider One",
+  "provider": "",
+  "category": "marketing",
+  "purpose": "Personalizes content and marketing campaigns.",
+  "privacyUrl": "https://insiderone.com/product-privacy-notice/",
+  "dataCountry": "EU (Ireland by default), USA, UAE and other countries; depends on configuration",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "api.useinsider.com/ins.js"
+    ],
+    "inline": [
+      "window.InsiderQueue = window.InsiderQueue || []"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "ins-test-cookie",
+      "lifetime": "Session",
+      "purpose": "Checks whether the browser accepts cookies."
+    }
+  ],
+  "storage": [
+    "spUID",
+    "ins-*",
+    "sp-camp-*",
+    "sp-info-c-*",
+    "insCustomAttributes",
+    "insUserPermissionGranted",
+    "insCoeffDaily",
+    "insCoeffSession",
+    "insiderVersusData",
+    "insUserInfoHash",
+    "insBMStorageData",
+    "ins_sr_out"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://academy.insiderone.com/docs/integrate-insider-tag-into-your-website",
+    "https://academy.insiderone.com/docs/insider-web-sdk-integration-guide",
+    "https://academy.insiderone.com/docs/insider-cookies-local-storage-session-storage",
+    "https://academy.insiderone.com/docs/cookie-free-insider-tag-integration",
+    "https://insiderone.com/product-privacy-notice/",
+    "https://insiderone.com/privacy-policy/",
+    "https://insiderone.com/legal/subprocessors/",
+    "https://useinsidercom.api.useinsider.com/ins.js",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-14"
+}

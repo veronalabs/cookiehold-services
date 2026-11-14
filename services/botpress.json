@@ -1,0 +1,52 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "botpress",
+  "version": 1,
+  "name": "Botpress",
+  "provider": "Botpress Inc.",
+  "category": "functional",
+  "purpose": "Provides an AI chatbot.",
+  "privacyUrl": "https://botpress.com/privacy/",
+  "dataCountry": "USA (EU-US Data Privacy Framework) and other countries",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "cdn.botpress.cloud",
+      "files.bpcontent.cloud"
+    ],
+    "inline": [
+      "window.botpress.init(",
+      "window.botpress.on("
+    ]
+  },
+  "cookies": [],
+  "storage": [
+    "bp-webchat-*",
+    "bp-composer-file-store",
+    "bp-unread-message-count",
+    "bp-proactive-message-state"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://botpress.com/privacy/",
+    "https://botpress.com/docs/webchat/get-started/quick-start/",
+    "https://botpress.com/docs/webchat/get-started/embedding-webchat/",
+    "https://botpress.com/docs/webchat/get-started/configure-your-webchat/",
+    "https://botpress.com/docs/webchat/integrations/react-native/",
+    "https://botpress.com/docs/webchat/integrations/wordpress/",
+    "https://www.botpress.com/docs/webchat/react-library/components/webchat/",
+    "https://cdn.botpress.cloud/webchat/v3.6/inject.js",
+    "https://cdn.botpress.cloud/webchat/v3.3/inject.js",
+    "https://www.dataprivacyframework.gov/list",
+    "https://raw.githubusercontent.com/jkwakman/Open-Cookie-Database/master/open-cookie-database.csv"
+  ],
+  "checked": "2026-11-14"
+}

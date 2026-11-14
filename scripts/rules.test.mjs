@@ -160,6 +160,8 @@ test('public files carry no private links or internal words', () => {
     assert.equal(checkPublic('README.md', `A ${word} here.`).length, 1, word);
   }
   assert.equal(checkPublic('README.md', 'A process, a product, provider.').length, 0);
+  assert.equal(checkPublic('services/muslim-pro.json', '"name": "Muslim Pro prayer times widget",').length, 0);
+  assert.equal(checkPublic('README.md', `Muslim Pro, and the ${'P'}ro edition.`).length, 1);
 });
 
 test('a purpose\'s first sentence fits on a card', () => {

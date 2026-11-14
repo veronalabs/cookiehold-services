@@ -1,0 +1,103 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "tamara",
+  "version": 1,
+  "name": "Tamara",
+  "provider": "",
+  "category": "essential",
+  "purpose": "Enables buy now, pay later payments.",
+  "privacyUrl": "https://tamara.co/en-sa/privacy-policy",
+  "dataCountry": "",
+  "legalBasis": "contract",
+  "match": {
+    "hosts": [
+      "cdn.tamara.co",
+      "cdn-sandbox.tamara.co"
+    ],
+    "inline": [
+      "window.tamaraWidgetConfig"
+    ]
+  },
+  "cookies": [],
+  "storage": [
+    "tamara_widget_session_id"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "tamara-checkout/tamara-checkout.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://tamara.co/en-sa/privacy-policy",
+    "https://tamara.co/en-ae/privacy-policy",
+    "https://docs.tamara.co/docs/direct-widgets",
+    "https://docs.tamara.co/docs/shopify-widgets",
+    "https://cdn.tamara.co/widget-v2/tamara-widget.js",
+    "https://cdn-sandbox.tamara.co/widget-v2/tamara-widget.js",
+    "https://cdn.tamara.co/widget-v2/tamara-product-widget-v1.d364c1b7e39771b570ad.chunk.js",
+    "https://cdn.tamara.co/widget-v2/tamara-payment-plan.0d91be9f428ef1fced07.chunk.js",
+    "https://cdn.tamara.co/widget-v2/tamara-bundle.d26a2fe3e8a7a8b07464.chunk.js",
+    "https://cdn.tamara.co/widget-v2/summary__pay_now_option.e4459bc6c7e31a41b7d4.chunk.js",
+    "https://cdn.tamara.co/widget-v2/summary__pay_next_month_option.5748cff3d703172ab063.chunk.js",
+    "https://cdn.tamara.co/widget-v2/summary__pay_later_option.4a7bf9ee8fc427323789.chunk.js",
+    "https://cdn.tamara.co/widget-v2/summary__pay_in_x_option.50d82b9a931b7c6e55ef.chunk.js",
+    "https://cdn.tamara.co/widget-v2/summary__pay_in_4_option.e03447b472ed358bd8c6.chunk.js",
+    "https://cdn.tamara.co/widget-v2/summary__pay_in_3_option.c61b8cad234b38ba502a.chunk.js",
+    "https://cdn.tamara.co/widget-v2/summary__pay_in_2_option.391ec447cbe3825973b0.chunk.js",
+    "https://cdn.tamara.co/widget-v2/summary__installment_icon.7b1f7317fef991d3e124.chunk.js",
+    "https://cdn.tamara.co/widget-v2/sub_widget-tamara-summary.38b8a8c649517dc8b089.chunk.js",
+    "https://cdn.tamara.co/widget-v2/sub_widget-tamara-card-snippet.4257a7230de7aa9f2669.chunk.js",
+    "https://cdn.tamara.co/widget-v2/iframe-message-handler.134c2c7109613d1c970e.chunk.js",
+    "https://cdn.tamara.co/widget-v2/722.b8f9e7c92f0579f548e9.chunk.js",
+    "https://cdn.tamara.co/widget-v2/72.b1dd869bf1c7d6c9adbb.chunk.js",
+    "https://cdn.tamara.co/widget-v2/712.16d6321a1d7e3c0886f6.chunk.js",
+    "https://cdn.tamara.co/widget-v2/698.d86513a0c1b263d3a37e.chunk.js",
+    "https://cdn.tamara.co/widget-v2/684.0e99fb95af90b05feea7.chunk.js",
+    "https://cdn.tamara.co/widget-v2/655.bcbb54ce772c0b64977d.chunk.js",
+    "https://cdn.tamara.co/widget-v2/600.9c96d866b1eb57189f5b.chunk.js",
+    "https://cdn.tamara.co/widget-v2/316.ea1dbd63153cf4d7f2e2.chunk.js",
+    "https://cdn.tamara.co/widget-v2/299.4cda0a2b6e118b9d954a.chunk.js",
+    "https://cdn.tamara.co/widget-v2/272.54b321271c07d829c959.chunk.js",
+    "https://cdn-sandbox.tamara.co/widget-v2/tamara-product-widget-v1.d364c1b7e39771b570ad.chunk.js",
+    "https://cdn-sandbox.tamara.co/widget-v2/tamara-payment-plan.0d91be9f428ef1fced07.chunk.js",
+    "https://cdn-sandbox.tamara.co/widget-v2/tamara-bundle.d26a2fe3e8a7a8b07464.chunk.js",
+    "https://cdn-sandbox.tamara.co/widget-v2/summary__pay_now_option.e4459bc6c7e31a41b7d4.chunk.js",
+    "https://cdn-sandbox.tamara.co/widget-v2/summary__pay_next_month_option.5748cff3d703172ab063.chunk.js",
+    "https://cdn-sandbox.tamara.co/widget-v2/summary__pay_later_option.4a7bf9ee8fc427323789.chunk.js",
+    "https://cdn-sandbox.tamara.co/widget-v2/summary__pay_in_x_option.50d82b9a931b7c6e55ef.chunk.js",
+    "https://cdn-sandbox.tamara.co/widget-v2/summary__pay_in_4_option.e03447b472ed358bd8c6.chunk.js",
+    "https://cdn-sandbox.tamara.co/widget-v2/summary__pay_in_3_option.c61b8cad234b38ba502a.chunk.js",
+    "https://cdn-sandbox.tamara.co/widget-v2/summary__pay_in_2_option.391ec447cbe3825973b0.chunk.js",
+    "https://cdn-sandbox.tamara.co/widget-v2/summary__installment_icon.7b1f7317fef991d3e124.chunk.js",
+    "https://cdn-sandbox.tamara.co/widget-v2/sub_widget-tamara-summary.38b8a8c649517dc8b089.chunk.js",
+    "https://cdn-sandbox.tamara.co/widget-v2/sub_widget-tamara-prequal.c0c9565da05ea11cbca0.chunk.js",
+    "https://cdn-sandbox.tamara.co/widget-v2/sub_widget-tamara-card-snippet.4257a7230de7aa9f2669.chunk.js",
+    "https://cdn-sandbox.tamara.co/widget-v2/iframe-message-handler.134c2c7109613d1c970e.chunk.js",
+    "https://cdn-sandbox.tamara.co/widget-v2/883.8820e410105371f9dcd2.chunk.js",
+    "https://cdn-sandbox.tamara.co/widget-v2/722.b8f9e7c92f0579f548e9.chunk.js",
+    "https://cdn-sandbox.tamara.co/widget-v2/72.b1dd869bf1c7d6c9adbb.chunk.js",
+    "https://cdn-sandbox.tamara.co/widget-v2/712.16d6321a1d7e3c0886f6.chunk.js",
+    "https://cdn-sandbox.tamara.co/widget-v2/698.d86513a0c1b263d3a37e.chunk.js",
+    "https://cdn-sandbox.tamara.co/widget-v2/684.0e99fb95af90b05feea7.chunk.js",
+    "https://cdn-sandbox.tamara.co/widget-v2/600.9c96d866b1eb57189f5b.chunk.js",
+    "https://cdn-sandbox.tamara.co/widget-v2/500.03a390a7b3b844f19d1c.chunk.js",
+    "https://cdn-sandbox.tamara.co/widget-v2/316.ea1dbd63153cf4d7f2e2.chunk.js",
+    "https://cdn-sandbox.tamara.co/widget-v2/299.4cda0a2b6e118b9d954a.chunk.js",
+    "https://cdn-sandbox.tamara.co/widget-v2/272.54b321271c07d829c959.chunk.js",
+    "https://wordpress.org/plugins/tamara-checkout/",
+    "https://plugins.svn.wordpress.org/tamara-checkout/trunk/",
+    "https://plugins.svn.wordpress.org/tamara-checkout/trunk/tamara-checkout.php",
+    "https://plugins.svn.wordpress.org/tamara-checkout/trunk/src/TamaraCheckout.php",
+    "https://plugins.svn.wordpress.org/tamara-checkout/trunk/assets/dist/js/main.js",
+    "https://www.dataprivacyframework.gov/list",
+    "https://github.com/jkwakman/Open-Cookie-Database",
+    "https://raw.githubusercontent.com/jkwakman/Open-Cookie-Database/master/open-cookie-database.csv"
+  ],
+  "checked": "2026-11-14"
+}

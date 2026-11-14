@@ -1,0 +1,45 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "clickpay",
+  "version": 1,
+  "name": "ClickPay",
+  "provider": "",
+  "category": "essential",
+  "purpose": "Processes online payments.",
+  "privacyUrl": "",
+  "dataCountry": "",
+  "legalBasis": "contract",
+  "match": {
+    "hosts": [
+      "secure.clickpay.com.sa"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://support.clickpay.com.sa/en/support/solutions/articles/73000593570-managed-form",
+    "https://support.clickpay.com.sa/en/support/solutions/articles/73000560801-woocommerce-plugin",
+    "https://support.clickpay.com.sa/en/support/solutions/articles/73000632873-payment-workflow",
+    "https://secure.clickpay.com.sa/payment/js/paylib.js",
+    "https://clickpay.com.sa/wps/portal/clickpaynew",
+    "https://clickpay.com.sa/wps/portal/clickpaynew/clickpay/footerpages/privacy",
+    "https://clickpay.com.sa/wps/portal/clickpaynew/clickpay/footerpages/aboutus",
+    "https://github.com/clickpaysa/clickpay-woocommerce",
+    "https://raw.githubusercontent.com/clickpaysa/clickpay-woocommerce/main/clickpay-woocommerce.php",
+    "https://raw.githubusercontent.com/clickpaysa/clickpay-woocommerce/main/includes/clickpay_core.php",
+    "https://raw.githubusercontent.com/clickpaysa/clickpay-woocommerce/main/includes/_managed_form.php",
+    "https://raw.githubusercontent.com/paytabscom/paytabs-woocommerce/main/includes/_managed_form.php",
+    "https://plugins.svn.wordpress.org/clickpay-woocommerce/trunk/",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-14"
+}

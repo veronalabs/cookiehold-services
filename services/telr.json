@@ -1,0 +1,63 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "telr",
+  "version": 1,
+  "name": "Telr",
+  "provider": "Innovate Technologies FZCO",
+  "category": "essential",
+  "purpose": "Processes online payments.",
+  "privacyUrl": "https://telr.com/privacy-policy",
+  "dataCountry": "",
+  "legalBasis": "contract",
+  "match": {
+    "hosts": [
+      "secure.telr.com/jssdk/v2/telr_sdk.js"
+    ],
+    "frames": [
+      "secure.telr.com/jssdk/v2/token_frame.html"
+    ]
+  },
+  "cookies": [],
+  "storage": [
+    "pp.refset",
+    "pp.refval"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://telr.com/privacy-policy",
+    "https://telr.com/terms-and-condition",
+    "https://telr.com/cookie-notice",
+    "https://docs.telr.com/reference/iframe-display",
+    "https://docs.telr.com/reference/iframe-display.md",
+    "https://docs.telr.com/reference/how-the-hosted-payment-page-works.md",
+    "https://docs.telr.com/reference/payment-page.md",
+    "https://docs.telr.com/reference/jssdk-seamless.md",
+    "https://docs.telr.com/reference/woocommerce",
+    "https://docs.telr.com/reference/woocommerce.md",
+    "https://github.com/Telr-PG/telr-jssdk-seamless-sample",
+    "https://raw.githubusercontent.com/Telr-PG/telr-jssdk-seamless-sample/main/index.html",
+    "https://secure.telr.com/jssdk/v2/telr_sdk.js",
+    "https://secure.telr.com/jssdk/v2/token_frame.html",
+    "https://secure.telr.com/jssdk/v2/assets/min/pp2.min.js?v=6",
+    "https://secure.telr.com/jssdk/v2/assets/min/frame_common.min.js?v=1",
+    "https://secure.telr.com/jssdk/v2/assets/min/autosub.min.js?v=1",
+    "https://secure.telr.com/gateway/process_framed.html",
+    "https://github.com/Telr-PG/telr-plugin-woocommerce",
+    "https://raw.githubusercontent.com/Telr-PG/telr-plugin-woocommerce/main/wc-telr/includes/abstracts/abstract-wc-gateway-telr.php",
+    "https://raw.githubusercontent.com/Telr-PG/telr-plugin-woocommerce/main/wc-telr/includes/class-wc-gateway-telr-checkout-handler.php",
+    "https://raw.githubusercontent.com/Telr-PG/telr-plugin-woocommerce/main/wc-telr/includes/block/seamless_checkout_block.js",
+    "https://raw.githubusercontent.com/Telr-PG/telr-plugin-woocommerce/main/wc-telr/wc-telr.php",
+    "https://wordpress.org/plugins/search/telr/",
+    "https://raw.githubusercontent.com/jkwakman/Open-Cookie-Database/master/open-cookie-database.csv",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-14"
+}

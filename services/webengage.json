@@ -1,0 +1,68 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "webengage",
+  "version": 1,
+  "name": "WebEngage",
+  "provider": "Webklipper Technologies Private Limited",
+  "category": "marketing",
+  "purpose": "Tracks visits to personalize marketing messages.",
+  "privacyUrl": "",
+  "dataCountry": "USA, India, Saudi Arabia or EU (Germany), depending on account",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "ssl.widgets.webengage.com",
+      "cdn.widgets.webengage.com",
+      "widgets.in.webengage.com",
+      "widgets.ksa.webengage.com",
+      "widgets.eug.webengage.com"
+    ],
+    "inline": [
+      "webengage.init("
+    ]
+  },
+  "cookies": [
+    {
+      "name": "_WE_*",
+      "lifetime": "99999 days",
+      "purpose": "Remembers the visitor, visit and campaign interactions."
+    },
+    {
+      "name": "_we_wk_ss_lsf_",
+      "lifetime": "Session",
+      "purpose": "Helps keep track of the current visit."
+    },
+    {
+      "name": "we_luid",
+      "lifetime": "1 year",
+      "purpose": "Links the visitor across AMP and regular pages."
+    }
+  ],
+  "storage": [
+    "_WE_*",
+    "___we_c_d",
+    "webengage-library*",
+    "_we_token"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "webengage/webengage.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://docs.webengage.com/docs/web-getting-started",
+    "https://dev.webengage.com/legal/privacy/",
+    "https://ssl.widgets.webengage.com/js/webengage-min-v-6.0.js",
+    "https://wordpress.org/plugins/webengage/",
+    "https://plugins.svn.wordpress.org/webengage/trunk/webengage.php",
+    "https://www.dataprivacyframework.gov/list",
+    "https://dev.webengage.com/wp-content/uploads/2025/12/WebEngage-DPA-Latest.pdf"
+  ],
+  "checked": "2026-11-14"
+}

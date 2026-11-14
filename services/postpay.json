@@ -1,0 +1,51 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "postpay",
+  "version": 1,
+  "name": "Postpay",
+  "provider": "",
+  "category": "essential",
+  "purpose": "Shows buy now, pay later payment options.",
+  "privacyUrl": "",
+  "dataCountry": "",
+  "legalBasis": "contract",
+  "match": {
+    "hosts": [
+      "cdn.postpay.io"
+    ],
+    "inline": [
+      "postpayAsyncInit",
+      "postpay.ui.refresh(",
+      "postpay.checkout("
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "postpay/postpay.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://github.com/postpayio",
+    "https://raw.githubusercontent.com/postpayio/postpay-ui/master/README.md",
+    "https://raw.githubusercontent.com/postpayio/postpay-ui/master/docs/quickstart.rst",
+    "https://raw.githubusercontent.com/postpayio/postpay-ui/master/docs/widgets.rst",
+    "https://raw.githubusercontent.com/postpayio/postpay-ui/master/docs/checkout.rst",
+    "https://ui.postpay.io/widgets",
+    "https://www.postpay.io/privacy-policy",
+    "https://cdn.postpay.io/v1/js/postpay.js",
+    "https://wordpress.org/plugins/postpay/",
+    "https://plugins.svn.wordpress.org/postpay/trunk/",
+    "https://plugins.svn.wordpress.org/postpay/trunk/postpay.php",
+    "https://plugins.svn.wordpress.org/postpay/trunk/readme.txt",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-14"
+}
