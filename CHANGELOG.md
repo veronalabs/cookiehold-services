@@ -2,6 +2,26 @@
 
 Every release, newest first. Sites pick up a release within a week.
 
+## 1.14.0 (2026-11-14)
+
+- 26 new services that sites in Saudi Arabia, the Gulf and Egypt run (#60).
+  Pay-later and payment scripts that load on ordinary pages (Tamara, Tabby,
+  Postpay, Checkout.com, Apple Pay on the web) and ten checkout gateways
+  (Paymob, MyFatoorah, Moyasar, HyperPay, PayTabs, ClickPay, Tap Payments,
+  Geidea, Telr, Amazon Payment Services) are Essential, like Klarna and
+  Afterpay; the scan now names them instead of reporting an unknown script.
+  Insider, MoEngage, CleverTap, WebEngage and Admitad are Marketing; Botpress
+  and respond.io Functional; Muslim Pro, IslamicFinder and Snapchat embeds
+  External media. 427 services.
+- A WhatsApp chat button entry names Joinchat, Click to Chat, Social Chat,
+  WP Chat App and OneClick Chat to Order. It holds no script: these plugins
+  load nothing from WhatsApp until a visitor clicks, so the button keeps
+  working before a choice.
+- Arabic texts for every service and its cookies (`i18n/ar.json`), so an
+  Arabic site's preferences window describes each service in Arabic. The new
+  services also get German, Spanish, French, Italian, Dutch, Polish and
+  Portuguese.
+
 ## 1.13.1 (2026-11-13)
 
 - OpenFreeMap, a new Media service (#58). WP Maps and MapPress draw their
