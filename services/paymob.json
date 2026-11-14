@@ -15,10 +15,15 @@
       "cdn.jsdelivr.net/npm/paymob-pixel@1.2.7",
       "cdn.jsdelivr.net/npm/paymob-widget@latest",
       "eg.checkout.paymob.com/iframe-card",
+      "eg.checkout.paymob.com/iframe-card-v2",
       "uae.checkout.paymob.com/iframe-card",
+      "uae.checkout.paymob.com/iframe-card-v2",
       "ksa.checkout.paymob.com/iframe-card",
+      "ksa.checkout.paymob.com/iframe-card-v2",
       "om.checkout.paymob.com/iframe-card",
-      "pk.checkout.paymob.com/iframe-card"
+      "om.checkout.paymob.com/iframe-card-v2",
+      "pk.checkout.paymob.com/iframe-card",
+      "pk.checkout.paymob.com/iframe-card-v2"
     ],
     "inline": [
       "elementId: 'paymob-elements'",
