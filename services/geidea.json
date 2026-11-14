@@ -1,0 +1,57 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "geidea",
+  "version": 1,
+  "name": "Geidea",
+  "provider": "",
+  "category": "essential",
+  "purpose": "Processes online payments.",
+  "privacyUrl": "https://www.geidea.net/ksa/en/privacy-policy",
+  "dataCountry": "",
+  "legalBasis": "contract",
+  "match": {
+    "hosts": [
+      "www.merchant.geidea.net/hpp/",
+      "www.ksamerchant.geidea.net/hpp/",
+      "payments.geidea.ae/hpp/"
+    ],
+    "inline": [
+      "new GeideaCheckout(",
+      "new GeideaExpressCheckout("
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "geidea-online-payments/wc-geidea.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.geidea.net/ksa/en/privacy-policy",
+    "https://www.geidea.net/uae/en/privacy-policy",
+    "https://www.geidea.net/egy/en/privacy-policy",
+    "https://docs.geidea.net/docs/geidea-checkout-v2",
+    "https://docs.geidea.net/docs/geidea-checkout-v2.md",
+    "https://docs.geidea.net/docs/express-checkout-wallets",
+    "https://docs.geidea.net/docs/express-checkout-wallets.md",
+    "https://www.merchant.geidea.net/hpp/geideaCheckout.min.js",
+    "https://www.ksamerchant.geidea.net/hpp/geideaCheckout.min.js",
+    "https://payments.geidea.ae/hpp/geideaCheckout.min.js",
+    "https://www.geidea.net/ksa/en/cookie-policy",
+    "https://wordpress.org/plugins/geidea-online-payments/",
+    "https://plugins.svn.wordpress.org/geidea-online-payments/trunk/",
+    "https://plugins.svn.wordpress.org/geidea-online-payments/trunk/wc-geidea.php",
+    "https://plugins.svn.wordpress.org/geidea-online-payments/trunk/config.php",
+    "https://plugins.svn.wordpress.org/geidea-online-payments/trunk/class.geidea.php",
+    "https://raw.githubusercontent.com/jkwakman/Open-Cookie-Database/master/open-cookie-database.csv",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-14"
+}

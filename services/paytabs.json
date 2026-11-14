@@ -1,0 +1,57 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "paytabs",
+  "version": 1,
+  "name": "PayTabs",
+  "provider": "PAYTABS PAYMENT SERVICES PROVIDER L.L.C",
+  "category": "essential",
+  "purpose": "Processes online payments.",
+  "privacyUrl": "https://ai.paytabs.com/en/privacy-policy/",
+  "dataCountry": "",
+  "legalBasis": "contract",
+  "match": {
+    "hosts": [
+      "secure.paytabs.sa",
+      "secure.paytabs.com",
+      "secure-egypt.paytabs.com",
+      "secure-oman.paytabs.com",
+      "secure-jordan.paytabs.com",
+      "secure-kuwait.paytabs.com",
+      "secure-iraq.paytabs.com",
+      "secure-morocco.paytabs.com",
+      "secure-doha.paytabs.com",
+      "secure-global.paytabs.com"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://ai.paytabs.com/en/privacy-policy/",
+    "https://paytabs.com/en/privacy-policy/",
+    "https://docs.paytabs.com/",
+    "https://docs.paytabs.com/manuals/PT-API-Endpoints/Integration-Types-Manuals/Managed-Form/Managed-Form-Step-3-Initiating-Payment/Managed-Form-Initiating-Payment/",
+    "https://secure.paytabs.sa/payment/js/paylib.js",
+    "https://secure.paytabs.com/payment/js/paylib.js",
+    "https://secure-egypt.paytabs.com/payment/js/paylib.js",
+    "https://support.paytabs.com/en/support/solutions/articles/60000710404-woocommerce-plugin-integration-manual",
+    "https://github.com/paytabscom/paytabs-woocommerce",
+    "https://raw.githubusercontent.com/paytabscom/paytabs-woocommerce/main/paytabs-woocommerce.php",
+    "https://support.clickpay.com.sa/en/support/solutions/articles/73000593570-managed-form",
+    "https://ai.paytabs.com/en/newsroom/",
+    "https://wordpress.org/plugins/paytabs-woocommerce/",
+    "https://wordpress.org/plugins/search/paytabs-woocommerce/",
+    "https://plugins.svn.wordpress.org/paytabs-woocommerce/trunk/",
+    "https://raw.githubusercontent.com/jkwakman/Open-Cookie-Database/master/open-cookie-database.csv",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-14"
+}

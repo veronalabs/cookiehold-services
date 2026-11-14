@@ -54,6 +54,17 @@
     },
     "machine": true
   },
+  "admitad": {
+    "purpose": "Suit les ventes issues de liens d’affiliation.",
+    "cookies": {
+      "admitad_uid": "Mémorise le clic d’affiliation pour attribuer la vente.",
+      "_aid": "Mémorise le clic d’affiliation pour attribuer la vente.",
+      "tagtag_aid": "Mémorise le clic d’affiliation pour attribuer la vente.",
+      "_ttgclid": "Relie un clic publicitaire à une vente d’affiliation.",
+      "tt_deduplication_cookie": "Mémorise la dernière source de trafic payant."
+    },
+    "machine": true
+  },
   "adobe-analytics": {
     "purpose": "Mesure les visites et les conversions.",
     "cookies": {
@@ -153,6 +164,10 @@
     },
     "machine": true
   },
+  "amazon-payment-services": {
+    "purpose": "Traite les paiements en ligne.",
+    "machine": true
+  },
   "amplitude": {
     "purpose": "Mesure l’utilisation du site par les visiteurs.",
     "cookies": {
@@ -179,6 +194,10 @@
   },
   "apple-music": {
     "purpose": "Lit des titres, albums et playlists embarqués.",
+    "machine": true
+  },
+  "apple-pay": {
+    "purpose": "Permet de payer avec Apple Pay.",
     "machine": true
   },
   "apple-podcasts": {
@@ -294,6 +313,10 @@
   },
   "bootstrapcdn": {
     "purpose": "Fournit les bibliothèques de code utilisées par le site.",
+    "machine": true
+  },
+  "botpress": {
+    "purpose": "Propose un chatbot d’IA.",
     "machine": true
   },
   "braintree": {
@@ -424,6 +447,10 @@
     },
     "machine": true
   },
+  "checkout-com": {
+    "purpose": "Traite les paiements par carte et prévient la fraude.",
+    "machine": true
+  },
   "cj": {
     "purpose": "Suit les ventes issues des liens d’affiliation.",
     "cookies": {
@@ -468,6 +495,17 @@
   },
   "cleverreach": {
     "purpose": "Affiche des formulaires d’inscription à la lettre d’information.",
+    "machine": true
+  },
+  "clevertap": {
+    "purpose": "Suit les visites pour personnaliser les messages marketing.",
+    "cookies": {
+      "WZRK_*": "Mémorise les visiteurs, les sessions et l’activité sur le site."
+    },
+    "machine": true
+  },
+  "clickpay": {
+    "purpose": "Traite les paiements en ligne.",
     "machine": true
   },
   "clicky": {
@@ -832,6 +870,10 @@
     "purpose": "Enregistrements de session et statistiques d’utilisation.",
     "machine": true
   },
+  "geidea": {
+    "purpose": "Traite les paiements en ligne.",
+    "machine": true
+  },
   "gemius": {
     "purpose": "Mesure l’audience du site.",
     "cookies": {
@@ -1052,6 +1094,10 @@
     },
     "machine": true
   },
+  "hyperpay": {
+    "purpose": "Traite les paiements en ligne.",
+    "machine": true
+  },
   "imgur": {
     "purpose": "Affiche des publications et des images Imgur embarquées.",
     "machine": true
@@ -1073,6 +1119,13 @@
   },
   "infolinks": {
     "purpose": "Affiche des publicités dans le texte.",
+    "machine": true
+  },
+  "insider": {
+    "purpose": "Personnalise le contenu et les campagnes marketing.",
+    "cookies": {
+      "ins-test-cookie": "Vérifie si le navigateur accepte les cookies."
+    },
     "machine": true
   },
   "inspectlet": {
@@ -1097,6 +1150,10 @@
       "intercom-session-*": "Conserve la session de discussion.",
       "intercom-device-id-*": "Distingue les appareils."
     },
+    "machine": true
+  },
+  "islamicfinder": {
+    "purpose": "Affiche les horaires de prière.",
     "machine": true
   },
   "issuu": {
@@ -1528,6 +1585,24 @@
     },
     "machine": true
   },
+  "moengage": {
+    "purpose": "Suit les visites pour personnaliser les messages.",
+    "cookies": {
+      "moe_uuid": "Distingue les visiteurs et les appareils.",
+      "moe_u_d": "Mémorise les informations du visiteur et de l’appareil.",
+      "moe_s_a_s": "Mémorise l’état de la demande de notifications push.",
+      "moe_s_n": "Mémorise la visite et sa source.",
+      "moe_o_s_t": "Mémorise quand la demande de notifications a été affichée.",
+      "moe_h_a_s": "Mémorise si les notifications push sont autorisées dans le navigateur.",
+      "moe_s_d": "Mémorise l’abonnement aux notifications push.",
+      "moe_d_d": "Distingue les appareils.",
+      "moe_c_s": "Mémorise si les sous-domaines partagent les données des visiteurs.",
+      "moe_i_m": "Relie les identités actuelles et précédentes du visiteur.",
+      "moe_dis": "Mémorise si le SDK est désactivé.",
+      "moe_dt_d": "Mémorise si le suivi est désactivé."
+    },
+    "machine": true
+  },
   "mollie": {
     "purpose": "Traite les paiements en ligne.",
     "machine": true
@@ -1544,11 +1619,23 @@
     },
     "machine": true
   },
+  "moyasar": {
+    "purpose": "Traite les paiements en ligne.",
+    "machine": true
+  },
+  "muslim-pro": {
+    "purpose": "Affiche les horaires de prière locaux.",
+    "machine": true
+  },
   "mux": {
     "purpose": "Affiche des vidéos embarquées.",
     "cookies": {
       "muxData": "Distingue les spectateurs et les sessions de visionnage."
     },
+    "machine": true
+  },
+  "myfatoorah": {
+    "purpose": "Traite les paiements en ligne.",
     "machine": true
   },
   "myfonts": {
@@ -1690,6 +1777,10 @@
     },
     "machine": true
   },
+  "paymob": {
+    "purpose": "Traite les paiements en ligne.",
+    "machine": true
+  },
   "paypal": {
     "purpose": "Traite les paiements PayPal et prévient la fraude.",
     "cookies": {
@@ -1702,6 +1793,10 @@
   },
   "paypal-marketing": {
     "purpose": "Mesure les achats sur ce site pour le marketing de PayPal.",
+    "machine": true
+  },
+  "paytabs": {
+    "purpose": "Traite les paiements en ligne.",
     "machine": true
   },
   "pendo": {
@@ -1834,6 +1929,10 @@
     },
     "machine": true
   },
+  "postpay": {
+    "purpose": "Affiche les options pour acheter maintenant et payer plus tard.",
+    "machine": true
+  },
   "privy": {
     "purpose": "Affiche des fenêtres surgissantes et des formulaires d’inscription.",
     "cookies": {
@@ -1947,6 +2046,10 @@
   },
   "resmio": {
     "purpose": "Permet aux visiteurs de réserver une table au restaurant.",
+    "machine": true
+  },
+  "respond-io": {
+    "purpose": "Vous permet de discuter avec l’équipe du site.",
     "machine": true
   },
   "reverbnation": {
@@ -2116,6 +2219,14 @@
     },
     "machine": true
   },
+  "snapchat-embed": {
+    "purpose": "Affiche du contenu Snapchat intégré.",
+    "cookies": {
+      "sc-wcid": "Mesure les performances du contenu intégré.",
+      "sc-config-cache-key": "Aide le contenu intégré à se charger plus vite."
+    },
+    "machine": true
+  },
   "snapengage": {
     "purpose": "Discussion en direct.",
     "cookies": {
@@ -2219,6 +2330,14 @@
     },
     "machine": true
   },
+  "tabby": {
+    "purpose": "Propose des paiements en plusieurs fois avec Tabby.",
+    "cookies": {
+      "xxx111otrckid": "Relie les visites au processus de paiement Tabby.",
+      "owjojo1123pok": "Mémorise un identifiant d’appareil."
+    },
+    "machine": true
+  },
   "taboola": {
     "purpose": "Affiche du contenu sponsorisé et le mesure.",
     "cookies": {
@@ -2232,6 +2351,14 @@
   },
   "tally": {
     "purpose": "Affiche des formulaires embarqués.",
+    "machine": true
+  },
+  "tamara": {
+    "purpose": "Permet d’acheter maintenant et de payer plus tard.",
+    "machine": true
+  },
+  "tap-payments": {
+    "purpose": "Traite les paiements en ligne.",
     "machine": true
   },
   "tawk-to": {
@@ -2266,6 +2393,10 @@
     "cookies": {
       "stel_dt": "Mémorise votre fuseau horaire."
     },
+    "machine": true
+  },
+  "telr": {
+    "purpose": "Traite les paiements en ligne.",
     "machine": true
   },
   "the-trade-desk": {
@@ -2478,6 +2609,15 @@
     },
     "machine": true
   },
+  "webengage": {
+    "purpose": "Suit les visites pour personnaliser les messages marketing.",
+    "cookies": {
+      "_WE_*": "Mémorise le visiteur, la visite et les interactions avec les campagnes.",
+      "_we_wk_ss_lsf_": "Aide à suivre la visite en cours.",
+      "we_luid": "Relie le visiteur entre les pages AMP et les pages classiques."
+    },
+    "machine": true
+  },
   "webpushr": {
     "purpose": "Envoie des notifications push dans le navigateur.",
     "cookies": {
@@ -2505,6 +2645,14 @@
       "wc_client": "Mémorise la première source marketing.",
       "wc_client_current": "Mémorise la dernière source marketing.",
       "wc_swap": "Mémorise les numéros de téléphone de suivi affichés."
+    },
+    "machine": true
+  },
+  "whatsapp": {
+    "purpose": "Ouvre une discussion WhatsApp.",
+    "cookies": {
+      "nta-wa-gdpr": "Mémorise l’acceptation de l’avis de confidentialité de la discussion.",
+      "qlwapp_box_closed": "Mémorise que la fenêtre de discussion a été fermée."
     },
     "machine": true
   },

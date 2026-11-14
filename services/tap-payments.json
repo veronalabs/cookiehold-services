@@ -1,0 +1,54 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "tap-payments",
+  "version": 1,
+  "name": "Tap Payments",
+  "provider": "",
+  "category": "essential",
+  "purpose": "Processes online payments.",
+  "privacyUrl": "https://www.tap.company/en/privacy",
+  "dataCountry": "",
+  "legalBasis": "contract",
+  "match": {
+    "hosts": [
+      "tap-sdks.b-cdn.net",
+      "goselljslib.b-cdn.net",
+      "secure.gosell.io"
+    ],
+    "inline": [
+      "renderTapCard(",
+      "goSell.config(",
+      "goSell.goSellElements("
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://www.tap.company/en/privacy",
+    "https://developers.tap.company/docs/card-sdk-web-v2",
+    "https://developers.tap.company/docs/web-card-sdk",
+    "https://tap-sdks.b-cdn.net/card/1.0.2/index.js",
+    "https://developers.tap.company/docs/woocommerce",
+    "https://github.com/Tap-Payments/Tap-WooCommerce-V2/",
+    "https://raw.githubusercontent.com/Tap-Payments/Tap-WooCommerce-V2/main/tap.php",
+    "https://raw.githubusercontent.com/Tap-Payments/Tap-WooCommerce-V2/main/tap.js",
+    "https://raw.githubusercontent.com/Tap-Payments/goSell-JSLib-Documentation/master/goSellCheckout/README.md",
+    "https://raw.githubusercontent.com/Tap-Payments/goSell-JSLib-Documentation/master/goSellElements/README.md",
+    "https://raw.githubusercontent.com/Tap-Payments/gosell-js-client/main/README.md",
+    "https://goselljslib.b-cdn.net/v2.0.0/js/gosell.js",
+    "https://goselljslib.b-cdn.net/v2.0.4/js/gosell.js",
+    "https://api.wordpress.org/plugins/info/1.2/?action=query_plugins&request%5Bsearch%5D=tap%20payments&request%5Bper_page%5D=20",
+    "https://api.wordpress.org/plugins/info/1.2/?action=query_plugins&request%5Bsearch%5D=gosell&request%5Bper_page%5D=20",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-14"
+}

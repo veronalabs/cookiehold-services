@@ -1,0 +1,81 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "admitad",
+  "version": 1,
+  "name": "Admitad",
+  "provider": "",
+  "category": "marketing",
+  "purpose": "Tracks sales from affiliate links.",
+  "privacyUrl": "https://www.admitad.com/privacy/",
+  "dataCountry": "",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "www.artfut.com/static/"
+    ],
+    "inline": [
+      "ADMITAD.Helpers.generateDomains",
+      "ADMITAD.Invoice",
+      "getParamFromUriAdmitad"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "admitad_uid",
+      "lifetime": "90 days",
+      "purpose": "Remembers the affiliate click to credit a sale."
+    },
+    {
+      "name": "_aid",
+      "lifetime": "90 days",
+      "purpose": "Remembers the affiliate click to credit a sale."
+    },
+    {
+      "name": "tagtag_aid",
+      "lifetime": "90 days",
+      "purpose": "Remembers the affiliate click to credit a sale."
+    },
+    {
+      "name": "_ttgclid",
+      "lifetime": "90 days",
+      "purpose": "Links an advertising click to an affiliate sale."
+    },
+    {
+      "name": "tt_deduplication_cookie",
+      "lifetime": "90 days",
+      "purpose": "Remembers the last paid traffic source."
+    }
+  ],
+  "storage": [
+    "_aid",
+    "_ttgclid",
+    "tt_deduplication_cookie"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "admitad-tracking/admitadtracking.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.admitad.com/privacy/",
+    "https://www.admitad.com/imprint/",
+    "https://support.mitgo.com/hc/en-us/articles/33312506659218-Integration-via-tracking-code",
+    "https://support.mitgo.com/hc/en-us/articles/33312486924434-Integration-through-an-XML-file",
+    "https://www.artfut.com/static/tagtag.min.js",
+    "https://www.artfut.com/static/tracking.min.js",
+    "https://www.artfut.com/static/crossdevice.min.js",
+    "https://support.mitgo.com/hc/en-us/articles/33312512859282-Integration-via-WordPress-plugin",
+    "https://wordpress.org/plugins/admitad-tracking/",
+    "https://plugins.svn.wordpress.org/admitad-tracking/trunk/",
+    "https://plugins.svn.wordpress.org/admitad-tracking/trunk/admitadtracking.php",
+    "https://plugins.svn.wordpress.org/admitad-tracking/trunk/admitadtracking.class.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-14"
+}

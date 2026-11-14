@@ -1,0 +1,36 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "islamicfinder",
+  "version": 1,
+  "name": "IslamicFinder",
+  "provider": "IslamicFinder Organization",
+  "category": "media",
+  "purpose": "Shows prayer times.",
+  "privacyUrl": "https://www.islamicfinder.org/privacypolicy/",
+  "dataCountry": "",
+  "legalBasis": "consent",
+  "match": {
+    "frames": [
+      "www.islamicfinder.org/prayer-widget/"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "generic",
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://www.islamicfinder.org/widgets/",
+    "https://www.islamicfinder.org/prayer-widget/",
+    "https://www.islamicfinder.org/prayer-widget/4180439/shafi/5/0/15.0/15.0/",
+    "https://www.islamicfinder.org/privacypolicy/",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-14"
+}

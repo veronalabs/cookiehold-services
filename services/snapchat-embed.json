@@ -1,0 +1,52 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "snapchat-embed",
+  "version": 1,
+  "name": "Snapchat embeds",
+  "provider": "Snap Inc.",
+  "category": "media",
+  "purpose": "Shows embedded Snapchat content.",
+  "privacyUrl": "https://values.snap.com/privacy/privacy-policy",
+  "dataCountry": "USA (EU-US Data Privacy Framework) and other countries",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "www.snapchat.com/embed.js"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "sc-wcid",
+      "lifetime": "1 year",
+      "purpose": "Measures how the embed performs."
+    },
+    {
+      "name": "sc-config-cache-key",
+      "lifetime": "1 day",
+      "purpose": "Helps the embed load faster."
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "social",
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://developers.snap.com/api/snapchat-for-web/social-plugins/embedding-web-content",
+    "https://www.snapchat.com/embed.js",
+    "https://newsroom.snap.com/how-to-embed-snapchat-content",
+    "https://values.snap.com/privacy/privacy-policy",
+    "https://values.snap.com/privacy/privacy-policy/eea-uk-privacy-notice",
+    "https://www.snap.com/cookie-policy",
+    "https://www.snap.com/privacy/cookie-information",
+    "https://www.dataprivacyframework.gov/list",
+    "https://dpfapi.azurewebsites.net/api/participants",
+    "https://www.snapchat.com/spotlight/W7_EDlXWTBiXAEEniNoMPwAAYanpldnJ4eWh1AYdnmdz2AYdnmcohAAAAAQ/embed"
+  ],
+  "checked": "2026-11-14"
+}

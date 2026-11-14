@@ -1,0 +1,63 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "checkout-com",
+  "version": 1,
+  "name": "Checkout.com",
+  "provider": "Checkout SAS",
+  "category": "essential",
+  "purpose": "Processes card payments and prevents fraud.",
+  "privacyUrl": "https://www.checkout.com/legal/privacy-notice",
+  "dataCountry": "",
+  "legalBasis": "contract",
+  "match": {
+    "hosts": [
+      "cdn.checkout.com/js/framesv2.min.js",
+      "checkout-web-components.checkout.com",
+      "risk.checkout.com/cdn/risk/",
+      "fpjs.checkout.com",
+      "fpjscache.checkout.com"
+    ],
+    "inline": [
+      "CheckoutWebComponents(",
+      "window.Risk.create(",
+      "Frames.init("
+    ]
+  },
+  "cookies": [],
+  "storage": [
+    "cko-risk-js-device-data-fingerprint"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "checkout-com-unified-payments-api/woocommerce-gateway-checkout-com.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.checkout.com/legal/privacy-notice",
+    "https://www.checkout.com/legal/country-terms",
+    "https://www.checkout.com/legal/certificates",
+    "https://www.checkout.com/legal/cookie-policy",
+    "https://www.checkout.com/docs/get-started",
+    "https://www.checkout.com/docs/developer-resources/sdks/risk-sdks/risk-js-sdk",
+    "https://checkoutdocs.readme.io/docs/frames",
+    "https://checkoutdocs.readme.io/docs/frames-migration-guide",
+    "https://support.checkout.com/hc/en-us/articles/28862975071634-When-will-Frames-be-deprecated",
+    "https://support.checkout.com/hc/en-us/articles/29397041704978-How-do-Checkout-com-s-Risk-SDKs-enhance-fraud-detection",
+    "https://cdn.checkout.com/js/framesv2.min.js",
+    "https://checkout-web-components.checkout.com/index.js",
+    "https://risk.checkout.com/cdn/risk/4.1.0/risk.js",
+    "https://risk.checkout.com/cdn/risk/4.1.0/agent/index.html",
+    "https://trust.checkout.com/",
+    "https://wordpress.org/plugins/checkout-com-unified-payments-api/",
+    "https://plugins.svn.wordpress.org/checkout-com-unified-payments-api/trunk/",
+    "https://plugins.svn.wordpress.org/checkout-com-unified-payments-api/trunk/woocommerce-gateway-checkout-com.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-14"
+}

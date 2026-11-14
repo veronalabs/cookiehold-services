@@ -1,0 +1,69 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "tabby",
+  "version": 1,
+  "name": "Tabby",
+  "provider": "",
+  "category": "essential",
+  "purpose": "Offers instalment payments with Tabby.",
+  "privacyUrl": "https://tabby.ai/en-AE/legal/privacy-policy/latest",
+  "dataCountry": "Saudi Arabia and UAE; other countries unspecified",
+  "legalBasis": "contract",
+  "match": {
+    "hosts": [
+      "checkout.tabby.ai",
+      "checkout.tabby.sa"
+    ],
+    "inline": [
+      "new TabbyPromo(",
+      "new TabbyCard("
+    ]
+  },
+  "cookies": [
+    {
+      "name": "xxx111otrckid",
+      "lifetime": "Session",
+      "purpose": "Links visits to Tabby checkout."
+    },
+    {
+      "name": "owjojo1123pok",
+      "lifetime": "Session",
+      "purpose": "Remembers a device identifier."
+    }
+  ],
+  "storage": [
+    "owjojo1123pok"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "tabby-checkout/tabby-checkout.php"
+    ],
+    "handles": [
+      "tabby-checkout-promo",
+      "tabby-checkout-integration"
+    ]
+  },
+  "sources": [
+    "https://docs.tabby.ai/introduction/what-is-tabby",
+    "https://docs.tabby.ai/pay-in-4-custom-integration/on-site-messaging.md",
+    "https://docs.tabby.ai/e-commerce-platforms/woocommerce/woocommerce-plugin-installation.md",
+    "https://tabby.ai/en-AE/legal/privacy-policy/latest",
+    "https://cms-cdn.tabby.ai/static/17d3ddf8f2ddd9e6fd4dd4154408994cfb64ab77_fb762eb29b/17d3ddf8f2ddd9e6fd4dd4154408994cfb64ab77_fb762eb29b.pdf",
+    "https://checkout.tabby.ai/tabby-promo.js",
+    "https://checkout.tabby.ai/tabby-card.js",
+    "https://checkout.tabby.sa/tabby-promo.js",
+    "https://checkout.tabby.sa/tabby-card.js",
+    "https://plugins.svn.wordpress.org/tabby-checkout/trunk/",
+    "https://plugins.svn.wordpress.org/tabby-checkout/trunk/tabby-checkout.php",
+    "https://plugins.svn.wordpress.org/tabby-checkout/trunk/includes/class-wc-tabby-promo.php",
+    "https://plugins.svn.wordpress.org/tabby-checkout/trunk/includes/class-wc-tabby-config.php",
+    "https://plugins.svn.wordpress.org/tabby-checkout/trunk/includes/class-wc-gateway-tabby-checkout-base.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-14"
+}

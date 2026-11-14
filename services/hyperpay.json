@@ -1,0 +1,48 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "hyperpay",
+  "version": 1,
+  "name": "HyperPay",
+  "provider": "HyperPay Inc Saudi Information Systems Technology",
+  "category": "essential",
+  "purpose": "Processes online payments.",
+  "privacyUrl": "https://www.hyperpay.com/privacy-policy/",
+  "dataCountry": "Saudi Arabia and other countries",
+  "legalBasis": "contract",
+  "match": {
+    "hosts": [
+      "eu-prod.oppwa.com",
+      "eu-test.oppwa.com"
+    ]
+  },
+  "cookies": [],
+  "storage": [
+    "customer.browser.deviceId"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "hyperpay-gateways/hyperpay-payments.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.hyperpay.com/privacy-policy/",
+    "https://www.hyperpay.com/integration-guide/",
+    "https://hyperpay.docs.oppwa.com/integrations/widget",
+    "https://eu-prod.oppwa.com/v1/paymentWidgets.js",
+    "https://eu-prod.oppwa.com/v1/static/f8dac3c990586e9932f5bf9cda8d206c/js/static.min.js",
+    "https://eu-test.oppwa.com/v1/paymentWidgets.js",
+    "https://wordpress.org/plugins/hyperpay-gateways/",
+    "https://plugins.svn.wordpress.org/hyperpay-gateways/trunk/",
+    "https://plugins.svn.wordpress.org/hyperpay-gateways/trunk/hyperpay-payments.php",
+    "https://plugins.svn.wordpress.org/hyperpay-gateways/trunk/src/App/DefaultGateway.php",
+    "https://downloads.wordpress.org/plugin/hyperpay-gateways.zip",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-14"
+}

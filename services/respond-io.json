@@ -1,0 +1,53 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "respond-io",
+  "version": 1,
+  "name": "respond.io",
+  "provider": "ROCKETBOTS LIMITED",
+  "category": "functional",
+  "purpose": "Lets you chat with the website's team.",
+  "privacyUrl": "https://respond.io/privacy-policy",
+  "dataCountry": "Singapore and USA",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "cdn.respond.io/webchat/widget/",
+      "cdn-staging.respond.io/webchat/widget/"
+    ],
+    "inline": [
+      "respondio__widget"
+    ]
+  },
+  "cookies": [],
+  "storage": [
+    "Respondio_widget_v3_*"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://respond.io/privacy-policy",
+    "https://respond.io/help/website-chat-widget/website-chat-widget",
+    "https://respond.io/help/website-chat-widget/install-on-wordpress",
+    "https://assets2-proxy.respond.io/ph8r57dk1q9w/Ian351FEXVFMTGKlYGxmH/861c265623900ca5302d72ea4a4606ed/wpcode-live_chat_script.png",
+    "https://assets2-proxy.respond.io/ph8r57dk1q9w/2fkkx35XhngHEiDfk74xsx/e147cdddcf5f8db9639ba32edbc40162/image.png",
+    "https://cdn.respond.io/webchat/widget/widget.js",
+    "https://cdn.respond.io/webchat/widget/chat.html",
+    "https://cdn.respond.io/webchat/widget/js/chat.4c3e99bc.js",
+    "https://cdn-staging.respond.io/webchat/widget/widget.js",
+    "https://respond.io/cookie-policy",
+    "https://respond.io/security",
+    "https://respond.io/subprocessors",
+    "https://respond.io/data-processing-agreement",
+    "https://trust.respond.io/",
+    "https://respond.io/press",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-14"
+}

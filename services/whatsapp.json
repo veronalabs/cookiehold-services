@@ -1,0 +1,88 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "whatsapp",
+  "version": 1,
+  "name": "WhatsApp",
+  "provider": "WhatsApp Ireland Limited",
+  "category": "functional",
+  "purpose": "Opens a WhatsApp chat.",
+  "privacyUrl": "https://www.whatsapp.com/legal/privacy-policy-eea",
+  "dataCountry": "EU (Ireland), USA (EU-US Data Privacy Framework) and other countries",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "wa.me",
+      "api.whatsapp.com",
+      "web.whatsapp.com"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "nta-wa-gdpr",
+      "lifetime": "30 days",
+      "purpose": "Remembers acceptance of the chat privacy notice."
+    },
+    {
+      "name": "qlwapp_box_closed",
+      "lifetime": "7 days",
+      "purpose": "Remembers that the chat box was closed."
+    }
+  ],
+  "storage": [
+    "joinchat_*",
+    "persist:qlwapp:2",
+    "ht_ctc_storage",
+    "ht_ctc_analytics"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "creame-whatsapp-me/joinchat.php",
+      "click-to-chat-for-whatsapp/click-to-chat.php",
+      "wp-whatsapp-chat/wp-whatsapp-chat.php",
+      "wp-whatsapp/whatsapp.php",
+      "oneclick-whatsapp-order/whatsapp-order.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.whatsapp.com/legal/privacy-policy-eea",
+    "https://faq.whatsapp.com/5913398998672934",
+    "https://plugins.svn.wordpress.org/creame-whatsapp-me/trunk/public/js/joinchat.js",
+    "https://plugins.svn.wordpress.org/wp-whatsapp-chat/trunk/build/frontend/js/index.js",
+    "https://plugins.svn.wordpress.org/wp-whatsapp/trunk/assets/dist/js/njt-whatsapp.js",
+    "https://plugins.svn.wordpress.org/click-to-chat-for-whatsapp/trunk/new/inc/assets/js/app.js",
+    "https://plugins.svn.wordpress.org/mystickyelements/trunk/dist/js/mystickyelements-fronted.js",
+    "https://wordpress.org/plugins/creame-whatsapp-me/",
+    "https://wordpress.org/plugins/click-to-chat-for-whatsapp/",
+    "https://wordpress.org/plugins/wp-whatsapp-chat/",
+    "https://wordpress.org/plugins/wp-whatsapp/",
+    "https://wordpress.org/plugins/oneclick-whatsapp-order/",
+    "https://wordpress.org/plugins/mystickyelements/",
+    "https://plugins.svn.wordpress.org/creame-whatsapp-me/trunk/joinchat.php",
+    "https://plugins.svn.wordpress.org/click-to-chat-for-whatsapp/trunk/click-to-chat.php",
+    "https://plugins.svn.wordpress.org/wp-whatsapp-chat/trunk/wp-whatsapp-chat.php",
+    "https://plugins.svn.wordpress.org/wp-whatsapp/trunk/whatsapp.php",
+    "https://plugins.svn.wordpress.org/oneclick-whatsapp-order/trunk/whatsapp-order.php",
+    "https://plugins.svn.wordpress.org/mystickyelements/trunk/mystickyelements.php",
+    "https://www.dataprivacyframework.gov/list",
+    "https://plugins.svn.wordpress.org/creame-whatsapp-me/trunk/",
+    "https://plugins.svn.wordpress.org/click-to-chat-for-whatsapp/trunk/",
+    "https://plugins.svn.wordpress.org/wp-whatsapp-chat/trunk/",
+    "https://plugins.svn.wordpress.org/wp-whatsapp/trunk/",
+    "https://plugins.svn.wordpress.org/oneclick-whatsapp-order/trunk/",
+    "https://plugins.svn.wordpress.org/mystickyelements/trunk/",
+    "https://downloads.wordpress.org/plugin/creame-whatsapp-me.latest-stable.zip",
+    "https://downloads.wordpress.org/plugin/click-to-chat-for-whatsapp.latest-stable.zip",
+    "https://downloads.wordpress.org/plugin/wp-whatsapp-chat.latest-stable.zip",
+    "https://downloads.wordpress.org/plugin/wp-whatsapp.latest-stable.zip",
+    "https://downloads.wordpress.org/plugin/oneclick-whatsapp-order.latest-stable.zip",
+    "https://downloads.wordpress.org/plugin/mystickyelements.latest-stable.zip",
+    "https://plugins.svn.wordpress.org/wp-whatsapp-chat/trunk/whatsapp-chat.php"
+  ],
+  "checked": "2026-11-14"
+}

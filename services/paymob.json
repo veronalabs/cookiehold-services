@@ -1,0 +1,69 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "paymob",
+  "version": 1,
+  "name": "Paymob",
+  "provider": "",
+  "category": "essential",
+  "purpose": "Processes online payments.",
+  "privacyUrl": "https://www.paymob.com/support/privacy-policy",
+  "dataCountry": "",
+  "legalBasis": "contract",
+  "match": {
+    "hosts": [
+      "cdn.jsdelivr.net/npm/paymob-pixel@latest",
+      "cdn.jsdelivr.net/npm/paymob-pixel@1.2.7",
+      "cdn.jsdelivr.net/npm/paymob-widget@latest",
+      "eg.checkout.paymob.com/iframe-card",
+      "eg.checkout.paymob.com/iframe-card-v2",
+      "uae.checkout.paymob.com/iframe-card",
+      "uae.checkout.paymob.com/iframe-card-v2",
+      "ksa.checkout.paymob.com/iframe-card",
+      "ksa.checkout.paymob.com/iframe-card-v2",
+      "om.checkout.paymob.com/iframe-card",
+      "om.checkout.paymob.com/iframe-card-v2",
+      "pk.checkout.paymob.com/iframe-card",
+      "pk.checkout.paymob.com/iframe-card-v2"
+    ],
+    "inline": [
+      "elementId: 'paymob-elements'",
+      "this.value === 'paymob-pixel'"
+    ]
+  },
+  "cookies": [],
+  "storage": [
+    "paymob_pixel_force_new"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "paymob-for-woocommerce/init-paymob.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.paymob.com/support/privacy-policy",
+    "https://developers.paymob.com/paymob-docs/developers/checkout-experiences/pixel-embedded",
+    "https://developers.paymob.com/paymob-docs/developers/checkout-experiences/affordability-widget",
+    "https://cdn.jsdelivr.net/npm/paymob-pixel@latest/main.js",
+    "https://eg.checkout.paymob.com/iframe-card-v2/?type=card&v=2&integration_type=directPayment",
+    "https://eg.checkout.paymob.com/main.52d1dead7539e67c.js",
+    "https://wordpress.org/plugins/paymob-for-woocommerce/",
+    "https://plugins.svn.wordpress.org/paymob-for-woocommerce/trunk/",
+    "https://plugins.svn.wordpress.org/paymob-for-woocommerce/trunk/init-paymob.php",
+    "https://plugins.svn.wordpress.org/paymob-for-woocommerce/trunk/readme.txt",
+    "https://plugins.svn.wordpress.org/paymob-for-woocommerce/trunk/assets/js/blocks/paymob-pixel_block.js",
+    "https://plugins.svn.wordpress.org/paymob-for-woocommerce/trunk/includes/admin/scripts/pixel_checkout.php",
+    "https://plugins.svn.wordpress.org/paymob-for-woocommerce/trunk/includes/admin/scripts/paymob_admin_scripts.php",
+    "https://plugins.svn.wordpress.org/paymob-for-woocommerce/trunk/includes/helper/paymob.php",
+    "https://plugins.svn.wordpress.org/paymob-for-woocommerce/trunk/includes/helper/affordability_widget/class-paymob-affordability-widget.php",
+    "https://plugins.svn.wordpress.org/paymob-for-woocommerce/trunk/assets/js/valuWidget.js",
+    "https://raw.githubusercontent.com/jkwakman/Open-Cookie-Database/master/open-cookie-database.csv",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-14"
+}

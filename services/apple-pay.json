@@ -1,0 +1,38 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "apple-pay",
+  "version": 1,
+  "name": "Apple Pay",
+  "provider": "Apple Distribution International Limited",
+  "category": "essential",
+  "purpose": "Enables payments with Apple Pay.",
+  "privacyUrl": "https://www.apple.com/legal/privacy/data/en/apple-pay/",
+  "dataCountry": "USA and other countries",
+  "legalBasis": "contract",
+  "match": {
+    "hosts": [
+      "applepay.cdn-apple.com/jsapi/"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://www.apple.com/legal/privacy/data/en/apple-pay/",
+    "https://www.apple.com/legal/privacy/en-ww/",
+    "https://developer.apple.com/documentation/applepayontheweb/loading-the-latest-version-of-apple-pay-js",
+    "https://developer.apple.com/documentation/applepayontheweb/loading-the-latest-version-of-apple-pay-js.md",
+    "https://applepay.cdn-apple.com/jsapi/1.latest/apple-pay-sdk.js",
+    "https://www.dataprivacyframework.gov/list",
+    "https://raw.githubusercontent.com/jkwakman/Open-Cookie-Database/master/open-cookie-database.csv"
+  ],
+  "checked": "2026-11-14"
+}

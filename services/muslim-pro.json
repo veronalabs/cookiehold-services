@@ -1,0 +1,44 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "muslim-pro",
+  "version": 1,
+  "name": "Muslim Pro",
+  "provider": "Bitsmedia Pte Ltd",
+  "category": "media",
+  "purpose": "Shows local prayer times.",
+  "privacyUrl": "https://support.muslimpro.com/help/en/articles/privacy-policy",
+  "dataCountry": "Worldwide, including USA",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "app.muslimpro.com/muslimprowidget.js"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "generic",
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://support.muslimpro.com/help/en/articles/how-do-i-add-muslim-pro-prayer-times-on-my-own-web-page",
+    "https://support.muslimpro.com/help/en/articles/privacy-policy",
+    "https://www.muslimpro.com/cookies-policy/",
+    "https://app.muslimpro.com/muslimprowidget.js?cityid=1642911",
+    "https://support.muslimpro.com/hc/en-us/articles/202886274",
+    "https://support.muslimpro.com/hc/en-us/articles/203485970-Privacy-Policy",
+    "https://muslimpro.com/en/cookies-policy",
+    "https://app.muslimpro.com/cookies-policy",
+    "https://www.muslimpro.com/",
+    "https://bitsmedia.com/press/",
+    "https://www.dataprivacyframework.gov/list",
+    "https://github.com/jkwakman/Open-Cookie-Database",
+    "https://raw.githubusercontent.com/jkwakman/Open-Cookie-Database/master/open-cookie-database.csv"
+  ],
+  "checked": "2026-11-14"
+}
