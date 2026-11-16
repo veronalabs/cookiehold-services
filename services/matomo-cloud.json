@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "matomo-cloud",
-  "version": 3,
+  "version": 4,
   "name": "Matomo Cloud",
   "provider": "InnoCraft Limited",
   "category": "statistics",
@@ -11,7 +11,8 @@
   "legalBasis": "consent",
   "match": {
     "hosts": [
-      "matomo.cloud"
+      "matomo.cloud",
+      "innocraft.cloud"
     ],
     "inline": [
       "matomo.cloud"
@@ -47,7 +48,9 @@
   "sources": [
     "https://matomo.org/matomo-cloud-privacy-policy/",
     "https://matomo.org/faq/general/faq_146/",
-    "https://matomo.org/matomo-cloud-dpa/subprocessors/"
+    "https://matomo.org/matomo-cloud-dpa/subprocessors/",
+    "https://matomo.org/faq/how-to/how-do-i-know-which-version-of-matomo-i-am-using/",
+    "https://developer.matomo.org/guides/tracking-javascript-guide"
   ],
-  "checked": "2026-11-06"
+  "checked": "2026-11-16"
 }

@@ -1,0 +1,56 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "feedback-company",
+  "version": 1,
+  "name": "Feedback Company",
+  "provider": "Feedback Company B.V.",
+  "category": "media",
+  "purpose": "Shows customer reviews and ratings.",
+  "privacyUrl": "https://www.feedbackcompany.com/nl-nl/privacy-statement/",
+  "dataCountry": "EU (Netherlands and other EU countries)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "www.feedbackcompany.com/widgets/feedback-company-widget.min.js",
+      "www.feedbackcompany.com/includes/widgets/feedback-company-widget.min.js"
+    ],
+    "inline": [
+      "window.FeedbackCompanyWidgets"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "tsrvid",
+      "lifetime": "1 year",
+      "purpose": "Supports customer reviews."
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "generic",
+  "wordpress": {
+    "plugins": [
+      "the-feedback-company/the-feedback-company.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.feedbackcompany.com/nl-nl/privacy-statement/",
+    "https://www.feedbackcompany.com/nl-nl/privacy-statement/avg-data/",
+    "https://intercom.help/feedbackcompany/nl/articles/4191369-api-for-developers-widgets",
+    "https://intercom.help/feedbackcompany/nl/articles/4191285-integration-woocommerce",
+    "https://intercom.help/feedbackcompany/nl/articles/4197884-api-for-developers-orders",
+    "https://www.feedbackcompany.com/widgets/feedback-company-widget.min.js",
+    "https://www.feedbackcompany.com/includes/widgets/feedback-company-widget.min.js",
+    "https://wordpress.org/plugins/the-feedback-company/",
+    "https://plugins.svn.wordpress.org/the-feedback-company/trunk/",
+    "https://plugins.svn.wordpress.org/the-feedback-company/trunk/the-feedback-company.php",
+    "https://plugins.svn.wordpress.org/the-feedback-company/trunk/lib/feedbackcompany_api.php",
+    "https://plugins.svn.wordpress.org/the-feedback-company/trunk/woocommerce.php",
+    "https://raw.githubusercontent.com/jkwakman/Open-Cookie-Database/master/open-cookie-database.csv"
+  ],
+  "checked": "2026-11-16"
+}

@@ -1,0 +1,82 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "shinystat",
+  "version": 1,
+  "name": "ShinyStat",
+  "provider": "Sevendata S.p.A.",
+  "category": "statistics",
+  "purpose": "Measures visits and conversions.",
+  "privacyUrl": "https://www.shinystat.com/en/informativa_privacy_generale.html",
+  "dataCountry": "EEA",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "codice.shinystat.com",
+      "codicepro.shinystat.com",
+      "codicebusiness.shinystat.com",
+      "www.shinystat.com/cgi-bin/shinystat.cgi",
+      "s4.shinystat.com/cgi-bin/shinystat.cgi_pr",
+      "s1.oberon.shinystat.com/cgi-bin/shinystat.cgi",
+      "s9.shinystat.com/cgi-bin/csa.cgi"
+    ],
+    "inline": [
+      "var _ssCONV, _ssCurr;"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "SSC_*",
+      "lifetime": "180 days",
+      "purpose": "Measures shopping activity and conversions."
+    },
+    {
+      "name": "SSCN_*",
+      "lifetime": "Up to 6 months",
+      "purpose": "Counts unique visitors to site sections."
+    },
+    {
+      "name": "SUUID_*",
+      "lifetime": "Up to 6 months",
+      "purpose": "Tells visitors apart anonymously."
+    },
+    {
+      "name": "SSID_*",
+      "lifetime": "Session",
+      "purpose": "Identifies an anonymous browsing session."
+    },
+    {
+      "name": "SSIDC_*",
+      "lifetime": "6 days",
+      "purpose": "Links conversions to a campaign."
+    }
+  ],
+  "storage": [
+    "trgguid"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "shinystat-analytics/shinystat-analytics.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.shinystat.com/",
+    "https://www.shinystat.com/en/informativa_privacy_generale.html",
+    "https://www.shinystat.com/en/registrazione.html?ABBO=0",
+    "https://www.shinystat.com/it/registrazione.html?ABBO=1",
+    "https://www.shinystat.com/en/registrazione.html?ABBO=2",
+    "https://www.shinystat.com/en/anonimizzazione.html",
+    "https://codicebusiness.shinystat.com/cgi-bin/getcod.cgi?USER=newreport&NODW=yes",
+    "https://codice.shinystat.com/cgi-bin/getcod.cgi?USER=newreport&NODW=yes",
+    "https://wordpress.org/plugins/shinystat-analytics/",
+    "https://plugins.svn.wordpress.org/shinystat-analytics/trunk/shinystat-analytics.php",
+    "https://plugins.svn.wordpress.org/shinystat-analytics/trunk/public/class-shinystat-analytics-public.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-16"
+}

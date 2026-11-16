@@ -1,0 +1,65 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "leadinfo",
+  "version": 1,
+  "name": "Leadinfo",
+  "provider": "Leadinfo B.V.",
+  "category": "marketing",
+  "purpose": "Identifies companies visiting this website.",
+  "privacyUrl": "https://www.leadinfo.com/en/legal/privacy/",
+  "dataCountry": "EU (Ireland, Germany); possible transfers outside EEA",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "cdn.leadinfo.net",
+      "collector.leadinfo.net",
+      "ldnfrpl.com"
+    ],
+    "inline": [
+      "GlobalLeadinfoNamespace"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "_li_id.*",
+      "lifetime": "2 years",
+      "purpose": "Recognises returning visitors."
+    },
+    {
+      "name": "_li_ses.*",
+      "lifetime": "Session",
+      "purpose": "Tracks pages visited during the session."
+    }
+  ],
+  "storage": [
+    "_li_id.*",
+    "_li_ses.*"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "leadinfo/leadinfo.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.leadinfo.com/en/legal/privacy/",
+    "https://help.leadinfo.com/en/add-leadinfo-to-your-privacy-statement",
+    "https://help.leadinfo.com/en/what-cookies-are-created-by-leadinfo",
+    "https://help.leadinfo.com/en/why-is-the-leadinfo-tracker-blocked-on-my-website",
+    "https://help.leadinfo.com/en/how-leadinfo-complies-to-gdpr-and-keeps-your-data-safe",
+    "https://www.leadinfo.com/en/blog/ip-tracking-tools-and-consent-whats-legally-permitted/",
+    "https://cdn.leadinfo.net/ping.js",
+    "https://wordpress.org/plugins/leadinfo/",
+    "https://plugins.svn.wordpress.org/leadinfo/trunk/",
+    "https://plugins.svn.wordpress.org/leadinfo/trunk/leadinfo.php",
+    "https://plugins.svn.wordpress.org/leadinfo/trunk/leadinfo.class.php",
+    "https://plugins.svn.wordpress.org/leadinfo/trunk/readme.txt",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-16"
+}

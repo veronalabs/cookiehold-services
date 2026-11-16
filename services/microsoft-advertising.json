@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "microsoft-advertising",
-  "version": 3,
+  "version": 4,
   "name": "Microsoft Advertising (UET)",
   "provider": "Microsoft Ireland Operations Limited",
   "category": "marketing",
@@ -11,7 +11,8 @@
   "legalBasis": "consent",
   "match": {
     "hosts": [
-      "bat.bing.com"
+      "bat.bing.com",
+      "bat.bing.net/bat.js"
     ],
     "inline": [
       "bat.bing.com/bat.js"
@@ -63,7 +64,8 @@
     "https://github.com/jkwakman/Open-Cookie-Database",
     "https://www.dataprivacyframework.gov/list",
     "https://bat.bing.com/bat.js",
-    "https://learn.microsoft.com/en-us/advertising/msa-help/hlp_ba_conc_uet_parameters_table"
+    "https://learn.microsoft.com/en-us/advertising/msa-help/hlp_ba_conc_uet_parameters_table",
+    "https://bat.bing.net/bat.js"
   ],
-  "checked": "2026-11-06"
+  "checked": "2026-11-16"
 }

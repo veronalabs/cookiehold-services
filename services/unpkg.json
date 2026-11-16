@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "unpkg",
-  "version": 2,
+  "version": 3,
   "name": "UNPKG",
   "provider": "",
   "category": "essential",
@@ -11,7 +11,8 @@
   "legalBasis": "legitimate-interest",
   "match": {
     "hosts": [
-      "unpkg.com"
+      "unpkg.com",
+      "npmcdn.com"
     ]
   },
   "cookies": [],
@@ -29,7 +30,9 @@
     "https://unpkg.com/",
     "https://unpkg.com/about",
     "https://unpkg.com/network",
-    "https://unpkg.com/status"
+    "https://unpkg.com/status",
+    "https://npmcdn.com/react@15.3.0/dist/react.min.js",
+    "https://unpkg.com/react@15.3.0/dist/react.min.js"
   ],
-  "checked": "2026-11-06"
+  "checked": "2026-11-16"
 }

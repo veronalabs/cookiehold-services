@@ -1,0 +1,85 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "tradedoubler",
+  "version": 1,
+  "name": "Tradedoubler",
+  "provider": "NYORDA AB",
+  "category": "marketing",
+  "purpose": "Tracks sales from affiliate links.",
+  "privacyUrl": "https://www.tradedoubler.com/privacy-policy",
+  "dataCountry": "",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "svht.tradedoubler.com",
+      "sdk.tradedoubler.com",
+      "a.imgstatics.com",
+      "tbs.tradedoubler.com",
+      "tbl.tradedoubler.com",
+      "hst.tradedoubler.com"
+    ],
+    "inline": [
+      "TDConversionObject",
+      "tdconv("
+    ]
+  },
+  "cookies": [
+    {
+      "name": "tduid",
+      "lifetime": "1 year",
+      "purpose": "Remembers the affiliate click to credit a sale."
+    },
+    {
+      "name": "tdprog",
+      "lifetime": "1 year",
+      "purpose": "Remembers the affiliate program."
+    },
+    {
+      "name": "tdaff",
+      "lifetime": "1 year",
+      "purpose": "Remembers the referring affiliate."
+    },
+    {
+      "name": "tdclid_sn",
+      "lifetime": "1 year",
+      "purpose": "Links an affiliate click to a conversion."
+    },
+    {
+      "name": "TRADEDOUBLER",
+      "lifetime": "1 year",
+      "purpose": "Remembers the affiliate click to credit a sale."
+    }
+  ],
+  "storage": [
+    "tduid",
+    "tdprog",
+    "tdaff",
+    "tdclid_sn",
+    "tdcookieconsent",
+    "tdtrackingconsent"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "tradedoubler-affiliate-tracker/index.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.tradedoubler.com/privacy-policy",
+    "https://www.tradedoubler.com/corporate-press-releases/tradedoubler-ab-changes-name-to-nyorda-ab-and-begins-trading-under-new-ticker",
+    "https://dev.tradedoubler.com/tracking/advertiser/",
+    "https://knowledge.tradedoubler.com/grow-knowledge/cookie-specifications",
+    "https://svht.tradedoubler.com/tr_sdk.js",
+    "https://hst.tradedoubler.com/file/47446/landingPageGTM_min.js",
+    "https://plugins.svn.wordpress.org/tradedoubler-affiliate-tracker/trunk/src/TradedoublerActions/TradedoublerActions.php",
+    "https://plugins.svn.wordpress.org/tradedoubler-affiliate-tracker/trunk/index.php",
+    "https://wordpress.org/plugins/tradedoubler-affiliate-tracker/",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-16"
+}

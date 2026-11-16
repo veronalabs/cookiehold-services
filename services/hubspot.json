@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "hubspot",
-  "version": 2,
+  "version": 3,
   "name": "HubSpot",
   "provider": "HubSpot Ireland Limited",
   "category": "marketing",
@@ -15,7 +15,9 @@
       "hs-analytics.net",
       "hsadspixel.net",
       "hscollectedforms.net",
-      "track.hubspot.com"
+      "track.hubspot.com",
+      "js.hscta.net/cta/",
+      "js-eu1.hubspotfeedback.com/feedbackweb-new.js"
     ]
   },
   "cookies": [
@@ -57,7 +59,9 @@
     "https://knowledge.hubspot.com/privacy-and-consent/what-cookies-does-hubspot-set-in-a-visitor-s-browser",
     "https://wordpress.org/plugins/leadin/",
     "https://www.dataprivacyframework.gov/list",
-    "https://knowledge.hubspot.com/account-security/hubspot-cloud-infrastructure-and-data-hosting-frequently-asked-questions"
+    "https://knowledge.hubspot.com/account-security/hubspot-cloud-infrastructure-and-data-hosting-frequently-asked-questions",
+    "https://knowledge.hubspot.com/domains-and-urls/ssl-and-domain-security-in-hubspot",
+    "https://js.hscta.net/cta/current.js"
   ],
-  "checked": "2026-11-06"
+  "checked": "2026-11-16"
 }

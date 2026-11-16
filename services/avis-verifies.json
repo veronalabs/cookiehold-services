@@ -1,0 +1,54 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "avis-verifies",
+  "version": 1,
+  "name": "Avis Vérifiés by Skeepers",
+  "provider": "Skeepers SAS",
+  "category": "media",
+  "purpose": "Shows customer reviews and ratings.",
+  "privacyUrl": "https://fr.avis-verifies.com/politique-de-confidentialite/",
+  "dataCountry": "EU/EEA and unspecified other countries",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "cl.avis-verifies.com",
+      "widgets.rr.skeepers.io"
+    ],
+    "inline": [
+      "SkeepersCarouselWidget.generate(",
+      "SkeepersBrandWidget.generate("
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "generic",
+  "wordpress": {
+    "plugins": [
+      "netreviews/netreviews.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://fr.avis-verifies.com/",
+    "https://fr.avis-verifies.com/politique-de-confidentialite/",
+    "https://fr.avis-verifies.com/app/uploads/2024/04/Politique-de-confidentialite-AVIS-VERIFIES-FR-V2.pdf",
+    "https://help.rr.skeepers.com/hc/en-us/articles/10417653745436-How-to-remove-a-widget-from-my-Website",
+    "https://help.rr.skeepers.com/hc/en-us/articles/15754731706140-How-to-Automatically-Integrate-Brand-Product-Widgets-for-Multilingual-Shopify-Accounts",
+    "https://help.rr.skeepers.com/hc/fr/articles/4754206559260-Configurer-et-int%C3%A9grer-le-widget-badge-pour-afficher-vos-avis-marque",
+    "https://help.rr.skeepers.com/hc/fr/articles/8546351886236",
+    "https://help.rr.skeepers.com/hc/fr/articles/16091854626844",
+    "https://legal.skeepers.io/fr/legal-library/description-des-solutions/",
+    "https://help.rr.skeepers.com/hc/fr/articles/14212005573276-D%C3%A9sactivation-du-widget-historique-Avis-V%C3%A9rifi%C3%A9s",
+    "https://cl.avis-verifies.com/fr/widget4/widget04_FB3.min.js",
+    "https://wordpress.org/plugins/netreviews/",
+    "https://plugins.svn.wordpress.org/netreviews/trunk/",
+    "https://plugins.svn.wordpress.org/netreviews/trunk/netreviews.php",
+    "https://www.dataprivacyframework.gov/list",
+    "https://www.fevad.com/les-avis-clients-pour-booster-votre-visibilite-e-commerce/"
+  ],
+  "checked": "2026-11-16"
+}

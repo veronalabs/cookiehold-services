@@ -1,0 +1,93 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "gravitec",
+  "version": 1,
+  "name": "Gravitec",
+  "provider": "GRAVITEC POLSKA Sp.z O.O.",
+  "category": "marketing",
+  "purpose": "Manages web push notifications.",
+  "privacyUrl": "https://gravitec.net/privacy-policy",
+  "dataCountry": "EU (mainly; other locations unspecified)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "cdn.gravitec.net",
+      "cdn.gravitec.media",
+      "id.gravitec.net"
+    ],
+    "inline": [
+      "Gravitec.push("
+    ]
+  },
+  "cookies": [
+    {
+      "name": "gravitecOptInBlocked",
+      "lifetime": "30 days",
+      "purpose": "Remembers dismissal of the push sign-up prompt."
+    },
+    {
+      "name": "gravitecPromptShowed",
+      "lifetime": "60 days",
+      "purpose": "Remembers an existing push subscription."
+    },
+    {
+      "name": "gravitecBlocked",
+      "lifetime": "30 days",
+      "purpose": "Remembers refusal of push notifications."
+    },
+    {
+      "name": "GN_USER_ID_KEY",
+      "lifetime": "2 years",
+      "purpose": "Identifies the visitor for push campaign statistics."
+    },
+    {
+      "name": "GN_CONTACT_ID_KEY",
+      "lifetime": "2 years",
+      "purpose": "Links a campaign contact to website visits."
+    },
+    {
+      "name": "GN_SESSION_ID_KEY",
+      "lifetime": "30 minutes",
+      "purpose": "Groups visits for push campaign statistics."
+    },
+    {
+      "name": "GN_IS_DEBUG_KEY",
+      "lifetime": "1 year",
+      "purpose": "Enables diagnostic logging for the push tracker."
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "gravitec-net-web-push-notifications/gravitecnet.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://gravitec.net/",
+    "https://gravitec.net/privacy-policy",
+    "https://gravitec.net/ru/blog/1801-2-podpiska-na-obnovleniya-sayta/",
+    "https://gravitec.net/main.js",
+    "https://cdn.gravitec.net/storage/42d957222a32951ed272081dc1d9dc27/client.js",
+    "https://cdn.gravitec.net/modules/opt-in.bundle.js",
+    "https://cdn.gravitec.net/sdk/web/configs?appKey=42d957222a32951ed272081dc1d9dc27",
+    "https://cdn.gravitec.media/track.min.js",
+    "https://id.gravitec.net",
+    "https://cdn.gravitec.net/sw/worker.js",
+    "https://scandalous-ferry-f93.notion.site/8-Website-SDK-4bb180ecb9834b3297fd7491ca974f25",
+    "https://push.gravitec.net/demo?lang=en",
+    "https://wordpress.org/plugins/gravitec-net-web-push-notifications/",
+    "https://plugins.svn.wordpress.org/gravitec-net-web-push-notifications/trunk/",
+    "https://plugins.svn.wordpress.org/gravitec-net-web-push-notifications/trunk/gravitecnet.php",
+    "https://plugins.svn.wordpress.org/gravitec-net-web-push-notifications/trunk/includes/class-gravitecnet-path-helper.php",
+    "https://plugins.svn.wordpress.org/gravitec-net-web-push-notifications/trunk/includes/class-gravitecnet-settings.php",
+    "https://plugins.svn.wordpress.org/gravitec-net-web-push-notifications/trunk/sdk_files/sw.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-16"
+}

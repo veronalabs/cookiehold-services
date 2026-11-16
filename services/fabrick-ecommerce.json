@@ -1,0 +1,54 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "fabrick-ecommerce",
+  "version": 1,
+  "name": "Fabrick Payment Gateway (Ecommerce)",
+  "provider": "Fabrick S.p.A.",
+  "category": "essential",
+  "purpose": "Processes online payments.",
+  "privacyUrl": "https://www.fabrick.com/it-it/privacy/privacy-policy-servizi-di-pagamento/",
+  "dataCountry": "India; Israel (optional fraud prevention)",
+  "legalBasis": "contract",
+  "match": {
+    "hosts": [
+      "ecomm.sella.it",
+      "sandbox.gestpay.net",
+      "www.gestpay.it/checkbrowser/",
+      "web.axerve.com/orchestra/checkout/sdk/lightbox"
+    ],
+    "inline": [
+      "axerve.lightBox.",
+      "typeof GestPay.ChkTLS",
+      "gestpayReadyObject"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "gestpay-for-woocommerce/gestpay-for-woocommerce.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.fabrick.com/it-it/privacy/privacy-policy-servizi-di-pagamento/",
+    "https://www.fabrick.com/en-gb/product/payment-gateway/",
+    "https://docs.fabrick.com/en/payment-hub-and-orchestra/ecommerce/integration-methods/lightbox/",
+    "https://ecomm.sella.it/pagam/JavaScript/js_GestPay.js",
+    "https://sandbox.gestpay.net/Pagam/JavaScript/js_GestPay.js",
+    "https://ecomm.sella.it/pagam/javascript/axerve.js",
+    "https://www.gestpay.it/checkbrowser/checkBrowser.js",
+    "https://api.paymentorchestra.fabrick.com/privacy-cookie.pdf",
+    "https://wordpress.org/plugins/gestpay-for-woocommerce/",
+    "https://plugins.svn.wordpress.org/gestpay-for-woocommerce/trunk/gestpay-for-woocommerce.php",
+    "https://plugins.svn.wordpress.org/gestpay-for-woocommerce/trunk/inc/class-gestpay-iframe.php",
+    "https://plugins.svn.wordpress.org/gestpay-for-woocommerce/trunk/assets/js/iFrameReady.js",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-16"
+}

@@ -1,0 +1,43 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "helloasso",
+  "version": 1,
+  "name": "HelloAsso",
+  "provider": "HelloAsso SAS",
+  "category": "functional",
+  "purpose": "Handles donations and membership payments.",
+  "privacyUrl": "https://info.helloasso.com/politique-de-confidentialite",
+  "dataCountry": "EU (France) and other countries",
+  "legalBasis": "consent",
+  "match": {
+    "frames": [
+      "www.helloasso.com"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "form",
+  "wordpress": {
+    "plugins": [
+      "helloasso/hello-asso.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://info.helloasso.com/politique-de-confidentialite",
+    "https://centredaide.helloasso.com/association?question=comment-integrer-les-formulaires-de-mes-collectes-sur-mon-site-internet",
+    "https://www.helloasso.com/cookies",
+    "https://wordpress.org/plugins/helloasso/",
+    "https://plugins.svn.wordpress.org/helloasso/trunk/",
+    "https://plugins.svn.wordpress.org/helloasso/trunk/hello-asso.php",
+    "https://plugins.svn.wordpress.org/helloasso/trunk/public/class-hello-asso-public.php",
+    "https://plugins.svn.wordpress.org/helloasso/trunk/public/js/hello-asso-public.js",
+    "https://plugins.svn.wordpress.org/helloasso/trunk/admin/class-hello-asso-admin.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-16"
+}

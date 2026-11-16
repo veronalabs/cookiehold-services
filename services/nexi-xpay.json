@@ -1,0 +1,58 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "nexi-xpay",
+  "version": 1,
+  "name": "Nexi XPay",
+  "provider": "Nexi Payments S.p.A.",
+  "category": "essential",
+  "purpose": "Processes online payments.",
+  "privacyUrl": "https://www.nexi.it/it/privacy/xpay",
+  "dataCountry": "EU; possible transfers outside the EEA",
+  "legalBasis": "contract",
+  "match": {
+    "hosts": [
+      "ecommerce.nexi.it/ecomm/",
+      "int-ecommerce.nexi.it/ecomm/",
+      "xpay.nexigroup.com",
+      "xpaysandbox.nexigroup.com"
+    ],
+    "inline": [
+      "renderXpayBuild();"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "cartasi-x-pay/woocommerce-gateway-nexi-xpay.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.nexi.it/it/privacy/xpay",
+    "https://developer.nexi.it/en/modalita-di-integrazione/xpay-build",
+    "https://developer.nexi.it/en/modalita-di-integrazione/xpay-build/build-versione-3",
+    "https://developer.nexi.it/en/api/post-orders-build",
+    "https://plugins.svn.wordpress.org/cartasi-x-pay/trunk/src/classes/Nexi/WC_Gateway_XPay_API.php",
+    "https://plugins.svn.wordpress.org/cartasi-x-pay/trunk/src/classes/Nexi/WC_Gateway_NPG_API.php",
+    "https://plugins.svn.wordpress.org/cartasi-x-pay/trunk/src/classes/Nexi/WC_Gateway_XPay_Cards_Build.php",
+    "https://xpay.nexigroup.com/monetaweb/resources/hfsdk.js",
+    "https://xpaysandbox.nexigroup.com/monetaweb/resources/hfsdk.js",
+    "https://ecommerce.nexi.it/ecomm/XPayBuild/js",
+    "https://ecommerce.nexi.it/specifiche-tecniche/build/formraccoltadaticarta.html",
+    "https://downloads.wordpress.org/plugin/cartasi-x-pay.zip",
+    "https://wordpress.org/plugins/cartasi-x-pay/",
+    "https://plugins.svn.wordpress.org/cartasi-x-pay/trunk/",
+    "https://plugins.svn.wordpress.org/cartasi-x-pay/trunk/woocommerce-gateway-nexi-xpay.php",
+    "https://api.wordpress.org/plugins/info/1.2/?action=plugin_information&request%5Bslug%5D=cartasi-x-pay",
+    "https://raw.githubusercontent.com/jkwakman/Open-Cookie-Database/master/open-cookie-database.csv",
+    "https://www.dataprivacyframework.gov/list",
+    "https://2026.netcommforum.it/ITA/Sponsor/nexi.aspx"
+  ],
+  "checked": "2026-11-16"
+}

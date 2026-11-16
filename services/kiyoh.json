@@ -1,0 +1,59 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "kiyoh",
+  "version": 1,
+  "name": "Kiyoh",
+  "provider": "Klantenvertellen B.V.",
+  "category": "media",
+  "purpose": "Shows customer reviews and ratings.",
+  "privacyUrl": "https://www.kiyoh.com/en/privacy-policy/",
+  "dataCountry": "",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "www.kiyoh.com/retrieve-widget.html",
+      "www.kiyoh.com/retrieve-widget-library.html"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "generic",
+  "wordpress": {
+    "plugins": [
+      "kiyoh-reviews/kiyoh-reviews.php",
+      "kiyoh-customerreview/kiyoh-customerreview.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.kiyoh.com/",
+    "https://www.kiyoh.com/en/privacy-policy/",
+    "https://kiyoh.com/en/cookie-declaration/",
+    "https://www.kiyoh.com/en/features/",
+    "https://www.kiyoh.com/en/interfaces/",
+    "https://www.kiyoh.com/woocommerce-koppeling/",
+    "https://www.kiyoh.com/retrieve-widget.html?color=white&allowTransparency=true&button=true&lang=nl&tenantId=98&locationId=1044505",
+    "https://www.kiyoh.com/retrieve-widget-library.html?color=dark&allowTransparency=true&button=true&lang=nl&format=header&tenantId=98&locationId=1044505",
+    "https://www.kiyoh.com/assets/js/widget.js",
+    "https://wordpress.org/plugins/kiyoh-reviews/",
+    "https://plugins.svn.wordpress.org/kiyoh-reviews/trunk/",
+    "https://plugins.svn.wordpress.org/kiyoh-reviews/trunk/kiyoh-reviews.php",
+    "https://plugins.svn.wordpress.org/kiyoh-reviews/trunk/readme.txt",
+    "https://plugins.svn.wordpress.org/kiyoh-reviews/trunk/src/Frontend/ReviewWidget.php",
+    "https://plugins.svn.wordpress.org/kiyoh-reviews/trunk/src/Api/Client.php",
+    "https://downloads.wordpress.org/plugin/kiyoh-reviews.zip",
+    "https://wordpress.org/plugins/kiyoh-customerreview/",
+    "https://plugins.svn.wordpress.org/kiyoh-customerreview/trunk/",
+    "https://plugins.svn.wordpress.org/kiyoh-customerreview/trunk/kiyoh-customerreview.php",
+    "https://plugins.svn.wordpress.org/kiyoh-customerreview/trunk/widget.php",
+    "https://plugins.svn.wordpress.org/kiyoh-customerreview/trunk/functions.php",
+    "https://plugins.svn.wordpress.org/kiyoh-customerreview/trunk/js/",
+    "https://plugins.svn.wordpress.org/kiyoh-customerreview/trunk/js/script.js",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-16"
+}

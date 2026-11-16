@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "google-maps",
-  "version": 5,
+  "version": 6,
   "name": "Google Maps",
   "provider": "Google Ireland Limited",
   "category": "media",
@@ -12,10 +12,24 @@
   "match": {
     "hosts": [
       "maps.google.com",
-      "maps.googleapis.com"
+      "maps.googleapis.com",
+      "maps.google.de/maps",
+      "maps.google.it/maps",
+      "maps.google.at/maps",
+      "maps.google.ch/maps",
+      "maps.google.fr/maps",
+      "maps.google.nl/maps",
+      "maps.google.es/maps"
     ],
     "frames": [
-      "google.com/maps"
+      "google.com/maps",
+      "google.de/maps",
+      "google.at/maps",
+      "google.ch/maps",
+      "google.fr/maps",
+      "google.nl/maps",
+      "google.it/maps",
+      "google.es/maps"
     ]
   },
   "cookies": [
@@ -70,7 +84,10 @@
     "https://plugins.svn.wordpress.org/simple-map/trunk/simple-map.php",
     "https://wordpress.org/plugins/gmap-block/",
     "https://plugins.svn.wordpress.org/gmap-block/trunk/gmap-block.php",
-    "https://plugins.svn.wordpress.org/wp-google-maps/tags/10.1.11/includes/class.script-loader.php"
+    "https://plugins.svn.wordpress.org/wp-google-maps/tags/10.1.11/includes/class.script-loader.php",
+    "https://maps.google.de/maps/api/js",
+    "https://maps.google.it/maps/api/js",
+    "https://maps.google.at/maps/api/js"
   ],
-  "checked": "2026-11-12"
+  "checked": "2026-11-16"
 }

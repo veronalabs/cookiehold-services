@@ -1,0 +1,50 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "eye-able",
+  "version": 1,
+  "name": "Eye-Able Assist",
+  "provider": "Web Inclusion GmbH",
+  "category": "functional",
+  "purpose": "Offers website accessibility adjustments.",
+  "privacyUrl": "https://eye-able.com/privacy-policy-eye-able",
+  "dataCountry": "EU",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "cdn.eye-able.com",
+      "storage.eye-able-cdn.com"
+    ]
+  },
+  "cookies": [],
+  "storage": [
+    "eyeAbleVariables",
+    "eyeAbleHideIcon",
+    "eaIntro",
+    "eyeAbleShow",
+    "eyeAbleCrossStorage"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://eye-able.com/privacy-policy-eye-able",
+    "https://help.eye-able.com/en/product-overview-eye-able-assist",
+    "https://help.eye-able.com/en/wie-integriere-ich-assist-in-den-google-tag-manager",
+    "https://help.eye-able.com/en/does-eye-able-assist-use-cookies",
+    "https://help.eye-able.com/en/which-entries-are-stored-by-eye-able-assist-in-localstorage-and-sessionstorage",
+    "https://help.eye-able.com/en/welche-local-bzw.-session-storage-eintr%C3%A4ge-werden-von-eye-able-gesetzt",
+    "https://help.eye-able.com/en/can-the-initial-tooltip-of-eye-able-assist-be-changed-or-hidden",
+    "https://cdn.eye-able.com/public/js/eyeAble.js",
+    "https://cdn.eye-able.com/configs/www.retelit.it.js",
+    "https://help.eye-able.com/en/installing-eye-able-assist-with-local-hosting-in-wordpress",
+    "https://eye-able.com/press",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-16"
+}

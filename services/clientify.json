@@ -1,0 +1,54 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "clientify",
+  "version": 1,
+  "name": "Clientify",
+  "provider": "Clientify, SL",
+  "category": "marketing",
+  "purpose": "Tracks visits to build marketing contact records.",
+  "privacyUrl": "https://clientify.com/politicas-de-privacidad",
+  "dataCountry": "EU; USA and other countries for processing",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "analytics.clientify.net",
+      "analyticsplusdev.clientify.net"
+    ],
+    "inline": [
+      "analytics.clientify.net/tracker.js"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "spvc",
+      "lifetime": "30 minutes",
+      "purpose": "Counts page views in a session."
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "integrate-clientify/integrate-clientify.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://clientify.com/politicas-de-privacidad",
+    "https://clientify.com/centro-de-confianza",
+    "https://clientify.com/politica-uso-cookies",
+    "https://ayuda.clientify.com/es/articles/13657650-new-guia-completa-que-es-y-como-funciona-el-pixel-de-clientify",
+    "https://clientify.com/",
+    "https://app.clientify.com/account/login/?next=/",
+    "https://analytics.clientify.net/tracker.js",
+    "https://analyticsplusdev.clientify.net/analytics_plus/pixel/aRZFRDO0RQdgPE4u",
+    "https://wordpress.org/plugins/integrate-clientify/",
+    "https://plugins.svn.wordpress.org/integrate-clientify/trunk/integrate-clientify.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-16"
+}

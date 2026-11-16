@@ -1,0 +1,58 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "readspeaker",
+  "version": 1,
+  "name": "ReadSpeaker webReader",
+  "provider": "",
+  "category": "functional",
+  "purpose": "Reads website text aloud.",
+  "privacyUrl": "https://www.readspeaker.com/privacy/",
+  "dataCountry": "EU, USA and East Asia (depends on configuration)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "cdn-eu.readspeaker.com",
+      "cdn1.readspeaker.com"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "_rspkrLoadCore",
+      "lifetime": "Session",
+      "purpose": "Remembers that the reader was activated."
+    },
+    {
+      "name": "ReadSpeakerSettings",
+      "lifetime": "100 hours",
+      "purpose": "Remembers reading preferences."
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://www.readspeaker.com/products/webreader/",
+    "https://www.readspeaker.com/privacy/",
+    "https://www.readspeaker.com/resources/",
+    "https://www.readspeaker.com/v4/uploads/ReadSpeaker-Data-Privacy-2021.pdf",
+    "https://docs.readspeaker.com/assets/webreader/ps/ReadSpeaker%20webReader%203.8%20Product%20Specification_v07.pdf",
+    "https://wrdev.readspeaker.com/faq/product-qa/what-cookies-does-webreader-se",
+    "https://wrdev.readspeaker.com/configuration-api/general-settings",
+    "https://wrdev.readspeaker.com/index.php/faq/product-qa/how-do-we-allow-webreader-to-function-correctly-while-using",
+    "https://wrdev.readspeaker.com/get-started/implementation",
+    "https://cdn-eu.readspeaker.com/script/6335/webReader/webReader.js",
+    "https://cdn1.readspeaker.com/script/5599/webReader/webReader.js",
+    "https://docs.typo3.org/p/readspeaker/readspeaker-services/0.9/en-us/Index.html",
+    "https://docs.typo3.org/p/readspeaker/readspeaker-services/0.9/en-us/Configuration/Index.html",
+    "https://api.wordpress.org/plugins/info/1.2/?action=query_plugins&request%5Bsearch%5D=readspeaker&request%5Bper_page%5D=20",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-16"
+}

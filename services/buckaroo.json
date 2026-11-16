@@ -1,0 +1,54 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "buckaroo",
+  "version": 1,
+  "name": "Buckaroo",
+  "provider": "Buckaroo B.V. and Stichting Derdengelden Buckaroo",
+  "category": "essential",
+  "purpose": "Processes online payments.",
+  "privacyUrl": "https://www.buckaroo.nl/privacy-statement",
+  "dataCountry": "",
+  "legalBasis": "contract",
+  "match": {
+    "hosts": [
+      "checkout.buckaroo.nl",
+      "hostedfields-externalapi.prod-pci.buckaroo.io"
+    ],
+    "inline": [
+      "new BuckarooHostedFieldsSdk.HFClient(",
+      "new BuckarooSdk.GooglePay.GooglePayPayment("
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "wc-buckaroo-bpe-gateway/index.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.buckaroo.nl/privacy-statement",
+    "https://docs.buckaroo.io/docs/creditcards-hosted-fields",
+    "https://docs.buckaroo.io/docs/creditcards-hosted-fields.md",
+    "https://docs.buckaroo.io/docs/googlepay-integration",
+    "https://docs.buckaroo.io/docs/googlepay-integration.md",
+    "https://hostedfields-externalapi.prod-pci.buckaroo.io/v1/sdk",
+    "https://checkout.buckaroo.nl/api/buckaroosdk/script",
+    "https://www.buckaroo.nl/cookies",
+    "https://www.buckaroo.nl/blogs/samen-groeien-hoe-jelle-hoes-buckaroo-zag-transformeren",
+    "https://wordpress.org/plugins/wc-buckaroo-bpe-gateway/",
+    "https://plugins.svn.wordpress.org/wc-buckaroo-bpe-gateway/trunk/",
+    "https://plugins.svn.wordpress.org/wc-buckaroo-bpe-gateway/trunk/index.php",
+    "https://plugins.svn.wordpress.org/wc-buckaroo-bpe-gateway/trunk/src/Gateways/CreditCard/CreditCardGateway.php",
+    "https://downloads.wordpress.org/plugin/wc-buckaroo-bpe-gateway.latest-stable.zip",
+    "https://raw.githubusercontent.com/jkwakman/Open-Cookie-Database/master/open-cookie-database.csv",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-16"
+}

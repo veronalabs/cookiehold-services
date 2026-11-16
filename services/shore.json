@@ -1,0 +1,49 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "shore",
+  "version": 1,
+  "name": "Shore",
+  "provider": "Shore GmbH",
+  "category": "functional",
+  "purpose": "Lets visitors book appointments.",
+  "privacyUrl": "https://www.shore.com/en/legal/data-protection",
+  "dataCountry": "EU (Germany)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "connect.shore.com",
+      "booking-widget.shore-cdn.com"
+    ],
+    "inline": [
+      "window.shoreBookingSettings"
+    ]
+  },
+  "cookies": [],
+  "storage": [
+    "shore_booking_ad_attribution"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "generic",
+  "wordpress": {
+    "plugins": [
+      "shore-booking-widget/shore-booking-widget.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.shore.com/en/legal/data-protection",
+    "https://help.shore.com/en/how-do-i-set-up-online-booking-on-my-website",
+    "https://help.shore.com/en/what-are-the-options-to-include-the-online-booking-function-on-my-website",
+    "https://connect.shore.com/widget/booking.js",
+    "https://connect.shore.com/widget/loading.js",
+    "https://connect.shore.com/bookings/teufel-flagshipstore-berlin/locations",
+    "https://booking-widget.shore-cdn.com/booking/master/9403/assets/js/bundle.js",
+    "https://wordpress.org/plugins/shore-booking-widget/",
+    "https://plugins.svn.wordpress.org/shore-booking-widget/trunk/shore-booking-widget.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-16"
+}

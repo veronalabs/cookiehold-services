@@ -1,0 +1,53 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "ally",
+  "version": 1,
+  "name": "Web Accessibility",
+  "provider": "Elementor Ltd.",
+  "category": "functional",
+  "purpose": "Adds an accessibility menu to the site.",
+  "privacyUrl": "https://elementor.com/terms/privacy/",
+  "dataCountry": "Israel, EU, USA and other countries",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "cdn.elementor.com/a11y/"
+    ],
+    "inline": [
+      "var ea11yWidget ="
+    ]
+  },
+  "cookies": [],
+  "storage": [
+    "ea11y-global-state",
+    "ea11y-session-state",
+    "ea11y-widget-hide-expiration"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "pojo-accessibility/pojo-accessibility.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://elementor.com/products/ally-web-accessibility/",
+    "https://elementor.com/help/troubleshooting-the-ally-widget-not-displayed/",
+    "https://elementor.com/terms/privacy/",
+    "https://elementor.com/terms/elementor-data-processing-agreement/",
+    "https://elementor.com/terms/web-accessibility-plugin-tc/",
+    "https://elementor.com/terms/cookie-policy/",
+    "https://elementor.com/terms/sub-processors-list/",
+    "https://cdn.elementor.com/a11y/widget.js?api_key=ea11y-88b16370-311d-4959-b6a9-88c1a86ec24e&ver=4.1.4",
+    "https://wordpress.org/plugins/pojo-accessibility/",
+    "https://plugins.svn.wordpress.org/pojo-accessibility/trunk/",
+    "https://plugins.svn.wordpress.org/pojo-accessibility/trunk/pojo-accessibility.php",
+    "https://plugins.svn.wordpress.org/pojo-accessibility/trunk/modules/widget/module.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-16"
+}

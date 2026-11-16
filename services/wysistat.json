@@ -1,0 +1,71 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "wysistat",
+  "version": 1,
+  "name": "Wysistat",
+  "provider": "IDfr",
+  "category": "statistics",
+  "purpose": "Measures website visits.",
+  "privacyUrl": "https://www.wysistat.net/politique-de-respect-de-la-vie-privee/",
+  "dataCountry": "EU (France)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "www.wysistat.com/ws.jsa",
+      "www.wysistat.com/statistique.js",
+      "www.wysistat.com/images/"
+    ],
+    "inline": [
+      "_wsq.push(['_wysistat']",
+      ".wysistat.com/ws.jsa"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "Wysistat",
+      "lifetime": "13 months",
+      "purpose": "Tells visitors and visits apart."
+    },
+    {
+      "name": "WysistatAC",
+      "lifetime": "Deleted immediately",
+      "purpose": "Checks whether cookies can be set."
+    },
+    {
+      "name": "WSNoTrack",
+      "lifetime": "1 year",
+      "purpose": "Remembers the visitor's tracking opt-out."
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "wysistat-mesure-daudience/wysistat.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.wysistat.net/politique-de-respect-de-la-vie-privee/",
+    "https://www.wysistat.net/mentions-legales/",
+    "https://www.wysistat.net/ressources/plan-de-marquage/",
+    "https://wiki.wysistat.com/fr/plan-marquage/Marqueur",
+    "https://wiki.wysistat.com/fr/contractuel/Consentement",
+    "https://www.wysistat.com/ws.jsa",
+    "https://www.wysistat.com/statistique.js",
+    "https://www.wysistat.com/opt-out/verification.html",
+    "https://www.wysistat.net/wp-content/uploads/2025/07/202507-Wysistat-AutoEvaluation.pdf",
+    "https://www.wysistat.net/fonctionnalites-outil-mesure-d-audience/exemption-cnil/",
+    "https://wordpress.org/plugins/wysistat-mesure-daudience/",
+    "https://plugins.svn.wordpress.org/wysistat-mesure-daudience/trunk/",
+    "https://plugins.svn.wordpress.org/wysistat-mesure-daudience/trunk/wysistat.php",
+    "https://plugins.svn.wordpress.org/wysistat-mesure-daudience/trunk/readme.txt",
+    "https://www.cnil.fr/sites/cnil/files/2024-02/wysistat_guide_de_configuration_pour_mesure_daudience_exemptee.pdf",
+    "https://www.cnil.fr/fr/cookies-solutions-pour-les-outils-de-mesure-daudience"
+  ],
+  "checked": "2026-11-16"
+}

@@ -1,0 +1,59 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "laposta",
+  "version": 1,
+  "name": "Laposta",
+  "provider": "Laposta B.V.",
+  "category": "marketing",
+  "purpose": "Shows newsletter sign-up forms.",
+  "privacyUrl": "https://www.laposta.nl/privacyverklaring",
+  "dataCountry": "EU (servers in Netherlands)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "embed.email-provider.nl",
+      "embed.email-provider.eu",
+      "res.email-provider.eu/subscribe/check/"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "form",
+  "wordpress": {
+    "plugins": [
+      "laposta-signup-embed/laposta-signup-embed.php",
+      "laposta-signup-basic/laposta-signup-basic.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.laposta.nl/",
+    "https://www.laposta.nl/privacyverklaring",
+    "https://www.laposta.nl/beveiliging-gegevens",
+    "https://www.laposta.nl/subverwerkers",
+    "https://docs.laposta.org/hoe-plaats-ik-het-ingebedde-aanmeldformulier",
+    "https://docs.laposta.org/_fern-files/_img/7d8c01d4b417a5e8934361ef17d60a1e8c22caf782ba70fa9d519fd68d9bf653.webp",
+    "https://docs.laposta.org/installatie-en-configuratie-van-laposta-signup-embed-voor-wordpress",
+    "https://docs.laposta.org/hoe-kan-ik-wordpress-koppelen-aan-laposta",
+    "https://docs.laposta.org/kan-ik-helemaal-zelf-een-aanmeldformulier-vormgeven-optie-3",
+    "https://docs.laposta.org/wat-moet-ik-doen-aan-nep-aanmeldingen",
+    "https://docs.laposta.org/algemene-vormgeving-en-instellingen-van-het-ingebedde-aanmeldformulier",
+    "https://embed.email-provider.eu/e/dpxlkvhyuz-pjldz16n6c.js",
+    "https://embed.email-provider.nl/e/4KLEJJ0puC-kg9pube2xd.js",
+    "https://embed.email-provider.nl/e/config/4KLEJJ0puC/kg9pube2xd.json",
+    "https://embed.email-provider.eu/e/js/runtime/1.0.js",
+    "https://res.email-provider.eu/subscribe/check/pow.js",
+    "https://wordpress.org/plugins/laposta-signup-embed/",
+    "https://plugins.svn.wordpress.org/laposta-signup-embed/trunk/",
+    "https://plugins.svn.wordpress.org/laposta-signup-embed/trunk/laposta-signup-embed.php",
+    "https://plugins.svn.wordpress.org/laposta-signup-embed/trunk/templates/form/form.php",
+    "https://wordpress.org/plugins/laposta-signup-basic/",
+    "https://plugins.svn.wordpress.org/laposta-signup-basic/trunk/laposta-signup-basic.php",
+    "https://plugins.svn.wordpress.org/laposta-signup-basic/trunk/src/Controller/FormController.php"
+  ],
+  "checked": "2026-11-16"
+}

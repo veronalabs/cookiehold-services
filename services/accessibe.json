@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "accessibe",
-  "version": 2,
+  "version": 3,
   "name": "accessiBe",
   "provider": "accessiBe Ltd.",
   "category": "functional",
@@ -12,7 +12,8 @@
   "match": {
     "hosts": [
       "acsbapp.com",
-      "acsbap.com"
+      "acsbap.com",
+      "embeds.acswapp.com/accessibility/"
     ],
     "inline": [
       "acsbJS.init(",
@@ -49,7 +50,8 @@
     "https://accessibe.com/terms-of-service",
     "https://wordpress.org/plugins/accessibe/",
     "https://plugins.svn.wordpress.org/accessibe/trunk/",
-    "https://www.dataprivacyframework.gov/list"
+    "https://www.dataprivacyframework.gov/list",
+    "https://embeds.acswapp.com/accessibility/app.js"
   ],
-  "checked": "2026-11-06"
+  "checked": "2026-11-16"
 }

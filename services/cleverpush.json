@@ -1,0 +1,50 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "cleverpush",
+  "version": 1,
+  "name": "CleverPush",
+  "provider": "CleverPush GmbH",
+  "category": "marketing",
+  "purpose": "Sends push notifications and shows web stories.",
+  "privacyUrl": "https://cleverpush.com/en/privacy/",
+  "dataCountry": "EU (Germany)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "static.cleverpush.com"
+    ],
+    "inline": [
+      "window.CleverPush || []",
+      "window.cleverPushConfig ="
+    ]
+  },
+  "cookies": [],
+  "storage": [
+    "cleverpush-*"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "generic",
+  "wordpress": {
+    "plugins": [
+      "cleverpush/cleverpush.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://cleverpush.com/en/privacy/",
+    "https://cleverpush.com/en/gdpr/",
+    "https://developers.cleverpush.com/docs/sdks/javascript/setup",
+    "https://cleverpush.com/en/support/which-cookies-does-cleverpush-set/",
+    "https://cleverpush.com/de/platforms/web-stories/",
+    "https://static.cleverpush.com/sdk/cleverpush.js",
+    "https://static.clpsh.com/sdk/cleverpush-story.js",
+    "https://wordpress.org/plugins/cleverpush/",
+    "https://plugins.svn.wordpress.org/cleverpush/trunk/",
+    "https://plugins.svn.wordpress.org/cleverpush/trunk/cleverpush.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-16"
+}

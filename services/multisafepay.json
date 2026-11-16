@@ -1,0 +1,58 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "multisafepay",
+  "version": 1,
+  "name": "MultiSafepay",
+  "provider": "MultiSafepay B.V.",
+  "category": "essential",
+  "purpose": "Processes online payments.",
+  "privacyUrl": "https://www.multisafepay.com/privacy-cookies",
+  "dataCountry": "EU (Netherlands), UK, USA, Singapore, Malaysia and China",
+  "legalBasis": "contract",
+  "match": {
+    "hosts": [
+      "pay.multisafepay.com",
+      "testpay.multisafepay.com"
+    ],
+    "inline": [
+      "new MultiSafepay("
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "multisafepay/multisafepay.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.multisafepay.com/privacy-cookies",
+    "https://docs.multisafepay.com/docs/gdpr",
+    "https://docs.multisafepay.com/docs/payment-components-user-guide",
+    "https://docs.multisafepay.com/docs/payment-components-user-guide.md",
+    "https://docs.multisafepay.com/docs/payment-pages",
+    "https://www.multisafepay.com/cookie-policy",
+    "https://pay.multisafepay.com/sdk/components/v2/components.js",
+    "https://testpay.multisafepay.com/sdk/components/v2/components.js",
+    "https://pay.multisafepay.com/sdk/components/v2/components-caaf05a48e6e18786423.js",
+    "https://pay.multisafepay.com/sdk/components/v2/components-852987306b429791121d.js",
+    "https://pay.multisafepay.com/sdk/components/v2/components-0acab0e174b36d52af5d.js",
+    "https://pay.multisafepay.com/sdk/components/v2/components-6f8ec2446739cc61df97.js",
+    "https://pay.multisafepay.com/sdk/components/v2/assets/msp-crypt.min.js",
+    "https://wordpress.org/plugins/multisafepay/",
+    "https://plugins.svn.wordpress.org/multisafepay/trunk/",
+    "https://plugins.svn.wordpress.org/multisafepay/trunk/multisafepay.php",
+    "https://plugins.svn.wordpress.org/multisafepay/trunk/src/PaymentMethods/Base/BasePaymentMethod.php",
+    "https://plugins.svn.wordpress.org/multisafepay/trunk/assets/public/js/multisafepay-apple-pay-wallet.js",
+    "https://downloads.wordpress.org/plugin/multisafepay.latest-stable.zip",
+    "https://raw.githubusercontent.com/jkwakman/Open-Cookie-Database/master/open-cookie-database.csv",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-16"
+}

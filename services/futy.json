@@ -1,0 +1,51 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "futy",
+  "version": 1,
+  "name": "Futy",
+  "provider": "Futy B.V.",
+  "category": "functional",
+  "purpose": "Shows contact forms and chat widgets.",
+  "privacyUrl": "https://www.futy.io/privacy-policy/",
+  "dataCountry": "",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "v1.widget.futy.io",
+      "static.futy-widget.com"
+    ]
+  },
+  "cookies": [],
+  "storage": [
+    "fy_sk",
+    "fy_vk",
+    "futy_name",
+    "futy_ga_client",
+    "fy_widget_id",
+    "fy_tawk_active"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "futy-widget/futy-widget.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.futy.io/",
+    "https://www.futy.io/privacy-policy/",
+    "https://www.futy.io/terms-and-conditions/",
+    "https://www.futy.io/blog/wordpress-installatie-whatsapp/",
+    "https://v1.widget.futy.io/js/futy-widget-modern.js",
+    "https://wordpress.org/plugins/futy-widget/",
+    "https://plugins.svn.wordpress.org/futy-widget/trunk/futy-widget.php",
+    "https://plugins.svn.wordpress.org/futy-widget/trunk/assets/js/futy-io.js",
+    "https://plugins.svn.wordpress.org/futy-widget/trunk/assets/js/futy-widget.js",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-16"
+}

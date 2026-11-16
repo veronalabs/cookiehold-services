@@ -1,0 +1,51 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "sequra",
+  "version": 1,
+  "name": "seQura",
+  "provider": "SEQURA WORLDWIDE, S.A.",
+  "category": "essential",
+  "purpose": "Offers instalment payments at checkout.",
+  "privacyUrl": "https://documents.sequra.com/politica-privacidad",
+  "dataCountry": "Netherlands, Iceland and USA",
+  "legalBasis": "contract",
+  "match": {
+    "hosts": [
+      "live.sequracdn.com",
+      "sandbox.sequracdn.com"
+    ],
+    "inline": [
+      "SequraConfiguration"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "sequra/sequra.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://documents.sequra.com/politica-privacidad",
+    "https://documents.sequra.com/politica-cookies?locale=es",
+    "https://www.sequra.com/es/terminos-legales",
+    "https://legal.sequra.com/politica-privacidad",
+    "https://legal.sequra.com/politica-cookies?locale=es",
+    "https://docs.sequra.com/docs/checkout-integration",
+    "https://docs.sequra.com/docs/credit-conditions",
+    "https://docs.sequra.com/docs/credit-conditions.md",
+    "https://live.sequracdn.com/assets/sequra-checkout.min.js",
+    "https://wordpress.org/plugins/sequra/",
+    "https://plugins.svn.wordpress.org/sequra/trunk/sequra.php",
+    "https://github.com/jkwakman/Open-Cookie-Database",
+    "https://raw.githubusercontent.com/jkwakman/Open-Cookie-Database/master/open-cookie-database.csv",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-16"
+}

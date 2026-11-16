@@ -1,0 +1,59 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "webwinkelkeur",
+  "version": 1,
+  "name": "WebwinkelKeur",
+  "provider": "Stichting ValuedShops",
+  "category": "media",
+  "purpose": "Shows a trust seal and customer reviews.",
+  "privacyUrl": "https://www.webwinkelkeur.nl/page/privacybeleid/",
+  "dataCountry": "UK (England)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "dashboard.webwinkelkeur.nl",
+      "www.webwinkelkeur.nl/js/sidebar.js",
+      "www.webwinkelkeur.nl/apps/seoshop/scripts/sidebar_"
+    ],
+    "inline": [
+      "https://dashboard.webwinkelkeur.nl",
+      "_webwinkelkeur_id"
+    ]
+  },
+  "cookies": [],
+  "storage": [
+    "wwkSidebarTopHidden",
+    "webwinkelkeur_popup_shown_*"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "generic",
+  "wordpress": {
+    "plugins": [
+      "webwinkelkeur/webwinkelkeur.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.webwinkelkeur.nl/page/privacybeleid/",
+    "https://docs.webwinkelkeur.nl/javascript/sidebar/index.html",
+    "https://docs.webwinkelkeur.nl/javascript/widgets/",
+    "https://www.webwinkelkeur.nl/faq/de-webwinkelkeur-javascript-integratie-2/",
+    "https://www.webwinkelkeur.nl/faq/de-sidebar-wordt-niet-geladen-wat-nu/",
+    "https://docs.webwinkelkeur.nl/api/review-popup/",
+    "https://docs.webwinkelkeur.nl/gtm/",
+    "https://dashboard.webwinkelkeur.nl/sidebar.js?id=1",
+    "https://dashboard.webwinkelkeur.nl/edge/sidebar/CgH9Sw11rNHm207dVIoi.js",
+    "https://www.webwinkelkeur.nl/js/sidebar.js",
+    "https://dashboard.webwinkelkeur.nl/docs/processingagreement.pdf",
+    "https://www.webwinkelkeur.nl/subverwerkers/",
+    "https://wordpress.org/plugins/webwinkelkeur/",
+    "https://plugins.svn.wordpress.org/webwinkelkeur/trunk/webwinkelkeur.php",
+    "https://plugins.svn.wordpress.org/webwinkelkeur/trunk/src/Plugin.php",
+    "https://plugins.svn.wordpress.org/webwinkelkeur/trunk/common/templates/sidebar.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-16"
+}
