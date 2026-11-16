@@ -1,0 +1,59 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "alma",
+  "version": 1,
+  "name": "Alma",
+  "provider": "Alma SAS",
+  "category": "essential",
+  "purpose": "Offers instalment and deferred payments.",
+  "privacyUrl": "https://almapay.com/legal/privacy-policy",
+  "dataCountry": "",
+  "legalBasis": "contract",
+  "match": {
+    "hosts": [
+      "cdn.jsdelivr.net/npm/@alma/in-page@",
+      "cdn.jsdelivr.net/npm/@alma/widgets@",
+      "checkout.getalma.eu",
+      "checkout.sandbox.getalma.eu",
+      "checkout.almapay.com",
+      "checkout.sandbox.almapay.com",
+      "cdn.almapay.com/fonts/Inter/"
+    ],
+    "inline": [
+      "Alma.InPage.initialize(",
+      "Alma.Widgets.initialize("
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "alma-gateway-for-woocommerce/alma-gateway-for-woocommerce.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://almapay.com/legal/privacy-policy",
+    "https://almapay.com/fr-FR/legal/politique-de-confidentialite",
+    "https://almapay.com/legal/merchant-general-terms-conditions-alma-mollie-belgium",
+    "https://docs.almapay.com/docs/integration-in-page",
+    "https://docs.almapay.com/docs/integration-in-page.md",
+    "https://docs.almapay.com/docs/custom-integration-alma-widget",
+    "https://docs.almapay.com/docs/custom-integration-alma-widget.md",
+    "https://cdn.jsdelivr.net/npm/@alma/in-page@2.x/dist/index.umd.js",
+    "https://cdn.jsdelivr.net/npm/@alma/widgets@4.x/dist/widgets.umd.js",
+    "https://wordpress.org/plugins/alma-gateway-for-woocommerce/",
+    "https://plugins.svn.wordpress.org/alma-gateway-for-woocommerce/trunk/",
+    "https://plugins.svn.wordpress.org/alma-gateway-for-woocommerce/trunk/alma-gateway-for-woocommerce.php",
+    "https://plugins.svn.wordpress.org/alma-gateway-for-woocommerce/trunk/includes/Infrastructure/Config/AssetsConfig.php",
+    "https://plugins.svn.wordpress.org/alma-gateway-for-woocommerce/trunk/assets/js/frontend/alma-in-page.js",
+    "https://downloads.wordpress.org/plugin/alma-gateway-for-woocommerce.latest-stable.zip",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-16"
+}

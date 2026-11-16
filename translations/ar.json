@@ -1,4 +1,8 @@
 {
+  "3bmeteo": {
+    "purpose": "يعرض توقعات الطقس المضمّنة.",
+    "machine": true
+  },
   "ab-tasty": {
     "purpose": "يجري اختبارات A/B ويقيس نتائجها.",
     "cookies": {
@@ -33,6 +37,13 @@
       "client_username": "يتذكر اسم المستخدم للعميل الذي سجل دخوله.",
       "clientUser": "يبقي العميل مسجلا دخوله إلى حسابه.",
       "remember_client": "يتذكر بيانات تسجيل دخول العميل."
+    },
+    "machine": true
+  },
+  "acumbamail": {
+    "purpose": "يعرض نماذج الاشتراك في النشرة البريدية.",
+    "cookies": {
+      "cookie_acm_*": "يتحكم في موعد ظهور نماذج الاشتراك مجددا."
     },
     "machine": true
   },
@@ -121,6 +132,10 @@
     },
     "machine": true
   },
+  "ahrefs-analytics": {
+    "purpose": "يقيس الزيارات والتفاعلات مع الموقع.",
+    "machine": true
+  },
   "akamai-mpulse": {
     "purpose": "يقيس أداء الموقع.",
     "cookies": {
@@ -142,6 +157,14 @@
     "cookies": {
       "_ALGOLIA": "يتعرف على الزوار لتحليل عمليات البحث."
     },
+    "machine": true
+  },
+  "ally": {
+    "purpose": "يضيف قائمة لإمكانية الوصول إلى الموقع.",
+    "machine": true
+  },
+  "alma": {
+    "purpose": "يوفر الدفع بالتقسيط والدفع المؤجل.",
     "machine": true
   },
   "amazon-ads": {
@@ -236,6 +259,10 @@
   },
   "authorize-net": {
     "purpose": "يعالج المدفوعات عبر الإنترنت.",
+    "machine": true
+  },
+  "avis-verifies": {
+    "purpose": "يعرض آراء العملاء وتقييماتهم.",
     "machine": true
   },
   "aweber": {
@@ -339,6 +366,10 @@
     "purpose": "يعرض مقاطع الفيديو المضمّنة.",
     "machine": true
   },
+  "buckaroo": {
+    "purpose": "يعالج المدفوعات عبر الإنترنت.",
+    "machine": true
+  },
   "bunny-fonts": {
     "purpose": "يحمّل خطوط الموقع من bunny.net.",
     "machine": true
@@ -364,6 +395,10 @@
   },
   "cal-com": {
     "purpose": "يعرض تقويم حجز مضمنا في الصفحة.",
+    "machine": true
+  },
+  "calameo": {
+    "purpose": "يعرض منشورات رقمية مضمّنة.",
     "machine": true
   },
   "calendly": {
@@ -493,6 +528,10 @@
     },
     "machine": true
   },
+  "cleverpush": {
+    "purpose": "يرسل إشعارات فورية عبر المتصفح ويعرض قصص الويب.",
+    "machine": true
+  },
   "cleverreach": {
     "purpose": "يعرض نماذج الاشتراك في النشرة البريدية.",
     "machine": true
@@ -516,6 +555,13 @@
       "_no_tracky_*": "يقلل طلبات التتبع للزيارات المستبعدة.",
       "_cky_osa": "يصادق على أداة إحصاءات مالك الموقع المعروضة فيه.",
       "_cky_ignore": "يستبعد زيارات مالك الموقع نفسه."
+    },
+    "machine": true
+  },
+  "clientify": {
+    "purpose": "يتتبع الزيارات لإنشاء سجلات جهات اتصال للتسويق.",
+    "cookies": {
+      "spvc": "يحصي مشاهدات الصفحات خلال الجلسة."
     },
     "machine": true
   },
@@ -553,6 +599,10 @@
   },
   "comm100": {
     "purpose": "يقدم الدعم عبر الدردشة المباشرة.",
+    "machine": true
+  },
+  "connectif": {
+    "purpose": "يتتبع الزيارات لتخصيص التسويق.",
     "machine": true
   },
   "constant-contact": {
@@ -644,6 +694,15 @@
     },
     "machine": true
   },
+  "daisycon": {
+    "purpose": "يتتبع المبيعات الناتجة عن روابط التسويق بالعمولة.",
+    "cookies": {
+      "DCI": "يتذكر النقرة على رابط التسويق بالعمولة لنسب البيع إلى مصدره.",
+      "PDC": "يتذكر النقرة على رابط التسويق بالعمولة لنسب البيع إلى مصدره.",
+      "dci": "يتذكر النقرة على رابط التسويق بالعمولة لنسب البيع إلى مصدره."
+    },
+    "machine": true
+  },
   "datadog-rum": {
     "purpose": "يقيس أداء الموقع ويرصد أخطاءه.",
     "cookies": {
@@ -651,6 +710,10 @@
       "dd_site_test_*": "يتحقق من النطاق الذي يمكنه تخزين ملفات تعريف الارتباط.",
       "dd_cookie_test_*": "يتحقق من عمل ملفات تعريف الارتباط."
     },
+    "machine": true
+  },
+  "digiaccess": {
+    "purpose": "يضيف أدوات لإمكانية الوصول إلى الصفحة.",
     "machine": true
   },
   "digistore24": {
@@ -701,6 +764,17 @@
       "dtUSR_*": "يتعرف على الزوار العائدين.",
       "dtSN_*": "يربط الطلبات ضمن الجلسة الواحدة.",
       "dtCM_*": "يتذكر الاختيار بشأن الموافقة على المراقبة."
+    },
+    "machine": true
+  },
+  "e-goi": {
+    "purpose": "يتتبع الزيارات لتخصيص التسويق.",
+    "cookies": {
+      "eg_sub_*": "يتذكر أن الزائر أرسل نموذج اشتراك.",
+      "egc_lifetime_*": "يحد من تكرار ظهور الرسالة التسويقية.",
+      "eg_params": "يتذكر معلمات الحملة والصفحة التي جاء منها الزائر.",
+      "key_egoi_data": "يتعرف على جهة الاتصال لأغراض التتبع التسويقي.",
+      "key_egoi_client": "يتذكر حساب E-goi المستخدم للتتبع."
     },
     "machine": true
   },
@@ -787,6 +861,14 @@
     },
     "machine": true
   },
+  "eye-able": {
+    "purpose": "يوفر تعديلات لإمكانية الوصول إلى الموقع.",
+    "machine": true
+  },
+  "fabrick-ecommerce": {
+    "purpose": "يعالج المدفوعات عبر الإنترنت.",
+    "machine": true
+  },
   "facebook-embed": {
     "purpose": "يعرض منشورات ومقاطع فيديو وبطاقات صفحات مضمّنة.",
     "machine": true
@@ -802,6 +884,17 @@
   },
   "fathom": {
     "purpose": "يقيس الزيارات دون ملفات تعريف الارتباط.",
+    "machine": true
+  },
+  "feedaty": {
+    "purpose": "يعرض آراء العملاء وتقييماتهم.",
+    "machine": true
+  },
+  "feedback-company": {
+    "purpose": "يعرض آراء العملاء وتقييماتهم.",
+    "cookies": {
+      "tsrvid": "يدعم عرض آراء العملاء."
+    },
     "machine": true
   },
   "feefo": {
@@ -872,6 +965,10 @@
       "fs_uid": "يميّز بين الزوار.",
       "fs_lua": "يحفظ وقت آخر نشاط."
     },
+    "machine": true
+  },
+  "futy": {
+    "purpose": "يعرض نماذج الاتصال ونوافذ الدردشة.",
     "machine": true
   },
   "geidea": {
@@ -1027,6 +1124,19 @@
     "purpose": "يعرض صور الملفات الشخصية بجانب التعليقات.",
     "machine": true
   },
+  "gravitec": {
+    "purpose": "يدير الإشعارات الفورية عبر المتصفح.",
+    "cookies": {
+      "gravitecOptInBlocked": "يتذكر إغلاق طلب الاشتراك في الإشعارات الفورية.",
+      "gravitecPromptShowed": "يتذكر وجود اشتراك في الإشعارات الفورية.",
+      "gravitecBlocked": "يتذكر رفض الإشعارات الفورية.",
+      "GN_USER_ID_KEY": "يتعرف على الزائر لإحصاءات حملات الإشعارات الفورية.",
+      "GN_CONTACT_ID_KEY": "يربط جهة اتصال في الحملة بزيارات الموقع.",
+      "GN_SESSION_ID_KEY": "يجمع الزيارات لإحصاءات حملات الإشعارات الفورية.",
+      "GN_IS_DEBUG_KEY": "يفعّل تسجيل بيانات تشخيص الأعطال لأداة تتبع الإشعارات الفورية."
+    },
+    "machine": true
+  },
   "gtranslate": {
     "purpose": "يترجم الصفحة إلى لغات أخرى.",
     "machine": true
@@ -1053,6 +1163,10 @@
   },
   "hello-bar": {
     "purpose": "يعرض أشرطة ونوافذ منبثقة ترويجية.",
+    "machine": true
+  },
+  "helloasso": {
+    "purpose": "يعالج التبرعات ومدفوعات العضوية.",
     "machine": true
   },
   "help-scout": {
@@ -1150,6 +1264,10 @@
   },
   "instatus": {
     "purpose": "يعرض حالة الخدمة وإشعارات الأعطال.",
+    "machine": true
+  },
+  "insuit": {
+    "purpose": "يضيف أدوات لإمكانية الوصول إلى الموقع.",
     "machine": true
   },
   "intercom": {
@@ -1252,6 +1370,10 @@
     },
     "machine": true
   },
+  "kiyoh": {
+    "purpose": "يعرض آراء العملاء وتقييماتهم.",
+    "machine": true
+  },
   "klarna": {
     "purpose": "يعالج مدفوعات Klarna ويمنع الاحتيال.",
     "machine": true
@@ -1309,6 +1431,10 @@
     "purpose": "يعرض جولات افتراضية مضمّنة بزاوية 360°.",
     "machine": true
   },
+  "laposta": {
+    "purpose": "يعرض نماذج الاشتراك في النشرة البريدية.",
+    "machine": true
+  },
   "lead-forensics": {
     "purpose": "يتعرف على الشركات التي تزور هذا الموقع.",
     "cookies": {
@@ -1323,6 +1449,14 @@
       "_lfa_consent": "يخزن حالة موافقة الزائر.",
       "_lfa_test_cookie_stored": "يتحقق من إمكانية تخزين ملفات تعريف الارتباط.",
       "ldfdr_opt_out": "يتذكر أن الزائر رفض التتبع."
+    },
+    "machine": true
+  },
+  "leadinfo": {
+    "purpose": "يتعرف على الشركات التي تزور هذا الموقع.",
+    "cookies": {
+      "_li_id.*": "يتعرف على الزوار العائدين.",
+      "_li_ses.*": "يتتبع الصفحات التي تمت زيارتها خلال الجلسة."
     },
     "machine": true
   },
@@ -1451,6 +1585,14 @@
       "mailmunch_pageview_count": "يعدّ مشاهدات الصفحات لتطبيق قواعد عرض النماذج.",
       "mailmunch_second_pageview": "يساعد على تطبيق قواعد عرض النماذج."
     },
+    "machine": true
+  },
+  "mailrelay": {
+    "purpose": "يعرض نماذج الاشتراك في النشرة البريدية.",
+    "machine": true
+  },
+  "mailup": {
+    "purpose": "يعرض نماذج الاشتراك في النشرة البريدية.",
     "machine": true
   },
   "mapbox": {
@@ -1637,6 +1779,10 @@
     "purpose": "يعالج المدفوعات عبر الإنترنت.",
     "machine": true
   },
+  "multisafepay": {
+    "purpose": "يعالج المدفوعات عبر الإنترنت.",
+    "machine": true
+  },
   "muslim-pro": {
     "purpose": "يعرض مواقيت الصلاة حسب الموقع.",
     "machine": true
@@ -1662,6 +1808,10 @@
       "NREUM": "يقيس مدة تحميل الصفحة في المتصفحات القديمة.",
       "NRAGENT": "يربط سجلات تتبع الأداء بين المتصفح والخادم."
     },
+    "machine": true
+  },
+  "nexi-xpay": {
+    "purpose": "يعالج المدفوعات عبر الإنترنت.",
     "machine": true
   },
   "olark": {
@@ -1795,8 +1945,16 @@
     },
     "machine": true
   },
+  "pay-nl": {
+    "purpose": "يعالج المدفوعات عبر الإنترنت.",
+    "machine": true
+  },
   "paymob": {
     "purpose": "يعالج المدفوعات عبر الإنترنت.",
+    "machine": true
+  },
+  "payone": {
+    "purpose": "يعالج المدفوعات بالبطاقات.",
     "machine": true
   },
   "paypal": {
@@ -1811,6 +1969,10 @@
   },
   "paypal-marketing": {
     "purpose": "يقيس التسوق في هذا الموقع لأغراض التسويق لدى PayPal.",
+    "machine": true
+  },
+  "payplug": {
+    "purpose": "يعالج المدفوعات عبر الإنترنت.",
     "machine": true
   },
   "paytabs": {
@@ -2048,6 +2210,14 @@
     },
     "machine": true
   },
+  "readspeaker": {
+    "purpose": "يقرأ نصوص الموقع بصوت مسموع.",
+    "cookies": {
+      "_rspkrLoadCore": "يتذكر تفعيل أداة القراءة.",
+      "ReadSpeakerSettings": "يتذكر تفضيلات القراءة."
+    },
+    "machine": true
+  },
   "reamaze": {
     "purpose": "الدردشة مع دعم العملاء.",
     "machine": true
@@ -2063,6 +2233,10 @@
     },
     "machine": true
   },
+  "regiondo": {
+    "purpose": "يتيح للزوار حجز الجولات والأنشطة.",
+    "machine": true
+  },
   "resmio": {
     "purpose": "يتيح للزوار حجز طاولات في المطاعم.",
     "machine": true
@@ -2073,6 +2247,10 @@
   },
   "reverbnation": {
     "purpose": "يشغّل المقاطع الصوتية المضمّنة.",
+    "machine": true
+  },
+  "revi": {
+    "purpose": "يعرض آراء العملاء وتقييماتهم.",
     "machine": true
   },
   "reviews-io": {
@@ -2089,6 +2267,10 @@
   },
   "salesviewer": {
     "purpose": "يتعرف على الشركات التي تزور الموقع.",
+    "machine": true
+  },
+  "scalapay": {
+    "purpose": "يعرض خيارات الدفع بالتقسيط.",
     "machine": true
   },
   "scorecard-research": {
@@ -2123,6 +2305,10 @@
     "purpose": "يتتبع أخطاء الموقع.",
     "machine": true
   },
+  "sequra": {
+    "purpose": "يوفر الدفع بالتقسيط عند إتمام الشراء.",
+    "machine": true
+  },
   "setmore": {
     "purpose": "يتيح للزوار حجز المواعيد.",
     "machine": true
@@ -2154,12 +2340,27 @@
     },
     "machine": true
   },
+  "shinystat": {
+    "purpose": "يقيس الزيارات والتحويلات.",
+    "cookies": {
+      "SSC_*": "يقيس نشاط التسوق والتحويلات.",
+      "SSCN_*": "يحصي زوار أقسام الموقع دون تكرار.",
+      "SUUID_*": "يميّز بين الزوار دون كشف هويتهم.",
+      "SSID_*": "يتعرف على جلسة تصفح مجهولة الهوية.",
+      "SSIDC_*": "يربط التحويلات بحملة."
+    },
+    "machine": true
+  },
   "shopify-buy-button": {
     "purpose": "يعرض منتجات Shopify وسلة التسوق.",
     "cookies": {
       "_shopify_y": "يميّز بين الزوار.",
       "_shopify_s": "يجمع مشاهدات الصفحات ضمن زيارة واحدة."
     },
+    "machine": true
+  },
+  "shore": {
+    "purpose": "يتيح للزوار حجز المواعيد.",
     "machine": true
   },
   "shortpixel-cdn": {
@@ -2265,6 +2466,10 @@
     },
     "machine": true
   },
+  "societe-des-avis-garantis": {
+    "purpose": "يعرض آراء العملاء وتقييماتهم.",
+    "machine": true
+  },
   "soundcloud": {
     "purpose": "يشغّل المقاطع الصوتية المضمّنة.",
     "machine": true
@@ -2282,6 +2487,10 @@
       "sp_t": "ضروري لتشغيل محتوى Spotify المضمّن.",
       "sp_landing": "ضروري لتشغيل محتوى Spotify المضمّن."
     },
+    "machine": true
+  },
+  "spotler": {
+    "purpose": "يعرض نماذج الاشتراك في النشرة البريدية والاستبيانات.",
     "machine": true
   },
   "spreaker": {
@@ -2312,6 +2521,13 @@
     "purpose": "يعرض خرائط الفنادق ويتتبع روابط التسويق بالعمولة.",
     "cookies": {
       "session22": "يحدد جلسة الزائر."
+    },
+    "machine": true
+  },
+  "steady": {
+    "purpose": "يعرض خيارات العضوية ويطلب الدفع للوصول إلى المحتوى.",
+    "cookies": {
+      "steady-token": "يبقي الأعضاء مسجلي الدخول."
     },
     "machine": true
   },
@@ -2459,6 +2675,17 @@
   },
   "timify": {
     "purpose": "يتيح حجز المواعيد.",
+    "machine": true
+  },
+  "tradedoubler": {
+    "purpose": "يتتبع المبيعات الناتجة عن روابط التسويق بالعمولة.",
+    "cookies": {
+      "tduid": "يتذكر النقرة على رابط التسويق بالعمولة لنسب البيع إلى مصدره.",
+      "tdprog": "يتذكر برنامج التسويق بالعمولة.",
+      "tdaff": "يتذكر المسوق بالعمولة الذي أحال الزائر.",
+      "tdclid_sn": "يربط النقرة على رابط التسويق بالعمولة بتحويل.",
+      "TRADEDOUBLER": "يتذكر النقرة على رابط التسويق بالعمولة لنسب البيع إلى مصدره."
+    },
     "machine": true
   },
   "tradetracker": {
@@ -2650,6 +2877,18 @@
     },
     "machine": true
   },
+  "webwinkelkeur": {
+    "purpose": "يعرض شارة ثقة وآراء العملاء.",
+    "machine": true
+  },
+  "wecantrack": {
+    "purpose": "يتتبع المبيعات الناتجة عن روابط التسويق بالعمولة.",
+    "cookies": {
+      "_wctrck": "يربط النقرات على روابط التسويق بالعمولة بزيارة.",
+      "_wct_http_referrer_*": "يتذكر الصفحات التي أدت إلى النقر على رابط تسويق بالعمولة."
+    },
+    "machine": true
+  },
   "weglot": {
     "purpose": "يترجم محتوى الموقع.",
     "cookies": {
@@ -2711,6 +2950,10 @@
     "purpose": "يعرض دفاتر تفاعلية مضمّنة.",
     "machine": true
   },
+  "wonderpush": {
+    "purpose": "يرسل إشعارات فورية عبر المتصفح.",
+    "machine": true
+  },
   "woocommerce-attribution": {
     "purpose": "يحفظ مصدر زيارة الزائر مع طلب الشراء.",
     "cookies": {
@@ -2745,6 +2988,15 @@
     "purpose": "يعرض نماذج مضمّنة.",
     "cookies": {
       "wufooForm": "يساعد على ضبط حجم النماذج المضمّنة."
+    },
+    "machine": true
+  },
+  "wysistat": {
+    "purpose": "يقيس زيارات الموقع.",
+    "cookies": {
+      "Wysistat": "يميّز بين الزوار وبين الزيارات.",
+      "WysistatAC": "يتحقق من إمكانية حفظ ملفات تعريف الارتباط.",
+      "WSNoTrack": "يتذكر اختيار الزائر رفض التتبع."
     },
     "machine": true
   },

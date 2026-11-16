@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "getresponse",
-  "version": 1,
+  "version": 2,
   "name": "GetResponse",
   "provider": "GetResponse S.A.",
   "category": "marketing",
@@ -11,7 +11,8 @@
   "legalBasis": "consent",
   "match": {
     "hosts": [
-      "app.getresponse.com/view_webform"
+      "app.getresponse.com/view_webform",
+      "an.gr-wcon.com/script/"
     ],
     "inline": [
       "__GetResponseAnalyticsObject",
@@ -41,7 +42,9 @@
     "https://apireference.getresponse.com/open-api.json",
     "https://www.getresponse.com/legal/cookie-policy",
     "https://wordpress.org/plugins/getresponse-official/",
-    "https://plugins.svn.wordpress.org/getresponse-official/tags/1.9.0/getresponse-for-wp.php"
+    "https://plugins.svn.wordpress.org/getresponse-official/tags/1.9.0/getresponse-for-wp.php",
+    "https://an.gr-wcon.com/script/dd2ec981-9fac-46da-bbf0-4a5f3dc7a5d5/ga.js",
+    "https://plugins.svn.wordpress.org/getresponse-official/tags/1.9.0/integrations/web-connect/class-web-connect-integration.php"
   ],
-  "checked": "2026-10-31"
+  "checked": "2026-11-16"
 }

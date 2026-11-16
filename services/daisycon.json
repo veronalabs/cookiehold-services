@@ -1,0 +1,77 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "daisycon",
+  "version": 1,
+  "name": "Daisycon",
+  "provider": "Daisycon B.V.",
+  "category": "marketing",
+  "purpose": "Tracks sales from affiliate links.",
+  "privacyUrl": "https://daisycon.com/en/legal-information/privacy-policy/",
+  "dataCountry": "EU (Netherlands)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "daisycon.tools",
+      "newstat.net/ab/"
+    ],
+    "inline": [
+      "Math.round(+new Date()/83000)+\".\"+c.id+\"tat.\"+c.className+\"/ab/\""
+    ]
+  },
+  "cookies": [
+    {
+      "name": "DCI",
+      "lifetime": "Up to 1 year",
+      "purpose": "Remembers the affiliate click to credit a sale."
+    },
+    {
+      "name": "PDC",
+      "lifetime": "Up to 1 year",
+      "purpose": "Remembers the affiliate click to credit a sale."
+    },
+    {
+      "name": "dci",
+      "lifetime": "366 days",
+      "purpose": "Remembers the affiliate click to credit a sale."
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "generic",
+  "wordpress": {
+    "plugins": [
+      "daisycon/daisycon.php",
+      "daisycon-woocommerce-pixel/daisycon-woocommerce.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://daisycon.com/en/legal-information/privacy-policy/",
+    "https://daisycon.com/en/legal-information/cookies/",
+    "https://faq-advertiser.daisycon.com/hc/en-us/articles/5192850238738-Conversion-tracking-guide-and-implementations",
+    "https://faq-advertiser.daisycon.com/hc/en-us/articles/360014540054-Explanation-Implement-Daisycon-conversion-pixel-in-WordPress-WooCommerce",
+    "https://faq-advertiser.daisycon.com/hc/en-us/articles/6818972598802-Implementing-Direct-Tracking-Server-to-Server-Postback-with-Hybrid-and-gclid-Support",
+    "https://faq-advertiser.daisycon.com/hc/en-us/articles/20622723791772-Implement-the-Daisycon-Synergy-Tag-in-GTM-for-hybrid-tracking",
+    "https://daisycon.tools/all-in-one/app.js",
+    "https://daisycon.tools/vacation/app.js",
+    "https://belboon.com/endgueltige-abschaltung-der-belboon-plattform-am-30-september-2006/",
+    "https://wordpress.org/plugins/daisycon/",
+    "https://plugins.svn.wordpress.org/daisycon/trunk/daisycon.php",
+    "https://plugins.svn.wordpress.org/daisycon/trunk/tools/all-in-one.php",
+    "https://plugins.svn.wordpress.org/daisycon/trunk/tools/class-vacation.php",
+    "https://wordpress.org/plugins/daisycon-woocommerce-pixel/",
+    "https://plugins.svn.wordpress.org/daisycon-woocommerce-pixel/trunk/daisycon-woocommerce.php",
+    "https://plugins.svn.wordpress.org/daisycon-woocommerce-pixel/trunk/public/partials/daisycon-woocommerce-public-display.php",
+    "https://plugins.svn.wordpress.org/daisycon-woocommerce-pixel/trunk/public/class-daisycon-woocommerce-public.php",
+    "https://plugins.svn.wordpress.org/daisycon-woocommerce-pixel/trunk/utils/class-daisycon-storage-util.php",
+    "https://plugins.svn.wordpress.org/daisycon-woocommerce-pixel/trunk/services/class-daisycon-integration-service.php",
+    "https://downloads.wordpress.org/plugin/daisycon.zip",
+    "https://downloads.wordpress.org/plugin/daisycon-woocommerce-pixel.zip",
+    "https://www.dataprivacyframework.gov/list",
+    "https://www.bvdw.org/wp-content/uploads/2026/06/Affiliate-und-Partner-Marketing-in-Deutschland-2025-Eine-erweiterte-Markteinordnung.pdf"
+  ],
+  "checked": "2026-11-16"
+}

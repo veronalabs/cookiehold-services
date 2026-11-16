@@ -1,0 +1,53 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "pay-nl",
+  "version": 1,
+  "name": "Pay.",
+  "provider": "TinTel B.V.",
+  "category": "essential",
+  "purpose": "Processes online payments.",
+  "privacyUrl": "https://www.pay.nl/privacybeleid",
+  "dataCountry": "Europe (Netherlands data centres)",
+  "legalBasis": "contract",
+  "match": {
+    "hosts": [
+      "parts.pay.nl",
+      "static.pay.nl"
+    ],
+    "inline": [
+      "window.PayPartsSDK.init("
+    ]
+  },
+  "cookies": [],
+  "storage": [
+    "payparts:lastMethod"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "woocommerce-paynl-payment-methods/woocommerce-payment-paynl.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.pay.nl/privacybeleid",
+    "https://www.pay.nl/en/privacy",
+    "https://www.pay.nl/algemene-voorwaarden",
+    "https://www.pay.nl/en/infrastructure",
+    "https://www.pay.nl/cookies",
+    "https://developer.pay.nl/docs/integrate-payparts-quickstart",
+    "https://parts.pay.nl/sdk/payparts-sdk.js",
+    "https://plugins.svn.wordpress.org/woocommerce-paynl-payment-methods/trunk/woocommerce-payment-paynl.php",
+    "https://plugins.svn.wordpress.org/woocommerce-paynl-payment-methods/trunk/assets/js/payparts.js",
+    "https://plugins.svn.wordpress.org/woocommerce-paynl-payment-methods/trunk/assets/js/applepay.js",
+    "https://downloads.wordpress.org/plugin/woocommerce-paynl-payment-methods.4.2.0.zip",
+    "https://wordpress.org/plugins/woocommerce-paynl-payment-methods/",
+    "https://raw.githubusercontent.com/jkwakman/Open-Cookie-Database/master/open-cookie-database.csv",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-16"
+}

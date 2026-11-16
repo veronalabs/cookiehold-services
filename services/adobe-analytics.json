@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "adobe-analytics",
-  "version": 3,
+  "version": 4,
   "name": "Adobe Analytics",
   "provider": "Adobe Systems Software Ireland Limited",
   "category": "statistics",
@@ -13,7 +13,8 @@
     "hosts": [
       "omtrdc.net",
       "2o7.net",
-      "adobedc.net"
+      "adobedc.net",
+      "dpm.demdex.net/id"
     ]
   },
   "cookies": [
@@ -70,7 +71,10 @@
     "https://experienceleague.adobe.com/en/docs/id-service/using/id-service-api/configurations/cookielifetime",
     "https://www.dataprivacyframework.gov/list",
     "https://experienceleague.adobe.com/en/docs/analytics/technotes/privacy/privacy-overview",
-    "https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/rdc"
+    "https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/rdc",
+    "https://experienceleague.adobe.com/en/docs/id-service/using/intro/id-request",
+    "https://experienceleague.adobe.com/en/docs/id-service/using/reference/cors",
+    "https://raw.githubusercontent.com/Adobe-Marketing-Cloud/id-service/master/lib/visitorapi.min.js"
   ],
-  "checked": "2026-11-06"
+  "checked": "2026-11-16"
 }

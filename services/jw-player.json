@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "jw-player",
-  "version": 1,
+  "version": 2,
   "name": "JWX Web Player",
   "provider": "JWP, Inc. d/b/a JWX",
   "category": "media",
@@ -11,7 +11,8 @@
   "legalBasis": "consent",
   "match": {
     "hosts": [
-      "cdn.jwplayer.com"
+      "cdn.jwplayer.com",
+      "ssl.p.jwpcdn.com"
     ],
     "inline": [
       "jwplayer(",
@@ -53,7 +54,8 @@
     "https://wordpress.org/plugins/jw-player-7-for-wp/",
     "https://plugins.svn.wordpress.org/jw-player-7-for-wp/trunk/jw-player-7-for-wp.php",
     "https://github.com/jkwakman/Open-Cookie-Database",
-    "https://raw.githubusercontent.com/jkwakman/Open-Cookie-Database/master/open-cookie-database.csv"
+    "https://raw.githubusercontent.com/jkwakman/Open-Cookie-Database/master/open-cookie-database.csv",
+    "https://ssl.p.jwpcdn.com/6/12/jwplayer.js"
   ],
-  "checked": "2026-11-10"
+  "checked": "2026-11-16"
 }

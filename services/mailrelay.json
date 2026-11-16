@@ -1,0 +1,60 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "mailrelay",
+  "version": 1,
+  "name": "Mailrelay",
+  "provider": "Weblegal S.L.",
+  "category": "marketing",
+  "purpose": "Shows newsletter sign-up forms.",
+  "privacyUrl": "https://mailrelay.com/es/politica-de-privacidad/",
+  "dataCountry": "EU (Germany)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "assets.ipzmarketing.com"
+    ],
+    "frames": [
+      "ipzmarketing.com/f/"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "form",
+  "wordpress": {
+    "plugins": [
+      "mailrelay/mailrelay.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://mailrelay.com/es/politica-de-privacidad/",
+    "https://mailrelay.com/es/condiciones-de-uso/",
+    "https://help.mailrelay.com/es/support/solutions/articles/103000051590",
+    "https://help.mailrelay.com/es/support/solutions/articles/103000423105",
+    "https://mailrelay.com/es/blog/2019/03/21/mailrelay-v3-formularios-de-suscripcion/",
+    "https://mailrelay.com/es/blog/2019/04/16/formulario-de-suscripcion-mailrelay-en-wordpress/",
+    "https://mailrelay.com/wp-content/uploads/2026/10/formulario-suscripcion-mailrelay-codigo.png",
+    "https://test1.ipzmarketing.com/f/t9Ymyf1oipg",
+    "https://assets.ipzmarketing.com/assets/signup_form/iframe_v1.js",
+    "https://assets.ipzmarketing.com/packs/js/public-fd6d4b9c8c93f075.js",
+    "https://assets.ipzmarketing.com/packs/js/runtime-2e1acb75a11097b4.js",
+    "https://assets.ipzmarketing.com/packs/js/2698-dd23b458caff2104.js",
+    "https://assets.ipzmarketing.com/packs/js/2735-5849cbdfd06520fe.js",
+    "https://assets.ipzmarketing.com/packs/js/1986-33d8412a88b98fbf.js",
+    "https://assets.ipzmarketing.com/packs/js/2690-391d29669626e5b1.js",
+    "https://assets.ipzmarketing.com/packs/js/6646-a88039df404f56c9.js",
+    "https://fotografiarte.ipzmarketing.com/",
+    "https://guiasalud1.ipzmarketing.com/",
+    "https://mailrelay.com/en/privacy-policy/",
+    "https://wordpress.org/plugins/mailrelay/",
+    "https://plugins.svn.wordpress.org/mailrelay/trunk/mailrelay.php",
+    "https://plugins.svn.wordpress.org/mailrelay/trunk/inc/common.php",
+    "https://plugins.svn.wordpress.org/mailrelay/trunk/js/mailrelay-wpforms-block.js",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-16"
+}

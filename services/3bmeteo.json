@@ -1,0 +1,56 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "3bmeteo",
+  "version": 1,
+  "name": "3BMeteo",
+  "provider": "3BMeteo S.r.l.",
+  "category": "media",
+  "purpose": "Shows embedded weather forecasts.",
+  "privacyUrl": "https://www.3bmeteo.com/privacy-policy/it",
+  "dataCountry": "USA",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "cdn4.3bmeteo.com/images/"
+    ],
+    "frames": [
+      "www.3bmeteo.com/moduli_esterni/",
+      "widget.3bmeteo.com/widget/",
+      "portali.3bmeteo.com/3bm_meteo.php"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "generic",
+  "wordpress": {
+    "plugins": [
+      "3b-meteo/3bmeteo.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.3bmeteo.com/widgets/wizard",
+    "https://widget.3bmeteo.com/wizard/",
+    "https://widget.3bmeteo.com/assets/js/functions.js?v=1",
+    "https://widget.3bmeteo.com/assets/js/script.js?v=1",
+    "https://www.3bmeteo.com/moduli_esterni/italia_7_giorni/ffffff/f2944e/5e5e5e/ffffff",
+    "https://www.3bmeteo.com/js/js.tabber.js",
+    "https://www.3bmeteo.com/z-components/js/widget-iframe-resize.js",
+    "https://portali.3bmeteo.com/3bm_meteo.php?loc=5913&tm=lsmall",
+    "https://cdn4.3bmeteo.com/images/icone/loc_small/nuvoloso.png",
+    "https://www.3bmeteo.com/privacy-policy/it",
+    "https://www.3bmeteo.com/widgets/wordpress",
+    "https://wordpress.org/plugins/3b-meteo/",
+    "https://plugins.svn.wordpress.org/3b-meteo/trunk/",
+    "https://plugins.svn.wordpress.org/3b-meteo/trunk/3bmeteo.php",
+    "https://plugins.svn.wordpress.org/3b-meteo/trunk/blocks/bootstrap.php",
+    "https://plugins.svn.wordpress.org/3b-meteo/trunk/legacy/TreBiMeteo.php",
+    "https://downloads.wordpress.org/plugin/3b-meteo.zip",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-16"
+}

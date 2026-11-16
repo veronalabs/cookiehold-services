@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "google-adsense",
-  "version": 3,
+  "version": 4,
   "name": "Google AdSense",
   "provider": "Google Ireland Limited",
   "category": "marketing",
@@ -14,7 +14,8 @@
       "pagead2.googlesyndication.com",
       "googlesyndication.com",
       "adservice.google.com",
-      "fundingchoicesmessages.google.com"
+      "fundingchoicesmessages.google.com",
+      "ep2.adtrafficquality.google/sodar/"
     ],
     "inline": [
       "adsbygoogle"
@@ -51,7 +52,9 @@
     "https://policies.google.com/privacy/frameworks",
     "https://policies.google.com/privacy",
     "https://www.dataprivacyframework.gov/list",
-    "https://plugins.svn.wordpress.org/ad-inserter/trunk/ad-inserter.php"
+    "https://plugins.svn.wordpress.org/ad-inserter/trunk/ad-inserter.php",
+    "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+    "https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202611100101/show_ads_impl.js"
   ],
-  "checked": "2026-11-06"
+  "checked": "2026-11-16"
 }

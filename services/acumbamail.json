@@ -1,0 +1,59 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "acumbamail",
+  "version": 1,
+  "name": "Acumbamail",
+  "provider": "Acumbamail, S.L.U.",
+  "category": "marketing",
+  "purpose": "Shows newsletter sign-up forms.",
+  "privacyUrl": "https://acumbamail.com/politica-de-privacidad/",
+  "dataCountry": "EU (Spain)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "acumbamail.com/newform/dynamic/js/",
+      "acumbamail.com/media/js/forms/",
+      "acumbamail.com/static/css/new-individual-bee-forms.",
+      "acumbamail.com/static/public-theme/fonts/bee/"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "cookie_acm_*",
+      "lifetime": "Varies by form",
+      "purpose": "Controls when sign-up forms reappear."
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "form",
+  "wordpress": {
+    "plugins": [
+      "acumbamail-signup-forms/acumbamail.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://acumbamail.com/",
+    "https://acumbamail.com/politica-de-privacidad/",
+    "https://acumbamail.com/gdpr-infraestructura/",
+    "https://acumbamail.com/gdpr-acumbamail/",
+    "https://acumbamail.com/politica-de-cookies/",
+    "https://soporte.acumbamail.com/article/111-crear-un-formulario",
+    "https://soporte.acumbamail.com/article/136-integracion-formularios-wordpress",
+    "https://acumbamail.com/newform/dynamic/js/78tayPmwyWjKDfmOIFLNw5MHj38GpkGzUs/47059",
+    "https://acumbamail.com/media/js/forms/78tayPmwyWjKDfmOIFLNw5MHj38GpkGzUs-47059.js",
+    "https://acumbamail.com/static/css/new-individual-bee-forms.ceafc18a11c1.css",
+    "https://acumbamail.com/static/public-theme/fonts/bee/Poppins.css",
+    "https://wordpress.org/plugins/acumbamail-signup-forms/",
+    "https://plugins.svn.wordpress.org/acumbamail-signup-forms/trunk/",
+    "https://plugins.svn.wordpress.org/acumbamail-signup-forms/trunk/acumbamail.php",
+    "https://plugins.svn.wordpress.org/acumbamail-signup-forms/trunk/acumbamail_widget.php",
+    "https://plugins.svn.wordpress.org/acumbamail-signup-forms/trunk/api/acumbamail.class.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-16"
+}

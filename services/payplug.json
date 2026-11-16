@@ -1,0 +1,55 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "payplug",
+  "version": 1,
+  "name": "Payplug",
+  "provider": "PAYPLUG ENTERPRISE SAS",
+  "category": "essential",
+  "purpose": "Processes online payments.",
+  "privacyUrl": "https://www.payplug.com/fr/politique-de-confidentialite/",
+  "dataCountry": "",
+  "legalBasis": "contract",
+  "match": {
+    "hosts": [
+      "cdn.payplug.com",
+      "secure.payplug.com",
+      "api.payplug.com/js/1/"
+    ],
+    "inline": [
+      "Payplug.IntegratedPayment(",
+      "Payplug.showPayment("
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "payplug/payplug.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.payplug.com/fr/politique-de-confidentialite/",
+    "https://www.payplug.com/privacy-policy/",
+    "https://www.payplug.com/fr/cookies/",
+    "https://docs.payplug.com/api/integratedref.html",
+    "https://docs.payplug.com/api/integratedpayments.html",
+    "https://docs.payplug.com/api/downloads/payplug_api_integrate_payment_form.html",
+    "https://cdn.payplug.com/js/integrated-payment/v1@1/index.js",
+    "https://api.payplug.com/js/1/form.latest.js",
+    "https://secure.payplug.com/integrated_payment/pan",
+    "https://cdn.payplug.com/js/integrated-payment-internal/v0@0.7.7/index.js",
+    "https://plugins.svn.wordpress.org/payplug/trunk/",
+    "https://plugins.svn.wordpress.org/payplug/trunk/payplug.php",
+    "https://plugins.svn.wordpress.org/payplug/trunk/payplug-config.php",
+    "https://wordpress.org/plugins/payplug/",
+    "https://raw.githubusercontent.com/jkwakman/Open-Cookie-Database/master/open-cookie-database.csv",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-16"
+}

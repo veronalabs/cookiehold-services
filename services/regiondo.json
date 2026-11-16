@@ -1,0 +1,67 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "regiondo",
+  "version": 1,
+  "name": "Regiondo",
+  "provider": "Regiondo GmbH",
+  "category": "functional",
+  "purpose": "Lets visitors book tours and activities.",
+  "privacyUrl": "https://pro.regiondo.com/privacy-policy/",
+  "dataCountry": "EU (Germany hosting) and USA via subprocessors",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "widgets.regiondo.net"
+    ]
+  },
+  "cookies": [],
+  "storage": [
+    "regiondo-currency-*",
+    "regiondo-booking-widget-data",
+    "regiondo-cart-sync"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "generic",
+  "wordpress": {
+    "plugins": [
+      "regiondo-booking-widget/regiondo-widget-init.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://pro.regiondo.com/privacy-policy/",
+    "https://support.regiondo.com/hc/en-us/articles/31769832331420-How-does-the-integration-with-Jimdo-work",
+    "https://support.regiondo.com/hc/en-us/articles/20179877117596-Security-Safety-Guide",
+    "https://support.regiondo.com/hc/en-us/articles/20180012205468-List-of-external-subcontractors-or-data-processing-service-providers-GDPR",
+    "https://support.regiondo.com/hc/en-us/articles/20180060659100-Cookies-notice",
+    "https://support.regiondo.com/hc/en-us/articles/20179646404892-How-does-WordPress-integration-via-a-WordPress-Plugin-work",
+    "https://support.regiondo.com/hc/en-us/articles/20179714499740-How-can-I-integrate-my-shop-using-the-shop-domain",
+    "https://support.regiondo.com/hc/en-us/articles/20179702558876-How-does-the-integration-with-the-calendar-widget-work",
+    "https://pro.regiondo.com/terms-services/",
+    "https://widgets.regiondo.net/catalog/v1/catalog-widget.min.js",
+    "https://widgets.regiondo.net/catalog/v1/catalog-widget.main.js",
+    "https://widgets.regiondo.net/catalog/v1/catalog-widget.CatalogWidgetWebComponent.CBZkfL26.chunk.js",
+    "https://widgets.regiondo.net/catalog/v1/catalog-widget.vendor.iTOngRQM.chunk.js",
+    "https://widgets.regiondo.net/catalog/v1/catalog-widget.vendor_regiondo.CxxeP2w_.chunk.js",
+    "https://widgets.regiondo.net/catalog/v1/catalog-widget.vendor_date-fns.D84ulspN.chunk.js",
+    "https://widgets.regiondo.net/catalog/v1/catalog-widget.vendor_libphonenumber.CqJz02di.chunk.js",
+    "https://widgets.regiondo.net/booking/v1/booking-widget.min.js",
+    "https://widgets.regiondo.net/booking/v1/booking-widget.main.js",
+    "https://widgets.regiondo.net/booking/v1/booking-widget.index.Bt4hiJEs.chunk.js",
+    "https://widgets.regiondo.net/booking/v1/booking-widget.init.CP5-PJMb.chunk.js",
+    "https://widgets.regiondo.net/booking/v1/booking-widget.vendor.9-v2L1lt.chunk.js",
+    "https://widgets.regiondo.net/booking/v1/booking-widget.vendor_date-fns.jSGfj3W2.chunk.js",
+    "https://widgets.regiondo.net/booking/v1/booking-widget.vendor_libphonenumber.CqJz02di.chunk.js",
+    "https://wordpress.org/plugins/regiondo-booking-widget/",
+    "https://plugins.svn.wordpress.org/regiondo-booking-widget/trunk/",
+    "https://plugins.svn.wordpress.org/regiondo-booking-widget/trunk/regiondo-widget-init.php",
+    "https://plugins.svn.wordpress.org/regiondo-booking-widget/trunk/regiondo-widget.php",
+    "https://plugins.svn.wordpress.org/regiondo-booking-widget/trunk/readme.txt",
+    "https://raw.githubusercontent.com/jkwakman/Open-Cookie-Database/master/open-cookie-database.csv",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-16"
+}

@@ -1,0 +1,48 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "payone",
+  "version": 1,
+  "name": "PAYONE",
+  "provider": "PAYONE GmbH",
+  "category": "essential",
+  "purpose": "Processes card payments.",
+  "privacyUrl": "https://www.payone.com/DE-en/data-protection-regulations",
+  "dataCountry": "USA, China, Japan and other countries",
+  "legalBasis": "contract",
+  "match": {
+    "hosts": [
+      "secure.pay1.de/client-api/js/v1/"
+    ],
+    "inline": [
+      "new Payone.ClientApi.HostedIFrames("
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "bs-payone-woocommerce/payone-woocommerce-3.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://docs.payone.com/integration/channel-client-api/client-api-hosted-iframe-mode",
+    "https://docs.payone.com/integration/channel-client-api/client-api-hosted-iframe-mode/hosted-iframe-examples",
+    "https://www.payone.com/DE-en/data-protection-regulations",
+    "https://www.payone.com/DE-en/pep-data-protection-regulations",
+    "https://media3.payone.com/f/64176/x/4a37e34e8c/payone_information-zur-datenverarbeitung-gemassart14dsgvo_2024-01_en.pdf",
+    "https://secure.pay1.de/client-api/js/v1/payone_hosted.js",
+    "https://secure.pay1.de/client-api/js/v1/payone_iframe.html",
+    "https://secure.pay1.de/client-api/js/v1/payone_iframe_min.js",
+    "https://wordpress.org/plugins/bs-payone-woocommerce/",
+    "https://plugins.svn.wordpress.org/bs-payone-woocommerce/trunk/",
+    "https://plugins.svn.wordpress.org/bs-payone-woocommerce/trunk/payone-woocommerce-3.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-16"
+}

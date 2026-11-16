@@ -1,0 +1,61 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "wecantrack",
+  "version": 1,
+  "name": "wecantrack",
+  "provider": "We Can Track B.V.",
+  "category": "marketing",
+  "purpose": "Tracks sales from affiliate links.",
+  "privacyUrl": "https://wecantrack.com/privacy-policy/",
+  "dataCountry": "EU (Netherlands, Germany, Ireland), USA and worldwide CDN",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "wct-2.com",
+      "wct-3.com"
+    ],
+    "inline": [
+      "w._wct = w._wct || {}"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "_wctrck",
+      "lifetime": "4 hours",
+      "purpose": "Links affiliate clicks to a visit."
+    },
+    {
+      "name": "_wct_http_referrer_*",
+      "lifetime": "4 hours",
+      "purpose": "Remembers pages leading to an affiliate click."
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "wecantrack/wecantrack.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://wecantrack.com/privacy-policy/",
+    "https://wecantrack.com/dpa/",
+    "https://wecantrack.com/cookie-info/",
+    "https://wecantrack.com/installation/api/website-api/",
+    "https://wecantrack.com/installation/websites/",
+    "https://wecantrack.com/installation/websites/wordpress-plugin/",
+    "https://wct-2.com/wct.js",
+    "https://wct-3.com/wct.js?property_id=W-NWNVB870",
+    "https://plugins.svn.wordpress.org/wecantrack/trunk/WecantrackApp.php",
+    "https://wordpress.org/plugins/wecantrack/",
+    "https://plugins.svn.wordpress.org/wecantrack/trunk/",
+    "https://plugins.svn.wordpress.org/wecantrack/trunk/wecantrack.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-16"
+}

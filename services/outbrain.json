@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "outbrain",
-  "version": 2,
+  "version": 3,
   "name": "Outbrain",
   "provider": "Outbrain UK Limited",
   "category": "marketing",
@@ -12,7 +12,8 @@
   "match": {
     "hosts": [
       "outbrain.com",
-      "outbrainimg.com"
+      "outbrainimg.com",
+      "widgets.teads-xo.com"
     ],
     "inline": [
       "obApi('track'",
@@ -49,7 +50,9 @@
   "sources": [
     "https://www.outbrain.com/privacy/",
     "https://www.outbrain.com/privacy/cookies/",
-    "https://www.dataprivacyframework.gov/list"
+    "https://www.dataprivacyframework.gov/list",
+    "https://widgets.outbrain.com/outbrain.js",
+    "https://widgets.teads-xo.com/outbrain.js"
   ],
-  "checked": "2026-10-27"
+  "checked": "2026-11-16"
 }

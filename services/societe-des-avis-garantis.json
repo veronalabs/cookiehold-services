@@ -1,0 +1,60 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "societe-des-avis-garantis",
+  "version": 1,
+  "name": "Société des Avis Garantis",
+  "provider": "Société des Avis Garantis",
+  "category": "media",
+  "purpose": "Shows customer reviews and ratings.",
+  "privacyUrl": "https://www.societe-des-avis-garantis.fr/politique-de-confidentialite/",
+  "dataCountry": "EU (France and Ireland); unspecified third countries",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "www.societe-des-avis-garantis.fr/wp-content/plugins/ag-core/widgets/",
+      "widgets.guaranteed-reviews.com",
+      "api.guaranteed-reviews.com/public/v3/",
+      "www.guaranteed-reviews.com/wp-content/plugins/ag-core/widgets/"
+    ],
+    "inline": [
+      "window.GRCWidgetsConfig",
+      "var agSiteId="
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "generic",
+  "wordpress": {
+    "plugins": [
+      "woo-guaranteed-reviews-company/woocommerce-sag.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.societe-des-avis-garantis.fr/politique-de-confidentialite/",
+    "https://www.societe-des-avis-garantis.fr/cgv/",
+    "https://www.societe-des-avis-garantis.fr/donnees-personnelles-et-cookies/",
+    "https://www.societe-des-avis-garantis.fr/",
+    "https://www.societe-des-avis-garantis.fr/plugin-avis-client-woocommerce-wordpress/",
+    "https://www.societe-des-avis-garantis.fr/configuration/api-publique/",
+    "https://www.societe-des-avis-garantis.fr/configuration/integration-widgets/",
+    "https://www.societe-des-avis-garantis.fr/wp-content/plugins/ag-core/widgets/JsWidget.js",
+    "https://www.societe-des-avis-garantis.fr/wp-content/plugins/ag-core/widgets/iframe/2/h/?id=32",
+    "https://www.societe-des-avis-garantis.fr/wp-content/plugins/ag-core/widgets/iframe/2/h/js/compiled.min.js",
+    "https://widgets.guaranteed-reviews.com/static/widgets.min.js",
+    "https://www.societe-des-avis-garantis.fr/widgets/iframe/2/h/?id=32",
+    "https://wordpress.org/plugins/woo-guaranteed-reviews-company/",
+    "https://plugins.svn.wordpress.org/woo-guaranteed-reviews-company/trunk/",
+    "https://plugins.svn.wordpress.org/woo-guaranteed-reviews-company/trunk/woocommerce-sag.php",
+    "https://plugins.svn.wordpress.org/woo-guaranteed-reviews-company/trunk/inc/class-wc-sag-frontend.php",
+    "https://plugins.svn.wordpress.org/woo-guaranteed-reviews-company/trunk/inc/class-wc-sag-settings.php",
+    "https://plugins.svn.wordpress.org/woo-guaranteed-reviews-company/trunk/inc/class-wc-sag-shortcode-iframe.php",
+    "https://downloads.wordpress.org/plugin/woo-guaranteed-reviews-company.zip",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-16"
+}

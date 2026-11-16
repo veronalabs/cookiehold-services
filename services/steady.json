@@ -1,0 +1,64 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "steady",
+  "version": 1,
+  "name": "Steady",
+  "provider": "Steady Media GmbH",
+  "category": "functional",
+  "purpose": "Shows memberships and paywalls.",
+  "privacyUrl": "https://steady.page/en/privacy",
+  "dataCountry": "EU (Germany) and USA",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "steadyhq.com/widget_loader/",
+      "steady.page/widget_loader/",
+      "steadycdn.com/prod/js/",
+      "assets.steadyhq.com",
+      "steady.page/fonts/circular-std/"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "steady-token",
+      "lifetime": "180 days",
+      "purpose": "Keeps members logged in."
+    }
+  ],
+  "storage": [
+    "steady-location-href-before-redirect",
+    "steady-registration-wall-unlocked",
+    "steady-adblock-last-shown",
+    "steady-engagement-wall-closed*",
+    "steady-newsletter-opted-in*",
+    "steady-newsletter-collapsed*",
+    "steady-smart-layer-data-*"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "generic",
+  "wordpress": {
+    "plugins": [
+      "steady-wp/steady-wp.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://steady.page/en/privacy",
+    "https://help.steady.page/en/articles/6265570-how-to-add-the-steady-code-to-your-website",
+    "https://help.steady.page/en/articles/6265690-where-are-steady-s-servers-located-is-steady-s-user-data-safe",
+    "https://help.steady.page/en/articles/6265678-does-steady-use-cookies",
+    "https://developers.steadyhq.com/",
+    "https://steadyhq.com/widget_loader/a5ff1914-c902-4441-8af0-c3321619b65f",
+    "https://steady.page/widget_loader/a5ff1914-c902-4441-8af0-c3321619b65f",
+    "https://steadycdn.com/prod/js/2.18.4.js",
+    "https://steady.page/en/contact",
+    "https://wordpress.org/plugins/steady-wp/",
+    "https://plugins.svn.wordpress.org/steady-wp/trunk/steady-wp.php",
+    "https://plugins.svn.wordpress.org/steady-wp/trunk/public/class-steady-wp-public.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-16"
+}

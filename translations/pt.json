@@ -1,4 +1,8 @@
 {
+  "3bmeteo": {
+    "purpose": "Mostra previsões meteorológicas incorporadas.",
+    "machine": true
+  },
   "ab-tasty": {
     "purpose": "Executa testes A/B e mede os resultados.",
     "cookies": {
@@ -33,6 +37,13 @@
       "client_username": "Lembra o nome de conta de um cliente com sessão iniciada.",
       "clientUser": "Mantém um cliente com sessão iniciada na sua conta.",
       "remember_client": "Lembra os dados de início de sessão de um cliente."
+    },
+    "machine": true
+  },
+  "acumbamail": {
+    "purpose": "Mostra formulários de subscrição da newsletter.",
+    "cookies": {
+      "cookie_acm_*": "Controla quando os formulários de subscrição voltam a aparecer."
     },
     "machine": true
   },
@@ -121,6 +132,10 @@
     },
     "machine": true
   },
+  "ahrefs-analytics": {
+    "purpose": "Mede visitas e interações com o site.",
+    "machine": true
+  },
   "akamai-mpulse": {
     "purpose": "Mede o desempenho do site.",
     "cookies": {
@@ -142,6 +157,14 @@
     "cookies": {
       "_ALGOLIA": "Identifica visitantes para analisar pesquisas."
     },
+    "machine": true
+  },
+  "ally": {
+    "purpose": "Adiciona um menu de acessibilidade ao site.",
+    "machine": true
+  },
+  "alma": {
+    "purpose": "Oferece pagamentos em prestações e pagamentos adiados.",
     "machine": true
   },
   "amazon-ads": {
@@ -236,6 +259,10 @@
   },
   "authorize-net": {
     "purpose": "Processa pagamentos online.",
+    "machine": true
+  },
+  "avis-verifies": {
+    "purpose": "Mostra opiniões e classificações de clientes.",
     "machine": true
   },
   "aweber": {
@@ -339,6 +366,10 @@
     "purpose": "Mostra vídeos incorporados.",
     "machine": true
   },
+  "buckaroo": {
+    "purpose": "Processa pagamentos online.",
+    "machine": true
+  },
   "bunny-fonts": {
     "purpose": "Carrega as fontes do site a partir da bunny.net.",
     "machine": true
@@ -364,6 +395,10 @@
   },
   "cal-com": {
     "purpose": "Mostra um calendário de agendamento incorporado.",
+    "machine": true
+  },
+  "calameo": {
+    "purpose": "Mostra publicações digitais incorporadas.",
     "machine": true
   },
   "calendly": {
@@ -493,6 +528,10 @@
     },
     "machine": true
   },
+  "cleverpush": {
+    "purpose": "Envia notificações push e mostra histórias na web.",
+    "machine": true
+  },
   "cleverreach": {
     "purpose": "Mostra formulários de subscrição da newsletter.",
     "machine": true
@@ -516,6 +555,13 @@
       "_no_tracky_*": "Reduz os pedidos de rastreio de visitas filtradas.",
       "_cky_osa": "Autentica o widget de análise do proprietário no site.",
       "_cky_ignore": "Exclui as visitas do próprio proprietário do site."
+    },
+    "machine": true
+  },
+  "clientify": {
+    "purpose": "Rastreia visitas para criar fichas de marketing.",
+    "cookies": {
+      "spvc": "Conta visualizações de página numa sessão."
     },
     "machine": true
   },
@@ -553,6 +599,10 @@
   },
   "comm100": {
     "purpose": "Chat ao vivo com o suporte.",
+    "machine": true
+  },
+  "connectif": {
+    "purpose": "Acompanha visitas para personalizar o marketing.",
     "machine": true
   },
   "constant-contact": {
@@ -644,6 +694,15 @@
     },
     "machine": true
   },
+  "daisycon": {
+    "purpose": "Acompanha as vendas feitas através de links de afiliados.",
+    "cookies": {
+      "DCI": "Lembra o clique de afiliado para atribuir a venda.",
+      "PDC": "Lembra o clique de afiliado para atribuir a venda.",
+      "dci": "Lembra o clique de afiliado para atribuir a venda."
+    },
+    "machine": true
+  },
   "datadog-rum": {
     "purpose": "Mede o desempenho e os erros do site.",
     "cookies": {
@@ -651,6 +710,10 @@
       "dd_site_test_*": "Verifica que domínio pode guardar cookies.",
       "dd_cookie_test_*": "Verifica se os cookies funcionam."
     },
+    "machine": true
+  },
+  "digiaccess": {
+    "purpose": "Adiciona ferramentas de acessibilidade à página.",
     "machine": true
   },
   "digistore24": {
@@ -701,6 +764,17 @@
       "dtUSR_*": "Reconhece visitantes recorrentes.",
       "dtSN_*": "Associa pedidos numa sessão.",
       "dtCM_*": "Lembra a opção de consentimento para monitorização."
+    },
+    "machine": true
+  },
+  "e-goi": {
+    "purpose": "Acompanha visitas para marketing personalizado.",
+    "cookies": {
+      "eg_sub_*": "Lembra que um visitante enviou um formulário de subscrição.",
+      "egc_lifetime_*": "Limita a frequência de apresentação de uma mensagem de marketing.",
+      "eg_params": "Lembra os parâmetros da campanha e a página de origem.",
+      "key_egoi_data": "Identifica a ficha para rastreio de marketing.",
+      "key_egoi_client": "Lembra a conta E-goi usada para rastreio."
     },
     "machine": true
   },
@@ -787,6 +861,14 @@
     },
     "machine": true
   },
+  "eye-able": {
+    "purpose": "Oferece ajustes de acessibilidade para o site.",
+    "machine": true
+  },
+  "fabrick-ecommerce": {
+    "purpose": "Processa pagamentos online.",
+    "machine": true
+  },
   "facebook-embed": {
     "purpose": "Mostra publicações, vídeos e caixas de página incorporados.",
     "machine": true
@@ -802,6 +884,17 @@
   },
   "fathom": {
     "purpose": "Mede visitas sem cookies.",
+    "machine": true
+  },
+  "feedaty": {
+    "purpose": "Mostra opiniões e classificações de clientes.",
+    "machine": true
+  },
+  "feedback-company": {
+    "purpose": "Mostra opiniões e classificações de clientes.",
+    "cookies": {
+      "tsrvid": "Permite o funcionamento das opiniões de clientes."
+    },
     "machine": true
   },
   "feefo": {
@@ -868,6 +961,10 @@
   },
   "fullstory": {
     "purpose": "Gravações de sessão e análise de uso.",
+    "machine": true
+  },
+  "futy": {
+    "purpose": "Mostra formulários e widgets de chat para falar com a empresa.",
     "machine": true
   },
   "geidea": {
@@ -1019,6 +1116,19 @@
     "purpose": "Mostra fotos de perfil junto aos comentários.",
     "machine": true
   },
+  "gravitec": {
+    "purpose": "Gere notificações push no navegador.",
+    "cookies": {
+      "gravitecOptInBlocked": "Lembra que o pedido de subscrição de notificações push foi fechado.",
+      "gravitecPromptShowed": "Lembra uma subscrição de notificações push existente.",
+      "gravitecBlocked": "Lembra a recusa de notificações push.",
+      "GN_USER_ID_KEY": "Identifica o visitante para estatísticas de campanhas push.",
+      "GN_CONTACT_ID_KEY": "Liga uma ficha de campanha às visitas ao site.",
+      "GN_SESSION_ID_KEY": "Agrupa visitas para estatísticas de campanhas push.",
+      "GN_IS_DEBUG_KEY": "Ativa a gravação de dados de diagnóstico do rastreio push."
+    },
+    "machine": true
+  },
   "gtranslate": {
     "purpose": "Traduz a página para outros idiomas.",
     "machine": true
@@ -1045,6 +1155,10 @@
   },
   "hello-bar": {
     "purpose": "Mostra barras promocionais e pop-ups.",
+    "machine": true
+  },
+  "helloasso": {
+    "purpose": "Gere doações e pagamentos de adesão.",
     "machine": true
   },
   "help-scout": {
@@ -1141,6 +1255,10 @@
   },
   "instatus": {
     "purpose": "Mostra o estado do serviço e avisos de falhas.",
+    "machine": true
+  },
+  "insuit": {
+    "purpose": "Adiciona ferramentas de acessibilidade ao site.",
     "machine": true
   },
   "intercom": {
@@ -1242,6 +1360,10 @@
     },
     "machine": true
   },
+  "kiyoh": {
+    "purpose": "Mostra opiniões e classificações de clientes.",
+    "machine": true
+  },
   "klarna": {
     "purpose": "Processa os pagamentos Klarna e previne fraudes.",
     "machine": true
@@ -1296,6 +1418,10 @@
     "purpose": "Mostra visitas virtuais 360° incorporadas.",
     "machine": true
   },
+  "laposta": {
+    "purpose": "Mostra formulários de subscrição da newsletter.",
+    "machine": true
+  },
   "lead-forensics": {
     "purpose": "Identifica empresas que visitam este site.",
     "cookies": {
@@ -1310,6 +1436,14 @@
       "_lfa_consent": "Guarda o estado de consentimento do visitante.",
       "_lfa_test_cookie_stored": "Verifica se é possível guardar cookies.",
       "ldfdr_opt_out": "Lembra que o visitante recusou."
+    },
+    "machine": true
+  },
+  "leadinfo": {
+    "purpose": "Identifica empresas que visitam este site.",
+    "cookies": {
+      "_li_id.*": "Reconhece visitantes recorrentes.",
+      "_li_ses.*": "Acompanha as páginas visitadas durante a sessão."
     },
     "machine": true
   },
@@ -1438,6 +1572,14 @@
       "mailmunch_pageview_count": "Conta páginas vistas para as regras de apresentação de formulários.",
       "mailmunch_second_pageview": "Apoia as regras de apresentação de formulários."
     },
+    "machine": true
+  },
+  "mailrelay": {
+    "purpose": "Mostra formulários de subscrição da newsletter.",
+    "machine": true
+  },
+  "mailup": {
+    "purpose": "Mostra formulários de subscrição da newsletter.",
     "machine": true
   },
   "mapbox": {
@@ -1623,6 +1765,10 @@
     "purpose": "Processa pagamentos online.",
     "machine": true
   },
+  "multisafepay": {
+    "purpose": "Processa pagamentos online.",
+    "machine": true
+  },
   "muslim-pro": {
     "purpose": "Mostra os horários de oração locais.",
     "machine": true
@@ -1648,6 +1794,10 @@
       "NREUM": "Mede o tempo de carregamento da página em navegadores antigos.",
       "NRAGENT": "Associa registos de desempenho do navegador e do servidor."
     },
+    "machine": true
+  },
+  "nexi-xpay": {
+    "purpose": "Processa pagamentos online.",
     "machine": true
   },
   "olark": {
@@ -1777,8 +1927,16 @@
     },
     "machine": true
   },
+  "pay-nl": {
+    "purpose": "Processa pagamentos online.",
+    "machine": true
+  },
   "paymob": {
     "purpose": "Processa pagamentos online.",
+    "machine": true
+  },
+  "payone": {
+    "purpose": "Processa pagamentos com cartão.",
     "machine": true
   },
   "paypal": {
@@ -1793,6 +1951,10 @@
   },
   "paypal-marketing": {
     "purpose": "Mede compras neste site para o marketing do PayPal.",
+    "machine": true
+  },
+  "payplug": {
+    "purpose": "Processa pagamentos online.",
     "machine": true
   },
   "paytabs": {
@@ -2029,6 +2191,14 @@
     },
     "machine": true
   },
+  "readspeaker": {
+    "purpose": "Lê o texto do site em voz alta.",
+    "cookies": {
+      "_rspkrLoadCore": "Lembra que o leitor foi ativado.",
+      "ReadSpeakerSettings": "Lembra as preferências de leitura."
+    },
+    "machine": true
+  },
   "reamaze": {
     "purpose": "Chat de apoio ao cliente.",
     "machine": true
@@ -2044,6 +2214,10 @@
     },
     "machine": true
   },
+  "regiondo": {
+    "purpose": "Permite reservar passeios e atividades.",
+    "machine": true
+  },
   "resmio": {
     "purpose": "Permite aos visitantes reservar mesas em restaurantes.",
     "machine": true
@@ -2054,6 +2228,10 @@
   },
   "reverbnation": {
     "purpose": "Reproduz áudio incorporado.",
+    "machine": true
+  },
+  "revi": {
+    "purpose": "Mostra opiniões e classificações de clientes.",
     "machine": true
   },
   "reviews-io": {
@@ -2070,6 +2248,10 @@
   },
   "salesviewer": {
     "purpose": "Identifica as empresas que visitam o site.",
+    "machine": true
+  },
+  "scalapay": {
+    "purpose": "Mostra opções de pagamento em prestações.",
     "machine": true
   },
   "scorecard-research": {
@@ -2104,6 +2286,10 @@
     "purpose": "Rastreia erros no site.",
     "machine": true
   },
+  "sequra": {
+    "purpose": "Oferece pagamentos em prestações ao finalizar a compra.",
+    "machine": true
+  },
   "setmore": {
     "purpose": "Permite fazer marcações.",
     "machine": true
@@ -2135,12 +2321,27 @@
     },
     "machine": true
   },
+  "shinystat": {
+    "purpose": "Mede visitas e conversões.",
+    "cookies": {
+      "SSC_*": "Mede a atividade de compras e as conversões.",
+      "SSCN_*": "Conta visitantes únicos nas secções do site.",
+      "SUUID_*": "Distingue os visitantes de forma anónima.",
+      "SSID_*": "Identifica uma sessão de navegação anónima.",
+      "SSIDC_*": "Liga conversões a uma campanha."
+    },
+    "machine": true
+  },
   "shopify-buy-button": {
     "purpose": "Mostra produtos da Shopify e um carrinho de compras.",
     "cookies": {
       "_shopify_y": "Distingue os visitantes.",
       "_shopify_s": "Agrupa as visualizações de página numa visita."
     },
+    "machine": true
+  },
+  "shore": {
+    "purpose": "Permite marcar consultas.",
     "machine": true
   },
   "shortpixel-cdn": {
@@ -2243,6 +2444,10 @@
     },
     "machine": true
   },
+  "societe-des-avis-garantis": {
+    "purpose": "Mostra opiniões e classificações de clientes.",
+    "machine": true
+  },
   "soundcloud": {
     "purpose": "Reproduz áudio incorporado.",
     "machine": true
@@ -2260,6 +2465,10 @@
       "sp_t": "Necessário para o funcionamento do conteúdo incorporado do Spotify.",
       "sp_landing": "Necessário para o funcionamento do conteúdo incorporado do Spotify."
     },
+    "machine": true
+  },
+  "spotler": {
+    "purpose": "Mostra formulários de subscrição da newsletter e questionários.",
     "machine": true
   },
   "spreaker": {
@@ -2290,6 +2499,13 @@
     "purpose": "Mostra mapas de hotéis e acompanha links de afiliados.",
     "cookies": {
       "session22": "Identifica a sessão do visitante."
+    },
+    "machine": true
+  },
+  "steady": {
+    "purpose": "Mostra opções de adesão e conteúdo com acesso pago.",
+    "cookies": {
+      "steady-token": "Mantém os membros com sessão iniciada."
     },
     "machine": true
   },
@@ -2437,6 +2653,17 @@
   },
   "timify": {
     "purpose": "Permite marcar consultas.",
+    "machine": true
+  },
+  "tradedoubler": {
+    "purpose": "Acompanha as vendas feitas através de links de afiliados.",
+    "cookies": {
+      "tduid": "Lembra o clique de afiliado para atribuir a venda.",
+      "tdprog": "Lembra o programa de afiliados.",
+      "tdaff": "Lembra qual afiliado enviou o visitante.",
+      "tdclid_sn": "Liga um clique de afiliado a uma conversão.",
+      "TRADEDOUBLER": "Lembra o clique de afiliado para atribuir a venda."
+    },
     "machine": true
   },
   "tradetracker": {
@@ -2628,6 +2855,18 @@
     },
     "machine": true
   },
+  "webwinkelkeur": {
+    "purpose": "Mostra um selo de confiança e opiniões de clientes.",
+    "machine": true
+  },
+  "wecantrack": {
+    "purpose": "Acompanha as vendas feitas através de links de afiliados.",
+    "cookies": {
+      "_wctrck": "Liga cliques de afiliados a uma visita.",
+      "_wct_http_referrer_*": "Lembra as páginas que levaram a um clique de afiliado."
+    },
+    "machine": true
+  },
   "weglot": {
     "purpose": "Traduz o conteúdo do site.",
     "cookies": {
@@ -2689,6 +2928,10 @@
     "purpose": "Mostra cadernos interativos incorporados.",
     "machine": true
   },
+  "wonderpush": {
+    "purpose": "Envia notificações push no navegador.",
+    "machine": true
+  },
   "woocommerce-attribution": {
     "purpose": "Guarda com o pedido a origem da visita.",
     "cookies": {
@@ -2723,6 +2966,15 @@
     "purpose": "Mostra formulários incorporados.",
     "cookies": {
       "wufooForm": "Ajuda a ajustar o tamanho dos formulários incorporados."
+    },
+    "machine": true
+  },
+  "wysistat": {
+    "purpose": "Mede as visitas ao site.",
+    "cookies": {
+      "Wysistat": "Distingue visitantes e visitas.",
+      "WysistatAC": "Verifica se é possível definir cookies.",
+      "WSNoTrack": "Lembra a recusa de rastreio do visitante."
     },
     "machine": true
   },

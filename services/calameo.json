@@ -1,0 +1,53 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "calameo",
+  "version": 1,
+  "name": "Calaméo",
+  "provider": "Calaméo SAS",
+  "category": "media",
+  "purpose": "Shows embedded digital publications.",
+  "privacyUrl": "https://www.calameo.com/en/privacy",
+  "dataCountry": "",
+  "legalBasis": "consent",
+  "match": {
+    "frames": [
+      "v.calameo.com"
+    ]
+  },
+  "cookies": [],
+  "storage": [
+    "calameo.user",
+    "calameo.account.association",
+    "calameo.viewer.configs",
+    "calameo.viewer.histories",
+    "calameo.viewer.triggered"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "generic",
+  "wordpress": {
+    "plugins": [
+      "wp-calameo/wp-calameo.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.calameo.com/en/privacy",
+    "https://developer.calameo.com/content/skin/",
+    "https://support.calameo.com/hc/en-us/articles/205480978-How-can-I-embed-my-publication-into-my-blog-or-website",
+    "https://v.calameo.com/",
+    "https://v.calameo.com/?bkcode=0000000018a530f2597ee",
+    "https://v.calameo.com/9705-000187/pinwheel/viewer/scripts/loader.js",
+    "https://v.calameo.com/9705-000187/pinwheel/viewer/scripts/modules/desktop/viewer-desktop.js",
+    "https://v.calameo.com/9705-000187/pinwheel/viewer/scripts/modules/mobile/viewer-mobile.js",
+    "https://www.calameo.com/",
+    "https://www.calameo.com/en/press",
+    "https://wordpress.org/plugins/wp-calameo/",
+    "https://plugins.svn.wordpress.org/wp-calameo/trunk/",
+    "https://plugins.svn.wordpress.org/wp-calameo/trunk/wp-calameo.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-16"
+}

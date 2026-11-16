@@ -1,0 +1,82 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "e-goi",
+  "version": 1,
+  "name": "E-goi",
+  "provider": "E-goi, Lda",
+  "category": "marketing",
+  "purpose": "Tracks visits for personalised marketing.",
+  "privacyUrl": "https://bo.egoiapp.com/legal-text/en/privacy/",
+  "dataCountry": "EU (Portugal), USA and other countries",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "egoi.site",
+      "cdn-te.e-goi.com",
+      "egoimmerce.e-goi.com/collect"
+    ],
+    "inline": [
+      "window._egoiaq = window._egoiaq || [];",
+      "_egoiaq.push(['setTrackerUrl',",
+      "_egoiaq.push("
+    ]
+  },
+  "cookies": [
+    {
+      "name": "eg_sub_*",
+      "lifetime": "1 year",
+      "purpose": "Remembers that a visitor submitted a sign-up form."
+    },
+    {
+      "name": "egc_lifetime_*",
+      "lifetime": "1 year",
+      "purpose": "Limits how often a marketing message appears."
+    },
+    {
+      "name": "eg_params",
+      "lifetime": "90 days",
+      "purpose": "Remembers campaign parameters and the referring page."
+    },
+    {
+      "name": "key_egoi_data",
+      "lifetime": "30 days",
+      "purpose": "Identifies the contact for marketing tracking."
+    },
+    {
+      "name": "key_egoi_client",
+      "lifetime": "30 days",
+      "purpose": "Remembers the E-goi account used for tracking."
+    }
+  ],
+  "storage": [
+    "eg_connected_debug",
+    "egc_*",
+    "_egoiaq_oid_*",
+    "egoi_cart",
+    "egoi_user"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "smart-marketing-for-wp/egoi-for-wp.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://bo.egoiapp.com/legal-text/en/privacy/",
+    "https://bo.egoiapp.com/legal-text/en/dpa/",
+    "https://developers.e-goi.com/trackengage/documentation/",
+    "https://helpdesk.e-goi.com/416945-Track--Engage-What-is-it-and-how-do-I-use-it",
+    "https://egoi.site/211845_bioparcvalencia.es.js",
+    "https://cdn-te.e-goi.com/egoimmerce.js",
+    "https://wordpress.org/plugins/smart-marketing-for-wp/",
+    "https://plugins.svn.wordpress.org/smart-marketing-for-wp/trunk/egoi-for-wp.php",
+    "https://plugins.svn.wordpress.org/smart-marketing-for-wp/trunk/public/includes/TrackingEngageSDK.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-16"
+}

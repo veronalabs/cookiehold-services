@@ -1,0 +1,46 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "insuit",
+  "version": 1,
+  "name": "inSuit",
+  "provider": "EVERYCODE S.L.",
+  "category": "functional",
+  "purpose": "Adds accessibility tools to the website.",
+  "privacyUrl": "https://www.insuit.net/privacy-policy/",
+  "dataCountry": "",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "insuit.net/i4tservice/",
+      "insuit.net/i4tproject/"
+    ]
+  },
+  "cookies": [],
+  "storage": [
+    "x-insuit-config",
+    "x-insuit-shared-unavailable",
+    "insuit.*"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://www.insuit.net/",
+    "https://www.insuit.net/privacy-policy/",
+    "https://www.insuit.net/frequently-asked-questions/",
+    "https://www.insuit.net/cookie-policy/",
+    "https://insuit.net/i4tservice/insuit-app.js",
+    "https://cdn.insuit.net/i4tservice/js/insuit-app.js",
+    "https://rccelta--es.insuit.net/i4tservice/insuit-app.js",
+    "https://www--ayto-caceres--es.insuit.net/i4tservice/insuit-app.js",
+    "https://www.dataprivacyframework.gov/list",
+    "https://wordpress.org/plugins/search/insuit/"
+  ],
+  "checked": "2026-11-16"
+}

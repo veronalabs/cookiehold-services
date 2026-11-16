@@ -1,0 +1,52 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "feedaty",
+  "version": 1,
+  "name": "Feedaty",
+  "provider": "Feedaty S.r.l.",
+  "category": "media",
+  "purpose": "Shows customer reviews and ratings.",
+  "privacyUrl": "https://www.feedaty.com/privacy/",
+  "dataCountry": "",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "widget.feedaty.com"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "generic",
+  "wordpress": {
+    "plugins": [
+      "feedaty-rating-for-woocommerce/feedaty-rating-for-woocommerce.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.feedaty.com/privacy/",
+    "https://www.feedaty.com/condizioni-generali/",
+    "https://www.feedaty.com/cookie-policy/",
+    "https://guida.feedaty.com/article/68-widget-azienda",
+    "https://widget.feedaty.com/v3.0.0/doc.html",
+    "https://widget.feedaty.com/v3.0.0/js/2021/10213491/feedaty.min.js",
+    "https://widget.feedaty.com/public/js/feedaty.min.js",
+    "https://widget.feedaty.com/3.0.0/public/2021/150x100-1/js/merchant.mjs",
+    "https://widget.zoorate.com/js/feed_v3.js",
+    "https://guida.feedaty.com/article/97-woocommerce",
+    "https://guida.feedaty.com/article/105-flusso-dei-dati",
+    "https://guida.feedaty.com/article/102-api-di-feedaty",
+    "https://wordpress.org/plugins/feedaty-rating-for-woocommerce/",
+    "https://plugins.svn.wordpress.org/feedaty-rating-for-woocommerce/trunk/",
+    "https://plugins.svn.wordpress.org/feedaty-rating-for-woocommerce/trunk/feedaty-rating-for-woocommerce.php",
+    "https://plugins.svn.wordpress.org/feedaty-rating-for-woocommerce/trunk/admin/class-feedaty-rating-for-woocommerce-webservice.php",
+    "https://plugins.svn.wordpress.org/feedaty-rating-for-woocommerce/trunk/public/class-feedaty-rating-for-woocommerce-public.php",
+    "https://www.dataprivacyframework.gov/list",
+    "https://2026.netcommforum.it/ITA/Sponsor/feedaty.aspx"
+  ],
+  "checked": "2026-11-16"
+}

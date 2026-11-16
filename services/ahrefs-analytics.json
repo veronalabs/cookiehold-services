@@ -1,0 +1,41 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "ahrefs-analytics",
+  "version": 1,
+  "name": "Ahrefs Web Analytics",
+  "provider": "Ahrefs Pte Ltd",
+  "category": "statistics",
+  "purpose": "Measures visits and website interactions.",
+  "privacyUrl": "https://ahrefs.com/legal/privacy-policy",
+  "dataCountry": "USA",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "analytics.ahrefs.com"
+    ],
+    "inline": [
+      "window.AhrefsAnalytics"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://ahrefs.com/web-analytics",
+    "https://ahrefs.com/legal/privacy-policy",
+    "https://ahrefs.com/legal/data-processing-addendum",
+    "https://help.ahrefs.com/en/articles/10247870-about-ahrefs-web-analytics",
+    "https://help.ahrefs.com/en/articles/10631520-troubleshooting-ahrefs-web-analytics-snippet-isn-t-found-on-your-website",
+    "https://analytics.ahrefs.com/analytics.js",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-16"
+}

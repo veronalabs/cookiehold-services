@@ -1,0 +1,52 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "connectif",
+  "version": 1,
+  "name": "Connectif",
+  "provider": "CONNECTIF ARTIFICIAL INTELLIGENCE, S.L.U.",
+  "category": "marketing",
+  "purpose": "Tracks visits to personalise marketing.",
+  "privacyUrl": "https://connectif.ai/politica-de-privacidad/",
+  "dataCountry": "",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "cdn.connectif.cloud"
+    ],
+    "inline": [
+      "ConnectifObject"
+    ]
+  },
+  "cookies": [],
+  "storage": [
+    "cn_tracker",
+    "cn_last_submitted_form_id",
+    "cn_last_submitted_form_data",
+    "cn_last_submitted_form_primary_key_field",
+    "cn_previous_cart",
+    "cn_previous_entity_info",
+    "cn_previous_push_subscription"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://connectif.ai/",
+    "https://connectif.ai/politica-de-privacidad/",
+    "https://connectif.ai/aviso-legal/",
+    "https://connectif.ai/politica-de-cookies/",
+    "https://support.connectif.ai/hc/en-us/articles/360014628900-Adding-Connectif-JavaScript-to-your-website",
+    "https://support.connectif.ai/hc/en-us/articles/12101267785116-Accela-integration",
+    "https://cdn.connectif.cloud/eu1/client-script/86dc28fe-27a9-4398-9bd1-060c2c384faa",
+    "https://support.connectif.ai/hc/en-us/articles/360016356500-Guide-to-Integrating-with-WooCommerce",
+    "https://wordpress.org/plugins/search/connectif/",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-16"
+}

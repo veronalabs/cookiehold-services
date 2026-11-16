@@ -1,0 +1,53 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "scalapay",
+  "version": 1,
+  "name": "Scalapay",
+  "provider": "Scalapay IP S.p.A.",
+  "category": "essential",
+  "purpose": "Shows options to pay in instalments.",
+  "privacyUrl": "https://cdn.scalapay.com/website/ip/privacy-policy/en-IT/privacy-policy.pdf",
+  "dataCountry": "",
+  "legalBasis": "contract",
+  "match": {
+    "hosts": [
+      "cdn.scalapay.com"
+    ]
+  },
+  "cookies": [],
+  "storage": [
+    "scalapay_widget_tracking_session"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "scalapay-payment-gateway-for-woocommerce/scalapay-easy-installment-gateway.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.scalapay.com/",
+    "https://developers.scalapay.com/docs/custom-integration-widget-installation",
+    "https://developers.scalapay.com/docs/best-practice-guideline",
+    "https://www.scalapay.com/privacy",
+    "https://cdn.scalapay.com/website/ip/privacy-policy/en-IT/privacy-policy.pdf",
+    "https://cdn.prod.website-files.com/614b9948e0cc06785c60efe7/6ae0b9e05dcb5e61c23c4f49_EN_Scalapay%20S.r.l._privacy%20policy_27102026.docx%20(1).pdf",
+    "https://www.scalapay.com/cookies",
+    "https://cdn.scalapay.com/widget/scalapay-widget-loader.js",
+    "https://cdn.scalapay.com/widget/v3/js/scalapay-widget.esm.js",
+    "https://cdn.scalapay.com/widget/v3/js/p-feea433f.js",
+    "https://cdn.scalapay.com/widget/v3/js/p-43182a6b.entry.js",
+    "https://cdn.scalapay.com/widget/v5/js/scalapay-widget.js",
+    "https://developers.scalapay.com/docs/woocommerce-plugin",
+    "https://cdn.scalapay.com/plugins/woocommerce/scalapay.zip",
+    "https://wordpress.org/plugins/scalapay-payment-gateway-for-woocommerce/",
+    "https://plugins.svn.wordpress.org/scalapay-payment-gateway-for-woocommerce/trunk/",
+    "https://plugins.svn.wordpress.org/scalapay-payment-gateway-for-woocommerce/trunk/scalapay-easy-installment-gateway.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-16"
+}

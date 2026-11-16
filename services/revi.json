@@ -1,0 +1,53 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "revi",
+  "version": 1,
+  "name": "Revi",
+  "provider": "REVI DIGITAL S.L.",
+  "category": "media",
+  "purpose": "Shows customer reviews and ratings.",
+  "privacyUrl": "https://revi.io/en/legal/user-privacy",
+  "dataCountry": "EU (Spain) and USA",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "widgets.revi.io"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "generic",
+  "wordpress": {
+    "plugins": [
+      "revi-io-customer-and-product-reviews/revi.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://revi.io/en/legal/user-privacy",
+    "https://revi.io/en/legal/privacy",
+    "https://revi.io/en/legal/cookies",
+    "https://revi.io/en/help/faq/10/127",
+    "https://revi.io/en",
+    "https://revi.io/en/app/widgets",
+    "https://widgets.revi.io/embed/widget.js",
+    "https://widgets.revi.io/app/reviews-v25.js",
+    "https://widgets.revi.io/type/wide/wide.9.bundle.js",
+    "https://widgets.revi.io/demo/api/widgets",
+    "https://widgets.revi.io/demo/api/getWidgetCoreFile/DbROMQVA8N",
+    "https://wordpress.org/plugins/revi-io-customer-and-product-reviews/",
+    "https://plugins.svn.wordpress.org/revi-io-customer-and-product-reviews/trunk/",
+    "https://plugins.svn.wordpress.org/revi-io-customer-and-product-reviews/trunk/revi.php",
+    "https://plugins.svn.wordpress.org/revi-io-customer-and-product-reviews/trunk/includes/constants.php",
+    "https://plugins.svn.wordpress.org/revi-io-customer-and-product-reviews/trunk/includes/frontend.php",
+    "https://plugins.svn.wordpress.org/revi-io-customer-and-product-reviews/trunk/includes/widgets.php",
+    "https://plugins.svn.wordpress.org/revi-io-customer-and-product-reviews/trunk/assets/js/popup.js",
+    "https://downloads.wordpress.org/plugin/revi-io-customer-and-product-reviews.zip",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-16"
+}

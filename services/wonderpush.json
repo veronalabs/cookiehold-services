@@ -1,0 +1,53 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "wonderpush",
+  "version": 1,
+  "name": "WonderPush",
+  "provider": "WonderPush",
+  "category": "marketing",
+  "purpose": "Sends web push notifications.",
+  "privacyUrl": "https://www.wonderpush.com/policies/privacy/",
+  "dataCountry": "EU (Belgium)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "cdn.by.wonderpush.com"
+    ],
+    "inline": [
+      "window.WonderPush = window.WonderPush || []"
+    ]
+  },
+  "cookies": [],
+  "storage": [
+    "_wpinitialpermissionstate",
+    "__wpfvdk"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "wonderpush-web-push-notifications/wonderpush.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.wonderpush.com/policies/privacy/",
+    "https://www.wonderpush.com/policies/terms/",
+    "https://www.wonderpush.com/wp-content/uploads/2024/03/WonderPush-DPA.pdf",
+    "https://www.wonderpush.com/",
+    "https://docs.wonderpush.com/docs/privacy-policy-faq",
+    "https://docs.wonderpush.com/docs/collected-data",
+    "https://docs.wonderpush.com/docs/web-push-notifications-quickstart",
+    "https://docs.wonderpush.com/docs/website-sdk-reference",
+    "https://docs.wonderpush.com/docs/website-sdk-reference.md",
+    "https://cdn.by.wonderpush.com/sdk/1.1/wonderpush-loader.min.js",
+    "https://cdn.by.wonderpush.com/sdk/1.1.47.0/wonderpush.min.js",
+    "https://wordpress.org/plugins/wonderpush-web-push-notifications/",
+    "https://plugins.svn.wordpress.org/wonderpush-web-push-notifications/trunk/wonderpush.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-16"
+}

@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "awin",
-  "version": 1,
+  "version": 2,
   "name": "Awin",
   "provider": "",
   "category": "marketing",
@@ -13,7 +13,8 @@
     "hosts": [
       "dwin1.com",
       "awin1.com",
-      "zenaps.com"
+      "zenaps.com",
+      "www.dwin2.com/pub."
     ],
     "inline": [
       "AWIN.Tracking.Sale"
@@ -106,7 +107,9 @@
     "https://www.dwin1.com/1001.js",
     "https://wordpress.org/plugins/awin-advertiser-tracking/",
     "https://plugins.svn.wordpress.org/awin-advertiser-tracking/trunk/",
-    "https://www.dataprivacyframework.gov/list"
+    "https://www.dataprivacyframework.gov/list",
+    "https://success.awin.com/articles/en_US/Knowledge/how-do-i-install-the-publisher-mastertag",
+    "https://success.awin.com/articles/en_US/Knowledge/How-do-I-install-convert-a-link"
   ],
-  "checked": "2026-10-31"
+  "checked": "2026-11-16"
 }

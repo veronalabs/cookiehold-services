@@ -1,0 +1,50 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "spotler",
+  "version": 1,
+  "name": "Spotler Mail+",
+  "provider": "",
+  "category": "marketing",
+  "purpose": "Shows newsletter sign-up forms and surveys.",
+  "privacyUrl": "https://spotler.com/privacy-statement",
+  "dataCountry": "EU (Netherlands)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "static.mailplus.nl"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "form",
+  "wordpress": {
+    "plugins": [
+      "mailplus-forms/mailplus-forms.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://spotler.com/mailplus/forms-and-surveys",
+    "https://spotler.com/nl-nl/mailplus-is-nu-spotlermailplus",
+    "https://spotler.com/privacy-statement",
+    "https://spotler.com/nl-nl/privacy-statement",
+    "https://mailplus.spotler.help/hc/en-us/articles/360023059553-Integrating-Forms",
+    "https://mailplus.spotler.help/hc/article_attachments/360021889199",
+    "https://trust.spotler.com/wp-content/uploads/Data-Processing-Agreement-Spotler-v1.3-July-2025.pdf",
+    "https://mailplus.spotler.help/hc/en-us/articles/360016176579-How-do-I-post-a-form-on-my-WordPress-website",
+    "https://mailplus.spotler.help/hc/en-us/articles/12835808719122-Placing-tracking-code-Spotler-Activate",
+    "https://activate.spotler.help/hc/en-gb/articles/21612402924562-CNAME-relay",
+    "https://static.mailplus.nl/jq/ui/jquery-ui-1.12.1.custom.min.js",
+    "https://static.mailplus.nl/jq/jquery.validate-1.17.0.min.js",
+    "https://wordpress.org/plugins/mailplus-forms/",
+    "https://plugins.svn.wordpress.org/mailplus-forms/trunk/mailplus-forms.php",
+    "https://plugins.svn.wordpress.org/mailplus-forms/trunk/public/js/form_additions.js",
+    "https://downloads.wordpress.org/plugin/mailplus-forms.latest-stable.zip",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-16"
+}

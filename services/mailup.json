@@ -1,0 +1,56 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "mailup",
+  "version": 1,
+  "name": "MailUp",
+  "provider": "TeamSystem S.p.A.",
+  "category": "marketing",
+  "purpose": "Shows newsletter sign-up forms.",
+  "privacyUrl": "https://mailup.com/privacy-statement/",
+  "dataCountry": "EU; access from USA and UK",
+  "legalBasis": "consent",
+  "match": {
+    "inline": [
+      "mailup_params"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "form",
+  "wordpress": {
+    "plugins": [
+      "mailup-email-and-newsletter-subscription-form/mailup.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://mailup.com/privacy-statement/",
+    "https://mailup.com/gdpr-infrastructure/",
+    "https://mailup.com/gdpr-mailup/",
+    "https://mailup.com/platform-license-agreement/",
+    "https://mailup.com/app/uploads/V04_20250715_MailUp_terms_conditions_ENG.pdf",
+    "https://mailup.com/integration/wordpress/",
+    "https://mailup.com/cookies-policy/",
+    "https://mailup.com/subscribe-to-the-newsletter/",
+    "https://helpmailup.atlassian.net/wiki/spaces/MUG/pages/36865668/Subscription+forms+with+HTML+editor",
+    "https://helpmailup.atlassian.net/wiki/spaces/MUG/pages/36869449/Subscription+form+with+drag+drop+editor",
+    "https://helpmailup.atlassian.net/wiki/spaces/MUG/pages/36869790/Pop-up+subscription+form",
+    "https://helpmailup.atlassian.net/wiki/rest/api/content/36869790?expand=body.storage",
+    "https://a7d2i7.emailsp.com/frontend/subscribe.aspx",
+    "https://a9g7i.mailupclient.com/frontend/subscribe.aspx",
+    "https://a7d2i7.emailsp.com/frontend/static/js/app.js?v=3e9a2a74de",
+    "https://a7d2i7.emailsp.com/frontend/static/js/vendor.js?v=3e9a2a74de",
+    "https://a9g7i.mailupclient.com/frontend/static/js/app.js?v=3e9a2a74de",
+    "https://wordpress.org/plugins/mailup-email-and-newsletter-subscription-form/",
+    "https://plugins.svn.wordpress.org/mailup-email-and-newsletter-subscription-form/trunk/",
+    "https://plugins.svn.wordpress.org/mailup-email-and-newsletter-subscription-form/trunk/mailup.php",
+    "https://plugins.svn.wordpress.org/mailup-email-and-newsletter-subscription-form/trunk/public/class-mailup-public.php",
+    "https://plugins.svn.wordpress.org/mailup-email-and-newsletter-subscription-form/trunk/public/js/mailup-public.js",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-16"
+}
