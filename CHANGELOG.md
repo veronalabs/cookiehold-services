@@ -2,6 +2,30 @@
 
 Every release, newest first. Sites pick up a release within a week.
 
+## 1.15.0 (2026-11-16)
+
+- 47 new services that WordPress sites in Germany, Austria, Switzerland,
+  France, the Netherlands, Italy and Spain run (#65), each seen on real sites
+  there. Push, newsletter and affiliate tools (CleverPush, WonderPush,
+  Spotler, Acumbamail, MailUp, Leadinfo, Tradedoubler, Daisycon and more) are
+  Marketing; Ahrefs, ShinyStat and Wysistat Statistics; Eye-Able, Ally,
+  ReadSpeaker, Shore, Regiondo and HelloAsso's donation forms Functional;
+  review widgets (Société des Avis Garantis, Avis Vérifiés, Feedaty, Kiyoh,
+  Feedback Company, WebwinkelKeur, Revi) External media, like Trustpilot.
+  Payment forms and widgets (Payplug, Alma, Buckaroo, MultiSafepay, Pay.nl,
+  Nexi XPay, Fabrick, Scalapay, seQura, PAYONE) are Essential. 474 services.
+- Mailchimp's embedded sign-up form is now held: its validation script and
+  stylesheet, and the inline snippet with them, so the snippet can't take
+  the page's jQuery away while it waits. Until now only Mailchimp's site
+  tracking was matched.
+- 19 other entries match hosts they missed, each confirmed on the vendor's
+  pages: Google Maps on the Google hosts of all seven countries, AdSense,
+  Dailymotion, accessiBe, ActiveCampaign, Taboola, HubSpot, Piano, Campaign
+  Monitor, Awin, unpkg, GetResponse, JW Player, Outbrain, Microsoft UET,
+  Adobe, X and Matomo Cloud.
+- The new services have texts in German, Spanish, French, Italian, Dutch,
+  Polish, Portuguese and Arabic.
+
 ## 1.14.0 (2026-11-14)
 
 - 26 new services that sites in Saudi Arabia, the Gulf and Egypt run (#60).
