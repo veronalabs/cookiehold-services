@@ -11,7 +11,9 @@
   "legalBasis": "consent",
   "match": {
     "hosts": [
-      "assets.ipzmarketing.com",
+      "assets.ipzmarketing.com"
+    ],
+    "frames": [
       "ipzmarketing.com/f/"
     ]
   },

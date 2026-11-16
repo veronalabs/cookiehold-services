@@ -11,12 +11,12 @@
   "legalBasis": "consent",
   "match": {
     "hosts": [
-      "dashboard.webwinkelkeur.nl",
+      "dashboard.webwinkelkeur.nl/sidebar.js",
       "www.webwinkelkeur.nl/js/sidebar.js",
       "www.webwinkelkeur.nl/apps/seoshop/scripts/sidebar_"
     ],
     "inline": [
-      "https://dashboard.webwinkelkeur.nl",
+      "dashboard.webwinkelkeur.nl/sidebar.js",
       "_webwinkelkeur_id"
     ]
   },

@@ -16,7 +16,7 @@
       "a.imgstatics.com",
       "tbs.tradedoubler.com",
       "tbl.tradedoubler.com",
-      "hst.tradedoubler.com"
+      "hst.tradedoubler.com/file/*/landingPageGTM_min.js"
     ],
     "inline": [
       "TDConversionObject",

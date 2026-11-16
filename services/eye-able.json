@@ -11,8 +11,10 @@
   "legalBasis": "consent",
   "match": {
     "hosts": [
-      "cdn.eye-able.com",
-      "storage.eye-able-cdn.com"
+      "cdn.eye-able.com"
+    ],
+    "frames": [
+      "storage.eye-able-cdn.com/testing/localStorage.html"
     ]
   },
   "cookies": [],

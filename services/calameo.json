@@ -10,7 +10,7 @@
   "dataCountry": "",
   "legalBasis": "consent",
   "match": {
-    "hosts": [
+    "frames": [
       "v.calameo.com"
     ]
   },

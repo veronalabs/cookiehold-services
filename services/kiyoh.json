@@ -10,7 +10,7 @@
   "dataCountry": "",
   "legalBasis": "consent",
   "match": {
-    "hosts": [
+    "frames": [
       "www.kiyoh.com/retrieve-widget.html",
       "www.kiyoh.com/retrieve-widget-library.html"
     ]

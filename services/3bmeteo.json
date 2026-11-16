@@ -11,10 +11,12 @@
   "legalBasis": "consent",
   "match": {
     "hosts": [
+      "cdn4.3bmeteo.com/images/"
+    ],
+    "frames": [
       "www.3bmeteo.com/moduli_esterni/",
       "widget.3bmeteo.com/widget/",
-      "portali.3bmeteo.com/3bm_meteo.php",
-      "cdn4.3bmeteo.com/images/"
+      "portali.3bmeteo.com/3bm_meteo.php"
     ]
   },
   "cookies": [],
