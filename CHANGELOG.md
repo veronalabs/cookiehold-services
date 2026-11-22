@@ -2,6 +2,14 @@
 
 Every release, newest first. Sites pick up a release within a week.
 
+## 1.15.1 (2026-11-22)
+
+- Popup Maker is Essential (#67). Its `pum-*` cookie only remembers that a
+  visitor closed a popup; held for consent, the closed popup came back on
+  every page before a choice and after Reject. Plugins never loosen a
+  downloaded list, so sites get this with the next plugin release, and a
+  site that already lists Popup Maker keeps its own category.
+
 ## 1.15.0 (2026-11-16)
 
 - 47 new services that WordPress sites in Germany, Austria, Switzerland,
